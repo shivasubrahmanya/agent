@@ -1,6 +1,14 @@
-# Lead Discovery Chatbot
+# B2B Lead Discovery Agent
 
-B2B Lead Discovery and Validation Chatbot powered by Claude API.
+Terminal-based B2B Lead Discovery Agent powered by Groq LLM + Apollo.io.
+
+## Features
+
+- **Web Search**: Searches company info, news, LinkedIn
+- **Company Structure**: Maps decision-makers by company size
+- **LinkedIn Discovery**: Finds people at target companies
+- **Apollo Enrichment**: Gets verified contact data (emails, phones)
+- **Lead Scoring**: Validates and scores leads
 
 ## Setup
 
@@ -9,23 +17,44 @@ B2B Lead Discovery and Validation Chatbot powered by Claude API.
    pip install -r requirements.txt
    ```
 
-2. **Configure API key**:
-   - Copy `.env.example` to `.env`
-   - Add your Anthropic API key
-
-3. **Run the chatbot**:
+2. **Configure API keys** - Copy `.env.example` to `.env`:
    ```bash
-   python lead_discovery.py
+   cp .env.example .env
+   ```
+   Add your keys:
+   - GROQ_API_KEY (free at console.groq.com)
+   - APOLLO_API_KEY (free at apollo.io - select `organization_top_people` API)
+
+3. **Run the agent**:
+   ```bash
+   python agent.py
    ```
 
 ## Usage
 
-Enter company details in natural language. Example:
 ```
-Company: Microsoft, Industry: Technology, Size: 150000 employees
-Roles: Chief Technology Officer, VP of Engineering
+> analyze Microsoft
+> analyze TCS, Roles: CEO, VP Sales
+> enrich Satya Nadella at Microsoft
+> history
+> export
 ```
 
-The chatbot will return structured JSON with lead verification results.
+## Project Structure
 
-Type `quit` or `exit` to stop.
+```
+├── agent.py              # Main CLI interface
+├── workflow.py           # Pipeline orchestrator
+├── agents/               # Agent modules
+│   ├── discovery_agent.py
+│   ├── structure_agent.py
+│   ├── role_agent.py
+│   ├── enrichment_agent.py
+│   └── verification_agent.py
+├── services/             # External services
+│   ├── apollo_client.py
+│   ├── linkedin_search.py
+│   └── web_search.py
+├── database.py           # JSON storage
+└── data/leads.json       # Saved leads
+```

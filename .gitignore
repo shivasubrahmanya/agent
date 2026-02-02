@@ -1,0 +1,53 @@
+# Environment variables (contains API keys)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Generated reports (optional - remove if you want to include them)
+Lead_Analysis_Report.pdf
+Lead_Report_Final.pdf
+Lead_Analysis_Report.md
+generate_report.py
+
+# Data files (remove if you want to include sample data)
+# data/leads.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

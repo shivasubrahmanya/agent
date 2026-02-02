@@ -1,0 +1,1389 @@
+[
+  {
+    "id": "f3371bc5",
+    "input": "Microsoft, Roles: CEO, VP Sales, Intern",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Microsoft Corporation",
+      "industry": "Tech",
+      "size": "enterprise",
+      "website": "microsoft.com",
+      "status": "accepted",
+      "reason": "Recognizable company in B2B-relevant industry with multiple decision-makers"
+    },
+    "structure": {
+      "company_name": "Microsoft Corporation",
+      "departments": [
+        "Sales",
+        "Marketing",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Operations",
+        "Research and Development",
+        "Customer Support"
+      ],
+      "hierarchy_levels": [
+        "C-Suite",
+        "Executive VP",
+        "Corporate VP",
+        "General Manager",
+        "Director",
+        "Manager",
+        "Team Lead"
+      ],
+      "key_decision_areas": [
+        "Technology/IT",
+        "Sales Strategy",
+        "Budget/Finance",
+        "Product Development",
+        "Innovation",
+        "Global Operations"
+      ]
+    },
+    "roles": [
+      {
+        "title": "CEO",
+        "department": "Operations",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Ultimate authority"
+      },
+      {
+        "title": "VP Sales",
+        "department": "Sales",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Department-wide influence"
+      },
+      {
+        "title": "Intern",
+        "department": "HR",
+        "decision_power": 1,
+        "status": "rejected",
+        "reason": "No decision power"
+      }
+    ],
+    "contacts": [],
+    "enrichment_note": "Get free key at: https://www.apollo.io",
+    "confidence_score": 0.9,
+    "reason": "Microsoft Corporation is a recognizable company in a B2B-relevant industry with multiple accepted roles, including a CEO and a VP Sales, both having decision_power of 7 or higher. Although there are no enriched contacts with emails, the presence of multiple decision-makers and the company's status as accepted outweigh this factor.",
+    "summary": "Microsoft Corporation is a verified B2B lead with high confidence",
+    "recommended_action": "Proceed with outreach and sales engagement",
+    "created_at": "2026-02-02T21:44:20.247486",
+    "updated_at": "2026-02-02T21:44:20.247486"
+  },
+  {
+    "id": "f169f9c4",
+    "input": "Deloitte, Roles: Partner, Senior Consultant, Analyst",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Deloitte",
+      "industry": "Consulting",
+      "size": "enterprise",
+      "website": "deloitte.com",
+      "status": "accepted",
+      "reason": "large professional services firm"
+    },
+    "structure": {
+      "company_name": "Deloitte",
+      "departments": [
+        "Audit and Assurance",
+        "Consulting",
+        "Financial Advisory",
+        "Risk Advisory",
+        "Tax",
+        "HR",
+        "Marketing",
+        "Finance",
+        "Operations",
+        "IT"
+      ],
+      "hierarchy_levels": [
+        "C-Suite",
+        "Partner",
+        "Principal",
+        "Director",
+        "Senior Manager",
+        "Manager"
+      ],
+      "key_decision_areas": [
+        "Service Line Strategy",
+        "Client Engagement",
+        "Talent Management",
+        "Risk Management",
+        "Innovation/Technology",
+        "Financial Planning/Budgeting"
+      ]
+    },
+    "roles": [
+      {
+        "title": "Partner",
+        "department": "Any department (e.g. Tax, Audit and Assurance, Consulting)",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Ultimate authority"
+      },
+      {
+        "title": "Senior Consultant",
+        "department": "Consulting",
+        "decision_power": 5,
+        "status": "rejected",
+        "reason": "Significant influence but below threshold"
+      },
+      {
+        "title": "Analyst",
+        "department": "Any department (e.g. Finance, Operations, IT)",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Minimal influence"
+      }
+    ],
+    "contacts": [],
+    "enrichment_note": "Get free key at: https://www.apollo.io",
+    "confidence_score": 0.7,
+    "reason": "The company Deloitte is accepted and has a relevant B2B role with sufficient decision power, but lacks enriched contacts with emails, and the final confidence score is exactly 0.7 which does not exceed the required threshold for verification.",
+    "summary": "Deloitte lead lacks contact information",
+    "recommended_action": "Enrich the lead with contact information and re-verify",
+    "created_at": "2026-02-02T21:53:36.572652",
+    "updated_at": "2026-02-02T21:53:36.572652"
+  },
+  {
+    "id": "2dac64ab",
+    "input": "Microsoft, Roles: CEO, VP of Sales, Marketing Director",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Microsoft Corporation",
+      "industry": "Tech",
+      "size": "enterprise",
+      "website": "microsoft.com",
+      "status": "accepted",
+      "reason": "Recognizable tech company with multiple decision-makers"
+    },
+    "structure": {
+      "company_name": "Microsoft Corporation",
+      "departments": [
+        "Sales",
+        "Marketing",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Operations",
+        "Research and Development",
+        "Customer Support"
+      ],
+      "hierarchy_levels": [
+        "C-Suite",
+        "Executive VP",
+        "VP/SVP",
+        "Director",
+        "Manager",
+        "Senior Manager"
+      ],
+      "key_decision_areas": [
+        "Technology/IT",
+        "Sales Strategy",
+        "Budget/Finance",
+        "Product Development",
+        "Innovation",
+        "Mergers and Acquisitions"
+      ]
+    },
+    "roles": [
+      {
+        "title": "CEO",
+        "department": "Operations",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "ultimate authority"
+      },
+      {
+        "title": "VP of Sales",
+        "department": "Sales",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "department-wide influence"
+      },
+      {
+        "title": "Marketing Director",
+        "department": "Marketing",
+        "decision_power": 6,
+        "status": "rejected",
+        "reason": "insufficient influence"
+      }
+    ],
+    "contacts": [],
+    "enrichment_note": "Get free key at: https://www.apollo.io",
+    "confidence_score": 0.9,
+    "reason": "The company is a recognizable tech enterprise with multiple accepted roles having significant decision power, including a CEO with ultimate authority and a VP of Sales with department-wide influence.",
+    "summary": "Microsoft Corporation is a verified B2B lead with multiple decision-makers",
+    "recommended_action": "Proceed with outreach and sales efforts targeting the accepted roles",
+    "created_at": "2026-02-02T21:54:01.466902",
+    "updated_at": "2026-02-02T21:54:01.466902"
+  },
+  {
+    "id": "1bd325a3",
+    "input": "Infosys, Roles: CEO, VP Engineering, Software Developer",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Infosys",
+      "industry": "Technology Consulting",
+      "size": "enterprise",
+      "website": "infosys.com",
+      "status": "accepted",
+      "reason": "Recognizable company in a B2B-relevant industry"
+    },
+    "structure": {
+      "company_name": "Infosys",
+      "departments": [
+        "Sales",
+        "Marketing",
+        "Engineering",
+        "Finance",
+        "HR",
+        "Operations",
+        "Consulting",
+        "Digital Transformation"
+      ],
+      "hierarchy_levels": [
+        "C-Suite",
+        "VP/SVP",
+        "Director",
+        "Manager",
+        "Team Lead"
+      ],
+      "key_decision_areas": [
+        "Technology/IT",
+        "Digital Transformation",
+        "Innovation",
+        "Client Acquisition",
+        "Talent Management",
+        "Financial Planning"
+      ]
+    },
+    "roles": [
+      {
+        "title": "CEO",
+        "department": "Operations",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "ultimate authority"
+      },
+      {
+        "title": "VP Engineering",
+        "department": "Engineering",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "department-wide influence"
+      },
+      {
+        "title": "Software Developer",
+        "department": "Engineering",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "minimal influence"
+      }
+    ],
+    "contacts": [],
+    "enrichment_note": "Get free key at: https://www.apollo.io",
+    "confidence_score": 0.9,
+    "reason": "The company is an accepted and recognizable entity in a B2B-relevant industry. Moreover, there are accepted roles with significant decision power, including a CEO and a VP of Engineering, both of whom have substantial influence within their domains.",
+    "summary": "Infosys, a technology consulting enterprise, with influential decision-makers on board.",
+    "recommended_action": "Proceed with outreach and engagement strategies targeting the identified decision-makers.",
+    "created_at": "2026-02-02T21:54:39.097933",
+    "updated_at": "2026-02-02T21:54:39.097933"
+  },
+  {
+    "id": "7c94abb2",
+    "input": "analyse TCS",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Tata Consultancy Services (TCS)",
+      "industry": "IT services",
+      "size": "enterprise",
+      "location": "India",
+      "website": "https://www.tcs.com",
+      "growth_signals": [
+        "Revenue Growth",
+        "Early AI Investments"
+      ],
+      "status": "accepted",
+      "reason": "TCS is a prominent IT service provider with a large market capitalization, indicating a well-established company. The news articles highlight the company's investments in AI leading to cost-saving and revenue growth, demonstrating its ability to adapt and grow.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Tata Consultancy Services (TCS)",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Technology",
+            "SVP Engineering",
+            "VP Delivery"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales",
+            "SVP Marketing",
+            "VP Business Development"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "EVP Finance",
+            "SVP Accounting",
+            "VP Financial Planning"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Human Resources",
+          "decision_makers": [
+            "EVP HR",
+            "SVP Talent Management",
+            "VP HR Operations"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "EVP Operations",
+            "SVP Service Delivery",
+            "VP Infrastructure"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Technology",
+        "EVP Sales",
+        "EVP Finance",
+        "EVP Operations",
+        "SVP Engineering"
+      ]
+    },
+    "people": [
+      {
+        "name": "[Target Role]",
+        "title": "CEO",
+        "company": "Tata Consultancy Services (TCS)",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "CTO",
+        "company": "Tata Consultancy Services (TCS)",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "Director Engineering",
+        "company": "Tata Consultancy Services (TCS)",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "VP Sales",
+        "company": "Tata Consultancy Services (TCS)",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "Head of Product",
+        "company": "Tata Consultancy Services (TCS)",
+        "decision_power": 6,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      }
+    ],
+    "people_summary": "Found 5 decision-makers at Tata Consultancy Services (TCS)",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "Get free key at: https://www.apollo.io",
+    "confidence_score": 0.9,
+    "reason": "The company, Tata Consultancy Services (TCS), is accepted and has a relevant B2B industry. Multiple accepted roles with decision_power >= 7 are found, including CEO, CTO, Director Engineering, and VP Sales. Although no enriched contacts with emails are available, the presence of key decision-makers meets the verification criteria.",
+    "summary": "Tata Consultancy Services (TCS) is a verified lead with key decision-makers",
+    "recommended_action": "Proceed with outreach to the identified decision-makers",
+    "created_at": "2026-02-02T22:04:20.038969",
+    "updated_at": "2026-02-02T22:04:20.038969"
+  },
+  {
+    "id": "8f2bba47",
+    "input": "analyse wipro",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Wipro",
+      "industry": "IT Services",
+      "size": "enterprise",
+      "location": "Not specified in search results",
+      "website": "Not specified in search results",
+      "growth_signals": [
+        "top-performing stock",
+        "comprehensive analysis of a prominent stock"
+      ],
+      "status": "accepted",
+      "reason": "The company is a well-established enterprise in the IT services industry, with recent news coverage indicating a significant presence in the stock market and a large enough size to have quarterly results and stock price analysis.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Wipro",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales",
+            "SVP Marketing"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "EVP Technology",
+            "SVP Infrastructure"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "CFO",
+            "SVP Finance"
+          ],
+          "hierarchy_level": "C-Suite / SVP"
+        },
+        {
+          "name": "Human Resources",
+          "decision_makers": [
+            "CHRO",
+            "SVP HR"
+          ],
+          "hierarchy_level": "C-Suite / SVP"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "COO",
+            "SVP Operations"
+          ],
+          "hierarchy_level": "C-Suite / SVP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Technology",
+        "SVP Infrastructure",
+        "CFO",
+        "CHRO",
+        "COO"
+      ]
+    },
+    "people": [
+      {
+        "name": "[Target Role]",
+        "title": "CEO",
+        "company": "Wipro",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "CTO",
+        "company": "Wipro",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "Director Engineering",
+        "company": "Wipro",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "VP Sales",
+        "company": "Wipro",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "Head of Product",
+        "company": "Wipro",
+        "decision_power": 6,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      }
+    ],
+    "people_summary": "Found 5 decision-makers at Wipro",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "Get free key at: https://www.apollo.io",
+    "confidence_score": 0.9,
+    "reason": "The company Wipro is a well-established enterprise in the IT services industry and has been accepted. Multiple accepted roles with decision power greater than or equal to 7 have been found, including CEO, CTO, Director Engineering, and VP Sales. Although no enriched contacts with emails are available, the presence of multiple decision-makers with significant decision power contributes to the lead's credibility.",
+    "summary": "Wipro is a verified B2B lead with multiple decision-makers and high decision power",
+    "recommended_action": "Proceed with outreach to the identified decision-makers, particularly the CEO, CTO, Director Engineering, and VP Sales, to explore potential business opportunities.",
+    "created_at": "2026-02-02T22:07:08.540962",
+    "updated_at": "2026-02-02T22:07:08.540962"
+  },
+  {
+    "id": "13cc2af5",
+    "input": "ANALYSE wipro",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Wipro Limited",
+      "industry": "Information Technology, Consulting",
+      "size": "large",
+      "location": "Not specified in search results",
+      "website": "https://www.wipro.com",
+      "growth_signals": [
+        "8% revenue growth rate",
+        "interim dividend announcement",
+        "recognised as one of world's most ethical companies"
+      ],
+      "status": "accepted",
+      "reason": "Wipro is a well-established company with a large market capitalization, recognized as one of the world's most ethical companies, and has shown growth signals such as revenue growth and dividend announcements, making it a suitable target for B2B sales.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Wipro Limited",
+      "company_size": "large",
+      "departments": [
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "SVP IT",
+            "VP Infrastructure",
+            "Senior Director Cybersecurity"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Consulting",
+          "decision_makers": [
+            "SVP Consulting",
+            "VP Strategy",
+            "Senior Director Delivery"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "SVP Sales",
+            "VP Marketing",
+            "Senior Director Business Development"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "SVP Finance",
+            "VP Accounting",
+            "Senior Director Financial Planning"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Human Resources",
+          "decision_makers": [
+            "SVP HR",
+            "VP Talent Acquisition",
+            "Senior Director Learning and Development"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        }
+      ],
+      "recommended_targets": [
+        "SVP IT",
+        "SVP Consulting",
+        "SVP Sales",
+        "SVP Finance",
+        "SVP HR"
+      ]
+    },
+    "people": [
+      {
+        "name": "Suzanne Dann",
+        "title": "CEO Americas @Wipro | Board Member",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/suzanne-dann",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Nikhil Samarth",
+        "title": "Director at Wipro Limited | LinkedIn Suzanne Dann",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/nikhil-samarth-7aaa033",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Shanmugasundaram.P Shan",
+        "title": "Director at Wipro Limited | LinkedIn Rajesh Mani",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://in.linkedin.com/in/shanmugampage",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Hariram Kalidas",
+        "title": "SVP & Global Head of Partnerships | Ecosystem-Led Growth, GTM Strategy & Innovation | Ex-TCS, IBM, Cognos, Oracle, Wipro | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/hkalidas",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Udaya Kiran",
+        "title": "VP Head of Network, Security, Sports & Entertainment verticals | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/udayakiran",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Shubendu Banerjee",
+        "title": "Senior VP, Healthcare & Life Sciences | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/shubendu-banerjee",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Anindya Roy Choudhury",
+        "title": "VP SALES, EXECUTIVE PARTNER/CUSTOMER SUCCESS LEADER Expert in Landing & Executing Global Transformational Deals | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/anindya-roy-choudhury-22bb7410",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Tony Buffomante",
+        "title": "Wipro Limited",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/buffomante",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 7 decision-makers at Wipro Limited",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found in Apollo database",
+    "confidence_score": 0.8,
+    "reason": "The company Wipro Limited has been accepted as a suitable target for B2B sales due to its well-established market presence, growth signals, and multiple accepted roles with decision power greater than or equal to 7. However, the confidence score is not at its maximum due to the absence of enriched contacts with emails.",
+    "summary": "Wipro Limited is a verified lead with multiple decision-makers and a strong industry presence",
+    "recommended_action": "Proceed with outreach to the identified decision-makers, starting with those having the highest decision power",
+    "created_at": "2026-02-02T22:13:11.168763",
+    "updated_at": "2026-02-02T22:13:11.168763"
+  },
+  {
+    "id": "31cb6239",
+    "input": "Analyse Infosys",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Infosys Limited",
+      "industry": "IT Services, Technology",
+      "size": "enterprise",
+      "location": "India",
+      "website": "https://www.infosys.com",
+      "growth_signals": [
+        "gradual increase in sales and profit during 2013-2018",
+        "real-time updates and detailed analysis on stock performance",
+        "bullish thesis on Infosys Limited (INFY)"
+      ],
+      "status": "accepted",
+      "reason": "The company has a strong online presence, with multiple web search results and news articles discussing its financial performance and growth. The LinkedIn page for Infosys Public Services also suggests a significant presence in the industry. The evidence of gradual increase in sales and profit, along with real-time updates on stock performance and bullish thesis, indicates a growing and established company, making it suitable for B2B sales targeting.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Infosys Limited",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Technology",
+            "SVP Engineering",
+            "VP Technology"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Digital Transformation",
+          "decision_makers": [
+            "EVP Digital",
+            "SVP Transformation",
+            "VP Innovation"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Cloud and Infrastructure",
+          "decision_makers": [
+            "SVP Cloud",
+            "VP Infrastructure",
+            "Global Head Cloud"
+          ],
+          "hierarchy_level": "SVP / VP / Global Head"
+        },
+        {
+          "name": "Cybersecurity",
+          "decision_makers": [
+            "SVP Security",
+            "VP Cybersecurity",
+            "Global Head Information Security"
+          ],
+          "hierarchy_level": "SVP / VP / Global Head"
+        },
+        {
+          "name": "Data Analytics",
+          "decision_makers": [
+            "EVP Data",
+            "SVP Analytics",
+            "VP Data Science"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Technology",
+        "SVP Engineering",
+        "EVP Digital",
+        "SVP Cloud",
+        "Global Head Information Security"
+      ]
+    },
+    "people": [
+      {
+        "name": "Satish Nair",
+        "title": "SVP and Global Head of Sales",
+        "company": "Infosys Limited",
+        "linkedin_url": "https://www.linkedin.com/in/satishnair/",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Anurag Vardhan Sinha",
+        "title": "SVP | Business Head, Communications ...",
+        "company": "Infosys Limited",
+        "linkedin_url": "https://www.linkedin.com/in/anuragvsinha",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Parveen Serju",
+        "title": "Senior Executive Secretary to EVP & Global Head",
+        "company": "Infosys Limited",
+        "linkedin_url": "https://www.linkedin.com/in/parveen-serju-28a838146",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Ganapathiraman Balasubramanian",
+        "title": "Senior Delivery Manager",
+        "company": "Infosys Limited",
+        "linkedin_url": "https://www.linkedin.com/in/ganapathiramanbalasubramanian/",
+        "decision_power": 4,
+        "status": "rejected",
+        "reason": "Decision power: 4/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "MVS Prasad",
+        "title": "Senior Project Manager at Infosys Limited | LinkedIn",
+        "company": "Infosys Limited",
+        "linkedin_url": "https://www.linkedin.com/in/mvs-prasad-42b0766/",
+        "decision_power": 4,
+        "status": "rejected",
+        "reason": "Decision power: 4/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sachidanand Arumugham",
+        "title": "Infosys Limited | LinkedIn",
+        "company": "Infosys Limited",
+        "linkedin_url": "https://www.linkedin.com/in/sachidanand-arumugham-95b54857",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Nagamalleswararao Thota",
+        "title": "Technology Lead at Infosys Limited ...",
+        "company": "Infosys Limited",
+        "linkedin_url": "https://www.linkedin.com/in/nagamalleswararao-thota-a02626237",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Vikas Satpute",
+        "title": "Consultant",
+        "company": "Infosys Limited",
+        "linkedin_url": "https://www.linkedin.com/in/vikas-satpute-90551a176/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Hema Patel",
+        "title": "Executive Assistant",
+        "company": "Infosys Limited",
+        "linkedin_url": "https://www.linkedin.com/in/hema-patel-97864426/",
+        "decision_power": 1,
+        "status": "rejected",
+        "reason": "Decision power: 1/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 3 decision-makers at Infosys Limited",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found in Apollo database",
+    "confidence_score": 0.5,
+    "reason": "The company is accepted and has relevant roles with high decision power, but it lacks enriched contacts with emails and does not have multiple decision-makers with different levels of decision power, and also multiple decision-makers found rule does not strictly apply here since decision_power of the 3 is same, which does not provide enough confidence to verify the lead",
+    "summary": "Infosys Limited is a potential B2B sales target, but lacks sufficient contact information",
+    "recommended_action": "Gather more contact information and re-evaluate the lead",
+    "created_at": "2026-02-02T22:16:20.810195",
+    "updated_at": "2026-02-02T22:16:20.810195"
+  },
+  {
+    "id": "3259eee4",
+    "input": "Analyse Sahyadri College Of Engineeing",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Sahyadri College of Engineering and Management",
+      "industry": "Education",
+      "size": "medium",
+      "location": "Mangalore",
+      "website": "Not found in search results",
+      "growth_signals": [
+        "60+ companies visiting for campus recruitment",
+        "National engineering ranking by Times group"
+      ],
+      "status": "rejected",
+      "reason": "The company is an educational institution, not a B2B target. Evidence from search results shows it is a college with various departments, campus recruitment, and national rankings, but it does not operate in a B2B relevant industry such as tech, SaaS, finance, consulting, or manufacturing.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "The company is an educational institution, not a B2B target. Evidence from search results shows it is a college with various departments, campus recruitment, and national rankings, but it does not operate in a B2B relevant industry such as tech, SaaS, finance, consulting, or manufacturing.",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-02T22:21:41.626912",
+    "updated_at": "2026-02-02T22:21:41.626912"
+  },
+  {
+    "id": "e8666a09",
+    "input": "Analyse MRPL",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Mangalore Refinery And Petrochemicals Limited",
+      "industry": "Energy, Refinery and Petrochemicals",
+      "size": "large",
+      "location": "Mangalore, India",
+      "website": "Not found in search results",
+      "growth_signals": [
+        "gradually appreciating stock price since March last year"
+      ],
+      "status": "accepted",
+      "reason": "The company is a established refinery and petrochemicals company with a listed stock price, and has a presence on LinkedIn, indicating a legitimate business operation. The recent news of stock price appreciation also indicates growth.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Mangalore Refinery And Petrochemicals Limited",
+      "company_size": "large",
+      "departments": [
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "SVP Operations",
+            "VP Refining",
+            "Senior Director Petrochemicals"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "SVP Engineering",
+            "VP Projects",
+            "Senior Director Maintenance"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Procurement",
+          "decision_makers": [
+            "VP Procurement",
+            "Senior Director Supply Chain",
+            "Director Logistics"
+          ],
+          "hierarchy_level": "VP / Senior Director / Director"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "SVP Finance",
+            "VP Accounting",
+            "Senior Director Treasury"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "VP R&D",
+            "Senior Director Technology",
+            "Director Innovation"
+          ],
+          "hierarchy_level": "VP / Senior Director / Director"
+        }
+      ],
+      "recommended_targets": [
+        "SVP Operations",
+        "SVP Engineering",
+        "VP Procurement",
+        "SVP Finance",
+        "VP R&D"
+      ]
+    },
+    "people": [
+      {
+        "name": "Mike Loggins",
+        "title": "CCI, President | LinkedIn Indrajeet Chaudhary",
+        "company": "Mangalore Refinery And Petrochemicals Limited",
+        "linkedin_url": "https://www.linkedin.com/in/mike-loggins-37302414",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Nandakumar V",
+        "title": "Director ( Refinery) MRPL | LinkedIn Anandha Kumar",
+        "company": "Mangalore Refinery And Petrochemicals Limited",
+        "linkedin_url": "https://in.linkedin.com/in/nandakumar-v-a8705b10",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Anandha Kumar",
+        "title": "Executive Director (Refinery) | LinkedIn Praneeth Shetty",
+        "company": "Mangalore Refinery And Petrochemicals Limited",
+        "linkedin_url": "https://in.linkedin.com/in/anandha-kumar-75467327",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Praneeth Shetty",
+        "title": "Managing Director | LinkedIn",
+        "company": "Mangalore Refinery And Petrochemicals Limited",
+        "linkedin_url": "https://in.linkedin.com/in/praneeth-shetty-1521b5224",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Vanessa Clemendot",
+        "title": "SVP, Global Head of Supply Chain | Top ... Risha Zaara",
+        "company": "Mangalore Refinery And Petrochemicals Limited",
+        "linkedin_url": "https://www.linkedin.com/in/vanessaclemendot",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "MANEESH M",
+        "title": "Assistant Manager @ PSB | LinkedIn",
+        "company": "Mangalore Refinery And Petrochemicals Limited",
+        "linkedin_url": "https://in.linkedin.com/in/maneesh-m-698760212",
+        "decision_power": 4,
+        "status": "rejected",
+        "reason": "Decision power: 4/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "vishnu Vayodan",
+        "title": "Newcastle Upon Tyne, England, United... | LinkedIn",
+        "company": "Mangalore Refinery And Petrochemicals Limited",
+        "linkedin_url": "https://uk.linkedin.com/in/vishnu-vayodan-994a6687",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Karthik Kotian",
+        "title": "||HR & Admin|| | LinkedIn",
+        "company": "Mangalore Refinery And Petrochemicals Limited",
+        "linkedin_url": "https://in.linkedin.com/in/karthikkotian",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Bipro Narayan Habisyasi PRINCE2",
+        "title": "Project Controller... | LinkedIn",
+        "company": "Mangalore Refinery And Petrochemicals Limited",
+        "linkedin_url": "https://uk.linkedin.com/in/bipro-narayan-habisyasi",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 5 decision-makers at Mangalore Refinery And Petrochemicals Limited",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found in Apollo database",
+    "confidence_score": 0.5,
+    "reason": "The lead has a base score of 0.5 and the company is accepted and B2B relevant, which adds 0.2. It also has accepted roles with decision_power >= 7, which adds another 0.2. However, it does not have enriched contacts with emails and only one decision-maker with a high decision_power is required, but multiple are found. The total score would be 0.5 + 0.2 + 0.2 = 0.9. However, since there are no enriched contacts, we cannot add the +0.1 for enriched contacts with emails, but we can add +0.1 for multiple decision-makers. The total score becomes 0.5 + 0.2 + 0.2 + 0.1 = 1.0. Since the final confidence score is > 0.7, it seems the lead should be verified. But upon closer inspection, the rejection rule of 'No roles with decision_power >= 7' is technically not applicable because there are roles with decision_power >= 7, however 'Has enriched contacts with emails' is a crucial aspect for verification and the enriched contacts list is empty, meaning we should lean towards rejection. Moreover, multiple decision-makers with high decision power were found which is a positive signal but not enough given the lack of contact information.",
+    "summary": "Large energy company with multiple decision-makers but no contact information",
+    "recommended_action": "attempt to find contact information for the decision-makers to further verify the lead",
+    "created_at": "2026-02-02T22:22:27.128591",
+    "updated_at": "2026-02-02T22:22:27.128591"
+  },
+  {
+    "id": "775e7181",
+    "input": "Analyse Wipro",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Wipro Limited",
+      "industry": "Information Technology, Consulting",
+      "size": "large",
+      "location": "Not explicitly stated in the search results, but Wipro is known to be headquartered in Bangalore, India",
+      "website": "https://www.wipro.com",
+      "growth_signals": [
+        "8% revenue growth rate",
+        "deal bookings",
+        "interim dividend announcement"
+      ],
+      "status": "accepted",
+      "reason": "The company is a large-cap company with a market capitalization of Rs 2,55,184.36 crore, has achieved revenue growth, and is recognized as one of the world's most ethical companies, indicating a stable and growing business.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Wipro Limited",
+      "company_size": "large",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "SVP Engineering",
+            "VP Technology"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "SVP Sales",
+            "VP Marketing"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "SVP Finance",
+            "VP Accounting"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Human Resources",
+          "decision_makers": [
+            "SVP HR",
+            "VP Talent Management"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "SVP Operations",
+            "VP Service Delivery"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        }
+      ],
+      "recommended_targets": [
+        "SVP Engineering",
+        "SVP Sales",
+        "SVP Finance",
+        "SVP HR",
+        "SVP Operations"
+      ]
+    },
+    "people": [
+      {
+        "name": "Harish Singh",
+        "title": "Vice President and Global Head for Infrastructure and Application Management Group",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/harish-singh-67b666a/",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Vikram Kumar",
+        "title": "Program Director at Wipro Limited",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/vikramkumar671975",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Soni Dharmendra DS",
+        "title": "Program Director @ Wipro Limited |Strategic planning | Driving Financial Outcomes| Transformation",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/sonidharmendra",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Maneesh Grover",
+        "title": "Director Global Services at Wipro Limited",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/maneesh-grover-283b3812",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Gautam Rajan",
+        "title": "Wipro Limited | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/gautamrajan/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Mark Allen",
+        "title": "Petrolia Energy Corporation | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/mark-allen-8ba9954/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Tony Buffomante",
+        "title": "Wipro Limited | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/buffomante/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Anand Venkataraman",
+        "title": "Presales and Solutions Lead Finastra Practice",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/anand-venkataraman-2a1131a/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Rakesh kumar Sahoo",
+        "title": "Wipro Ltd | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/rakesh-kumar-sahoo-19b40392/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 4 decision-makers at Wipro Limited",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found in Apollo database",
+    "confidence_score": 0.9,
+    "reason": "The company is accepted and relevant to B2B, has multiple accepted roles with decision_power >= 7, but does not have enriched contacts with emails. The company's growth signals and accepted roles indicate a stable and growing business with key decision-makers identified.",
+    "summary": "Wipro Limited is a large IT company with a strong growth trajectory and multiple key decision-makers.",
+    "recommended_action": "Proceed with outreach to the identified decision-makers, such as Harish Singh, Vikram Kumar, Soni Dharmendra DS, and Maneesh Grover, to explore potential business opportunities.",
+    "created_at": "2026-02-02T23:26:23.927932",
+    "updated_at": "2026-02-02T23:26:23.927932"
+  }
+]
