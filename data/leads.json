@@ -1385,5 +1385,1301 @@
     "recommended_action": "Proceed with outreach to the identified decision-makers, such as Harish Singh, Vikram Kumar, Soni Dharmendra DS, and Maneesh Grover, to explore potential business opportunities.",
     "created_at": "2026-02-02T23:26:23.927932",
     "updated_at": "2026-02-02T23:26:23.927932"
+  },
+  {
+    "id": "28ba2e71",
+    "input": "analyse Wipro",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Wipro Limited",
+      "industry": "IT and Consulting",
+      "size": "enterprise",
+      "location": "India",
+      "website": "https://www.wipro.com/",
+      "growth_signals": [
+        "8% revenue growth rate",
+        "AI-fueled deal momentum",
+        "interim dividend announcement"
+      ],
+      "status": "accepted",
+      "reason": "Wipro is a well-established company with a strong presence in the IT and consulting industry, as evidenced by its SWOT analysis and business model discussed in multiple web search results. Recent news articles highlight the company's growth in the AI digital age, with an 8% revenue growth rate and AI-fueled deal momentum. The company's size is indicative of an enterprise, with a significant presence and revenue. The LinkedIn page and web search results further validate the company's legitimacy and growth.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Wipro Limited",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Technology",
+            "SVP Engineering",
+            "VP Architecture"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Digital Transformation",
+          "decision_makers": [
+            "EVP Digital",
+            "SVP Consulting",
+            "VP Strategy"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Cybersecurity",
+          "decision_makers": [
+            "EVP Security",
+            "SVP Risk",
+            "VP Compliance"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Cloud Services",
+          "decision_makers": [
+            "EVP Cloud",
+            "SVP Infrastructure",
+            "VP Operations"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Data Analytics",
+          "decision_makers": [
+            "EVP Data",
+            "SVP Analytics",
+            "VP Insights"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Technology",
+        "SVP Engineering",
+        "EVP Digital",
+        "SVP Consulting",
+        "EVP Security"
+      ]
+    },
+    "people": [
+      {
+        "name": "Harish Singh",
+        "title": "Vice President and Global Head for Infrastructure and Application Management Group",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/harish-singh-67b666a/",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "VASUDEVAN A.",
+        "title": "VP at Wipro Technologies | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://in.linkedin.com/in/vasudevan-a-74550072",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Anthony Rajesh",
+        "title": "Manager at Wipro Limited | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://in.linkedin.com/in/anthony-rajesh-b580aa99",
+        "decision_power": 4,
+        "status": "rejected",
+        "reason": "Decision power: 4/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Tony Buffomante",
+        "title": "Wipro Limited | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/buffomante",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Akhilesh Gupta",
+        "title": "Wipro Limited | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/akhilesh-gupta-2a18bb31/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Nishant Dwivedi",
+        "title": "Wipro Limited | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/nishant-dwivedi-8991071/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Dinesh D.",
+        "title": "Wipro Limited | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/thepmcoach/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Gautam Rajan",
+        "title": "Wipro Limited | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/gautamrajan/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 2 decision-makers at Wipro Limited",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.6,
+    "reason": "The lead has a company accepted and has roles with decision power, but lacks enriched contacts with emails and a multiple decision-maker presence does not add to the score. Final confidence score is below 0.7.",
+    "summary": "Wipro Limited lead lacks enriched contacts and falls below confidence threshold",
+    "recommended_action": "Further research and data collection needed to verify the lead",
+    "created_at": "2026-02-03T21:24:40.035270",
+    "updated_at": "2026-02-03T21:24:40.035270"
+  },
+  {
+    "id": "d3fb79f5",
+    "input": "analyse Robosoft",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robosoft Technologies",
+      "industry": "Technology, Software Development",
+      "size": "medium",
+      "location": "India",
+      "website": "https://www.robosoftin.com/",
+      "growth_signals": [
+        "hiring Python & Django developers",
+        "expanding to multiple platforms",
+        "built over 1,400 apps"
+      ],
+      "status": "accepted",
+      "reason": "The company has nearly 20 years of experience, has built over 1,400 apps, and is actively hiring, indicating a growing and established business in the technology industry.",
+      "_sources": [
+        "web_search",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robosoft Technologies",
+      "company_size": "medium",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "VP Engineering",
+            "Director of Engineering"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "VP Sales",
+            "Director of Marketing"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "Head of Finance",
+            "Director of Finance"
+          ],
+          "hierarchy_level": "Head / Director"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "Head of Operations",
+            "Director of Operations"
+          ],
+          "hierarchy_level": "Head / Director"
+        },
+        {
+          "name": "Human Resources",
+          "decision_makers": [
+            "Head of HR",
+            "Director of HR"
+          ],
+          "hierarchy_level": "Head / Director"
+        }
+      ],
+      "recommended_targets": [
+        "VP Engineering",
+        "VP Sales",
+        "Director of Engineering",
+        "Head of Finance",
+        "Director of Marketing"
+      ]
+    },
+    "people": [
+      {
+        "name": "Cesar Deschamps",
+        "title": "VP Sales & Business Development | LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/cfdeschamps",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Santosh Tibrewal",
+        "title": "VP at Tradeweb",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/s4n705h",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Anand Kumar",
+        "title": "Mobile Architect at Mercury Financial | LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/anand-kumar-2ab857107",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Siddhesh Sawant",
+        "title": "Product Marketing @ SAP | Duke",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/sid-sawant",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Shutong Zhang",
+        "title": "-- | LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/shutong-zhang-ab0a82301",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Suryanarayana Yerabolu",
+        "title": "-- | LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/suryanarayana-yerabolu-5041ab30b",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Randy Zhang",
+        "title": "Senior Frontend Engineer at UnDigital | LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/randy-zhang-rzhang",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Roxanne Yancy",
+        "title": "Substitute Teacher at ESI Group | LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/roxanne-yancy-16044813b",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "VP Business Development at Robosoft Technologies",
+        "title": "LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://in.linkedin.com/in/rakesh-tiwari-a027099b",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 2 decision-makers at Robosoft Technologies",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.7,
+    "reason": "The company is accepted and has multiple accepted roles with decision_power >= 7, but lacks enriched contacts with emails and the final confidence score is exactly on the threshold. Given the scoring and rejection rules, this lead is rejected due to the lack of enriched contacts and a final confidence score that does not exceed the rejection threshold.",
+    "summary": "Robosoft Technologies lead lacks enriched contacts and does not meet the confidence threshold",
+    "recommended_action": "Gather more information about the company, particularly enriched contacts with emails, to potentially re-evaluate the lead in the future.",
+    "created_at": "2026-02-03T21:43:32.628486",
+    "updated_at": "2026-02-03T21:43:32.628486"
+  },
+  {
+    "id": "0e3a6a69",
+    "input": "analyse Robosoft Udupi",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robosoft Technologies",
+      "industry": "IT Consulting and Outsourcing",
+      "size": "medium",
+      "location": "Udupi, India",
+      "website": "https://www.robosoftin.com/",
+      "growth_signals": [
+        "acquired by Japan's TechnoPro for INR 805 Cr",
+        "total employees: 1,194"
+      ],
+      "status": "accepted",
+      "reason": "The company has a professional website, a significant number of employees (1,194), and a clear industry presence in IT Consulting and Outsourcing. The recent acquisition by Japan's TechnoPro for a substantial amount (INR 805 Cr) also indicates growth and stability.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robosoft Technologies",
+      "company_size": "medium",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "VP Engineering",
+            "Director of Engineering"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "VP Sales",
+            "Director of Marketing"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "VP Finance",
+            "Director of Finance"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "Head of Operations",
+            "Director of Operations"
+          ],
+          "hierarchy_level": "Director"
+        },
+        {
+          "name": "HR",
+          "decision_makers": [
+            "Head of HR",
+            "Director of HR"
+          ],
+          "hierarchy_level": "Director"
+        }
+      ],
+      "recommended_targets": [
+        "VP Engineering",
+        "VP Sales",
+        "Director of Engineering",
+        "Head of Operations",
+        "Director of Finance"
+      ]
+    },
+    "people": [
+      {
+        "name": "Cesar Deschamps",
+        "title": "VP Sales & Business Development | LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/cfdeschamps",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Santosh Tibrewal",
+        "title": "VP at Tradeweb",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/s4n705h",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Ravi Teja Bommireddipalli",
+        "title": "Robosoft Technologies | LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/ravi-teja-bommireddipalli-95a1583/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jay Shah",
+        "title": "Robosoft Technologies | LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://in.linkedin.com/in/jay-shah-a558683",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Manish Kumar",
+        "title": "Robosoft Technologies | LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://in.linkedin.com/in/manish-kumarsinha",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Viresh Modi",
+        "title": "Robosoft Technologies | LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/viresh-modi-49992623/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Mahendra Kumar Kenvat",
+        "title": "Technical Lead",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/mahendra-kumar-kenvat-59a07745/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Roxanne Yancy",
+        "title": "Substitute Teacher at ESI Group | LinkedIn",
+        "company": "Robosoft Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/roxanne-yancy-16044813b",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 2 decision-makers at Robosoft Technologies",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.4,
+    "reason": "The lead was rejected due to the lack of enriched contacts with emails and not meeting the final confidence threshold of 0.7. Although the company is accepted and B2B relevant, and there are accepted roles with decision power >= 7, the absence of enriched contacts and low overall score lead to rejection.",
+    "summary": "Robosoft Technologies lead rejected due to insufficient contact information and low confidence score",
+    "recommended_action": "Reject the lead and focus on other opportunities with more complete and verified contact information",
+    "created_at": "2026-02-03T21:45:51.849567",
+    "updated_at": "2026-02-03T21:45:51.849567"
+  },
+  {
+    "id": "6e56d8df",
+    "input": "analyse microsoft",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Microsoft",
+      "industry": "Technology, Software",
+      "size": "enterprise",
+      "location": "Redmond, Washington",
+      "website": "https://www.microsoft.com",
+      "growth_signals": [
+        "high capex spending",
+        "upward analyst revisions",
+        "continued beat of earnings expectations"
+      ],
+      "status": "accepted",
+      "reason": "Microsoft is a well-established company with a strong brand, as ranked 3rd largest by Interbrand in 2010. The company has a significant presence in the technology industry, with a large market share and continued investments in innovation, such as its London Accelerator program. Recent news articles indicate a strong financial performance, with high capex spending and upward analyst revisions, suggesting confidence in the company's growth prospects. The company's size, with a significant global presence, and its focus on emerging technologies like AI and cloud computing, make it a suitable target for B2B sales.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Microsoft",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Engineering",
+            "SVP Cloud and AI",
+            "VP Azure"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales, Marketing and Operations",
+            "SVP Worldwide Commercial Business",
+            "VP Enterprise Sales"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "EVP and CFO",
+            "SVP and Corporate Controller",
+            "VP Finance"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Human Resources",
+          "decision_makers": [
+            "EVP and Chief Human Resources Officer",
+            "SVP Human Resources",
+            "VP Talent and Learning"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Product Development",
+          "decision_makers": [
+            "EVP Product and Strategy",
+            "SVP Product",
+            "VP Product Planning"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Engineering",
+        "SVP Cloud and AI",
+        "EVP Sales, Marketing and Operations",
+        "EVP and CFO",
+        "EVP Product and Strategy"
+      ]
+    },
+    "people": [
+      {
+        "name": "Jean-Philippe Courtois",
+        "title": "Former President and EVP at Microsoft Corp, President and co-founder of Live for Good, Chairman of SKEMA Business School and producer-host of the Positive leadership podcast | LinkedIn",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/jpcourtois/",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Scott Guthrie",
+        "title": "Executive Vice President at Microsoft | LinkedIn Jared Palmer",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/guthriescott",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jared Palmer",
+        "title": "SVP of GitHub, VP of CoreAI at Microsoft ... Jay Parikh",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/jaredlpalmer",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jay Parikh",
+        "title": "Executive Vice President at Microsoft | LinkedIn Abhimanyu Ramaswamy",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/jayparikh",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Mike Houlihan",
+        "title": "EVP Microsoft account at WE Communications | LinkedIn",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/mike-houlihan-7b80a114/",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Marco Casalaina",
+        "title": "Microsoft | LinkedIn",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/marcocasalaina",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "David Perry",
+        "title": "Living the dream (Former VP at Microsoft) | LinkedIn",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/david-perry-vp/",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Kathleen Hogan",
+        "title": "EVP, Chief Strategy and Transformation Officer | LinkedIn",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/kathleenthogan",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Charlotte Yarkoni",
+        "title": "Fiserv | LinkedIn",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/charlotteyarkoni/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 8 decision-makers at Microsoft",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.8,
+    "reason": "The company, Microsoft, is accepted and has a strong presence in the technology industry. Multiple accepted roles with decision power >= 7 were found, including Jean-Philippe Courtois, Scott Guthrie, and Jay Parikh. However, no enriched contacts with emails were available. The lead is considered verified due to the company's acceptance status and the presence of multiple decision-makers with significant decision power.",
+    "summary": "Microsoft is a suitable target for B2B sales with multiple decision-makers and a strong industry presence.",
+    "recommended_action": "Proceed with outreach and engagement efforts targeting the identified decision-makers.",
+    "created_at": "2026-02-03T22:36:50.989385",
+    "updated_at": "2026-02-03T22:36:50.989385"
+  },
+  {
+    "id": "43eab49e",
+    "input": "analyse intercom",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Intercom",
+      "industry": "Technology, SaaS, Customer Service",
+      "size": "medium",
+      "location": "San Francisco, CA",
+      "website": "https://www.intercom.com/",
+      "growth_signals": [
+        "recent news articles on AI-human model for customer service",
+        " presence on LinkedIn"
+      ],
+      "status": "accepted",
+      "reason": "The company has a presence on LinkedIn and has relevant recent news articles discussing its industry and technology, specifically AI-human models for customer service, indicating it is a real and established company in the tech and SaaS industry.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Intercom",
+      "company_size": "medium",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "VP Engineering",
+            "Director of Engineering"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "VP Sales",
+            "Director of Sales"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "VP Marketing",
+            "Director of Marketing"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Customer Success",
+          "decision_makers": [
+            "VP Customer Success",
+            "Director of Customer Success"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Product",
+          "decision_makers": [
+            "VP Product",
+            "Director of Product"
+          ],
+          "hierarchy_level": "VP / Director"
+        }
+      ],
+      "recommended_targets": [
+        "VP Engineering",
+        "VP Sales",
+        "VP Marketing",
+        "VP Customer Success",
+        "VP Product"
+      ]
+    },
+    "people": [
+      {
+        "name": "Ernesto Pallares",
+        "title": "President / CEO at Intercom Energy Inc. | LinkedIn",
+        "company": "Intercom",
+        "linkedin_url": "https://www.linkedin.com/in/ernesto-pallares-b690a947/",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Carlos Sánchez de Vivar",
+        "title": "CEO & Founder at Yumping.com",
+        "company": "Intercom",
+        "linkedin_url": "https://www.linkedin.com/in/carlos-sánchez-de-vivar-b8b53112/",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Nidhi Mongia",
+        "title": "CTO at Intercom Online | LinkedIn Eoghan McCabe",
+        "company": "Intercom",
+        "linkedin_url": "https://www.linkedin.com/in/nidhi-mongia-a860469",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Marwan Sultan",
+        "title": "VP, Strategy Management Director",
+        "company": "Intercom",
+        "linkedin_url": "https://www.linkedin.com/in/marwan-sultan-66b6206/",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Brian D.",
+        "title": "VP Product at Intercom, building Fin.ai | LinkedIn",
+        "company": "Intercom",
+        "linkedin_url": "https://www.linkedin.com/in/brian-d-2450192/",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Eoghan McCabe",
+        "title": "Intercom | LinkedIn",
+        "company": "Intercom",
+        "linkedin_url": "https://www.linkedin.com/in/eoghanmccabe/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Don OLeary",
+        "title": "Stealth Startup | LinkedIn John Roche",
+        "company": "Intercom",
+        "linkedin_url": "https://ie.linkedin.com/in/donoleary",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Emmet Connolly",
+        "title": "Intercom | LinkedIn",
+        "company": "Intercom",
+        "linkedin_url": "https://ie.linkedin.com/in/emmetconnolly",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 5 decision-makers at Intercom",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.5,
+    "reason": "The lead lacks enriched contacts with emails and does not have a sufficient score due to the absence of multiple relevant decision-makers with a mix of high and medium decision power scores. Although the company is accepted and has relevant roles, the lack of contact information and a single role with decision power of 7, along with no other roles reaching the same level, results in a low confidence score.",
+    "summary": "Intercom company has an accepted status and relevant B2B roles but lacks contact information",
+    "recommended_action": "Gather more contact information or additional decision-maker roles to better assess the lead",
+    "created_at": "2026-02-03T22:38:05.222509",
+    "updated_at": "2026-02-03T22:38:05.222509"
+  },
+  {
+    "id": "cbfebdbe",
+    "input": "analyse intel",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Intel Corporation",
+      "industry": "Technology",
+      "size": "enterprise",
+      "location": "Not specified in search results",
+      "website": "Not specified in search results",
+      "growth_signals": [
+        "revenue stabilizing",
+        "future product architectures"
+      ],
+      "status": "accepted",
+      "reason": "The company is a well-known and established technology company, evidenced by the numerous web search results and news articles discussing its financial performance and product developments. The LinkedIn page, although not directly matching the expected company name, suggests a related entity. The company's size is inferred to be enterprise-level due to the complexity of its financial metrics and the scope of its product architectures.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Intel Corporation",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Technology, Systems and Manufacturing",
+            "SVP and Co-GM of Technology Development"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "SVP and Chief Marketing Officer",
+            "VP of Global Marketing"
+          ],
+          "hierarchy_level": "SVP / VP"
+        },
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "EVP and Chief Sales and Marketing Officer",
+            "SVP of Worldwide Sales"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "IT",
+          "decision_makers": [
+            "VP and Chief Information Officer",
+            "SVP of IT and Enterprise Services"
+          ],
+          "hierarchy_level": "VP / SVP"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "EVP and Chief Financial Officer",
+            "SVP of Finance"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Technology, Systems and Manufacturing",
+        "SVP and Chief Marketing Officer",
+        "EVP and Chief Sales and Marketing Officer",
+        "VP and Chief Information Officer",
+        "EVP and Chief Financial Officer"
+      ]
+    },
+    "people": [
+      {
+        "name": "Naga Chandrasekaran",
+        "title": "Executive Vice President",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/nagachandrasekaran",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Richard Stamey",
+        "title": "Vice President at Intel Corporation | LinkedIn Jim Johnson",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/richard-stamey-81a2404",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Kevin OBuckley",
+        "title": "SVP and GM, Foundry Services at Intel | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/kmobuckley/",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "April Miller Boise",
+        "title": "C-Suite Fortune 100 | EVP, Chief Legal ... Naga Chandrasekaran",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/april-miller-boise-8913404",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Louise Summerton MSc",
+        "title": "Chief Of Staff to EVP/Chief People ...",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/lhawker?miniProfileUrn=urn:li:fs_miniProfile:ACoAAAF_bUsBENLvggOBmTH_N-Df_p0cnb2Azn8",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jim Johnson",
+        "title": "Senior VP, Client Computing Group, Intel ...",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/jimajohnson-intelcorporation",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "David Tuhy",
+        "title": "Data Center & AI VP @ Intel | Electrical ... Patricia (Pat) McDonald",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/david-tuhy-vp",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Douglas Davis",
+        "title": "Retired",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/douglas-davis-5977b02b/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Bob Brennan",
+        "title": "Intel Corporation | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/bobbrennan40/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 7 decision-makers at Intel Corporation",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.9,
+    "reason": "The company, Intel Corporation, is a well-established technology company with a strong online presence. The company has been accepted, and multiple accepted roles with decision power greater than or equal to 7 have been identified, including Executive Vice President, Vice President, SVP and GM, Foundry Services, and C-Suite Fortune 100. Although no enriched contacts with emails were found, the presence of multiple decision-makers and the company's accepted status contribute to a high confidence score.",
+    "summary": "Intel Corporation is a verified lead with high decision-making power and multiple key roles identified",
+    "recommended_action": "Proceed with outreach and engagement efforts targeting the identified decision-makers, such as Executive Vice President Naga Chandrasekaran and Vice President Jim Johnson",
+    "created_at": "2026-02-03T22:40:37.660603",
+    "updated_at": "2026-02-03T22:40:37.660603"
+  },
+  {
+    "id": "eb7aa2fe",
+    "input": "intel",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Intel Corporation",
+      "industry": "Technology",
+      "size": "enterprise",
+      "location": "Not specified in search results, but known to be Santa Clara, CA",
+      "website": "https://www.intel.com/",
+      "growth_signals": [
+        "launch of new Xeon 600 Series workstation CPUs",
+        "support for AI workloads"
+      ],
+      "status": "accepted",
+      "reason": "Intel is a well-established company with a strong presence in the technology industry, as evident from its official website and recent news articles. The company's launch of new products, such as the Xeon 600 Series workstation CPUs, and its support for AI workloads indicate growth and innovation. Additionally, the company's careers page on Indeed.com suggests a large and established organization.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Intel Corporation",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Technology, Systems and Manufacturing",
+            "SVP and General Manager"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP and GM of Sales, Marketing and Communications",
+            "SVP of Sales and Marketing"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "EVP and CFO",
+            "SVP and Controller"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Human Resources",
+          "decision_makers": [
+            "EVP and CHRO",
+            "SVP of Human Resources"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "EVP Technology, Systems and Manufacturing",
+            "SVP and General Manager"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Technology, Systems and Manufacturing",
+        "SVP and General Manager",
+        "EVP and GM of Sales, Marketing and Communications",
+        "EVP and CFO",
+        "EVP and CHRO"
+      ]
+    },
+    "people": [
+      {
+        "name": "Naga Chandrasekaran",
+        "title": "Executive Vice President",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/nagachandrasekaran",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Kevin OBuckley",
+        "title": "SVP and GM, Foundry Services at Intel | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/kmobuckley/",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "April Miller Boise",
+        "title": "C-Suite Fortune 100 | EVP, Chief Legal ... Naga Chandrasekaran",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/april-miller-boise-8913404",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Louise Summerton MSc",
+        "title": "Chief Of Staff to EVP/Chief People ...",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/lhawker?miniProfileUrn=urn:li:fs_miniProfile:ACoAAAF_bUsBENLvggOBmTH_N-Df_p0cnb2Azn8",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Joel Willard",
+        "title": "VP, Associate General Counsel, Head of Sales and Marketing Legal at Intel Corporation | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/joel-willard-40890055/",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Douglas Davis",
+        "title": "Retired",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/douglas-davis-5977b02b/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Bob Brennan",
+        "title": "Intel Corporation | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/bobbrennan40/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Victoria Holroyd-Fogg",
+        "title": "Intel Corporation | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/victoria-holroyd-fogg-160a95/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Anand Pashupathy",
+        "title": "Intel Corporation | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/anandpashupathy/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 5 decision-makers at Intel Corporation",
+    "linkedin_searched": true,
+    "contacts": [
+      {
+        "first_name": "Naga",
+        "last_name": "Chandrasekaran",
+        "email": "naga.chandrasekaran@intel.com",
+        "phone": "",
+        "linkedin_url": "https://www.linkedin.com/in/nagachandrasekaran",
+        "title": "Executive Vice President",
+        "company": "Intel Corporation",
+        "source": "snov",
+        "enriched": true
+      }
+    ],
+    "enrichment_note": "",
+    "confidence_score": 0.9,
+    "reason": "The company Intel Corporation is accepted and relevant to B2B, with a strong presence in the technology industry. There are multiple accepted roles with decision power greater than or equal to 7, including an Executive Vice President and several Senior Vice Presidents. Additionally, there is an enriched contact with an email address. The company has also shown growth signals, such as the launch of new products and support for AI workloads.",
+    "summary": "Intel Corporation is a well-established technology company with strong growth signals and multiple decision-makers",
+    "recommended_action": "Proceed with outreach to the accepted roles, particularly the Executive Vice President and Senior Vice Presidents, using the enriched contact information",
+    "created_at": "2026-02-03T22:44:47.688873",
+    "updated_at": "2026-02-03T22:44:47.688873"
   }
 ]

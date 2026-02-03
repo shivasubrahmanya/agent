@@ -156,15 +156,29 @@ def run_pipeline(
     if progress:
         progress.update("enrichment", "running")
     
-    # Convert people to roles format for enrichment
+    # Convert people to roles format for enrichment (include names for Snov.io)
     roles_for_enrichment = [
-        {"title": p.get("title", ""), "status": p.get("status", "rejected")}
+        {
+            "name": p.get("name", ""),
+            "title": p.get("title", ""), 
+            "status": p.get("status", "rejected"),
+            "linkedin_url": p.get("linkedin_url", "")
+        }
         for p in accepted_people
     ]
     
+    # Get company domain from website if available
+    company_domain = None
+    website = company_result.get("website", "")
+    if website:
+        # Extract domain from URL
+        domain = website.replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0]
+        company_domain = domain
+    
     enrichment_result = enrichment_agent.run(
         company_name=company_result.get("name", company_name),
-        roles=roles_for_enrichment
+        roles=roles_for_enrichment,
+        company_domain=company_domain
     )
     lead_data["contacts"] = enrichment_result.get("contacts", [])
     lead_data["enrichment_note"] = enrichment_result.get("note", "")
