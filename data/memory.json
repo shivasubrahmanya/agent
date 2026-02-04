@@ -1,0 +1,397 @@
+{
+  "companies": {
+    "inunity": {
+      "data": {
+        "name": "InUnity",
+        "industry": "Education, Innovation, Community Development",
+        "size": "small",
+        "location": "Mangalore, Karnataka, India",
+        "website": "https://inunity.in/",
+        "growth_signals": [
+          "Innovation in Education initiatives",
+          "Design Thinking Workshops"
+        ],
+        "status": "accepted",
+        "reason": "The company has a professional website and a LinkedIn presence, indicating it is a real and established company. The website showcases its education initiatives and innovation programs, suggesting B2B relevance in the education and community development sectors.",
+        "_sources": [
+          "web_search",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T19:44:13.342390",
+      "times_analyzed": 1
+    },
+    "analyse technical career education": {
+      "data": {
+        "name": "Technical Career Education",
+        "industry": "Education",
+        "size": "small",
+        "location": "Not specified",
+        "website": "https://technicalcareer.education/",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The company lacks evidence of employee count, revenue, or office locations, and does not have recent news or funding information specific to the company, making it unclear if it is a established company with growth potential. The LinkedIn page exists but does not provide sufficient information to validate the company's size or growth.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T19:45:41.023210",
+      "times_analyzed": 1
+    },
+    "technical career education": {
+      "data": {
+        "name": "Technical Career Education",
+        "industry": "Edtech",
+        "size": "small",
+        "location": "Mangalore",
+        "website": "No official website found",
+        "growth_signals": [
+          "founded in 2018",
+          "bootstrapped company"
+        ],
+        "status": "accepted",
+        "reason": "The company has a presence on Facebook and LinkedIn, and is mentioned in a reputable publication (inc42.com) as an Edtech company operating since 2018, indicating a real and established company in the Edtech industry.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T19:46:11.421128",
+      "times_analyzed": 2
+    },
+    "python agent.py": {
+      "data": {
+        "name": "AgentPy",
+        "industry": "Software, Artificial Intelligence",
+        "size": "small",
+        "location": "Not Found",
+        "website": "https://agentpy.readthedocs.io/en/latest/index.html",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The search results indicate that AgentPy is an open-source library rather than a established company, and there is no direct evidence of a company entity, employee count, or revenue. The LinkedIn result is also not relevant to AgentPy, instead showing information about Pydantic.",
+        "_sources": [
+          "web_search",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T20:46:41.651542",
+      "times_analyzed": 1
+    },
+    "agentpy": {
+      "data": {
+        "name": "AgentPy",
+        "industry": "Software, Artificial Intelligence",
+        "size": "small",
+        "location": "Not Found",
+        "website": "https://agentpy.readthedocs.io/en/latest/index.html",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The search results indicate that AgentPy is an open-source library rather than a established company, and there is no direct evidence of a company entity, employee count, or revenue. The LinkedIn result is also not relevant to AgentPy, instead showing information about Pydantic.",
+        "_sources": [
+          "web_search",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T20:46:41.669497",
+      "times_analyzed": 1
+    },
+    "4": {
+      "data": {
+        "name": "Big 4",
+        "industry": "Professional Services",
+        "size": "enterprise",
+        "location": "Not found",
+        "website": "Not found",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The search results do not provide enough information about a specific company named '4' to determine its suitability for B2B sales targeting. The results appear to be related to various unrelated topics, including military units, accounting firms, sports, and personality traits. The LinkedIn result for 'Big 4' likely refers to the Big Four accounting firms, but it is not clear if this is the company in question.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T20:47:47.597310",
+      "times_analyzed": 1
+    },
+    "big 4": {
+      "data": {
+        "name": "Big 4",
+        "industry": "Professional Services",
+        "size": "enterprise",
+        "location": "Not found",
+        "website": "Not found",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The search results do not provide enough information about a specific company named '4' to determine its suitability for B2B sales targeting. The results appear to be related to various unrelated topics, including military units, accounting firms, sports, and personality traits. The LinkedIn result for 'Big 4' likely refers to the Big Four accounting firms, but it is not clear if this is the company in question.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T20:47:47.618217",
+      "times_analyzed": 1
+    },
+    "5": {
+      "data": {
+        "name": "The Five Company",
+        "industry": "Consulting",
+        "size": "small",
+        "location": "Not found",
+        "website": "Not found",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The search results do not provide sufficient information about a single established company. The web search results include a historical military unit, a list of companies starting with '5', and a Facebook page for 'The Five Company' which seems to be a consulting company but lacks concrete evidence of its size, location, and website. The recent news does not mention a company named '5' or 'The Five Company'. The LinkedIn result '5&5' does not match the company name found in the web search results.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T20:51:52.106528",
+      "times_analyzed": 1
+    },
+    "the five company": {
+      "data": {
+        "name": "The Five Company",
+        "industry": "Consulting",
+        "size": "small",
+        "location": "Not found",
+        "website": "Not found",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The search results do not provide sufficient information about a single established company. The web search results include a historical military unit, a list of companies starting with '5', and a Facebook page for 'The Five Company' which seems to be a consulting company but lacks concrete evidence of its size, location, and website. The recent news does not mention a company named '5' or 'The Five Company'. The LinkedIn result '5&5' does not match the company name found in the web search results.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T20:51:52.123211",
+      "times_analyzed": 1
+    },
+    "analyse netflix": {
+      "data": {
+        "name": "Netflix",
+        "industry": "Entertainment, Streaming",
+        "size": "enterprise",
+        "location": "Not found in search results",
+        "website": "https://www.netflix.com",
+        "growth_signals": [
+          "Recent senate hearings indicate continued growth and market presence",
+          "New reports and analysis of streaming engagement data",
+          "Market Cap of $392.9 Billion and Annual Revenue of $33.72 Billion"
+        ],
+        "status": "rejected",
+        "reason": "Netflix is primarily a B2C company, focusing on direct-to-consumer streaming services, rather than B2B sales",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T21:02:43.293779",
+      "times_analyzed": 1
+    },
+    "netflix": {
+      "data": {
+        "name": "Netflix, Inc.",
+        "industry": "Media and Entertainment",
+        "size": "enterprise",
+        "location": "Los Gatos, California",
+        "website": "https://www.netflix.com",
+        "growth_signals": [
+          "expansion into theatrical window",
+          "international presence",
+          "continued innovation in streaming media"
+        ],
+        "status": "rejected",
+        "reason": "While Netflix is a real, established company with evidence of growth and a large size, it is primarily a B2C focused company, making it less relevant for B2B sales targeting. The company's primary revenue streams come from consumer subscriptions, rather than business-to-business sales.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T21:04:26.165778",
+      "times_analyzed": 2
+    },
+    "netflix, inc.": {
+      "data": {
+        "name": "Netflix, Inc.",
+        "industry": "Media and Entertainment",
+        "size": "enterprise",
+        "location": "Los Gatos, California",
+        "website": "https://www.netflix.com",
+        "growth_signals": [
+          "expansion into theatrical window",
+          "international presence",
+          "continued innovation in streaming media"
+        ],
+        "status": "rejected",
+        "reason": "While Netflix is a real, established company with evidence of growth and a large size, it is primarily a B2C focused company, making it less relevant for B2B sales targeting. The company's primary revenue streams come from consumer subscriptions, rather than business-to-business sales.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T21:04:26.182830",
+      "times_analyzed": 1
+    },
+    "9": {
+      "data": {
+        "name": "Company 9 LLC",
+        "industry": "Unknown",
+        "size": "small",
+        "location": "Unknown",
+        "website": "Not found",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The search results do not provide sufficient evidence of a real, established company. The web search results are mostly about a Russian war film, a book, and unrelated news articles. The only relevant result is the LinkedIn page, but it does not provide enough information about the company's industry, size, or activities.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T22:13:37.039935",
+      "times_analyzed": 1
+    },
+    "company 9 llc": {
+      "data": {
+        "name": "Company 9 LLC",
+        "industry": "Unknown",
+        "size": "small",
+        "location": "Unknown",
+        "website": "Not found",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The search results do not provide sufficient evidence of a real, established company. The web search results are mostly about a Russian war film, a book, and unrelated news articles. The only relevant result is the LinkedIn page, but it does not provide enough information about the company's industry, size, or activities.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T22:13:37.049836",
+      "times_analyzed": 1
+    },
+    "tesla, inc.": {
+      "data": {
+        "name": "Tesla, Inc.",
+        "industry": "Electric Vehicle and Clean Energy",
+        "size": "enterprise",
+        "location": "San Carlos, California",
+        "website": "https://www.tesla.com",
+        "growth_signals": [
+          "new cheaper Model Y launch",
+          "9% increase in China shipments in January",
+          "expansion of US lineup with new Model Y variant"
+        ],
+        "status": "accepted",
+        "reason": "The company has a significant online presence with a Wikipedia page, recent news articles about new product launches and shipment increases, and a LinkedIn page. The company's size is indicated by its complex corporate structure and global presence, which suggests an enterprise-level organization.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-04T22:26:15.791393",
+      "times_analyzed": 1
+    }
+  },
+  "patterns": {},
+  "failures": [],
+  "insights": [
+    {
+      "insight": "Lead rejected: The lead does not meet the minimum confidence score due to the lack of enriched contacts with emails",
+      "category": "verification",
+      "timestamp": "2026-02-04T19:44:13.343139"
+    },
+    {
+      "insight": "Lead rejected: The company lacks evidence of employee count, revenue, or office locations, and does not have recent",
+      "category": "verification",
+      "timestamp": "2026-02-04T19:45:41.039794"
+    },
+    {
+      "insight": "Lead rejected: The lead has a low confidence score due to no enriched contacts with emails and only one decision-ma",
+      "category": "verification",
+      "timestamp": "2026-02-04T19:46:11.421472"
+    },
+    {
+      "insight": "Lead rejected: The search results indicate that AgentPy is an open-source library rather than a established company",
+      "category": "verification",
+      "timestamp": "2026-02-04T20:46:41.669872"
+    },
+    {
+      "insight": "Lead rejected: The search results do not provide enough information about a specific company named '4' to determine",
+      "category": "verification",
+      "timestamp": "2026-02-04T20:47:47.618947"
+    },
+    {
+      "insight": "Lead rejected: The search results do not provide sufficient information about a single established company. The web",
+      "category": "verification",
+      "timestamp": "2026-02-04T20:51:52.123794"
+    },
+    {
+      "insight": "Lead rejected: Netflix is primarily a B2C company, focusing on direct-to-consumer streaming services, rather than B",
+      "category": "verification",
+      "timestamp": "2026-02-04T21:02:43.303316"
+    },
+    {
+      "insight": "Lead rejected: While Netflix is a real, established company with evidence of growth and a large size, it is primari",
+      "category": "verification",
+      "timestamp": "2026-02-04T21:04:26.183411"
+    },
+    {
+      "insight": "Lead rejected: The search results do not provide sufficient evidence of a real, established company. The web search",
+      "category": "verification",
+      "timestamp": "2026-02-04T22:13:37.050474"
+    },
+    {
+      "insight": "Lead rejected: The lead lacks multiple decision-makers and has no enriched contacts with emails. Although the compa",
+      "category": "verification",
+      "timestamp": "2026-02-04T22:26:15.792100"
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-02-04T19:43:48.615961",
+    "total_analyses": 17,
+    "successful_leads": 0
+  }
+}

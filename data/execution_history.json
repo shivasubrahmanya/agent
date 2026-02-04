@@ -1,0 +1,1487 @@
+[
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "e2228214",
+      "input": {
+        "company": "analyse Inunity Mangalore",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T19:43:48.616977"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "e2228214",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T19:43:48.617777"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "e2228214",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:43:55.267881"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "e2228214",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T19:43:55.269638"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "e2228214",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:43:56.152023"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "e2228214",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-04T19:43:56.153475"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "e2228214",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:44:02.252475"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "e2228214",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-04T19:44:02.254090"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "e2228214",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:44:12.417771"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "e2228214",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-04T19:44:12.419393"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "e2228214",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:44:13.335457"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "e2228214",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:44:13.342037"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "42f33fbc",
+      "input": {
+        "company": "analyse Technical Career Education",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T19:45:35.201659"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "42f33fbc",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T19:45:35.202954"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "42f33fbc",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:45:41.019347"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "42f33fbc",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:45:41.039013"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "1417ace7",
+      "input": {
+        "company": "analyse Technical Career Education Mangalore",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T19:45:52.486863"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "1417ace7",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T19:45:52.488182"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "1417ace7",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:45:58.618625"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "1417ace7",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T19:45:58.620750"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "1417ace7",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:45:59.370620"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "1417ace7",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-04T19:45:59.372867"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "1417ace7",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:46:07.925415"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "1417ace7",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-04T19:46:07.928048"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "1417ace7",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:46:10.554928"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "1417ace7",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-04T19:46:10.557144"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "1417ace7",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:46:11.403150"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "1417ace7",
+      "success": true
+    },
+    "timestamp": "2026-02-04T19:46:11.420663"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "632b3b8f",
+      "input": {
+        "company": "Google",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T20:42:06.384838"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "632b3b8f",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T20:42:06.386708"
+  },
+  {
+    "type": "execution_cancelled",
+    "data": {
+      "execution_id": "632b3b8f",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T20:42:09.739122"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "45d36bd6",
+      "input": {
+        "company": "Google",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T20:42:20.709572"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "45d36bd6",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T20:42:20.712383"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "45d36bd6",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:42:27.927735"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "45d36bd6",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T20:42:27.930225"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "45d36bd6",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:42:28.927328"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "45d36bd6",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-04T20:42:28.930252"
+  },
+  {
+    "type": "execution_cancelled",
+    "data": {
+      "execution_id": "45d36bd6",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T20:42:30.029306"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "dda20f86",
+      "input": {
+        "company": "Google",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T20:42:46.272458"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "dda20f86",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T20:42:46.274446"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "dda20f86",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:42:51.799215"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "dda20f86",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T20:42:51.801868"
+  },
+  {
+    "type": "execution_cancelled",
+    "data": {
+      "execution_id": "dda20f86",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T20:42:52.671202"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "ef6e9659",
+      "input": {
+        "company": "python agent.py",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T20:46:35.078001"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "ef6e9659",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T20:46:35.080287"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "ef6e9659",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:46:41.650298"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "ef6e9659",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:46:41.668865"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "0346cbe4",
+      "input": {
+        "company": "Amazon",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T20:47:03.476621"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0346cbe4",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T20:47:03.478955"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "0346cbe4",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:47:14.442140"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0346cbe4",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T20:47:14.445030"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "0346cbe4",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T20:47:15.478615"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "24221667",
+      "input": {
+        "company": "4",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T20:47:41.628662"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "24221667",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T20:47:41.630952"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "24221667",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:47:47.595788"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "24221667",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:47:47.617194"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "5ebf0b54",
+      "input": {
+        "company": "Amazon",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T20:51:22.325636"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "5ebf0b54",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T20:51:22.328143"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "5ebf0b54",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:51:28.830755"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "5ebf0b54",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T20:51:28.833850"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "5ebf0b54",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:51:29.934649"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "5ebf0b54",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-04T20:51:29.938273"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "5ebf0b54",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T20:51:30.881366"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "09313bbc",
+      "input": {
+        "company": "5",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T20:51:45.573690"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "09313bbc",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T20:51:45.576481"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "09313bbc",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:51:52.104970"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "09313bbc",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:51:52.122112"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "cc01a4d0",
+      "input": {
+        "company": "analyse google",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T20:54:00.601430"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "cc01a4d0",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T20:54:00.604441"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "cc01a4d0",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:54:06.949974"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "cc01a4d0",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T20:54:06.954021"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "cc01a4d0",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:54:07.868575"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "cc01a4d0",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-04T20:54:07.872812"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "cc01a4d0",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T20:54:08.813116"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "9ec90359",
+      "input": {
+        "company": "analyse amazon",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T20:56:53.053309"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "9ec90359",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T20:56:53.056070"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "9ec90359",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:56:59.147360"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "9ec90359",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T20:56:59.150678"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "9ec90359",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:57:00.082287"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "9ec90359",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-04T20:57:00.086028"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "9ec90359",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T20:57:02.187269"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "7e61c031",
+      "input": {
+        "company": "analyse tesla",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T20:58:17.450625"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "7e61c031",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T20:58:17.453402"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "7e61c031",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:58:24.322428"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "7e61c031",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T20:58:24.325850"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "7e61c031",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:58:25.344681"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "7e61c031",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-04T20:58:25.348487"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "7e61c031",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-04T20:58:31.077012"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "7e61c031",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-04T20:58:31.080852"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "7e61c031",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T20:58:36.360588"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "df9c3136",
+      "input": {
+        "company": "analyse tesla",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T20:58:44.885998"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "df9c3136",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T20:58:44.888993"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "df9c3136",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T20:58:47.219709"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "769ab9af",
+      "input": {
+        "company": "analyse netflix",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T21:02:37.070163"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "769ab9af",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T21:02:37.073639"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "769ab9af",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T21:02:43.291375"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "769ab9af",
+      "success": true
+    },
+    "timestamp": "2026-02-04T21:02:43.301723"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "ba176c4e",
+      "input": {
+        "company": "analyse bharatpe",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T21:03:12.874123"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "ba176c4e",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T21:03:12.877466"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "ba176c4e",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T21:03:16.488976"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "09c33021",
+      "input": {
+        "company": "Netflix",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T21:04:21.188573"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "09c33021",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T21:04:21.191882"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "09c33021",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T21:04:26.163375"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "09c33021",
+      "success": true
+    },
+    "timestamp": "2026-02-04T21:04:26.181733"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "222e7029",
+      "input": {
+        "company": "analyse Google",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T21:04:45.196128"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "222e7029",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T21:04:45.199702"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "222e7029",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T21:04:51.108595"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "222e7029",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T21:04:51.113077"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "222e7029",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T21:04:51.984796"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "9cb63e83",
+      "input": {
+        "company": "analyse Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T21:17:43.815320"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "9cb63e83",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T21:17:43.818617"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "9cb63e83",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T21:17:49.310889"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "9cb63e83",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T21:17:49.315199"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "9cb63e83",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T21:17:49.612794"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "66a0066e",
+      "input": {
+        "company": "anlayse Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T21:18:09.616625"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "66a0066e",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T21:18:09.620133"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "66a0066e",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T21:18:15.089362"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "814b7e44",
+      "input": {
+        "company": "Microsoft",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T21:21:14.670883"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "814b7e44",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T21:21:14.674329"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "814b7e44",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T21:21:19.214100"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "0d1c31af",
+      "input": {
+        "company": "Microsoft",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T21:23:42.942351"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0d1c31af",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T21:23:42.945876"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "0d1c31af",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T21:23:48.361719"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "input": {
+        "company": "Wipro",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T21:36:52.247749"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T21:36:52.251451"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T21:37:02.356429"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T21:37:02.360931"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T21:37:04.051670"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "baa51670",
+      "input": {
+        "company": "google",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T22:00:07.008414"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "baa51670",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T22:00:07.012038"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "baa51670",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:00:15.458437"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "baa51670",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T22:00:15.462628"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "baa51670",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:00:16.386961"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "baa51670",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-04T22:00:16.391196"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "baa51670",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:00:23.031958"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "baa51670",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-04T22:00:23.036927"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "baa51670",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T22:00:26.458117"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "c776d88f",
+      "input": {
+        "company": "Hindustan Petroleum Limited",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T22:00:45.955841"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "c776d88f",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T22:00:45.959633"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "c776d88f",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T22:00:50.543917"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "bc619743",
+      "input": {
+        "company": "continental",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T22:13:05.231968"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "bc619743",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T22:13:05.235937"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "bc619743",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T22:13:08.237584"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "8c671934",
+      "input": {
+        "company": "9",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T22:13:28.707467"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "8c671934",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T22:13:28.711354"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "8c671934",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:13:37.037314"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "8c671934",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:13:37.048418"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "input": {
+        "company": "bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T22:15:51.946745"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T22:15:51.951071"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:15:58.591568"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T22:15:58.596933"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:15:59.566541"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-04T22:15:59.571601"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T22:16:00.556511"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "6f942ade",
+      "input": {
+        "company": "tesla",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-04T22:25:42.600593"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6f942ade",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-04T22:25:42.604905"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6f942ade",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:25:49.138220"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6f942ade",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T22:25:49.143411"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "6f942ade",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-04T22:25:50.228779"
+  },
+  {
+    "type": "execution_resumed",
+    "data": {
+      "execution_id": "6f942ade",
+      "resume_stage": "structure"
+    },
+    "timestamp": "2026-02-04T22:26:03.534461"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6f942ade",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-04T22:26:03.539318"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6f942ade",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:26:04.451820"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6f942ade",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-04T22:26:04.456933"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6f942ade",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:26:10.860827"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6f942ade",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-04T22:26:10.866640"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6f942ade",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:26:15.009652"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6f942ade",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-04T22:26:15.019135"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6f942ade",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:26:15.784293"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "6f942ade",
+      "success": true
+    },
+    "timestamp": "2026-02-04T22:26:15.789768"
+  }
+]

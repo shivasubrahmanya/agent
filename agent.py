@@ -21,8 +21,15 @@ except ImportError:
     RICH_AVAILABLE = False
     print("Note: Install 'rich' for better UI: pip install rich")
 
-from workflow import run_pipeline, enrich_person_direct, WorkflowProgress, parse_input
+from workflow import run_pipeline, enrich_person_direct, WorkflowProgress, parse_input, resume_pipeline, get_resumable_executions, get_memory_stats
 import database as db
+
+# Import memory for direct access
+try:
+    from memory import MemoryManager
+    MEMORY_AVAILABLE = True
+except ImportError:
+    MEMORY_AVAILABLE = False
 
 
 # Console for rich output
@@ -59,6 +66,18 @@ def print_help():
   [cyan]enrich[/cyan] <name> at <company>
       Direct person enrichment via Apollo.io
       Example: enrich Satya Nadella at Microsoft
+
+  [cyan]resume[/cyan]
+      Resume a paused or failed analysis
+
+  [cyan]status[/cyan]
+      Show current execution status and memory stats
+
+  [cyan]learn[/cyan]
+      View what the agent has learned from past analyses
+
+  [cyan]forget[/cyan] <company>
+      Clear memory for a specific company
 
   [cyan]history[/cyan]
       View all analyzed leads
@@ -327,6 +346,220 @@ def handle_export():
         print(f"\n✅ Exported to: {filepath}\n")
 
 
+def handle_resume(args: str = ""):
+    """Handle resume command - resume paused/failed executions."""
+    resumable = get_resumable_executions()
+    
+    if not resumable:
+        print("\n📭 No paused or failed executions to resume.\n")
+        return
+    
+    # If args provided, try to resume by number or ID
+    if args:
+        args = args.strip()
+        
+        # Try as number first (1, 2, 3, etc.)
+        if args.isdigit():
+            idx = int(args) - 1
+            if 0 <= idx < len(resumable):
+                execution = resumable[idx]
+                exec_id = execution.get("id")
+                company = execution.get("input", {}).get("company", "Unknown")
+                
+                print(f"\n🔄 Resuming analysis for: {company}\n")
+                
+                progress = WorkflowProgress(progress_callback)
+                result = resume_pipeline(exec_id, progress)
+                
+                display_lead_result(result)
+                print()
+                return
+            else:
+                print(f"\n⚠️  Invalid number. Choose between 1 and {len(resumable)}.\n")
+                return
+        
+        # Try as execution ID
+        for execution in resumable:
+            if execution.get("id", "").startswith(args):
+                exec_id = execution.get("id")
+                company = execution.get("input", {}).get("company", "Unknown")
+                
+                print(f"\n🔄 Resuming analysis for: {company}\n")
+                
+                progress = WorkflowProgress(progress_callback)
+                result = resume_pipeline(exec_id, progress)
+                
+                display_lead_result(result)
+                print()
+                return
+        
+        print(f"\n⚠️  No execution found matching '{args}'.\n")
+        return
+    
+    # No args - show list
+    print(f"\n🔄 Found {len(resumable)} resumable execution(s):\n")
+    
+    for i, execution in enumerate(resumable, 1):
+        exec_id = execution.get("id", "unknown")[:8]
+        company = execution.get("input", {}).get("company", "Unknown")
+        status = execution.get("status", "unknown")
+        current_stage = execution.get("current_stage", "unknown")
+        created = execution.get("created_at", "")[:10]
+        
+        status_emoji = "⏸️" if status == "paused" else "❌"
+        print(f"  {i}. {status_emoji} {exec_id} | {company} | Stage: {current_stage} | {created}")
+    
+    print()
+    
+    # If only one, resume it automatically
+    if len(resumable) == 1:
+        execution = resumable[0]
+        exec_id = execution.get("id")
+        company = execution.get("input", {}).get("company", "Unknown")
+        
+        print(f"🔄 Resuming analysis for: {company}\n")
+        
+        progress = WorkflowProgress(progress_callback)
+        result = resume_pipeline(exec_id, progress)
+        
+        display_lead_result(result)
+    else:
+        print("   Use: resume <number> to resume (e.g., 'resume 5')")
+    print()
+
+
+def handle_status():
+    """Handle status command - show memory and execution status."""
+    stats = get_memory_stats()
+    
+    if stats.get("error"):
+        print(f"\n⚠️  {stats['error']}\n")
+        return
+    
+    if RICH_AVAILABLE:
+        from rich.table import Table
+        
+        table = Table(title="🧠 Agent Memory Status")
+        table.add_column("Metric", style="cyan")
+        table.add_column("Value", style="white")
+        
+        table.add_row("Session ID", str(stats.get("session_id", "N/A"))[:12])
+        table.add_row("Total Analyses", str(stats.get("total_analyses", 0)))
+        table.add_row("Successful Leads", str(stats.get("successful_leads", 0)))
+        table.add_row("Companies Remembered", str(stats.get("companies_remembered", 0)))
+        table.add_row("Patterns Learned", str(stats.get("patterns_learned", 0)))
+        table.add_row("Failures Recorded", str(stats.get("failures_recorded", 0)))
+        table.add_row("Short-term Items", str(stats.get("short_term_items", 0)))
+        table.add_row("Working Memory Items", str(stats.get("working_memory_items", 0)))
+        
+        console.print()
+        console.print(table)
+    else:
+        print("\n🧠 Agent Memory Status:")
+        print(f"  Total Analyses: {stats.get('total_analyses', 0)}")
+        print(f"  Successful Leads: {stats.get('successful_leads', 0)}")
+        print(f"  Companies Remembered: {stats.get('companies_remembered', 0)}")
+        print(f"  Patterns Learned: {stats.get('patterns_learned', 0)}")
+    
+    # Show resumable executions
+    resumable = get_resumable_executions()
+    if resumable:
+        print(f"\n⏸️  {len(resumable)} execution(s) can be resumed. Use 'resume' command.")
+    
+    print()
+
+
+def handle_learn():
+    """Handle learn command - show what agent has learned."""
+    if not MEMORY_AVAILABLE:
+        print("\n⚠️  Memory module not available.\n")
+        return
+    
+    memory = MemoryManager()
+    
+    print("\n🎓 Agent Learnings:\n")
+    
+    # Show patterns
+    patterns = memory._long_term.get("patterns", {})
+    if patterns:
+        print("📊 Successful Patterns:")
+        for key, pattern in list(patterns.items())[:5]:
+            hint = pattern.get("pattern", {}).get("hint", "No hint")
+            rate = pattern.get("success_rate", 0)
+            uses = pattern.get("uses", 0)
+            print(f"  • {hint[:60]}... (success: {rate:.0%}, uses: {uses})")
+        print()
+    
+    # Show insights
+    insights = memory._long_term.get("insights", [])[-5:]
+    if insights:
+        print("💡 Recent Insights:")
+        for insight in insights:
+            text = insight.get("insight", "")
+            category = insight.get("category", "general")
+            print(f"  • [{category}] {text[:70]}...")
+        print()
+    
+    # Show recent failures (to learn from)
+    failures = memory._long_term.get("failures", [])[-3:]
+    if failures:
+        print("⚠️  Recent Failures (learning opportunities):")
+        for failure in failures:
+            context = failure.get("context", "")[:40]
+            error = failure.get("error", "")[:40]
+            print(f"  • {context}... → {error}...")
+        print()
+    
+    # Summary
+    stats = memory.get_stats()
+    print(f"📈 Total: {stats['patterns_learned']} patterns, {stats['insights_gathered']} insights, {stats['companies_remembered']} companies")
+    print()
+
+
+def handle_forget(args: str):
+    """Handle forget command - clear memory for a company."""
+    if not args:
+        print("\n⚠️  Usage: forget <company name>")
+        print("   Example: forget Microsoft\n")
+        return
+    
+    if not MEMORY_AVAILABLE:
+        print("\n⚠️  Memory module not available.\n")
+        return
+    
+    memory = MemoryManager()
+    
+    if memory.forget_company(args):
+        print(f"\n✅ Forgot all memory of: {args}\n")
+    else:
+        print(f"\n📭 No memory found for: {args}\n")
+
+
+def handle_clear_checkpoints():
+    """Clear all paused/failed checkpoints."""
+    try:
+        from memory import StateManager
+        state = StateManager()
+        
+        resumable = state.get_resumable_executions()
+        if not resumable:
+            print("\n📭 No checkpoints to clear.\n")
+            return
+        
+        count = len(resumable)
+        
+        # Delete each resumable execution
+        for execution in resumable:
+            exec_id = execution.get("id")
+            if exec_id:
+                state.delete_execution(exec_id)
+        
+        print(f"\n✅ Cleared {count} paused/failed checkpoint(s).\n")
+        
+    except ImportError:
+        print("\n⚠️  State manager not available.\n")
+
+
 def main():
     """Main agent loop."""
     print_banner()
@@ -378,6 +611,21 @@ def main():
             
             elif command == "enrich":
                 handle_enrich(args)
+            
+            elif command == "resume":
+                handle_resume(args)
+            
+            elif command == "status":
+                handle_status()
+            
+            elif command == "learn":
+                handle_learn()
+            
+            elif command == "forget":
+                handle_forget(args)
+            
+            elif command in ["clear-checkpoints", "clear-resume"]:
+                handle_clear_checkpoints()
             
             else:
                 # Treat entire input as analyze command

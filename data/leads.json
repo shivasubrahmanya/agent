@@ -2681,5 +2681,1091 @@
     "recommended_action": "Proceed with outreach to the accepted roles, particularly the Executive Vice President and Senior Vice Presidents, using the enriched contact information",
     "created_at": "2026-02-03T22:44:47.688873",
     "updated_at": "2026-02-03T22:44:47.688873"
+  },
+  {
+    "id": "cd2e3e57",
+    "input": "intel",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Intel Corporation",
+      "industry": "Semiconductor Manufacturing",
+      "size": "enterprise",
+      "location": "Santa Clara, California",
+      "website": "https://www.intel.com",
+      "growth_signals": [
+        "new product launches",
+        "presence of AI workloads support"
+      ],
+      "status": "accepted",
+      "reason": "The company has a large size with over 10,001 employees, and is a well-established player in the semiconductor manufacturing industry. Recent news indicates new product launches, such as the Xeon 600 Series workstation CPUs, and support for AI workloads, signaling potential growth.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Intel Corporation",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "EVP Technology, Systems and Manufacturing",
+            "SVP Chief Technology Officer"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Manufacturing and Operations",
+          "decision_makers": [
+            "EVP Manufacturing, Operations and Sales",
+            "SVP Global Manufacturing"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales, Marketing and Communications",
+            "SVP Global Sales"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "SVP Chief Information Officer",
+            "VP IT Solutions and Services"
+          ],
+          "hierarchy_level": "SVP / VP"
+        },
+        {
+          "name": "Procurement and Supply Chain",
+          "decision_makers": [
+            "VP Global Supply Chain",
+            "VP Procurement and Materials"
+          ],
+          "hierarchy_level": "VP / Director"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Technology, Systems and Manufacturing",
+        "SVP Chief Technology Officer",
+        "EVP Manufacturing, Operations and Sales",
+        "SVP Global Manufacturing",
+        "SVP Chief Information Officer"
+      ]
+    },
+    "people": [
+      {
+        "name": "Wendy Lonergan",
+        "title": "CIO | SVP | Global IT Leader | LinkedIn Vikram Mavalankar",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/wendy-lonergan-2981b08",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Kevin OBuckley",
+        "title": "SVP and GM, Foundry Services at Intel ... Wendy Lonergan",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/kmobuckley",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Debi Mikesh",
+        "title": "Executive Assistant to EVP, Chief Legal Officer at Intel Corporation | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/debi-mikesh-b3539686/",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Joel Willard",
+        "title": "VP, Associate General Counsel, Head of Sales and Marketing Legal at Intel Corporation | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/joel-willard-40890055/",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Vikram Mavalankar",
+        "title": "Operations Executive | Chief of Staff ... Greg Lavender",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/vmavalankar",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "April Miller Boise",
+        "title": "Intel Corporation | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/april-miller-boise-8913404/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Christoph Schell",
+        "title": "Intel Corporation | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/christophschell/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Victoria Holroyd-Fogg",
+        "title": "Intel Corporation | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/victoria-holroyd-fogg-160a95/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Anand Pashupathy",
+        "title": "Intel Corporation | LinkedIn",
+        "company": "Intel Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/anandpashupathy/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 4 decision-makers at Intel Corporation",
+    "linkedin_searched": true,
+    "contacts": [
+      {
+        "first_name": "Joel",
+        "last_name": "Willard",
+        "email": "joel.willard@intel.com",
+        "phone": "",
+        "linkedin_url": "https://www.linkedin.com/in/joel-willard-40890055/",
+        "title": "VP, Associate General Counsel, Head of Sales and Marketing Legal at Intel Corporation | LinkedIn",
+        "company": "Intel Corporation",
+        "source": "snov",
+        "enriched": true
+      }
+    ],
+    "enrichment_note": "",
+    "confidence_score": 0.9,
+    "reason": "The company, Intel Corporation, has been accepted and is a B2B relevant company in the semiconductor manufacturing industry with a large size and recent growth signals. There are accepted roles with decision power greater than or equal to 7, including a CIO and several SVPs. Additionally, there are enriched contacts with email addresses. Multiple decision-makers have been found, further increasing confidence in the lead.",
+    "summary": "verified lead for Intel Corporation with high confidence score",
+    "recommended_action": "proceed with outreach to the identified decision-makers, starting with Joel Willard, VP, Associate General Counsel, Head of Sales and Marketing Legal",
+    "created_at": "2026-02-03T22:48:40.120656",
+    "updated_at": "2026-02-03T22:48:40.120656"
+  },
+  {
+    "id": "9d758897",
+    "input": "analyse qorix",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Qorix",
+      "industry": "Technology, Automotive Software",
+      "size": "small / medium",
+      "location": "Not specified",
+      "website": "Not found",
+      "growth_signals": [
+        "Qualcomm as a strategic shareholder",
+        "Founded in 2023, indicating recent establishment and potential for growth",
+        "Joint initiative between KPIT Technologies and the ZF Group, suggesting strong backing"
+      ],
+      "status": "accepted",
+      "reason": "Qorix appears to be a real, established company with a clear mission to deliver middleware solutions for software-defined vehicles, as seen in the KPIT news article and Crunchbase profile. The company's recent founding, strategic partnership with Qualcomm, and backing from KPIT Technologies and the ZF Group suggest potential for growth and a strong position in the automotive software market.",
+      "_sources": [
+        "web_search",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Qorix",
+      "company_size": "medium",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "VP Engineering",
+            "Director of Software Development"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Product",
+          "decision_makers": [
+            "VP Product",
+            "Director of Product Management"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "VP Sales",
+            "Director of Business Development"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "VP Marketing",
+            "Director of Marketing"
+          ],
+          "hierarchy_level": "VP / Director"
+        }
+      ],
+      "recommended_targets": [
+        "VP Engineering",
+        "VP Product",
+        "VP Sales",
+        "Director of Software Development",
+        "Director of Product Management"
+      ]
+    },
+    "people": [
+      {
+        "name": "Matthias Schulze  Global VP ADAS Product  LinkedIn Christoph Hayn  Qorix  LinkedIn Shivayogi melagiri",
+        "title": "System Lead Engineer and Software ... Caroline Pastjan – Head of Customer Programs and Business ... Francis Chow",
+        "company": "Qorix",
+        "linkedin_url": "https://de.linkedin.com/in/matthias-schulze-700728b",
+        "decision_power": 6,
+        "status": "accepted",
+        "reason": "Decision power: 6/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Christoph Hayn  Qorix  LinkedIn Shivayogi melagiri",
+        "title": "System Lead Engineer and Software ... Caroline Pastjan – Head of Customer Programs and Business ... Francis Chow",
+        "company": "Qorix",
+        "linkedin_url": "https://de.linkedin.com/in/christoph-hayn-4b052bb7",
+        "decision_power": 6,
+        "status": "accepted",
+        "reason": "Decision power: 6/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Shivayogi melagiri",
+        "title": "System Lead Engineer and Software ... Caroline Pastjan – Head of Customer Programs and Business ... Francis Chow",
+        "company": "Qorix",
+        "linkedin_url": "https://in.linkedin.com/in/shiva1lucky",
+        "decision_power": 6,
+        "status": "accepted",
+        "reason": "Decision power: 6/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sai Pavan S",
+        "title": "HR Manager",
+        "company": "Qorix",
+        "linkedin_url": "https://www.linkedin.com/in/sourigari/",
+        "decision_power": 4,
+        "status": "rejected",
+        "reason": "Decision power: 4/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Christoph Hayn",
+        "title": "Qorix | LinkedIn",
+        "company": "Qorix",
+        "linkedin_url": "https://www.linkedin.com/in/christoph-hayn-4b052bb7/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sidharth Kumar",
+        "title": "Senior Software Developer Engineer",
+        "company": "Qorix",
+        "linkedin_url": "https://www.linkedin.com/in/sidharth-kumar-baa0861bb/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Zhiqiang Wei",
+        "title": "Avalanche Technology Inc.",
+        "company": "Qorix",
+        "linkedin_url": "https://www.linkedin.com/in/zhiqiang-wei-a5b8a644",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 3 decision-makers at Qorix",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.5,
+    "reason": "The company is accepted and relevant to B2B, but none of the accepted roles have a decision_power of 7 or higher. Additionally, there are no enriched contacts with emails. The base score of 0.5 is increased by 0.2 for the company being accepted and B2B relevant, but the lack of roles with sufficient decision power and enriched contacts prevents further scoring increases. Since no roles meet the required decision_power threshold, the lead is rejected.",
+    "summary": "Qorix lead rejected due to insufficient decision power and lack of enriched contacts",
+    "recommended_action": "Consider re-evaluating the company when more information about key decision-makers and their contact details becomes available",
+    "created_at": "2026-02-03T22:49:44.645178",
+    "updated_at": "2026-02-03T22:49:44.645178"
+  },
+  {
+    "id": "e2228214",
+    "input": "analyse Inunity Mangalore",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "InUnity",
+      "industry": "Education, Innovation, Community Development",
+      "size": "small",
+      "location": "Mangalore, Karnataka, India",
+      "website": "https://inunity.in/",
+      "growth_signals": [
+        "Innovation in Education initiatives",
+        "Design Thinking Workshops"
+      ],
+      "status": "accepted",
+      "reason": "The company has a professional website and a LinkedIn presence, indicating it is a real and established company. The website showcases its education initiatives and innovation programs, suggesting B2B relevance in the education and community development sectors.",
+      "_sources": [
+        "web_search",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "InUnity",
+      "company_size": "small",
+      "departments": [
+        {
+          "name": "Education and Programs",
+          "decision_makers": [
+            "Founder",
+            "CEO"
+          ],
+          "hierarchy_level": "C-Suite"
+        },
+        {
+          "name": "Innovation and Technology",
+          "decision_makers": [
+            "CTO",
+            "Lead Developer"
+          ],
+          "hierarchy_level": "C-Suite"
+        },
+        {
+          "name": "Community Development",
+          "decision_makers": [
+            "Founder",
+            "Lead Community Manager"
+          ],
+          "hierarchy_level": "C-Suite"
+        },
+        {
+          "name": "Marketing and Partnerships",
+          "decision_makers": [
+            "CEO",
+            "Marketing Lead"
+          ],
+          "hierarchy_level": "C-Suite"
+        }
+      ],
+      "recommended_targets": [
+        "Founder",
+        "CEO",
+        "CTO",
+        "Lead Developer",
+        "Marketing Lead"
+      ]
+    },
+    "people": [
+      {
+        "name": "Sujay Shetty",
+        "title": "Co-Founder | Brand Manager | Client Relation Manager at InUnity LLP | LinkedIn",
+        "company": "InUnity",
+        "linkedin_url": "https://www.linkedin.com/in/sujay-shetty-81b26bb7/",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "James K.",
+        "title": "CEO at Inunity | LinkedIn",
+        "company": "InUnity",
+        "linkedin_url": "https://www.linkedin.com/in/jameskern1",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Hannah Brooman",
+        "title": "Founder & CEO at InUnity | LinkedIn",
+        "company": "InUnity",
+        "linkedin_url": "https://uk.linkedin.com/in/hannah-brooman-37a741103",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Gautham Nayak",
+        "title": "Co-Founder at InUnity | Pioneer in... | LinkedIn",
+        "company": "InUnity",
+        "linkedin_url": "https://in.linkedin.com/in/gauthamnyk",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Anthony Affrunti",
+        "title": "Inunity | LinkedIn",
+        "company": "InUnity",
+        "linkedin_url": "https://www.linkedin.com/in/anthony-affrunti/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Shreesha S Shetty",
+        "title": "InUnity",
+        "company": "InUnity",
+        "linkedin_url": "https://www.linkedin.com/in/shreesha-s-shetty/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Joseph Bennett",
+        "title": "Full Stack Software Engineer at Inunity | LinkedIn",
+        "company": "InUnity",
+        "linkedin_url": "https://www.linkedin.com/in/joseph-bennett-454b7988",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Francois Gossieaux",
+        "title": "Co-author of upcoming book",
+        "company": "InUnity",
+        "linkedin_url": "https://www.linkedin.com/in/fgossieaux",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Mark Lilien",
+        "title": "Experienced full stack developer and team lead",
+        "company": "InUnity",
+        "linkedin_url": "https://www.linkedin.com/in/marklilien",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 4 decision-makers at InUnity",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.4,
+    "reason": "The lead does not meet the minimum confidence score due to the lack of enriched contacts with emails, despite having multiple decision-makers with high decision power and a company that is accepted and relevant to B2B.",
+    "summary": "InUnity is a small education company with multiple decision-makers but lacks contact information",
+    "recommended_action": "Enrich the contact data to potentially requalify the lead in the future",
+    "created_at": "2026-02-04T19:44:13.337248",
+    "updated_at": "2026-02-04T19:44:13.337248"
+  },
+  {
+    "id": "42f33fbc",
+    "input": "analyse Technical Career Education",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Technical Career Education",
+      "industry": "Education",
+      "size": "small",
+      "location": "Not specified",
+      "website": "https://technicalcareer.education/",
+      "growth_signals": [],
+      "status": "rejected",
+      "reason": "The company lacks evidence of employee count, revenue, or office locations, and does not have recent news or funding information specific to the company, making it unclear if it is a established company with growth potential. The LinkedIn page exists but does not provide sufficient information to validate the company's size or growth.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "The company lacks evidence of employee count, revenue, or office locations, and does not have recent news or funding information specific to the company, making it unclear if it is a established company with growth potential. The LinkedIn page exists but does not provide sufficient information to validate the company's size or growth.",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-04T19:45:41.034125",
+    "updated_at": "2026-02-04T19:45:41.034125"
+  },
+  {
+    "id": "1417ace7",
+    "input": "analyse Technical Career Education Mangalore",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Technical Career Education",
+      "industry": "Edtech",
+      "size": "small",
+      "location": "Mangalore",
+      "website": "No official website found",
+      "growth_signals": [
+        "founded in 2018",
+        "bootstrapped company"
+      ],
+      "status": "accepted",
+      "reason": "The company has a presence on Facebook and LinkedIn, and is mentioned in a reputable publication (inc42.com) as an Edtech company operating since 2018, indicating a real and established company in the Edtech industry.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Technical Career Education",
+      "company_size": "small",
+      "departments": [
+        {
+          "name": "Curriculum Development",
+          "decision_makers": [
+            "Founder",
+            "CEO"
+          ],
+          "hierarchy_level": "Founders"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "Founder",
+            "Lead Marketing"
+          ],
+          "hierarchy_level": "Founders, Leads"
+        },
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "Founder",
+            "Lead Sales"
+          ],
+          "hierarchy_level": "Founders, Leads"
+        },
+        {
+          "name": "Product",
+          "decision_makers": [
+            "CEO",
+            "Lead Product"
+          ],
+          "hierarchy_level": "Founders, Leads"
+        }
+      ],
+      "recommended_targets": [
+        "Founder",
+        "CEO",
+        "Lead Marketing",
+        "Lead Sales",
+        "Lead Product"
+      ]
+    },
+    "people": [
+      {
+        "name": "Robert Pacheco",
+        "title": "Chief Technology Officer | CTO",
+        "company": "Technical Career Education",
+        "linkedin_url": "https://www.linkedin.com/in/bobpacheco",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Tracey Cesen",
+        "title": "Forever Human.ai",
+        "company": "Technical Career Education",
+        "linkedin_url": "https://www.linkedin.com/in/traceycesen",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Carolina Castro Caperan  Trilingual ENESIT.  LinkedIn",
+        "title": "LinkedIn",
+        "company": "Technical Career Education",
+        "linkedin_url": "https://www.linkedin.com/in/carolinacastrocap",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jaliyah Harrison",
+        "title": "Student at Salem High School | LinkedIn",
+        "company": "Technical Career Education",
+        "linkedin_url": "https://www.linkedin.com/in/jaliyah-harrison-23b86a343",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Abisha Shetty",
+        "title": "CSE Engineer in the Making | Interested in Cybersecurity & Artificial Intelligence | Aspiring Tech Professional | LinkedIn",
+        "company": "Technical Career Education",
+        "linkedin_url": "https://www.linkedin.com/in/abisha-shetty-a9351b285/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Rushikesh Rajulwar",
+        "title": "Technical Career Education | LinkedIn",
+        "company": "Technical Career Education",
+        "linkedin_url": "https://in.linkedin.com/in/rushikesh-rajulwar",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Paul Coleman",
+        "title": "Chief Technology Officer",
+        "company": "Technical Career Education",
+        "linkedin_url": "https://bm.linkedin.com/in/paul-coleman",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sneha N Shet",
+        "title": "Machine Learning Intern",
+        "company": "Technical Career Education",
+        "linkedin_url": "https://in.linkedin.com/in/sneha-n-shet-6426491b7",
+        "decision_power": 1,
+        "status": "rejected",
+        "reason": "Decision power: 1/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 1 decision-makers at Technical Career Education",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.5,
+    "reason": "The lead has a low confidence score due to no enriched contacts with emails and only one decision-maker found, despite having an accepted company and a role with decision power >= 7.",
+    "summary": "Technical Career Education, a small Edtech company, with one decision-maker and no enriched contacts.",
+    "recommended_action": "Gather more information about the company, specifically enriched contacts with emails, to increase the confidence score and verify the lead.",
+    "created_at": "2026-02-04T19:46:11.415269",
+    "updated_at": "2026-02-04T19:46:11.415269"
+  },
+  {
+    "id": "ef6e9659",
+    "input": "python agent.py",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "AgentPy",
+      "industry": "Software, Artificial Intelligence",
+      "size": "small",
+      "location": "Not Found",
+      "website": "https://agentpy.readthedocs.io/en/latest/index.html",
+      "growth_signals": [],
+      "status": "rejected",
+      "reason": "The search results indicate that AgentPy is an open-source library rather than a established company, and there is no direct evidence of a company entity, employee count, or revenue. The LinkedIn result is also not relevant to AgentPy, instead showing information about Pydantic.",
+      "_sources": [
+        "web_search",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "The search results indicate that AgentPy is an open-source library rather than a established company, and there is no direct evidence of a company entity, employee count, or revenue. The LinkedIn result is also not relevant to AgentPy, instead showing information about Pydantic.",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-04T20:46:41.663087",
+    "updated_at": "2026-02-04T20:46:41.663087"
+  },
+  {
+    "id": "24221667",
+    "input": "4",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Big 4",
+      "industry": "Professional Services",
+      "size": "enterprise",
+      "location": "Not found",
+      "website": "Not found",
+      "growth_signals": [],
+      "status": "rejected",
+      "reason": "The search results do not provide enough information about a specific company named '4' to determine its suitability for B2B sales targeting. The results appear to be related to various unrelated topics, including military units, accounting firms, sports, and personality traits. The LinkedIn result for 'Big 4' likely refers to the Big Four accounting firms, but it is not clear if this is the company in question.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "The search results do not provide enough information about a specific company named '4' to determine its suitability for B2B sales targeting. The results appear to be related to various unrelated topics, including military units, accounting firms, sports, and personality traits. The LinkedIn result for 'Big 4' likely refers to the Big Four accounting firms, but it is not clear if this is the company in question.",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-04T20:47:47.609855",
+    "updated_at": "2026-02-04T20:47:47.609855"
+  },
+  {
+    "id": "09313bbc",
+    "input": "5",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "The Five Company",
+      "industry": "Consulting",
+      "size": "small",
+      "location": "Not found",
+      "website": "Not found",
+      "growth_signals": [],
+      "status": "rejected",
+      "reason": "The search results do not provide sufficient information about a single established company. The web search results include a historical military unit, a list of companies starting with '5', and a Facebook page for 'The Five Company' which seems to be a consulting company but lacks concrete evidence of its size, location, and website. The recent news does not mention a company named '5' or 'The Five Company'. The LinkedIn result '5&5' does not match the company name found in the web search results.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "The search results do not provide sufficient information about a single established company. The web search results include a historical military unit, a list of companies starting with '5', and a Facebook page for 'The Five Company' which seems to be a consulting company but lacks concrete evidence of its size, location, and website. The recent news does not mention a company named '5' or 'The Five Company'. The LinkedIn result '5&5' does not match the company name found in the web search results.",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-04T20:51:52.116278",
+    "updated_at": "2026-02-04T20:51:52.116278"
+  },
+  {
+    "id": "769ab9af",
+    "input": "analyse netflix",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Netflix",
+      "industry": "Entertainment, Streaming",
+      "size": "enterprise",
+      "location": "Not found in search results",
+      "website": "https://www.netflix.com",
+      "growth_signals": [
+        "Recent senate hearings indicate continued growth and market presence",
+        "New reports and analysis of streaming engagement data",
+        "Market Cap of $392.9 Billion and Annual Revenue of $33.72 Billion"
+      ],
+      "status": "rejected",
+      "reason": "Netflix is primarily a B2C company, focusing on direct-to-consumer streaming services, rather than B2B sales",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "Netflix is primarily a B2C company, focusing on direct-to-consumer streaming services, rather than B2B sales",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-04T21:02:43.295755",
+    "updated_at": "2026-02-04T21:02:43.295755"
+  },
+  {
+    "id": "09c33021",
+    "input": "Netflix",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Netflix, Inc.",
+      "industry": "Media and Entertainment",
+      "size": "enterprise",
+      "location": "Los Gatos, California",
+      "website": "https://www.netflix.com",
+      "growth_signals": [
+        "expansion into theatrical window",
+        "international presence",
+        "continued innovation in streaming media"
+      ],
+      "status": "rejected",
+      "reason": "While Netflix is a real, established company with evidence of growth and a large size, it is primarily a B2C focused company, making it less relevant for B2B sales targeting. The company's primary revenue streams come from consumer subscriptions, rather than business-to-business sales.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "While Netflix is a real, established company with evidence of growth and a large size, it is primarily a B2C focused company, making it less relevant for B2B sales targeting. The company's primary revenue streams come from consumer subscriptions, rather than business-to-business sales.",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-04T21:04:26.175862",
+    "updated_at": "2026-02-04T21:04:26.175862"
+  },
+  {
+    "id": "8c671934",
+    "input": "9",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Company 9 LLC",
+      "industry": "Unknown",
+      "size": "small",
+      "location": "Unknown",
+      "website": "Not found",
+      "growth_signals": [],
+      "status": "rejected",
+      "reason": "The search results do not provide sufficient evidence of a real, established company. The web search results are mostly about a Russian war film, a book, and unrelated news articles. The only relevant result is the LinkedIn page, but it does not provide enough information about the company's industry, size, or activities.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "The search results do not provide sufficient evidence of a real, established company. The web search results are mostly about a Russian war film, a book, and unrelated news articles. The only relevant result is the LinkedIn page, but it does not provide enough information about the company's industry, size, or activities.",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-04T22:13:37.041864",
+    "updated_at": "2026-02-04T22:13:37.041864"
+  },
+  {
+    "id": "6f942ade",
+    "input": "tesla",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Tesla, Inc.",
+      "industry": "Electric Vehicle and Clean Energy",
+      "size": "enterprise",
+      "location": "San Carlos, California",
+      "website": "https://www.tesla.com",
+      "growth_signals": [
+        "new cheaper Model Y launch",
+        "9% increase in China shipments in January",
+        "expansion of US lineup with new Model Y variant"
+      ],
+      "status": "accepted",
+      "reason": "The company has a significant online presence with a Wikipedia page, recent news articles about new product launches and shipment increases, and a LinkedIn page. The company's size is indicated by its complex corporate structure and global presence, which suggests an enterprise-level organization.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Tesla, Inc.",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Engineering",
+            "SVP Engineering",
+            "VP Engineering"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Manufacturing",
+          "decision_makers": [
+            "EVP Manufacturing",
+            "SVP Manufacturing",
+            "VP Manufacturing"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales and Marketing",
+            "SVP Sales and Marketing",
+            "VP Sales and Marketing"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "EVP Finance",
+            "SVP Finance",
+            "VP Finance"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "EVP IT",
+            "SVP IT",
+            "VP IT"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Engineering",
+        "SVP Sales and Marketing",
+        "EVP Finance",
+        "SVP Manufacturing",
+        "EVP IT"
+      ]
+    },
+    "people": [
+      {
+        "name": "Doug Hartman",
+        "title": "VP of Technology at Everson Tesla, Inc.",
+        "company": "Tesla, Inc.",
+        "linkedin_url": "https://www.linkedin.com/in/doug-hartman-6307b31b",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "dino dino",
+        "title": "Sales Manager",
+        "company": "Tesla, Inc.",
+        "linkedin_url": "https://www.linkedin.com/in/dino-dino-7b14131ab",
+        "decision_power": 4,
+        "status": "rejected",
+        "reason": "Decision power: 4/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Tiffani Collins",
+        "title": "Online Advertising Operations Specialist... | LinkedIn",
+        "company": "Tesla, Inc.",
+        "linkedin_url": "https://www.linkedin.com/in/tiffani-collins-503b7850",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sendil Palani",
+        "title": "Tesla | LinkedIn",
+        "company": "Tesla, Inc.",
+        "linkedin_url": "https://www.linkedin.com/in/sendilpalani/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Roshan Thomas",
+        "title": "Tesla | LinkedIn",
+        "company": "Tesla, Inc.",
+        "linkedin_url": "https://www.linkedin.com/in/roshant/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Ashok Elluswamy",
+        "title": "Tesla | LinkedIn",
+        "company": "Tesla, Inc.",
+        "linkedin_url": "https://www.linkedin.com/in/eashokkumar/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Michael Goodman",
+        "title": "Data Enthusiast & Life-long Learner | LinkedIn",
+        "company": "Tesla, Inc.",
+        "linkedin_url": "https://www.linkedin.com/in/michael-goodman-rva",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sharon Kwak",
+        "title": "Sr. Talent Acquisition",
+        "company": "Tesla, Inc.",
+        "linkedin_url": "https://www.linkedin.com/in/sharonnkwak",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 1 decision-makers at Tesla, Inc.",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.5,
+    "reason": "The lead lacks multiple decision-makers and has no enriched contacts with emails. Although the company is accepted and has a role with decision power, the final confidence score does not meet the minimum threshold of 0.7.",
+    "summary": "Lead for Tesla, Inc. with single decision-maker and no enriched contacts",
+    "recommended_action": "Gather additional data on decision-makers and contacts to improve confidence score",
+    "created_at": "2026-02-04T22:26:15.803421",
+    "updated_at": "2026-02-04T22:26:15.803421"
   }
 ]
