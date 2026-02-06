@@ -4401,5 +4401,1286 @@
       "created_at": "2026-02-06T20:28:47.670675",
       "updated_at": "2026-02-06T20:28:47.670675"
     }
+  },
+  "e35378b2": {
+    "id": "e35378b2",
+    "status": "completed",
+    "input": {
+      "company": "MRPL",
+      "roles": []
+    },
+    "stages": {
+      "discovery": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:34:11.085202",
+        "completed_at": "2026-02-06T20:34:17.749157",
+        "result": {
+          "name": "Mangalore Refinery and Petrochemicals Limited",
+          "industry": "Energy, Refinery and Petrochemicals",
+          "size": "large",
+          "location": "Mangalore, India",
+          "website": "Not explicitly found, but LinkedIn company page: https://mz.linkedin.com/company/ongc-mrpl",
+          "growth_signals": [
+            "record operational performance",
+            "9% intraday stock price jump",
+            "appointment of new Director Finance and CFO"
+          ],
+          "status": "accepted",
+          "reason": "The company has a significant presence in the energy and petrochemicals industry, with a record of operational performance and stock price growth. The appointment of a new CFO and recent news articles discussing its financial performance and stock market activity also indicate a established and active company.",
+          "_sources": [
+            "web_search",
+            "news",
+            "linkedin"
+          ],
+          "_web_search_used": true
+        },
+        "error": null,
+        "retries": 0
+      },
+      "structure": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:34:17.761785",
+        "completed_at": "2026-02-06T20:34:18.826277",
+        "result": {
+          "company_name": "Mangalore Refinery and Petrochemicals Limited",
+          "company_size": "large",
+          "departments": [
+            {
+              "name": "Operations",
+              "decision_makers": [
+                "SVP Operations",
+                "VP Refinery"
+              ],
+              "hierarchy_level": "SVP"
+            },
+            {
+              "name": "Maintenance",
+              "decision_makers": [
+                "VP Maintenance",
+                "Senior Director Maintenance"
+              ],
+              "hierarchy_level": "VP"
+            },
+            {
+              "name": "Petrochemicals",
+              "decision_makers": [
+                "SVP Petrochemicals",
+                "VP Petrochemicals"
+              ],
+              "hierarchy_level": "SVP"
+            },
+            {
+              "name": "Procurement",
+              "decision_makers": [
+                "Senior Director Procurement",
+                "VP Procurement"
+              ],
+              "hierarchy_level": "Senior Director"
+            },
+            {
+              "name": "Health, Safety and Environment",
+              "decision_makers": [
+                "VP HSE",
+                "Senior Director HSE"
+              ],
+              "hierarchy_level": "VP"
+            }
+          ],
+          "recommended_targets": [
+            "SVP Operations",
+            "VP Refinery",
+            "SVP Petrochemicals",
+            "Senior Director Procurement",
+            "VP Maintenance"
+          ]
+        },
+        "error": null,
+        "retries": 0
+      },
+      "roles": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:34:18.845133",
+        "completed_at": "2026-02-06T20:34:28.038826",
+        "result": {
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "people_found": 9,
+          "accepted_count": 3,
+          "rejected_count": 6,
+          "people": [
+            {
+              "name": "Nandakumar V",
+              "title": "Director ( Refinery) MRPL",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://in.linkedin.com/in/nandakumar-v-a8705b10",
+              "decision_power": 9,
+              "status": "accepted",
+              "reason": "Decision power: 9/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "PRASHANT MAHALE",
+              "title": "Senior EVP | Petrochemicals | Chlor-Alkali ... Raghuveeran Mallya",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://in.linkedin.com/in/prashant-mahale-90a34817",
+              "decision_power": 8,
+              "status": "accepted",
+              "reason": "Decision power: 8/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Raghuveeran Mallya",
+              "title": "Sr VP",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://in.linkedin.com/in/raghuveeran-mallya-9a8b4692",
+              "decision_power": 7,
+              "status": "accepted",
+              "reason": "Decision power: 7/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "K RAMACHANDRA PRABBHU",
+              "title": "SENIOR MANAGER (MATERIALS)",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://www.linkedin.com/in/k-ramachandra-prabbhu-a8858a184/",
+              "decision_power": 5,
+              "status": "rejected",
+              "reason": "Decision power: 5/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Deepak Prabhakar P",
+              "title": "Group General Manager",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://www.linkedin.com/in/deepak-prabhakar-p-a8358710/",
+              "decision_power": 4,
+              "status": "rejected",
+              "reason": "Decision power: 4/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Noopur Kaushik Bhalla",
+              "title": "Chief Manager",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://www.linkedin.com/in/noopurkaushikbhalla/",
+              "decision_power": 4,
+              "status": "rejected",
+              "reason": "Decision power: 4/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "R RAJAMANI",
+              "title": "Independent Oil & Energy Professional ... PRASHANT MAHALE",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://in.linkedin.com/in/r-rajamani-0b55681b",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Mangalore Refinery and Petrochemicals Limited Mangalore",
+              "title": "Mangalore Refinery and Petrochemicals Limited (MRPL) | LinkedIn",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://in.linkedin.com/in/mangalore-refinery-and-petrochemicals-limited-mangalore-780750218",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Protim Das",
+              "title": "Assistant Engineer",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://www.linkedin.com/in/protim-das-86428a190/",
+              "decision_power": 1,
+              "status": "rejected",
+              "reason": "Decision power: 1/10",
+              "source": "linkedin"
+            }
+          ],
+          "linkedin_searched": true,
+          "summary": "Found 3 decision-makers at Mangalore Refinery and Petrochemicals Limited"
+        },
+        "error": null,
+        "retries": 0
+      },
+      "enrichment": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:34:28.051410",
+        "completed_at": "2026-02-06T20:34:37.105649",
+        "result": {
+          "contacts": [],
+          "sources_checked": [
+            "none"
+          ],
+          "errors": null,
+          "note": "No matching contacts found",
+          "suggestion": "Try adding API keys or use more specific role titles"
+        },
+        "error": null,
+        "retries": 0
+      },
+      "verification": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:34:37.121855",
+        "completed_at": "2026-02-06T20:34:38.710656",
+        "result": {
+          "status": "rejected",
+          "confidence_score": 0.5,
+          "reason": "The lead has a base score of 0.5, and since the company is accepted and B2B relevant, it gets a +0.2 score, making it 0.7. The presence of accepted roles with decision_power >= 7 also adds a +0.2 score, making it 0.9. However, there are no enriched contacts with emails, and there are multiple decision-makers found, but since there are no emails, we cannot add any more score for multiple decision-makers. Despite the company being accepted and having decision-makers with high decision power, the lack of enriched contacts and thus the inability to add the score for multiple decision makers results in a final confidence score of less than the threshold when rounded, thus the lead is rejected due to no enriched contacts and insufficient final confidence score.",
+          "summary": "Mangalore Refinery and Petrochemicals Limited - Large energy and petrochemicals company with high decision power roles but no enriched contacts",
+          "recommended_action": "Enrich the contact data, especially email addresses, to improve the confidence score and re-evaluate the lead."
+        },
+        "error": null,
+        "retries": 0
+      }
+    },
+    "current_stage": "verification",
+    "current_stage_index": 4,
+    "created_at": "2026-02-06T20:34:11.073578",
+    "updated_at": "2026-02-06T20:34:38.766836",
+    "completed_at": "2026-02-06T20:34:38.766836",
+    "error": null,
+    "final_result": {
+      "id": "e35378b2",
+      "input": "MRPL",
+      "status": "rejected",
+      "stages": {
+        "discovery": "completed",
+        "structure": "completed",
+        "roles": "completed",
+        "enrichment": "completed",
+        "verification": "completed"
+      },
+      "company": {
+        "name": "Mangalore Refinery and Petrochemicals Limited",
+        "industry": "Energy, Refinery and Petrochemicals",
+        "size": "large",
+        "location": "Mangalore, India",
+        "website": "Not explicitly found, but LinkedIn company page: https://mz.linkedin.com/company/ongc-mrpl",
+        "growth_signals": [
+          "record operational performance",
+          "9% intraday stock price jump",
+          "appointment of new Director Finance and CFO"
+        ],
+        "status": "accepted",
+        "reason": "The company has a significant presence in the energy and petrochemicals industry, with a record of operational performance and stock price growth. The appointment of a new CFO and recent news articles discussing its financial performance and stock market activity also indicate a established and active company.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "structure": {
+        "company_name": "Mangalore Refinery and Petrochemicals Limited",
+        "company_size": "large",
+        "departments": [
+          {
+            "name": "Operations",
+            "decision_makers": [
+              "SVP Operations",
+              "VP Refinery"
+            ],
+            "hierarchy_level": "SVP"
+          },
+          {
+            "name": "Maintenance",
+            "decision_makers": [
+              "VP Maintenance",
+              "Senior Director Maintenance"
+            ],
+            "hierarchy_level": "VP"
+          },
+          {
+            "name": "Petrochemicals",
+            "decision_makers": [
+              "SVP Petrochemicals",
+              "VP Petrochemicals"
+            ],
+            "hierarchy_level": "SVP"
+          },
+          {
+            "name": "Procurement",
+            "decision_makers": [
+              "Senior Director Procurement",
+              "VP Procurement"
+            ],
+            "hierarchy_level": "Senior Director"
+          },
+          {
+            "name": "Health, Safety and Environment",
+            "decision_makers": [
+              "VP HSE",
+              "Senior Director HSE"
+            ],
+            "hierarchy_level": "VP"
+          }
+        ],
+        "recommended_targets": [
+          "SVP Operations",
+          "VP Refinery",
+          "SVP Petrochemicals",
+          "Senior Director Procurement",
+          "VP Maintenance"
+        ]
+      },
+      "people": [
+        {
+          "name": "Nandakumar V",
+          "title": "Director ( Refinery) MRPL",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://in.linkedin.com/in/nandakumar-v-a8705b10",
+          "decision_power": 9,
+          "status": "accepted",
+          "reason": "Decision power: 9/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "PRASHANT MAHALE",
+          "title": "Senior EVP | Petrochemicals | Chlor-Alkali ... Raghuveeran Mallya",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://in.linkedin.com/in/prashant-mahale-90a34817",
+          "decision_power": 8,
+          "status": "accepted",
+          "reason": "Decision power: 8/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Raghuveeran Mallya",
+          "title": "Sr VP",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://in.linkedin.com/in/raghuveeran-mallya-9a8b4692",
+          "decision_power": 7,
+          "status": "accepted",
+          "reason": "Decision power: 7/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "K RAMACHANDRA PRABBHU",
+          "title": "SENIOR MANAGER (MATERIALS)",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://www.linkedin.com/in/k-ramachandra-prabbhu-a8858a184/",
+          "decision_power": 5,
+          "status": "rejected",
+          "reason": "Decision power: 5/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Deepak Prabhakar P",
+          "title": "Group General Manager",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://www.linkedin.com/in/deepak-prabhakar-p-a8358710/",
+          "decision_power": 4,
+          "status": "rejected",
+          "reason": "Decision power: 4/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Noopur Kaushik Bhalla",
+          "title": "Chief Manager",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://www.linkedin.com/in/noopurkaushikbhalla/",
+          "decision_power": 4,
+          "status": "rejected",
+          "reason": "Decision power: 4/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "R RAJAMANI",
+          "title": "Independent Oil & Energy Professional ... PRASHANT MAHALE",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://in.linkedin.com/in/r-rajamani-0b55681b",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Mangalore Refinery and Petrochemicals Limited Mangalore",
+          "title": "Mangalore Refinery and Petrochemicals Limited (MRPL) | LinkedIn",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://in.linkedin.com/in/mangalore-refinery-and-petrochemicals-limited-mangalore-780750218",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Protim Das",
+          "title": "Assistant Engineer",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://www.linkedin.com/in/protim-das-86428a190/",
+          "decision_power": 1,
+          "status": "rejected",
+          "reason": "Decision power: 1/10",
+          "source": "linkedin"
+        }
+      ],
+      "people_summary": "Found 3 decision-makers at Mangalore Refinery and Petrochemicals Limited",
+      "linkedin_searched": true,
+      "contacts": [],
+      "enrichment_note": "No matching contacts found",
+      "confidence_score": 0.5,
+      "reason": "The lead has a base score of 0.5, and since the company is accepted and B2B relevant, it gets a +0.2 score, making it 0.7. The presence of accepted roles with decision_power >= 7 also adds a +0.2 score, making it 0.9. However, there are no enriched contacts with emails, and there are multiple decision-makers found, but since there are no emails, we cannot add any more score for multiple decision-makers. Despite the company being accepted and having decision-makers with high decision power, the lack of enriched contacts and thus the inability to add the score for multiple decision makers results in a final confidence score of less than the threshold when rounded, thus the lead is rejected due to no enriched contacts and insufficient final confidence score.",
+      "summary": "Mangalore Refinery and Petrochemicals Limited - Large energy and petrochemicals company with high decision power roles but no enriched contacts",
+      "recommended_action": "Enrich the contact data, especially email addresses, to improve the confidence score and re-evaluate the lead.",
+      "created_at": "2026-02-06T20:34:38.758368",
+      "updated_at": "2026-02-06T20:34:38.758368"
+    }
+  },
+  "c9488e0e": {
+    "id": "c9488e0e",
+    "status": "completed",
+    "input": {
+      "company": "Toyato India",
+      "roles": []
+    },
+    "stages": {
+      "discovery": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:38:01.580158",
+        "completed_at": "2026-02-06T20:38:10.066769",
+        "result": {
+          "name": "Toyota Kirloskar Motor",
+          "industry": "Automotive",
+          "size": "large",
+          "location": "India",
+          "website": "https://www.toyotabharat.com/",
+          "growth_signals": [
+            "Toyota dominates India’s hybrid market with 79% share",
+            "Toyota enters India’s EV market with Urban Cruiser Ebella",
+            "Over 80,000 units sold in FY2025"
+          ],
+          "status": "accepted",
+          "reason": "The search results show a well-established company, Toyota Kirloskar Motor, in the automotive industry with a significant presence in India. Recent news articles indicate growth and expansion into new markets, such as hybrids and electric vehicles. The company's website and LinkedIn page further confirm its legitimacy and size.",
+          "_sources": [
+            "web_search",
+            "news",
+            "linkedin"
+          ],
+          "_web_search_used": true
+        },
+        "error": null,
+        "retries": 0
+      },
+      "structure": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:38:10.079596",
+        "completed_at": "2026-02-06T20:38:11.161838",
+        "result": {
+          "company_name": "Toyota Kirloskar Motor",
+          "company_size": "large",
+          "departments": [
+            {
+              "name": "Engineering",
+              "decision_makers": [
+                "SVP Engineering",
+                "VP Research and Development"
+              ],
+              "hierarchy_level": "SVP"
+            },
+            {
+              "name": "Procurement",
+              "decision_makers": [
+                "SVP Procurement",
+                "Senior Director Supply Chain"
+              ],
+              "hierarchy_level": "SVP"
+            },
+            {
+              "name": "Manufacturing",
+              "decision_makers": [
+                "SVP Manufacturing",
+                "VP Production"
+              ],
+              "hierarchy_level": "SVP"
+            },
+            {
+              "name": "Sales and Marketing",
+              "decision_makers": [
+                "SVP Sales and Marketing",
+                "VP Marketing"
+              ],
+              "hierarchy_level": "SVP"
+            },
+            {
+              "name": "Finance",
+              "decision_makers": [
+                "SVP Finance",
+                "VP Financial Planning"
+              ],
+              "hierarchy_level": "SVP"
+            }
+          ],
+          "recommended_targets": [
+            "SVP Engineering",
+            "SVP Procurement",
+            "SVP Manufacturing",
+            "SVP Sales and Marketing",
+            "SVP Finance"
+          ]
+        },
+        "error": null,
+        "retries": 0
+      },
+      "roles": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:38:11.179953",
+        "completed_at": "2026-02-06T20:38:18.836602",
+        "result": {
+          "company": "Toyota Kirloskar Motor",
+          "people_found": 9,
+          "accepted_count": 2,
+          "rejected_count": 7,
+          "people": [
+            {
+              "name": "Tabrez Ahmed",
+              "title": "Senior Vice President & Director",
+              "company": "Toyota Kirloskar Motor",
+              "linkedin_url": "https://in.linkedin.com/in/tabrez-ahmed-02b25313",
+              "decision_power": 9,
+              "status": "accepted",
+              "reason": "Decision power: 9/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Karthik Rajaram",
+              "title": "Global Supply Chain SVP Secure Power and ...",
+              "company": "Toyota Kirloskar Motor",
+              "linkedin_url": "https://www.linkedin.com/in/karthik-rajaram-452a279",
+              "decision_power": 8,
+              "status": "accepted",
+              "reason": "Decision power: 8/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Harish Krishnamurthy",
+              "title": "General manager",
+              "company": "Toyota Kirloskar Motor",
+              "linkedin_url": "https://in.linkedin.com/in/harishacu",
+              "decision_power": 4,
+              "status": "rejected",
+              "reason": "Decision power: 4/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Nilesh Chaudhari",
+              "title": "Chief Brand Manager, Small cars at Toyota ...",
+              "company": "Toyota Kirloskar Motor",
+              "linkedin_url": "https://in.linkedin.com/in/nilesh-chaudhari-7352219",
+              "decision_power": 4,
+              "status": "rejected",
+              "reason": "Decision power: 4/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Rajesh VP",
+              "title": "Production And Quality senior team leader",
+              "company": "Toyota Kirloskar Motor",
+              "linkedin_url": "https://www.linkedin.com/in/rajesh-vp-746a0083/",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Abhishek Bachchan",
+              "title": "Toyota Kirloskar Motor | LinkedIn",
+              "company": "Toyota Kirloskar Motor",
+              "linkedin_url": "https://www.linkedin.com/in/abhishekbachchan/",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Nambirajan Muralikrishnan",
+              "title": "Toyota Kirloskar Motor | LinkedIn",
+              "company": "Toyota Kirloskar Motor",
+              "linkedin_url": "https://www.linkedin.com/in/nambirajanmurali/",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Supriya Kolluru",
+              "title": "Toyota Kirloskar Motor | LinkedIn",
+              "company": "Toyota Kirloskar Motor",
+              "linkedin_url": "https://www.linkedin.com/in/supriya-kolluru-b2321a210/",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Priyanka Pathak",
+              "title": "Toyota Kirloskar Motor | LinkedIn",
+              "company": "Toyota Kirloskar Motor",
+              "linkedin_url": "https://www.linkedin.com/in/priyanka-pathak-28800a86/",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            }
+          ],
+          "linkedin_searched": true,
+          "summary": "Found 2 decision-makers at Toyota Kirloskar Motor"
+        },
+        "error": null,
+        "retries": 0
+      },
+      "enrichment": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:38:18.854175",
+        "completed_at": "2026-02-06T20:38:47.279599",
+        "result": {
+          "contacts": [],
+          "sources_checked": [
+            "none"
+          ],
+          "errors": null,
+          "note": "No matching contacts found",
+          "suggestion": "Try adding API keys or use more specific role titles"
+        },
+        "error": null,
+        "retries": 0
+      },
+      "verification": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:38:47.293542",
+        "completed_at": "2026-02-06T20:38:48.213567",
+        "result": {
+          "status": "rejected",
+          "confidence_score": 0.5,
+          "reason": "The company is accepted and has relevant B2B roles with decision power, but lacks enriched contacts with emails and the confidence score is less than 0.7 after applying the scoring rules.",
+          "summary": "Toyota Kirloskar Motor lead lacks enriched contacts",
+          "recommended_action": "Reject the lead due to low confidence score and lack of contact information"
+        },
+        "error": null,
+        "retries": 0
+      }
+    },
+    "current_stage": "verification",
+    "current_stage_index": 4,
+    "created_at": "2026-02-06T20:38:01.564236",
+    "updated_at": "2026-02-06T20:38:48.259770",
+    "completed_at": "2026-02-06T20:38:48.259770",
+    "error": null,
+    "final_result": {
+      "id": "c9488e0e",
+      "input": "Toyato India",
+      "status": "rejected",
+      "stages": {
+        "discovery": "completed",
+        "structure": "completed",
+        "roles": "completed",
+        "enrichment": "completed",
+        "verification": "completed"
+      },
+      "company": {
+        "name": "Toyota Kirloskar Motor",
+        "industry": "Automotive",
+        "size": "large",
+        "location": "India",
+        "website": "https://www.toyotabharat.com/",
+        "growth_signals": [
+          "Toyota dominates India’s hybrid market with 79% share",
+          "Toyota enters India’s EV market with Urban Cruiser Ebella",
+          "Over 80,000 units sold in FY2025"
+        ],
+        "status": "accepted",
+        "reason": "The search results show a well-established company, Toyota Kirloskar Motor, in the automotive industry with a significant presence in India. Recent news articles indicate growth and expansion into new markets, such as hybrids and electric vehicles. The company's website and LinkedIn page further confirm its legitimacy and size.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "structure": {
+        "company_name": "Toyota Kirloskar Motor",
+        "company_size": "large",
+        "departments": [
+          {
+            "name": "Engineering",
+            "decision_makers": [
+              "SVP Engineering",
+              "VP Research and Development"
+            ],
+            "hierarchy_level": "SVP"
+          },
+          {
+            "name": "Procurement",
+            "decision_makers": [
+              "SVP Procurement",
+              "Senior Director Supply Chain"
+            ],
+            "hierarchy_level": "SVP"
+          },
+          {
+            "name": "Manufacturing",
+            "decision_makers": [
+              "SVP Manufacturing",
+              "VP Production"
+            ],
+            "hierarchy_level": "SVP"
+          },
+          {
+            "name": "Sales and Marketing",
+            "decision_makers": [
+              "SVP Sales and Marketing",
+              "VP Marketing"
+            ],
+            "hierarchy_level": "SVP"
+          },
+          {
+            "name": "Finance",
+            "decision_makers": [
+              "SVP Finance",
+              "VP Financial Planning"
+            ],
+            "hierarchy_level": "SVP"
+          }
+        ],
+        "recommended_targets": [
+          "SVP Engineering",
+          "SVP Procurement",
+          "SVP Manufacturing",
+          "SVP Sales and Marketing",
+          "SVP Finance"
+        ]
+      },
+      "people": [
+        {
+          "name": "Tabrez Ahmed",
+          "title": "Senior Vice President & Director",
+          "company": "Toyota Kirloskar Motor",
+          "linkedin_url": "https://in.linkedin.com/in/tabrez-ahmed-02b25313",
+          "decision_power": 9,
+          "status": "accepted",
+          "reason": "Decision power: 9/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Karthik Rajaram",
+          "title": "Global Supply Chain SVP Secure Power and ...",
+          "company": "Toyota Kirloskar Motor",
+          "linkedin_url": "https://www.linkedin.com/in/karthik-rajaram-452a279",
+          "decision_power": 8,
+          "status": "accepted",
+          "reason": "Decision power: 8/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Harish Krishnamurthy",
+          "title": "General manager",
+          "company": "Toyota Kirloskar Motor",
+          "linkedin_url": "https://in.linkedin.com/in/harishacu",
+          "decision_power": 4,
+          "status": "rejected",
+          "reason": "Decision power: 4/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Nilesh Chaudhari",
+          "title": "Chief Brand Manager, Small cars at Toyota ...",
+          "company": "Toyota Kirloskar Motor",
+          "linkedin_url": "https://in.linkedin.com/in/nilesh-chaudhari-7352219",
+          "decision_power": 4,
+          "status": "rejected",
+          "reason": "Decision power: 4/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Rajesh VP",
+          "title": "Production And Quality senior team leader",
+          "company": "Toyota Kirloskar Motor",
+          "linkedin_url": "https://www.linkedin.com/in/rajesh-vp-746a0083/",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Abhishek Bachchan",
+          "title": "Toyota Kirloskar Motor | LinkedIn",
+          "company": "Toyota Kirloskar Motor",
+          "linkedin_url": "https://www.linkedin.com/in/abhishekbachchan/",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Nambirajan Muralikrishnan",
+          "title": "Toyota Kirloskar Motor | LinkedIn",
+          "company": "Toyota Kirloskar Motor",
+          "linkedin_url": "https://www.linkedin.com/in/nambirajanmurali/",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Supriya Kolluru",
+          "title": "Toyota Kirloskar Motor | LinkedIn",
+          "company": "Toyota Kirloskar Motor",
+          "linkedin_url": "https://www.linkedin.com/in/supriya-kolluru-b2321a210/",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Priyanka Pathak",
+          "title": "Toyota Kirloskar Motor | LinkedIn",
+          "company": "Toyota Kirloskar Motor",
+          "linkedin_url": "https://www.linkedin.com/in/priyanka-pathak-28800a86/",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        }
+      ],
+      "people_summary": "Found 2 decision-makers at Toyota Kirloskar Motor",
+      "linkedin_searched": true,
+      "contacts": [],
+      "enrichment_note": "No matching contacts found",
+      "confidence_score": 0.5,
+      "reason": "The company is accepted and has relevant B2B roles with decision power, but lacks enriched contacts with emails and the confidence score is less than 0.7 after applying the scoring rules.",
+      "summary": "Toyota Kirloskar Motor lead lacks enriched contacts",
+      "recommended_action": "Reject the lead due to low confidence score and lack of contact information",
+      "created_at": "2026-02-06T20:38:48.250613",
+      "updated_at": "2026-02-06T20:38:48.250613"
+    }
+  },
+  "1de15fd9": {
+    "id": "1de15fd9",
+    "status": "completed",
+    "input": {
+      "company": "MRPL",
+      "roles": []
+    },
+    "stages": {
+      "discovery": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:39:21.067642",
+        "completed_at": "2026-02-06T20:39:27.022904",
+        "result": {
+          "name": "Mangalore Refinery and Petrochemicals Limited",
+          "industry": "Energy, Petroleum Refining",
+          "size": "large",
+          "location": "Mangalore, India",
+          "website": "https://ongcindia.com/web/eng/about-ongc/subsidiaries/mrpl",
+          "growth_signals": [
+            "wins two major honours at FIPI Awards",
+            "bags two innovation awards at FIPI Awards",
+            "reduced discounts on Russian oil sales"
+          ],
+          "status": "accepted",
+          "reason": "The company is a real, established company as evidenced by its presence on Wikipedia, its own website on ongcindia.com, and recent news articles. It is in the energy and petroleum refining industry, with a large size as a Schedule 'A' Miniratna Central Public Sector Enterprise. The company has shown growth signals through its recent awards and changes in oil sales discounts.",
+          "_sources": [
+            "web_search",
+            "news",
+            "linkedin"
+          ],
+          "_web_search_used": true
+        },
+        "error": null,
+        "retries": 0
+      },
+      "structure": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:39:27.042379",
+        "completed_at": "2026-02-06T20:39:28.088863",
+        "result": {
+          "company_name": "Mangalore Refinery and Petrochemicals Limited",
+          "company_size": "large",
+          "departments": [
+            {
+              "name": "Engineering",
+              "decision_makers": [
+                "SVP Operations",
+                "VP Engineering"
+              ],
+              "hierarchy_level": "SVP"
+            },
+            {
+              "name": "Procurement",
+              "decision_makers": [
+                "SVP Supply Chain",
+                "Senior Director Procurement"
+              ],
+              "hierarchy_level": "SVP"
+            },
+            {
+              "name": "Finance",
+              "decision_makers": [
+                "SVP Finance",
+                "VP Financial Planning"
+              ],
+              "hierarchy_level": "SVP"
+            },
+            {
+              "name": "Operations",
+              "decision_makers": [
+                "SVP Operations",
+                "Senior Director Operations"
+              ],
+              "hierarchy_level": "SVP"
+            },
+            {
+              "name": "IT",
+              "decision_makers": [
+                "SVP Digital Transformation",
+                "VP IT"
+              ],
+              "hierarchy_level": "SVP"
+            }
+          ],
+          "recommended_targets": [
+            "SVP Operations",
+            "SVP Supply Chain",
+            "SVP Finance",
+            "Senior Director Procurement",
+            "VP Engineering"
+          ]
+        },
+        "error": null,
+        "retries": 0
+      },
+      "roles": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:39:28.107981",
+        "completed_at": "2026-02-06T20:39:35.969490",
+        "result": {
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "people_found": 9,
+          "accepted_count": 1,
+          "rejected_count": 8,
+          "people": [
+            {
+              "name": "Ken Johnson",
+              "title": "VP, Engineering at Suncor Energy | LinkedIn",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://www.linkedin.com/in/ken-johnson-0a999398",
+              "decision_power": 7,
+              "status": "accepted",
+              "reason": "Decision power: 7/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Harish Babu",
+              "title": "Manager (Operations)",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://in.linkedin.com/in/harish-babu-7a027b38",
+              "decision_power": 4,
+              "status": "rejected",
+              "reason": "Decision power: 4/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "vinay kumar singh",
+              "title": "-- | LinkedIn",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://www.linkedin.com/in/vinay-kumar-singh-24594534",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Medha Undaru",
+              "title": "Product Management | B2C B2B Retail E-commerce",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://www.linkedin.com/in/medha-undaru-05b29965",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Purav Desai",
+              "title": "Senior Technical Professional (STP) at... | LinkedIn",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://sg.linkedin.com/in/purav-desai-1a97533b",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Indrajeet Chaudhary",
+              "title": "RobtStone (ME) LLC | LinkedIn",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://in.linkedin.com/in/indrajeet-chaudhary",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Sharad Gupta",
+              "title": "Expert Consultant",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://in.linkedin.com/in/sharadgupta7",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Saurabh Y.",
+              "title": "Mangalore Refinery & Petrochemicals LTD... | LinkedIn",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://in.linkedin.com/in/saurabhyerpude",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Anand Hardi",
+              "title": "DGM TS",
+              "company": "Mangalore Refinery and Petrochemicals Limited",
+              "linkedin_url": "https://in.linkedin.com/in/anand-hardi-9b350a116",
+              "decision_power": 3,
+              "status": "rejected",
+              "reason": "Decision power: 3/10",
+              "source": "linkedin"
+            }
+          ],
+          "linkedin_searched": true,
+          "summary": "Found 1 decision-makers at Mangalore Refinery and Petrochemicals Limited"
+        },
+        "error": null,
+        "retries": 0
+      },
+      "enrichment": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:39:35.982734",
+        "completed_at": "2026-02-06T20:40:03.884796",
+        "result": {
+          "contacts": [],
+          "sources_checked": [
+            "none"
+          ],
+          "errors": null,
+          "note": "No matching contacts found",
+          "suggestion": "Try adding API keys or use more specific role titles"
+        },
+        "error": null,
+        "retries": 0
+      },
+      "verification": {
+        "status": "completed",
+        "started_at": "2026-02-06T20:40:03.899964",
+        "completed_at": "2026-02-06T20:40:05.005642",
+        "result": {
+          "status": "rejected",
+          "confidence_score": 0.7,
+          "reason": "The lead has a company that is accepted and B2B relevant, with a role that has decision power of 7. However, there are no enriched contacts with emails and no multiple decision-makers found. The final confidence score is 0.7, which is the minimum required, but since the scoring does not exceed the threshold without enriched contacts or multiple decision-makers, the lead is rejected.",
+          "summary": "Mangalore Refinery and Petrochemicals Limited is a valid company, but lacks additional verification criteria.",
+          "recommended_action": "Gather more information about the company's contacts and decision-makers to further verify the lead."
+        },
+        "error": null,
+        "retries": 0
+      }
+    },
+    "current_stage": "verification",
+    "current_stage_index": 4,
+    "created_at": "2026-02-06T20:39:21.051831",
+    "updated_at": "2026-02-06T20:40:05.046223",
+    "completed_at": "2026-02-06T20:40:05.046223",
+    "error": null,
+    "final_result": {
+      "id": "1de15fd9",
+      "input": "MRPL ",
+      "status": "rejected",
+      "stages": {
+        "discovery": "completed",
+        "structure": "completed",
+        "roles": "completed",
+        "enrichment": "completed",
+        "verification": "completed"
+      },
+      "company": {
+        "name": "Mangalore Refinery and Petrochemicals Limited",
+        "industry": "Energy, Petroleum Refining",
+        "size": "large",
+        "location": "Mangalore, India",
+        "website": "https://ongcindia.com/web/eng/about-ongc/subsidiaries/mrpl",
+        "growth_signals": [
+          "wins two major honours at FIPI Awards",
+          "bags two innovation awards at FIPI Awards",
+          "reduced discounts on Russian oil sales"
+        ],
+        "status": "accepted",
+        "reason": "The company is a real, established company as evidenced by its presence on Wikipedia, its own website on ongcindia.com, and recent news articles. It is in the energy and petroleum refining industry, with a large size as a Schedule 'A' Miniratna Central Public Sector Enterprise. The company has shown growth signals through its recent awards and changes in oil sales discounts.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "structure": {
+        "company_name": "Mangalore Refinery and Petrochemicals Limited",
+        "company_size": "large",
+        "departments": [
+          {
+            "name": "Engineering",
+            "decision_makers": [
+              "SVP Operations",
+              "VP Engineering"
+            ],
+            "hierarchy_level": "SVP"
+          },
+          {
+            "name": "Procurement",
+            "decision_makers": [
+              "SVP Supply Chain",
+              "Senior Director Procurement"
+            ],
+            "hierarchy_level": "SVP"
+          },
+          {
+            "name": "Finance",
+            "decision_makers": [
+              "SVP Finance",
+              "VP Financial Planning"
+            ],
+            "hierarchy_level": "SVP"
+          },
+          {
+            "name": "Operations",
+            "decision_makers": [
+              "SVP Operations",
+              "Senior Director Operations"
+            ],
+            "hierarchy_level": "SVP"
+          },
+          {
+            "name": "IT",
+            "decision_makers": [
+              "SVP Digital Transformation",
+              "VP IT"
+            ],
+            "hierarchy_level": "SVP"
+          }
+        ],
+        "recommended_targets": [
+          "SVP Operations",
+          "SVP Supply Chain",
+          "SVP Finance",
+          "Senior Director Procurement",
+          "VP Engineering"
+        ]
+      },
+      "people": [
+        {
+          "name": "Ken Johnson",
+          "title": "VP, Engineering at Suncor Energy | LinkedIn",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://www.linkedin.com/in/ken-johnson-0a999398",
+          "decision_power": 7,
+          "status": "accepted",
+          "reason": "Decision power: 7/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Harish Babu",
+          "title": "Manager (Operations)",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://in.linkedin.com/in/harish-babu-7a027b38",
+          "decision_power": 4,
+          "status": "rejected",
+          "reason": "Decision power: 4/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "vinay kumar singh",
+          "title": "-- | LinkedIn",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://www.linkedin.com/in/vinay-kumar-singh-24594534",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Medha Undaru",
+          "title": "Product Management | B2C B2B Retail E-commerce",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://www.linkedin.com/in/medha-undaru-05b29965",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Purav Desai",
+          "title": "Senior Technical Professional (STP) at... | LinkedIn",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://sg.linkedin.com/in/purav-desai-1a97533b",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Indrajeet Chaudhary",
+          "title": "RobtStone (ME) LLC | LinkedIn",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://in.linkedin.com/in/indrajeet-chaudhary",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Sharad Gupta",
+          "title": "Expert Consultant",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://in.linkedin.com/in/sharadgupta7",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Saurabh Y.",
+          "title": "Mangalore Refinery & Petrochemicals LTD... | LinkedIn",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://in.linkedin.com/in/saurabhyerpude",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Anand Hardi",
+          "title": "DGM TS",
+          "company": "Mangalore Refinery and Petrochemicals Limited",
+          "linkedin_url": "https://in.linkedin.com/in/anand-hardi-9b350a116",
+          "decision_power": 3,
+          "status": "rejected",
+          "reason": "Decision power: 3/10",
+          "source": "linkedin"
+        }
+      ],
+      "people_summary": "Found 1 decision-makers at Mangalore Refinery and Petrochemicals Limited",
+      "linkedin_searched": true,
+      "contacts": [],
+      "enrichment_note": "No matching contacts found",
+      "confidence_score": 0.7,
+      "reason": "The lead has a company that is accepted and B2B relevant, with a role that has decision power of 7. However, there are no enriched contacts with emails and no multiple decision-makers found. The final confidence score is 0.7, which is the minimum required, but since the scoring does not exceed the threshold without enriched contacts or multiple decision-makers, the lead is rejected.",
+      "summary": "Mangalore Refinery and Petrochemicals Limited is a valid company, but lacks additional verification criteria.",
+      "recommended_action": "Gather more information about the company's contacts and decision-makers to further verify the lead.",
+      "created_at": "2026-02-06T20:40:05.039654",
+      "updated_at": "2026-02-06T20:40:05.039654"
+    }
   }
 }

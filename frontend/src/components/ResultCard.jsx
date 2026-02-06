@@ -96,14 +96,25 @@ export function ResultCard({ data }) {
                             <tbody>
                                 {contacts.map((contact, i) => (
                                     <tr key={i} className="border-b border-border hover:bg-muted/10 transition-colors">
-                                        <td className="py-3 px-4 font-medium">{contact.first_name} {contact.last_name}</td>
+                                        <td className="py-3 px-4 font-medium">
+                                            {contact.linkedin_url ? (
+                                                <a href={contact.linkedin_url} target="_blank" rel="noreferrer" className="hover:text-primary hover:underline flex items-center gap-1 group">
+                                                    {contact.first_name} {contact.last_name}
+                                                    <span className="opacity-0 group-hover:opacity-100 text-muted-foreground transition-opacity">
+                                                        <Linkedin size={12} />
+                                                    </span>
+                                                </a>
+                                            ) : (
+                                                <span>{contact.first_name} {contact.last_name}</span>
+                                            )}
+                                        </td>
                                         <td className="py-3 px-4 text-muted-foreground">{contact.title}</td>
                                         <td className="py-3 px-4">
                                             {contact.email ? (
-                                                <div className="flex items-center gap-2 text-green-400">
+                                                <a href={`mailto:${contact.email}`} className="flex items-center gap-2 text-green-400 hover:text-green-300 hover:underline">
                                                     <Mail size={14} />
                                                     {contact.email}
-                                                </div>
+                                                </a>
                                             ) : (
                                                 <span className="opacity-30">-</span>
                                             )}
@@ -141,7 +152,16 @@ export function ResultCard({ data }) {
                         {people.slice(0, 6).map((p, i) => (
                             <div key={i} className="p-3 bg-muted/20 rounded-lg flex justify-between items-start">
                                 <div>
-                                    <div className="font-medium">{p.name}</div>
+                                    {p.linkedin_url ? (
+                                        <a href={p.linkedin_url} target="_blank" rel="noreferrer" className="font-medium hover:text-primary hover:underline flex items-center gap-1 group">
+                                            {p.name}
+                                            <span className="opacity-0 group-hover:opacity-100 text-muted-foreground transition-opacity">
+                                                <Linkedin size={10} />
+                                            </span>
+                                        </a>
+                                    ) : (
+                                        <div className="font-medium">{p.name}</div>
+                                    )}
                                     <div className="text-xs text-muted-foreground">{p.title}</div>
                                 </div>
                                 <div className="text-xs px-2 py-1 rounded bg-background border border-border">

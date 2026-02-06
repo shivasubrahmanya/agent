@@ -398,17 +398,17 @@
     "mangalore refinery and petrochemicals limited": {
       "data": {
         "name": "Mangalore Refinery and Petrochemicals Limited",
-        "industry": "Petrochemicals and Refinery",
+        "industry": "Energy, Petroleum Refining",
         "size": "large",
         "location": "Mangalore, India",
-        "website": "https://mahakoshalrefractories.com/company-overview/",
+        "website": "https://ongcindia.com/web/eng/about-ongc/subsidiaries/mrpl",
         "growth_signals": [
-          "record operational performance",
-          "9% intraday jump in stock price",
-          "integration of OMPL project"
+          "wins two major honours at FIPI Awards",
+          "bags two innovation awards at FIPI Awards",
+          "reduced discounts on Russian oil sales"
         ],
         "status": "accepted",
-        "reason": "Evidence from web search results, recent news, and LinkedIn page confirm MRPL is a real, established company in the petrochemicals and refinery industry with a large size and significant growth signals, making it suitable for B2B sales targeting.",
+        "reason": "The company is a real, established company as evidenced by its presence on Wikipedia, its own website on ongcindia.com, and recent news articles. It is in the energy and petroleum refining industry, with a large size as a Schedule 'A' Miniratna Central Public Sector Enterprise. The company has shown growth signals through its recent awards and changes in oil sales discounts.",
         "_sources": [
           "web_search",
           "news",
@@ -416,8 +416,33 @@
         ],
         "_web_search_used": true
       },
-      "outcome": "success",
-      "analyzed_at": "2026-02-06T20:28:47.691350",
+      "outcome": "failure",
+      "analyzed_at": "2026-02-06T20:40:05.060693",
+      "times_analyzed": 3
+    },
+    "toyota kirloskar motor": {
+      "data": {
+        "name": "Toyota Kirloskar Motor",
+        "industry": "Automotive",
+        "size": "large",
+        "location": "India",
+        "website": "https://www.toyotabharat.com/",
+        "growth_signals": [
+          "Toyota dominates India’s hybrid market with 79% share",
+          "Toyota enters India’s EV market with Urban Cruiser Ebella",
+          "Over 80,000 units sold in FY2025"
+        ],
+        "status": "accepted",
+        "reason": "The search results show a well-established company, Toyota Kirloskar Motor, in the automotive industry with a significant presence in India. Recent news articles indicate growth and expansion into new markets, such as hybrids and electric vehicles. The company's website and LinkedIn page further confirm its legitimacy and size.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-06T20:38:48.273813",
       "times_analyzed": 1
     }
   },
@@ -509,11 +534,26 @@
       "insight": "Lead rejected: Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', '",
       "category": "verification",
       "timestamp": "2026-02-06T20:14:53.048438"
+    },
+    {
+      "insight": "Lead rejected: The lead has a base score of 0.5, and since the company is accepted and B2B relevant, it gets a +0.2",
+      "category": "verification",
+      "timestamp": "2026-02-06T20:34:38.781114"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and has relevant B2B roles with decision power, but lacks enriched contacts ",
+      "category": "verification",
+      "timestamp": "2026-02-06T20:38:48.275371"
+    },
+    {
+      "insight": "Lead rejected: The lead has a company that is accepted and B2B relevant, with a role that has decision power of 7. ",
+      "category": "verification",
+      "timestamp": "2026-02-06T20:40:05.061759"
     }
   ],
   "metadata": {
     "created_at": "2026-02-04T19:43:48.615961",
-    "total_analyses": 30,
+    "total_analyses": 33,
     "successful_leads": 3
   }
 }
