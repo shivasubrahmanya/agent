@@ -333,9 +333,106 @@
       "outcome": "failure",
       "analyzed_at": "2026-02-04T22:26:15.791393",
       "times_analyzed": 1
+    },
+    "bosch": {
+      "data": {
+        "name": "Bosch",
+        "status": "rejected",
+        "reason": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}"
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-06T20:14:53.047124",
+      "times_analyzed": 10
+    },
+    "robert bosch gmbh": {
+      "data": {
+        "name": "Robert Bosch GmbH",
+        "industry": "Engineering and Technology",
+        "size": "enterprise",
+        "location": "Gerlingen, Baden-Württemberg, Germany",
+        "website": "https://www.bosch.com",
+        "growth_signals": [
+          "sales of 90.3 billion euros in 2024",
+          "418,000 associates in 2024",
+          "strategy to grow awareness and sales in the US"
+        ],
+        "status": "accepted",
+        "reason": "The company has a strong online presence with a Wikipedia page, a comprehensive company website, and a LinkedIn page. The recent news articles indicate a significant marketing effort, including a Super Bowl ad, to grow awareness and sales. The company's size, with 418,000 associates and 90.3 billion euros in sales, suggests a large and established enterprise.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "success",
+      "analyzed_at": "2026-02-06T20:18:13.809482",
+      "times_analyzed": 1
+    },
+    "accenture": {
+      "data": {
+        "name": "Accenture",
+        "industry": "Consulting, Technology",
+        "size": "enterprise",
+        "location": "Multiple locations, but headquarters in Dublin, Ireland",
+        "website": "https://www.accenture.com",
+        "growth_signals": [
+          "Named a leader in Gartner’s Magic Quadrant for Digital Technology and Business Consulting Services",
+          "Selected to support the modernization of Veteran Health Records for the Department of Veterans Affairs",
+          "CEO's statement on the importance of data centers for sovereign AI",
+          "UBS named Accenture a Top Pick"
+        ],
+        "status": "accepted",
+        "reason": "The company has a strong online presence, with multiple web search results and recent news articles showcasing its leadership in the consulting and technology industries. The company's size is also indicative of an enterprise, with multiple locations and a significant presence on LinkedIn. The growth signals, including the Gartner recognition and the UBS Top Pick label, demonstrate the company's continued relevance and potential for growth.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "success",
+      "analyzed_at": "2026-02-06T20:22:34.897067",
+      "times_analyzed": 1
+    },
+    "mangalore refinery and petrochemicals limited": {
+      "data": {
+        "name": "Mangalore Refinery and Petrochemicals Limited",
+        "industry": "Petrochemicals and Refinery",
+        "size": "large",
+        "location": "Mangalore, India",
+        "website": "https://mahakoshalrefractories.com/company-overview/",
+        "growth_signals": [
+          "record operational performance",
+          "9% intraday jump in stock price",
+          "integration of OMPL project"
+        ],
+        "status": "accepted",
+        "reason": "Evidence from web search results, recent news, and LinkedIn page confirm MRPL is a real, established company in the petrochemicals and refinery industry with a large size and significant growth signals, making it suitable for B2B sales targeting.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "success",
+      "analyzed_at": "2026-02-06T20:28:47.691350",
+      "times_analyzed": 1
     }
   },
-  "patterns": {},
+  "patterns": {
+    "discovery:d2939886": {
+      "type": "discovery",
+      "pattern": {
+        "hint": "Industry 'Petrochemicals and Refinery' often produces quality leads",
+        "industry": "Petrochemicals and Refinery"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-06T20:28:47.692898"
+    }
+  },
   "failures": [],
   "insights": [
     {
@@ -387,11 +484,36 @@
       "insight": "Lead rejected: The lead lacks multiple decision-makers and has no enriched contacts with emails. Although the compa",
       "category": "verification",
       "timestamp": "2026-02-04T22:26:15.792100"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', '",
+      "category": "verification",
+      "timestamp": "2026-02-06T20:02:31.531950"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', '",
+      "category": "verification",
+      "timestamp": "2026-02-06T20:03:47.784992"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', '",
+      "category": "verification",
+      "timestamp": "2026-02-06T20:11:20.817907"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', '",
+      "category": "verification",
+      "timestamp": "2026-02-06T20:14:32.587642"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', '",
+      "category": "verification",
+      "timestamp": "2026-02-06T20:14:53.048438"
     }
   ],
   "metadata": {
     "created_at": "2026-02-04T19:43:48.615961",
-    "total_analyses": 17,
-    "successful_leads": 0
+    "total_analyses": 30,
+    "successful_leads": 3
   }
 }

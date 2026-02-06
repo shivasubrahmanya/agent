@@ -3767,5 +3767,632 @@
     "recommended_action": "Gather additional data on decision-makers and contacts to improve confidence score",
     "created_at": "2026-02-04T22:26:15.803421",
     "updated_at": "2026-02-04T22:26:15.803421"
+  },
+  {
+    "id": "5e61fb77",
+    "input": "Bosch",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Bosch",
+      "status": "rejected",
+      "reason": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}"
+    },
+    "reason": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-06T20:02:31.512329",
+    "updated_at": "2026-02-06T20:02:31.512329"
+  },
+  {
+    "id": "20f4a835",
+    "input": "Bosch",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Bosch",
+      "status": "rejected",
+      "reason": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}"
+    },
+    "reason": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-06T20:03:47.766592",
+    "updated_at": "2026-02-06T20:03:47.766592"
+  },
+  {
+    "id": "e3f57c7e",
+    "input": "Bosch",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Bosch",
+      "status": "rejected",
+      "reason": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}"
+    },
+    "reason": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-06T20:11:20.797051",
+    "updated_at": "2026-02-06T20:11:20.797051"
+  },
+  {
+    "id": "efa58dbc",
+    "input": "Bosch",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Bosch",
+      "status": "rejected",
+      "reason": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}"
+    },
+    "reason": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-06T20:14:32.566422",
+    "updated_at": "2026-02-06T20:14:32.566422"
+  },
+  {
+    "id": "438b4644",
+    "input": "Bosch ",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Bosch",
+      "status": "rejected",
+      "reason": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}"
+    },
+    "reason": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-06T20:14:53.030033",
+    "updated_at": "2026-02-06T20:14:53.030033"
+  },
+  {
+    "id": "092b39f8",
+    "input": "BOsch",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robert Bosch GmbH",
+      "industry": "Engineering and Technology",
+      "size": "enterprise",
+      "location": "Gerlingen, Baden-Württemberg, Germany",
+      "website": "https://www.bosch.com",
+      "growth_signals": [
+        "sales of 90.3 billion euros in 2024",
+        "418,000 associates in 2024",
+        "strategy to grow awareness and sales in the US"
+      ],
+      "status": "accepted",
+      "reason": "The company has a strong online presence with a Wikipedia page, a comprehensive company website, and a LinkedIn page. The recent news articles indicate a significant marketing effort, including a Super Bowl ad, to grow awareness and sales. The company's size, with 418,000 associates and 90.3 billion euros in sales, suggests a large and established enterprise.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robert Bosch GmbH",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Engineering",
+            "SVP R&D",
+            "VP Product Development"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "IT",
+          "decision_makers": [
+            "EVP Digital Transformation",
+            "SVP IT",
+            "VP Information Systems"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Procurement",
+          "decision_makers": [
+            "EVP Supply Chain",
+            "SVP Procurement",
+            "VP Strategic Sourcing"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "EVP Sales",
+            "SVP Regional Sales",
+            "VP Global Accounts"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "EVP Finance",
+            "SVP Financial Planning",
+            "VP Financial Analysis"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Engineering",
+        "EVP Digital Transformation",
+        "EVP Supply Chain",
+        "EVP Sales",
+        "EVP Finance"
+      ]
+    },
+    "people": [
+      {
+        "name": "Stefan Buerkle",
+        "title": "Regional President, Cross Domain Computing Solutions ...",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/stefan-buerkle-863848a7",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Mark R. Gilmour JD",
+        "title": "Corporate Tax & Customs Executive | CTO",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/markgilmour1",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Maxim Serov",
+        "title": "Regional Supply Chain Director | PhD",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/maxim-serov-aa74b022",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sven Zimmermann",
+        "title": "VP Finance and Controlling",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/sven-zimmermann-80a44460",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Dr. Zsuzsanna Báthory",
+        "title": "VP, Plant manager at Robert Bosch Power ...",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/dr-zsuzsanna-báthory-3305bb42",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Dan Watanapongse",
+        "title": "Growth oriented, strategic leader ...",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/danwatanapongse",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Oliver Steinig",
+        "title": "Robert Bosch",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/oliver-steinig-68603aa",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 5 decision-makers at Robert Bosch GmbH",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.8,
+    "reason": "The company Robert Bosch GmbH is a large enterprise with a strong online presence and significant growth signals. The presence of multiple accepted roles with high decision_power, including Regional President and Corporate Tax & Customs Executive, increases the confidence in the lead. However, the lack of enriched contacts with emails reduces the score.",
+    "summary": "Large enterprise with strong online presence and multiple decision-makers",
+    "recommended_action": "Reach out to the decision-makers, such as Stefan Buerkle or Mark R. Gilmour, to explore potential business opportunities",
+    "created_at": "2026-02-06T20:18:13.786198",
+    "updated_at": "2026-02-06T20:18:13.786198"
+  },
+  {
+    "id": "67cd9cec",
+    "input": "Accenture",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Accenture",
+      "industry": "Consulting, Technology",
+      "size": "enterprise",
+      "location": "Multiple locations, but headquarters in Dublin, Ireland",
+      "website": "https://www.accenture.com",
+      "growth_signals": [
+        "Named a leader in Gartner’s Magic Quadrant for Digital Technology and Business Consulting Services",
+        "Selected to support the modernization of Veteran Health Records for the Department of Veterans Affairs",
+        "CEO's statement on the importance of data centers for sovereign AI",
+        "UBS named Accenture a Top Pick"
+      ],
+      "status": "accepted",
+      "reason": "The company has a strong online presence, with multiple web search results and recent news articles showcasing its leadership in the consulting and technology industries. The company's size is also indicative of an enterprise, with multiple locations and a significant presence on LinkedIn. The growth signals, including the Gartner recognition and the UBS Top Pick label, demonstrate the company's continued relevance and potential for growth.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Accenture",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Technology",
+            "SVP Engineering"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales",
+            "SVP Marketing"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "EVP Finance",
+            "SVP Financial Planning"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Human Resources",
+          "decision_makers": [
+            "EVP Human Resources",
+            "SVP Talent Management"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "EVP Operations",
+            "SVP Service Delivery"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Technology",
+        "SVP Engineering",
+        "EVP Sales",
+        "EVP Finance",
+        "SVP Marketing"
+      ]
+    },
+    "people": [
+      {
+        "name": "Varun Juneja",
+        "title": "Associate Director / SVP @ Accenture | LinkedIn",
+        "company": "Accenture",
+        "linkedin_url": "https://in.linkedin.com/in/varun--juneja",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Gabrielle Sprance",
+        "title": "EVP Group Creative Director",
+        "company": "Accenture",
+        "linkedin_url": "https://www.linkedin.com/in/gabrielle-sprance-b0856b117/",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Train Song",
+        "title": "SVP",
+        "company": "Accenture",
+        "linkedin_url": "https://www.linkedin.com/in/train-song-092134225",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Subhash Shinde",
+        "title": "VP of Technology at Accenture | LinkedIn Senthilkumar S.",
+        "company": "Accenture",
+        "linkedin_url": "https://in.linkedin.com/in/subhash-shinde-2a39b5239",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Senthilkumar S.",
+        "title": "VP",
+        "company": "Accenture",
+        "linkedin_url": "https://in.linkedin.com/in/sskumar",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Gina Carfagno",
+        "title": "Accenture | LinkedIn",
+        "company": "Accenture",
+        "linkedin_url": "https://www.linkedin.com/in/ginacarfagno/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Ankit Abhishek",
+        "title": "Accenture | LinkedIn",
+        "company": "Accenture",
+        "linkedin_url": "https://www.linkedin.com/in/ankit-abhishek-86a424a9/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Eric Jensen",
+        "title": "Accenture | LinkedIn Eileen Meidinger",
+        "company": "Accenture",
+        "linkedin_url": "https://www.linkedin.com/in/ericjensen1443",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Gianna Garcia",
+        "title": "Executive Assistant",
+        "company": "Accenture",
+        "linkedin_url": "https://www.linkedin.com/in/gianna-garcia-59a13040",
+        "decision_power": 1,
+        "status": "rejected",
+        "reason": "Decision power: 1/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 5 decision-makers at Accenture",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.8,
+    "reason": "The company is accepted and has a strong B2B relevance with multiple accepted roles having decision_power greater than or equal to 7. Although there are no enriched contacts with emails, the presence of multiple decision-makers with high decision power compensates for this. The base score of 0.5 is increased by 0.2 for company acceptance and B2B relevance, 0.2 for accepted roles with decision_power >= 7, and 0.1 for multiple decision-makers found.",
+    "summary": "Accenture is a verified lead with multiple decision-makers and high growth potential",
+    "recommended_action": "Proceed with outreach to the identified decision-makers, focusing on their interests and the company's growth signals",
+    "created_at": "2026-02-06T20:22:34.877216",
+    "updated_at": "2026-02-06T20:22:34.877216"
+  },
+  {
+    "id": "73d0c590",
+    "input": "MRPL",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Mangalore Refinery and Petrochemicals Limited",
+      "industry": "Petrochemicals and Refinery",
+      "size": "large",
+      "location": "Mangalore, India",
+      "website": "https://mahakoshalrefractories.com/company-overview/",
+      "growth_signals": [
+        "record operational performance",
+        "9% intraday jump in stock price",
+        "integration of OMPL project"
+      ],
+      "status": "accepted",
+      "reason": "Evidence from web search results, recent news, and LinkedIn page confirm MRPL is a real, established company in the petrochemicals and refinery industry with a large size and significant growth signals, making it suitable for B2B sales targeting.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Mangalore Refinery and Petrochemicals Limited",
+      "company_size": "large",
+      "departments": [
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "SVP Operations",
+            "VP Refinery Operations",
+            "Senior Director Petrochemicals"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "SVP Engineering",
+            "VP Projects",
+            "Senior Director Maintenance"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Procurement",
+          "decision_makers": [
+            "VP Procurement",
+            "Senior Director Supply Chain",
+            "Director Contracts"
+          ],
+          "hierarchy_level": "VP / Senior Director / Director"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "SVP Finance",
+            "VP Accounting",
+            "Senior Director Treasury"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Health, Safety and Environment",
+          "decision_makers": [
+            "VP HSE",
+            "Senior Director Safety",
+            "Director Environment"
+          ],
+          "hierarchy_level": "VP / Senior Director / Director"
+        }
+      ],
+      "recommended_targets": [
+        "SVP Operations",
+        "SVP Engineering",
+        "VP Procurement",
+        "SVP Finance",
+        "VP HSE"
+      ]
+    },
+    "people": [
+      {
+        "name": "Shilpa Kolhar",
+        "title": "SVP of Product and Engineering | LinkedIn Sundar Ramaswamy",
+        "company": "Mangalore Refinery and Petrochemicals Limited",
+        "linkedin_url": "https://www.linkedin.com/in/shilpa-kolhar-05768210",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Kevork Hagopian",
+        "title": "SVP & GM at MGI International, LLC | LinkedIn Rahul Wadhawan",
+        "company": "Mangalore Refinery and Petrochemicals Limited",
+        "linkedin_url": "https://www.linkedin.com/in/kevork-hagopian-41974037",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Harish Babu",
+        "title": "Manager (Operations)",
+        "company": "Mangalore Refinery and Petrochemicals Limited",
+        "linkedin_url": "https://in.linkedin.com/in/harish-babu-7a027b38",
+        "decision_power": 4,
+        "status": "rejected",
+        "reason": "Decision power: 4/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Anand Hardi",
+        "title": "DGM TS",
+        "company": "Mangalore Refinery and Petrochemicals Limited",
+        "linkedin_url": "https://in.linkedin.com/in/anand-hardi-9b350a116",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "vishnu Vayodan",
+        "title": "Newcastle Upon Tyne, England, United... | LinkedIn",
+        "company": "Mangalore Refinery and Petrochemicals Limited",
+        "linkedin_url": "https://uk.linkedin.com/in/vishnu-vayodan-994a6687",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Karthik Kotian",
+        "title": "||HR & Admin|| | LinkedIn",
+        "company": "Mangalore Refinery and Petrochemicals Limited",
+        "linkedin_url": "https://in.linkedin.com/in/karthikkotian",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sundar Ramaswamy",
+        "title": "Bengaluru, Karnataka, India | Professional ... Kevork Hagopian",
+        "company": "Mangalore Refinery and Petrochemicals Limited",
+        "linkedin_url": "https://in.linkedin.com/in/sundar-ramaswamy-5736a2",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Saurabh Y.",
+        "title": "Mangalore Refinery & Petrochemicals LTD... | LinkedIn",
+        "company": "Mangalore Refinery and Petrochemicals Limited",
+        "linkedin_url": "https://in.linkedin.com/in/saurabhyerpude",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 2 decision-makers at Mangalore Refinery and Petrochemicals Limited",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.9,
+    "reason": "The company is accepted and has a relevant industry for B2B sales, with two accepted roles having decision power of 8. The company's growth signals also indicate its potential for B2B partnerships.",
+    "summary": "Mangalore Refinery and Petrochemicals Limited is a large petrochemicals and refinery company with accepted roles and growth signals",
+    "recommended_action": "Proceed with outreach to the accepted roles, focusing on SVP of Product and Engineering and SVP & GM, to explore potential B2B opportunities",
+    "created_at": "2026-02-06T20:28:47.670675",
+    "updated_at": "2026-02-06T20:28:47.670675"
   }
 ]

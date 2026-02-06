@@ -166,6 +166,27 @@ def run(company_name: str, roles: list, company_domain: str = None) -> dict:
                             errors.append(f"Snov.io error for {name}: {str(e)}")
     else:
         errors.append("Snov.io API not configured")
+
+    # === Source 3: Snov.io Domain Search (Broad Search) ===
+    # If we have few contacts, try a broad domain search
+    if snov_configured() and len(contacts) < 5:
+        try:
+            domain = company_domain or extract_domain(company_name)
+            domain_contacts = snov_domain_search(domain, limit=10)
+            
+            if domain_contacts and not domain_contacts[0].get("error"):
+                for dc in domain_contacts:
+                    # Check if this email already exists
+                    if not any(c.get("email") == dc.get("email") for c in contacts):
+                        dc["company"] = company_name
+                        dc["enriched"] = True
+                        contacts.append(dc)
+                
+                if "snov_domain" not in sources_used:
+                    sources_used.append("snov_domain")
+                    
+        except Exception as e:
+            errors.append(f"Snov.io domain search error: {str(e)}")
     
     # Deduplicate contacts from both sources
     contacts = deduplicate_contacts(contacts)
