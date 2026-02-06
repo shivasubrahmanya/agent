@@ -123,7 +123,7 @@ def get_company(name: str) -> Optional[Dict[str, Any]]:
 
 
 # Export functionality
-def export_leads_to_csv(filepath: str = "leads_export.csv") -> str:
+def export_leads_to_csv(filepath: str = "outputs/leads_export.csv") -> str:
     """Export all leads to CSV."""
     import csv
     
