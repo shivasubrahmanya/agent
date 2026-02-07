@@ -4,7 +4,7 @@ Uses DuckDuckGo for free web search (no API key required)
 """
 
 try:
-    from ddgs import DDGS
+    from duckduckgo_search import DDGS
     DDGS_AVAILABLE = True
 except ImportError:
     DDGS_AVAILABLE = False
