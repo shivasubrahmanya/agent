@@ -83,6 +83,16 @@ function App() {
     setLogs(prev => [...prev, { type, message, details }]);
   };
 
+  const handleStop = (e) => {
+    e.preventDefault();
+    if (!connected || status !== 'analyzing') return;
+
+    ws.current.send(JSON.stringify({
+      command: "stop"
+    }));
+    addLog("info", "🛑 Sending stop signal...");
+  };
+
   const handleAnalyze = (e) => {
     e.preventDefault();
     if (!input.trim() || !connected) return;
@@ -143,19 +153,32 @@ function App() {
                   />
                   <Search className="absolute right-3 top-3.5 text-muted-foreground w-5 h-5" />
                 </div>
-                <button
-                  type="submit"
-                  disabled={!connected || status === 'analyzing' || !input.trim()}
-                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-3 rounded-lg transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {status === 'analyzing' ? (
-                    'Analyzing...'
-                  ) : (
-                    <>
-                      <Send size={18} /> Start Analysis
-                    </>
+                <div className="flex gap-2">
+                  <button
+                    type="submit"
+                    disabled={!connected || status === 'analyzing' || !input.trim()}
+                    className="flex-1 bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-3 rounded-lg transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    {status === 'analyzing' ? (
+                      'Analyzing...'
+                    ) : (
+                      <>
+                        <Send size={18} /> Start Analysis
+                      </>
+                    )}
+                  </button>
+
+                  {status === 'analyzing' && (
+                    <button
+                      type="button"
+                      onClick={handleStop}
+                      className="bg-destructive hover:bg-destructive/90 text-destructive-foreground font-medium px-4 py-3 rounded-lg transition-all flex items-center justify-center gap-2"
+                      title="Stop & Save Progress"
+                    >
+                      <BadgeCheck size={18} className="rotate-180" /> Stop
+                    </button>
                   )}
-                </button>
+                </div>
               </form>
             </div>
 

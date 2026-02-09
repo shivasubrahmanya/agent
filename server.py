@@ -97,6 +97,10 @@ class AgentRequest(BaseModel):
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
     await manager.connect(websocket)
+    
+    # Store stop event for the current session
+    current_stop_event = None
+    
     try:
         while True:
             data = await websocket.receive_text()
@@ -105,6 +109,10 @@ async def websocket_endpoint(websocket: WebSocket):
                 command = message.get("command")
                 
                 if command == "analyze":
+                    # If there's an existing running task, we should probably stop it or warn
+                    # For now, let's create a new event
+                    current_stop_event = threading.Event()
+                    
                     user_input = message.get("input", "")
                     await manager.send_personal_message(json.dumps({
                         "type": "log", 
@@ -114,16 +122,31 @@ async def websocket_endpoint(websocket: WebSocket):
                     # Run workflow in a separate thread
                     thread = threading.Thread(
                         target=run_workflow_thread,
-                        args=(user_input, websocket, main_loop)
+                        args=(user_input, websocket, main_loop, current_stop_event)
                     )
                     thread.start()
+                
+                elif command == "stop":
+                    if current_stop_event:
+                        current_stop_event.set()
+                        await manager.send_personal_message(json.dumps({
+                            "type": "log",
+                            "message": "🛑 Stopping analysis... Saving progress..."
+                        }), websocket)
+                    else:
+                        await manager.send_personal_message(json.dumps({
+                            "type": "log",
+                            "message": "No active analysis to stop."
+                        }), websocket)
                     
             except json.JSONDecodeError:
                 pass
     except WebSocketDisconnect:
+        if current_stop_event:
+            current_stop_event.set()
         manager.disconnect(websocket)
 
-def run_workflow_thread(user_input: str, websocket: WebSocket, loop):
+def run_workflow_thread(user_input: str, websocket: WebSocket, loop, stop_event=None):
     """Execution thread for the agent"""
     
     def callback(stage: str, status: str, data: dict = None):
@@ -145,7 +168,7 @@ def run_workflow_thread(user_input: str, websocket: WebSocket, loop):
     progress = WorkflowProgress(callback)
     
     try:
-        workflow = LongRunningWorkflow(progress=progress)
+        workflow = LongRunningWorkflow(progress=progress, stop_event=stop_event)
         result = workflow.run_pipeline(user_input)
         
         # Send final result

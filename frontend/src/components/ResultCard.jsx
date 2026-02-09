@@ -144,12 +144,12 @@ export function ResultCard({ data }) {
                 </div>
             )}
 
-            {/* People Found (if no contacts) */}
-            {(!contacts || contacts.length === 0) && people && people.length > 0 && (
+            {/* All Identified People */}
+            {people && people.length > 0 && (
                 <div className="bg-card rounded-xl border border-border p-6">
-                    <h3 className="font-semibold mb-4">People Found</h3>
+                    <h3 className="font-semibold mb-4">All Identified People</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {people.slice(0, 6).map((p, i) => (
+                        {people.slice(0, 12).map((p, i) => (
                             <div key={i} className="p-3 bg-muted/20 rounded-lg flex justify-between items-start">
                                 <div>
                                     {p.linkedin_url ? (

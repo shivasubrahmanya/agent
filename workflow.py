@@ -18,6 +18,7 @@ Features:
 """
 
 import uuid
+import threading
 from typing import Callable, Optional
 from datetime import datetime
 
@@ -95,9 +96,10 @@ class LongRunningWorkflow:
     - Memory-aware context injection
     """
     
-    def __init__(self, progress: Optional[WorkflowProgress] = None):
-        """Initialize workflow with optional progress callback."""
+    def __init__(self, progress: Optional[WorkflowProgress] = None, stop_event: Optional[threading.Event] = None):
+        """Initialize workflow with optional progress callback and stop event."""
         self.progress = progress
+        self.stop_event = stop_event
         
         # Initialize memory system
         if MEMORY_ENABLED:
@@ -203,6 +205,9 @@ class LongRunningWorkflow:
         # ═══════════════════════════════════════════════════════════════
         # STAGE 1: DISCOVERY (Web Search with Memory Context)
         # ═══════════════════════════════════════════════════════════════
+        if self.stop_event and self.stop_event.is_set():
+            raise KeyboardInterrupt("Analysis stopped by user")
+
         if self.state:
             self.state.start_stage("discovery")
         if self.progress:
@@ -268,6 +273,9 @@ class LongRunningWorkflow:
         # ═══════════════════════════════════════════════════════════════
         # STAGE 2: STRUCTURE (Decision-Makers by Size)
         # ═══════════════════════════════════════════════════════════════
+        if self.stop_event and self.stop_event.is_set():
+            raise KeyboardInterrupt("Analysis stopped by user")
+
         if self.state:
             self.state.start_stage("structure")
         if self.progress:
@@ -292,6 +300,9 @@ class LongRunningWorkflow:
         # ═══════════════════════════════════════════════════════════════
         # STAGE 3: ROLE DISCOVERY (LinkedIn Search)
         # ═══════════════════════════════════════════════════════════════
+        if self.stop_event and self.stop_event.is_set():
+            raise KeyboardInterrupt("Analysis stopped by user")
+
         if self.state:
             self.state.start_stage("roles")
         if self.progress:
@@ -325,6 +336,9 @@ class LongRunningWorkflow:
         # ═══════════════════════════════════════════════════════════════
         # STAGE 4: ENRICHMENT (Apollo with Memory Context)
         # ═══════════════════════════════════════════════════════════════
+        if self.stop_event and self.stop_event.is_set():
+            raise KeyboardInterrupt("Analysis stopped by user")
+
         if self.state:
             self.state.start_stage("enrichment")
         if self.progress:
