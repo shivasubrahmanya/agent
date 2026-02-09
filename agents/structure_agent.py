@@ -89,16 +89,20 @@ Required Output Format:
 }"""
 
 
-def run(company_data: dict) -> dict:
+def run(company_data: dict, stop_event=None) -> dict:
     """
     Run company structure identification.
     
     Args:
         company_data: Dict with company info from discovery stage
+        stop_event: Optional threading.Event to check for stop signal
         
     Returns:
         Dict with company structure and decision-makers
     """
+    if stop_event and stop_event.is_set():
+        raise KeyboardInterrupt("Stopped by user")
+
     company_name = company_data.get("name", "Unknown")
     industry = company_data.get("industry", "")
     size = company_data.get("size", "medium").lower()
@@ -121,6 +125,9 @@ def run(company_data: dict) -> dict:
     try:
         user_input = f"Company: {company_name}, Industry: {industry}, Size: {size}"
         
+        if stop_event and stop_event.is_set():
+            raise KeyboardInterrupt("Stopped by user")
+            
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
             max_tokens=1024,

@@ -92,7 +92,7 @@ def get_decision_power(title: str) -> int:
     return 3  # Default for unknown titles
 
 
-def run(company_name: str, company_size: str = "medium", structure_data: dict = None) -> dict:
+def run(company_name: str, company_size: str = "medium", structure_data: dict = None, stop_event=None) -> dict:
     """
     Run role discovery - finds ACTUAL people at the company.
     
@@ -100,15 +100,22 @@ def run(company_name: str, company_size: str = "medium", structure_data: dict = 
         company_name: Company to search
         company_size: Company size for targeting
         structure_data: Optional structure data with recommended targets
+        stop_event: Optional threading.Event to check for stop signal
         
     Returns:
         Dict with actual people found and their scores
     """
+    if stop_event and stop_event.is_set():
+        raise KeyboardInterrupt("Stopped by user")
+
     people = []
     
     # Step 1: Search LinkedIn for decision-makers
     if LINKEDIN_SEARCH_ENABLED and linkedin_available():
         try:
+            if stop_event and stop_event.is_set():
+                raise KeyboardInterrupt("Stopped by user")
+                
             linkedin_results = search_decision_makers(company_name, company_size)
             
             if linkedin_results and not linkedin_results[0].get("error"):
@@ -130,6 +137,9 @@ def run(company_name: str, company_size: str = "medium", structure_data: dict = 
     
     # Step 2: If no LinkedIn results, use LLM to suggest typical roles
     if not people:
+        if stop_event and stop_event.is_set():
+            raise KeyboardInterrupt("Stopped by user")
+
         api_key = os.getenv("GROQ_API_KEY")
         if api_key:
             try:

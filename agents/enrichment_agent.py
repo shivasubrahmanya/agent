@@ -54,7 +54,7 @@ def deduplicate_contacts(contacts: list) -> list:
     return unique
 
 
-def run(company_name: str, roles: list, company_domain: str = None) -> dict:
+def run(company_name: str, roles: list, company_domain: str = None, stop_event=None) -> dict:
     """
     Run contact enrichment using Apollo.io and Snov.io.
     
@@ -62,10 +62,14 @@ def run(company_name: str, roles: list, company_domain: str = None) -> dict:
         company_name: Company to search
         roles: List of role dicts from role_agent
         company_domain: Optional company domain for Snov.io
+        stop_event: Optional threading.Event to check for stop signal
         
     Returns:
         Dict with enriched contacts from both sources
     """
+    if stop_event and stop_event.is_set():
+        raise KeyboardInterrupt("Stopped by user")
+
     contacts = []
     sources_used = []
     errors = []
@@ -83,6 +87,9 @@ def run(company_name: str, roles: list, company_domain: str = None) -> dict:
     # === Source 1: Apollo.io ===
     if apollo_configured():
         try:
+            if stop_event and stop_event.is_set():
+                raise KeyboardInterrupt("Stopped by user")
+                
             results = search_people(
                 company_name=company_name,
                 titles=titles,
@@ -118,6 +125,9 @@ def run(company_name: str, roles: list, company_domain: str = None) -> dict:
         # Try to find emails for contacts without emails
         contacts_needing_email = [c for c in contacts if not c.get("email")]
         for contact in contacts_needing_email:
+            if stop_event and stop_event.is_set():
+                raise KeyboardInterrupt("Stopped by user")
+                
             first_name = contact.get("first_name", "")
             last_name = contact.get("last_name", "")
             if first_name and last_name:
@@ -131,6 +141,9 @@ def run(company_name: str, roles: list, company_domain: str = None) -> dict:
         
         # Also try for people in accepted roles who have names but no email in contacts
         for role in accepted_roles:
+            if stop_event and stop_event.is_set():
+                raise KeyboardInterrupt("Stopped by user")
+                
             name = role.get("name", "")
             if name and name != "[Target Role]" and name != "[Unknown]":
                 # Split name into first/last
@@ -171,6 +184,9 @@ def run(company_name: str, roles: list, company_domain: str = None) -> dict:
     # If we have few contacts, try a broad domain search
     if snov_configured() and len(contacts) < 5:
         try:
+            if stop_event and stop_event.is_set():
+                raise KeyboardInterrupt("Stopped by user")
+
             domain = company_domain or extract_domain(company_name)
             domain_contacts = snov_domain_search(domain, limit=10)
             

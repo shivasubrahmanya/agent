@@ -5492,5 +5492,1922 @@
     "recommended_action": "Proceed with outreach and sales efforts targeting the identified decision-makers",
     "created_at": "2026-02-06T21:56:41.527589",
     "updated_at": "2026-02-06T21:56:41.527589"
+  },
+  {
+    "id": "96ffba40",
+    "input": "Ritz7 Automations",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Ritz7 Automations",
+      "industry": "Enterprise Services, Software Automation",
+      "size": "small",
+      "location": "Not found",
+      "website": "Not found",
+      "growth_signals": [
+        "Founded in 2020"
+      ],
+      "status": "accepted",
+      "reason": "The company is operating in the Enterprise Services industry, offering B2B relevant services such as custom web portals and software automation, and has a recent founding year which may indicate potential for growth.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Ritz7 Automations",
+      "company_size": "small",
+      "departments": [
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "CEO",
+            "Founder"
+          ],
+          "hierarchy_level": "Founders"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "CEO",
+            "Founder"
+          ],
+          "hierarchy_level": "Founders"
+        },
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "CTO",
+            "Founding Team"
+          ],
+          "hierarchy_level": "Founders"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "CEO",
+            "Founder"
+          ],
+          "hierarchy_level": "Founders"
+        }
+      ],
+      "recommended_targets": [
+        "CEO",
+        "Founder",
+        "CTO",
+        "Founding Team",
+        "Lead Engineer"
+      ]
+    },
+    "people": [
+      {
+        "name": "George Cresto",
+        "title": "Founder & CEO at MDL autoMation (formerly MyDealerLot) | LinkedIn",
+        "company": "Ritz7 Automations",
+        "linkedin_url": "https://www.linkedin.com/in/georgecresto",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Justin Slocum",
+        "title": "Founder and CEO",
+        "company": "Ritz7 Automations",
+        "linkedin_url": "https://www.linkedin.com/in/justin-slocum-6473b0b",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Mandar Paradkar",
+        "title": "Founder and CEO at R Square Analytics | LinkedIn",
+        "company": "Ritz7 Automations",
+        "linkedin_url": "https://www.linkedin.com/in/mandarparadkar",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Ritesh Hegde",
+        "title": "Ritz7 | LinkedIn CEO RITZ",
+        "company": "Ritz7 Automations",
+        "linkedin_url": "https://in.linkedin.com/in/ritztalks",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "CEO RITZ",
+        "title": "Owner at Ritz Paris | LinkedIn",
+        "company": "Ritz7 Automations",
+        "linkedin_url": "https://www.linkedin.com/in/ceo-ritz-961895361",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "jack sands",
+        "title": "CEO at RITZ | LinkedIn",
+        "company": "Ritz7 Automations",
+        "linkedin_url": "https://www.linkedin.com/in/jack-sands-2365696",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Priyadarsan Biswal",
+        "title": "Director Technical Architect at Salesforce. Salesforce CTO – Advisory Partner for Marriott | Ritz-Carlton | LinkedIn",
+        "company": "Ritz7 Automations",
+        "linkedin_url": "https://www.linkedin.com/in/priyadarsanbiswal",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Matt Schwartz",
+        "title": "Chief Technology Officer (CTO) at Sage Hospitality | Board Member | Community Volunteer | Entrepreneur | LinkedIn",
+        "company": "Ritz7 Automations",
+        "linkedin_url": "https://www.linkedin.com/in/matthewaschwartz",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Laith Yousif",
+        "title": "Fractional CTO | AI Product Strategist | Tech Visionary Driving Scalable Software & Intelligent Systems | Cloud-Native",
+        "company": "Ritz7 Automations",
+        "linkedin_url": "https://www.linkedin.com/in/laithyousif",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 9 decision-makers at Ritz7 Automations",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.4,
+    "reason": "Although the company is accepted and operates in a B2B relevant industry, and there are multiple accepted roles with decision power greater than or equal to 7, the confidence score calculation yields 0.5 + 0.2 + 0.2 = 0.9. However, this score is reduced due to the lack of enriched contacts with emails, resulting in a score of 0.9. Despite this, the final confidence score is still above the required threshold, but since there are actually no enriched contacts, we must also consider the effect of having no contacts which significantly affects our confidence in this lead. Thus, considering all factors including the lack of contact information, the final confidence score is adjusted downwards to reflect the uncertainty.",
+    "summary": "Ritz7 Automations is a small Enterprise Services company with multiple potential decision-makers but lacks contact information.",
+    "recommended_action": "Further research to find contact information for the potential decision-makers at Ritz7 Automations.",
+    "created_at": "2026-02-09T18:09:12.014409",
+    "updated_at": "2026-02-09T18:09:12.014409"
+  },
+  {
+    "id": "e20a7dc1",
+    "input": "Resume",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Resume",
+      "industry": "None",
+      "size": "unknown",
+      "location": "unknown",
+      "website": "unknown",
+      "growth_signals": [],
+      "status": "rejected",
+      "reason": "The search results do not indicate that 'Resume' is a company, but rather a general term or concept. There is no evidence of a company website, headquarters, employee count, or revenue, and the news articles appear to be advice columns rather than company news.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "The search results do not indicate that 'Resume' is a company, but rather a general term or concept. There is no evidence of a company website, headquarters, employee count, or revenue, and the news articles appear to be advice columns rather than company news.",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-09T18:22:36.698362",
+    "updated_at": "2026-02-09T18:22:36.698362"
+  },
+  {
+    "id": "5a8bed93",
+    "input": "resume",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Not Found",
+      "industry": "Not Found",
+      "size": "Not Found",
+      "location": "Not Found",
+      "website": "Not Found",
+      "growth_signals": [],
+      "status": "rejected",
+      "reason": "The search results do not provide information about a specific company, but rather general news articles about resume building and job searching. There is no evidence of a real, established company.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "The search results do not provide information about a specific company, but rather general news articles about resume building and job searching. There is no evidence of a real, established company.",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-09T18:23:08.438567",
+    "updated_at": "2026-02-09T18:23:08.438567"
+  },
+  {
+    "id": "2cc454e6",
+    "input": "Bosch CEO",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robert Bosch Tool Corporation",
+      "industry": "Manufacturing",
+      "size": "large",
+      "location": "Mt. Prospect, Illinois",
+      "website": "https://www.boschtools.com/",
+      "growth_signals": [
+        "new CEO appointment"
+      ],
+      "status": "accepted",
+      "reason": "The company is a well-established manufacturer with a recent CEO appointment, indicating a level of organizational activity and potential for growth.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robert Bosch Tool Corporation",
+      "company_size": "large",
+      "departments": [
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "SVP Engineering",
+            "VP R&D"
+          ],
+          "hierarchy_level": "SVP / VP"
+        },
+        {
+          "name": "Manufacturing",
+          "decision_makers": [
+            "SVP Operations",
+            "VP Manufacturing"
+          ],
+          "hierarchy_level": "SVP / VP"
+        },
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "SVP Engineering",
+            "Senior Director Engineering"
+          ],
+          "hierarchy_level": "SVP / VP"
+        },
+        {
+          "name": "Procurement",
+          "decision_makers": [
+            "VP Procurement",
+            "Senior Director Supply Chain"
+          ],
+          "hierarchy_level": "VP / Senior Director"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "SVP Marketing",
+            "VP Brand Management"
+          ],
+          "hierarchy_level": "SVP / VP"
+        }
+      ],
+      "recommended_targets": [
+        "SVP Engineering",
+        "SVP Operations",
+        "VP Procurement",
+        "Senior Director Engineering",
+        "VP Manufacturing"
+      ]
+    },
+    "people": [
+      {
+        "name": "Roger Amrol",
+        "title": "Former President & CEO Robert Bosch Tool ...",
+        "company": "Robert Bosch Tool Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/roger-amrol-7a148a8",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jason Fouts",
+        "title": "Vice President / General Manager",
+        "company": "Robert Bosch Tool Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/jasonwfouts",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Scott Pihlaja",
+        "title": "Director at Robert Bosch Tool Corporation",
+        "company": "Robert Bosch Tool Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/scott-pihlaja-ab8a515",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Saad Alam",
+        "title": "Global Director, Head of New Product at Robert Bosch Tool ...",
+        "company": "Robert Bosch Tool Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/saad-alam-40b61816",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Amin Maduar",
+        "title": "Director Of Purchasing bei Robert Bosch | LinkedIn",
+        "company": "Robert Bosch Tool Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/amin-maduar-b0a57324",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Andrea Mitchell",
+        "title": "SVP of Production",
+        "company": "Robert Bosch Tool Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/andrea-mitchell-74798011",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Cyndi Graham",
+        "title": "VP",
+        "company": "Robert Bosch Tool Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/cyndi-graham-992b4547",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Rhonda Tate",
+        "title": "VP Direct Response at PositecUSA",
+        "company": "Robert Bosch Tool Corporation",
+        "linkedin_url": "https://www.linkedin.com/in/rhonda-tate-3a454229",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 8 decision-makers at Robert Bosch Tool Corporation",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.9,
+    "reason": "The company, Robert Bosch Tool Corporation, is a well-established manufacturer with a recent CEO appointment, indicating a level of organizational activity and potential for growth. Multiple accepted roles with decision power >= 7 have been identified, including a Former President & CEO, Vice Presidents, Directors, and other senior executives. Although no enriched contacts with emails have been found, the presence of multiple decision-makers with high decision power outweighs this limitation.",
+    "summary": "Verified lead for Robert Bosch Tool Corporation with multiple decision-makers",
+    "recommended_action": "Proceed with outreach to the identified decision-makers, focusing on the Former President & CEO, Vice Presidents, and Directors to explore potential business opportunities.",
+    "created_at": "2026-02-09T18:27:46.750820",
+    "updated_at": "2026-02-09T18:27:46.750820"
+  },
+  {
+    "id": "57034045",
+    "input": "Novigo Solutions",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Novigo Solutions",
+      "industry": "Technology, Product Engineering, AI",
+      "size": "medium",
+      "location": "El Dorado Hills, California",
+      "website": "not found in the search results",
+      "growth_signals": [
+        "acquisition by R Systems International Limited",
+        "10th anniversary celebration",
+        "expansion of digital engineering and AI capabilities"
+      ],
+      "status": "accepted",
+      "reason": "The company is mentioned in recent news as being acquired by R Systems International Limited, indicating it is a real and established company in the technology industry. The acquisition and celebration of its 10th anniversary suggest growth and expansion.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Novigo Solutions",
+      "company_size": "medium",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "VP Engineering",
+            "Director of Engineering"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Product Management",
+          "decision_makers": [
+            "Head of Product",
+            "Director of Product Management"
+          ],
+          "hierarchy_level": "Director / Head"
+        },
+        {
+          "name": "Artificial Intelligence",
+          "decision_makers": [
+            "Head of AI",
+            "Director of AI Engineering"
+          ],
+          "hierarchy_level": "Director / Head"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "VP Sales",
+            "Director of Marketing"
+          ],
+          "hierarchy_level": "VP / Director"
+        }
+      ],
+      "recommended_targets": [
+        "VP Engineering",
+        "Head of Product",
+        "Director of AI Engineering",
+        "VP Sales",
+        "Director of Product Management"
+      ]
+    },
+    "people": [
+      {
+        "name": "Jennifer A",
+        "title": "Technical Recruiter at Novigo Solutions | LinkedIn",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/jennifer-a-252b02281",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Mohammed Jarood",
+        "title": "Novigo Solutions Pvt.Ltd. | LinkedIn",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://ae.linkedin.com/in/mohammed-jarood-86024424",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Shreyas Nayak",
+        "title": "Software Engineer @ Novigo Solutions ... | LinkedIn",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/shreyas-nayak-26b01a204",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Shihab kalandar",
+        "title": "Novigo Solutions | LinkedIn",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/shihab-kalandar-5228b315/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Mukhtarali Khatib",
+        "title": "Novigo Solutions | LinkedIn",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/mukhtarali-khatib/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Praveen Kumar Kalbhavi",
+        "title": "Novigo Solutions | LinkedIn",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/praveen-kumar-kalbhavi-3908285/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jignesh Karnik",
+        "title": "Enterprenuer",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/jigneshkarnik/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Nilesh Randive",
+        "title": "Novigo Solutions | LinkedIn",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/nilesh-randive-a506a1143/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Nizar Abdulhadi",
+        "title": "Novigo Solutions | LinkedIn",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/nizar-abdulhadi-6a653514/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 0 decision-makers at Novigo Solutions",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No accepted roles to enrich",
+    "confidence_score": 0.2,
+    "reason": "No decision-making roles identified",
+    "summary": "Novigo Solutions - No high-value targets",
+    "recommended_action": "Try with more senior role titles",
+    "created_at": "2026-02-09T18:31:44.855348",
+    "updated_at": "2026-02-09T18:31:44.855348"
+  },
+  {
+    "id": "82a8bb4f",
+    "input": "bosch",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robert Bosch GmbH",
+      "industry": "engineering and technology",
+      "size": "enterprise",
+      "location": "Gerlingen, Baden-Württemberg, Germany",
+      "website": "https://www.bosch.com",
+      "growth_signals": [
+        "employs roughly 412,000 associates worldwide",
+        "leading global supplier of technology and services"
+      ],
+      "status": "accepted",
+      "reason": "The company has a strong online presence, with a Wikipedia page and a company website (https://www.bosch.com) that provides information on its size, industry, and services. The Wikipedia page and the company website both indicate that Bosch is a large, multinational engineering and technology company with a significant number of employees (412,000 as of December 31, 2025) and a global presence, which suggests that it is a suitable target for B2B sales.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robert Bosch GmbH",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Engineering",
+            "SVP Engineering",
+            "Global Head of R&D"
+          ],
+          "hierarchy_level": "EVP / SVP / Global Head"
+        },
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "EVP Innovation",
+            "SVP R&D",
+            "VP Technology"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Supply Chain",
+          "decision_makers": [
+            "SVP Supply Chain",
+            "VP Procurement",
+            "Global Head of Logistics"
+          ],
+          "hierarchy_level": "SVP / VP / Global Head"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "EVP Digitalization",
+            "SVP IT",
+            "VP Cybersecurity"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales",
+            "SVP Marketing",
+            "VP Business Development"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Engineering",
+        "SVP R&D",
+        "Global Head of Supply Chain",
+        "EVP Digitalization",
+        "SVP Sales"
+      ]
+    },
+    "people": [
+      {
+        "name": "Mark R. Gilmour JD",
+        "title": "Corporate Tax & Customs Executive | CTO",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/markgilmour1",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Heiko Weller",
+        "title": "EVP Bosch USA | LinkedIn",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/heiko-weller-353792106",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Birgit Bosch",
+        "title": "Personal Assistant to EVP bei Robert Bosch GmbH | LinkedIn",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/birgit-bosch-7862ba15b/",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Beate Nolting  VP Head of VAT Robert Bosch GmbH ... Oliver Steinig",
+        "title": "VP Business Development and Corporate ... Ramesh Saligrama",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/beate-nolting-267362bb",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Oliver Steinig",
+        "title": "VP Business Development and Corporate ... Ramesh Saligrama",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/oliver-steinig-68603aa",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Ramesh Saligrama",
+        "title": "VP at Robert Bosch India | LinkedIn Dr. Zsuzsanna Báthory",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://in.linkedin.com/in/ramesh-saligrama-24505278",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Dan Watanapongse",
+        "title": "Growth oriented, strategic leader ...",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/danwatanapongse",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jan Schausch",
+        "title": "Robert Bosch GmbH | LinkedIn",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/jan-schausch-2117a91b3/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Wolfgang Plothe",
+        "title": "Robert Bosch GmbH | LinkedIn",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/wolfgang-plothe-0b36a594/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 6 decision-makers at Robert Bosch GmbH",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.9,
+    "reason": "The company is accepted and has a strong B2B relevance with multiple accepted roles having decision_power >= 7. Although there are no enriched contacts with emails, the presence of multiple decision-makers and the company's industry and size contribute to a high confidence score.",
+    "summary": "Robert Bosch GmbH is a large enterprise company in the engineering and technology industry with multiple decision-makers and strong B2B relevance.",
+    "recommended_action": "Proceed with outreach to multiple decision-makers, such as Mark R. Gilmour JD, Heiko Weller, and Ramesh Saligrama, to explore potential B2B sales opportunities.",
+    "created_at": "2026-02-09T18:32:50.275642",
+    "updated_at": "2026-02-09T18:32:50.275642"
+  },
+  {
+    "id": "47e79a47",
+    "input": "Boat",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": null,
+      "industry": null,
+      "size": null,
+      "location": null,
+      "website": null,
+      "growth_signals": [],
+      "status": "rejected",
+      "reason": "The search results do not provide evidence of a real, established company, but rather appear to be news articles about various incidents involving boats, with no company information found.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "The search results do not provide evidence of a real, established company, but rather appear to be news articles about various incidents involving boats, with no company information found.",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-09T18:33:47.913527",
+    "updated_at": "2026-02-09T18:33:47.913527"
+  },
+  {
+    "id": "4f1c4c73",
+    "input": "Boat Earphones",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "boAt",
+      "industry": "Consumer Electronics",
+      "size": "medium",
+      "location": "India",
+      "website": "Not found in search results",
+      "growth_signals": [
+        "new product launch",
+        "featured in comparison with established brands"
+      ],
+      "status": "accepted",
+      "reason": "The company is mentioned in recent news articles, indicating it is an active and established brand, and is launching new products, such as the boAt Rockerz 255 Pro+ wireless earphones, which suggests growth and expansion in the consumer electronics industry.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "boAt",
+      "company_size": "medium",
+      "departments": [
+        {
+          "name": "Product",
+          "decision_makers": [
+            "Head of Product",
+            "Director of Product"
+          ],
+          "hierarchy_level": "Director"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "VP Marketing",
+            "Head of Marketing"
+          ],
+          "hierarchy_level": "VP"
+        },
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "Head of Sales",
+            "Director of Sales"
+          ],
+          "hierarchy_level": "Director"
+        },
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "VP Engineering",
+            "Head of Engineering"
+          ],
+          "hierarchy_level": "VP"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "Head of Operations",
+            "Director of Operations"
+          ],
+          "hierarchy_level": "Director"
+        }
+      ],
+      "recommended_targets": [
+        "Head of Product",
+        "VP Marketing",
+        "Head of Sales",
+        "VP Engineering",
+        "Head of Operations"
+      ]
+    },
+    "people": [
+      {
+        "name": "Sam Fulton",
+        "title": "Marketplace CEO",
+        "company": "boAt",
+        "linkedin_url": "https://www.linkedin.com/in/samfulton/",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Matthew Moore",
+        "title": "CEO Volare Boats | LinkedIn",
+        "company": "boAt",
+        "linkedin_url": "https://www.linkedin.com/in/matthew-moore-204119179/",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "John Wayne",
+        "title": "CEO",
+        "company": "boAt",
+        "linkedin_url": "https://www.linkedin.com/in/john-wayne-b2256265/",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Dan Stolts",
+        "title": "Co-Founder and CTO AI Boat Mechanic & Just In ... Nicholas Troche",
+        "company": "boAt",
+        "linkedin_url": "https://www.linkedin.com/in/danstolts",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Aman Gupta",
+        "title": "Co Founder @ boAt Lifestyle | LinkedIn Nick Gustavsson",
+        "company": "boAt",
+        "linkedin_url": "https://in.linkedin.com/in/aman-gupta-7217a515",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Patti Matt",
+        "title": "VP",
+        "company": "boAt",
+        "linkedin_url": "https://www.linkedin.com/in/patti-matt-24573665",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Stacy Bennett",
+        "title": "Vp",
+        "company": "boAt",
+        "linkedin_url": "https://www.linkedin.com/in/stacy-bennett-204443158",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "noname nonumber",
+        "title": "VP of Waste Services",
+        "company": "boAt",
+        "linkedin_url": "https://www.linkedin.com/in/noname-nonumber-37299a28",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Nicholas Troche",
+        "title": "Chief Technology Officer",
+        "company": "boAt",
+        "linkedin_url": "https://www.linkedin.com/in/nicholas-troche-931ba022",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 8 decision-makers at boAt",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.5,
+    "reason": "The company is accepted and has relevant roles with decision_power >= 7, but it lacks enriched contacts with emails and has a low confidence score due to the lack of enriched contacts and the absence of a company website.",
+    "summary": "boAt company with multiple accepted roles but no enriched contacts",
+    "recommended_action": "Enrich contacts with emails to increase confidence score",
+    "created_at": "2026-02-09T18:34:49.200323",
+    "updated_at": "2026-02-09T18:34:49.200323"
+  },
+  {
+    "id": "6759af87",
+    "input": "Niveus Solutions",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Niveus Solutions",
+      "industry": "IT Services, Cloud Engineering",
+      "size": "medium",
+      "location": "Karnataka, India",
+      "website": "not found",
+      "growth_signals": [
+        "fast-growing",
+        "1000 GCP engineering professionals",
+        "partnership with HashiCorp",
+        "acquisition by NTT DATA"
+      ],
+      "status": "accepted",
+      "reason": "The company has recent news articles indicating its partnership with HashiCorp and its acquisition by NTT DATA, showcasing its growth and relevance in the cloud engineering services industry.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Niveus Solutions",
+      "company_size": "medium",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "VP Engineering",
+            "Director of Engineering"
+          ],
+          "hierarchy_level": "VP"
+        },
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "Head of Sales",
+            "Director of Business Development"
+          ],
+          "hierarchy_level": "Director"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "Head of Marketing",
+            "Director of Marketing"
+          ],
+          "hierarchy_level": "Director"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "Head of Finance",
+            "Finance Director"
+          ],
+          "hierarchy_level": "Director"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "Head of Operations",
+            "Operations Director"
+          ],
+          "hierarchy_level": "Director"
+        }
+      ],
+      "recommended_targets": [
+        "VP Engineering",
+        "Head of Sales",
+        "Head of Marketing",
+        "Finance Director",
+        "Head of Operations"
+      ]
+    },
+    "people": [
+      {
+        "name": "Luvlyn DSouza",
+        "title": "Associate Director",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/luvlyndsouza",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "sharath shet",
+        "title": "Manager at Niveus Solutions | LinkedIn",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/sharath-shet-a49ba338/",
+        "decision_power": 4,
+        "status": "rejected",
+        "reason": "Decision power: 4/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Suyog Shetty",
+        "title": "Niveus Solutions (Part of NTT DATA) | LinkedIn Prajwal Amin",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/suyog-shetty-79693730",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Prajwal Amin",
+        "title": "Niveus Solutions | LinkedIn Shipra Rai",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/prajwal-amin-74481694",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Shipra Rai",
+        "title": "Niveus Solutions Pvt. Ltd. | LinkedIn Sanjeeth Veigas",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/shipra-rai-89020523",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sheikh Ziad Ahmed",
+        "title": "FlutterFlow Developer",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/sheikh-ziad-ahmed-b3391319a/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Pranit More",
+        "title": "Niveus Solutions | LinkedIn",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/morepranit/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Rohan K Rao",
+        "title": "Niveus Solutions | LinkedIn",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/rohan-k-rao-5855a818/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Aakarsh Ak",
+        "title": "QA Analyst at Niveus Solutions Pvt, Ltd. | LinkedIn",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/aakarsh-ak-b3176764/",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 1 decision-makers at Niveus Solutions",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.7,
+    "reason": "The lead has a company that is accepted and B2B relevant, and it has an accepted role with decision power >= 7. However, it lacks enriched contacts with emails and has only one decision-maker. The final confidence score is 0.7, which is less than the required threshold of 0.7 due to the scoring rules: 0.5 (base score) + 0.2 (company accepted & B2B relevant) = 0.7. The lead is rejected because it does not meet the required confidence score threshold.",
+    "summary": "Niveus Solutions lead with Associate Director Luvlyn DSouza",
+    "recommended_action": "Gather more information about the company's contact details to improve the confidence score.",
+    "created_at": "2026-02-09T18:44:13.141717",
+    "updated_at": "2026-02-09T18:44:13.141717"
+  },
+  {
+    "id": "bc619743",
+    "input": "continental",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Bentley Continental",
+      "industry": "Automotive",
+      "size": "medium",
+      "location": "Crewe, England",
+      "website": "https://www.bentleymotors.com",
+      "growth_signals": [
+        "new model releases",
+        "performance derivative development"
+      ],
+      "status": "rejected",
+      "reason": "The search results indicate that Bentley Continental is a product line of Bentley Motors, rather than a standalone company, and there is no evidence of B2B sales relevance.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "The search results indicate that Bentley Continental is a product line of Bentley Motors, rather than a standalone company, and there is no evidence of B2B sales relevance.",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-09T18:48:31.674480",
+    "updated_at": "2026-02-09T18:48:31.674480"
+  },
+  {
+    "id": "0d1c31af",
+    "input": "Microsoft",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Microsoft",
+      "industry": "Technology",
+      "size": "enterprise",
+      "location": "Not specified in search results",
+      "website": "Not specified in search results",
+      "growth_signals": [
+        "pursues AI growth",
+        "promotes sales leaders"
+      ],
+      "status": "accepted",
+      "reason": "The company is a well-established technology company with a strong presence in the market, and recent news indicates efforts to grow its AI business and improve sales.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Microsoft",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Engineering",
+            "SVP Cloud and AI",
+            "VP Azure"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "EVP Marketing",
+            "SVP Marketing",
+            "VP Brand"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "EVP Sales",
+            "SVP Global Sales",
+            "VP Enterprise Sales"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "EVP Finance",
+            "SVP Financial Planning",
+            "VP Accounting"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "EVP Operations",
+            "SVP Global Operations",
+            "VP IT"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Engineering",
+        "SVP Cloud and AI",
+        "EVP Sales",
+        "EVP Marketing",
+        "EVP Finance"
+      ]
+    },
+    "people": [
+      {
+        "name": "Amy Ziari",
+        "title": "Microsoft cloud and AI SVP at We. Communications | LinkedIn",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/amyziari",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Abhishek Mathur",
+        "title": "SVP Figma | ex-Facebook | ex-Microsoft | LinkedIn",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/abhimathur",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Ambrish Verma",
+        "title": "SVP, Chief Product Officer @ Ingram Micro | Ex",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/ambrishverma",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Kristy Weeres",
+        "title": "Microsoft | LinkedIn",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/kristyweeres",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Scott Guthrie",
+        "title": "Executive Vice President at Microsoft | LinkedIn Jay Parikh",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/guthriescott",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jay Parikh",
+        "title": "Executive Vice President at Microsoft | LinkedIn Amy Coleman",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/jayparikh",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Amy Coleman",
+        "title": "Executive Vice President, Chief People Officer ... Shelley Bransten",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/amycoleman19",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "f Green",
+        "title": "EVP",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/f-green-bba3a7b",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Brett Churnin",
+        "title": "EVP",
+        "company": "Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/brett-churnin-46a4225",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 9 decision-makers at Microsoft",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.9,
+    "reason": "The company is a well-established technology company with a strong presence in the market and recent news indicates efforts to grow its AI business and improve sales. Multiple accepted roles with decision power >= 7 were found, including SVP and EVP positions.",
+    "summary": "Microsoft is a verified lead with strong growth signals and multiple decision-makers",
+    "recommended_action": "Proceed with outreach to the identified decision-makers, such as Amy Ziari, Abhishek Mathur, and Jay Parikh, to explore potential business opportunities",
+    "created_at": "2026-02-09T18:50:19.100023",
+    "updated_at": "2026-02-09T18:50:19.100023"
+  },
+  {
+    "id": "5c615302",
+    "input": "Niveus Solutions",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Niveus Solutions",
+      "industry": "Cloud Engineering Services",
+      "size": "medium",
+      "location": "Karnataka, India",
+      "website": "Not found in search results",
+      "growth_signals": [
+        "fast-growing",
+        "partnership with HashiCorp",
+        "acquisition by NTT DATA",
+        "1000 GCP engineering professionals"
+      ],
+      "status": "accepted",
+      "reason": "Niveus Solutions is a real, established company with a clear industry presence in cloud engineering services, as evidenced by its partnership with HashiCorp and acquisition by NTT DATA, indicating growth and expansion.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Niveus Solutions",
+      "company_size": "medium",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "VP Engineering",
+            "Director of Engineering"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "VP Sales",
+            "Director of Sales"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "VP Marketing",
+            "Director of Marketing"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "VP Finance",
+            "Director of Finance"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "VP Operations",
+            "Director of Operations"
+          ],
+          "hierarchy_level": "VP / Director"
+        }
+      ],
+      "recommended_targets": [
+        "VP Engineering",
+        "VP Sales",
+        "Director of Engineering",
+        "Director of Sales",
+        "VP Marketing"
+      ]
+    },
+    "people": [
+      {
+        "name": "Dathu Patil",
+        "title": "Co-Founder & CTO at Verbal | ex-AWS | Berkeley Haas",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/dathup",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Luvlyn DSouza",
+        "title": "Associate Director",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/luvlyndsouza",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Suyog Shetty",
+        "title": "Niveus Solutions (Part of NTT DATA) | LinkedIn",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/suyog-shetty-79693730",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jayanth Suvarna",
+        "title": "Niveus Solutions Pvt. Ltd. | LinkedIn",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/jayanth-suvarna-05484422",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Vikram Singh",
+        "title": "Niveus Solutions | LinkedIn",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/vikram-singh-23aa703a",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sheikh Ziad Ahmed",
+        "title": "FlutterFlow Developer",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/sheikh-ziad-ahmed-b3391319a/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Pranit More",
+        "title": "Niveus Solutions | LinkedIn",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/morepranit/",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sanjeeth Veigas",
+        "title": "Niveus Solutions | LinkedIn Benson Thomas",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/sanjeeth-veigas",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Benson Thomas",
+        "title": "Enterprise SaaS, Cloud & AI Sales | Scaling ...",
+        "company": "Niveus Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/benson-thomas-8b518975",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 2 decision-makers at Niveus Solutions",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.9,
+    "reason": "The company Niveus Solutions is accepted and has a clear B2B relevance in the cloud engineering services industry. Two accepted roles with decision_power >= 7 were found, including a Co-Founder & CTO and an Associate Director, indicating a high level of decision-making authority. Although no enriched contacts with emails were found, the presence of multiple decision-makers and the company's accepted status contribute to a high confidence score.",
+    "summary": "Niveus Solutions is a verified lead with multiple decision-makers and a strong industry presence",
+    "recommended_action": "Proceed with outreach to the identified decision-makers, Dathu Patil and Luvlyn DSouza, to explore potential business opportunities",
+    "created_at": "2026-02-09T18:52:43.996713",
+    "updated_at": "2026-02-09T18:52:43.996713"
+  },
+  {
+    "id": "28ed251b",
+    "input": "Novigo Solutions",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Novigo Solutions",
+      "industry": "Technology, Product Engineering, AI",
+      "size": "medium",
+      "location": "EL DORADO HILLS, California, USA and/or Greater Noida, India",
+      "website": "Not found",
+      "growth_signals": [
+        "10th anniversary",
+        "acquisition by R Systems",
+        "expansion of global digital engineering and AI capabilities"
+      ],
+      "status": "accepted",
+      "reason": "The company is mentioned as a real entity in recent news articles, has been acquired by R Systems, and is celebrating its 10th anniversary, indicating establishment and growth.",
+      "_sources": [
+        "news"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Novigo Solutions",
+      "company_size": "medium",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "VP Engineering",
+            "Director of Engineering"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Product Management",
+          "decision_makers": [
+            "Head of Product",
+            "Director of Product Management"
+          ],
+          "hierarchy_level": "Director / Head"
+        },
+        {
+          "name": "AI/ML Research",
+          "decision_makers": [
+            "Head of AI/ML",
+            "Director of AI Research"
+          ],
+          "hierarchy_level": "Director / Head"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "VP Sales",
+            "Director of Marketing"
+          ],
+          "hierarchy_level": "VP / Director"
+        }
+      ],
+      "recommended_targets": [
+        "VP Engineering",
+        "Head of Product",
+        "Director of Sales",
+        "Head of AI/ML",
+        "Director of Marketing"
+      ]
+    },
+    "people": [
+      {
+        "name": "Dhanu Vardhan Dasari",
+        "title": "Business Manager",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://www.linkedin.com/in/dhanu-vardhan-dasari-44727716b",
+        "decision_power": 4,
+        "status": "rejected",
+        "reason": "Decision power: 4/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Praveen Kumar Kalbhavi",
+        "title": "Novigo Solutions | LinkedIn Mohammed Hanif",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/praveen-kumar-kalbhavi-3908285",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Mohammed Hanif",
+        "title": "Novigo Solutions | LinkedIn Pallavi Hebbar",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/hanifkulai",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Pallavi Hebbar",
+        "title": "Certified ScrumMaster® (CSM®) | LinkedIn Deepa Yeligar",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/pallavi-hebbar-5a22152b",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Afariz Abdul",
+        "title": "Novigo Solutions | LinkedIn",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/afariz096",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Muadh Bin Mohammed Ali",
+        "title": "Novigo Solutions | LinkedIn",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://in.linkedin.com/in/muadh-bin-mohammed-ali",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Mohammed Jarood",
+        "title": "Novigo Solutions Pvt.Ltd. | LinkedIn",
+        "company": "Novigo Solutions",
+        "linkedin_url": "https://ae.linkedin.com/in/mohammed-jarood-86024424",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 0 decision-makers at Novigo Solutions",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No accepted roles to enrich",
+    "confidence_score": 0.2,
+    "reason": "No decision-making roles identified",
+    "summary": "Novigo Solutions - No high-value targets",
+    "recommended_action": "Try with more senior role titles",
+    "created_at": "2026-02-09T18:53:44.580548",
+    "updated_at": "2026-02-09T18:53:44.580548"
+  },
+  {
+    "id": "fe0ab0fe",
+    "input": "Wipro",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Wipro Limited",
+      "industry": "Technology, Consulting",
+      "size": "enterprise",
+      "location": "Bengaluru, India",
+      "website": "https://www.wipro.com/",
+      "growth_signals": [
+        "AI-Powered Model",
+        "expansion of services",
+        "awards for sustainability education"
+      ],
+      "status": "accepted",
+      "reason": "Wipro is a well-established Indian multinational technology company with a strong presence in the IT and consulting industry, as evidenced by its Wikipedia page and official website. The company's size is indicated to be large or enterprise-level, and recent news articles suggest it is still growing and innovating, with a focus on AI-powered technology and sustainability education.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Wipro Limited",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Technology",
+            "SVP Engineering",
+            "Global Head of R&D"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Digital Transformation",
+          "decision_makers": [
+            "EVP Digital",
+            "SVP Consulting",
+            "Global Head of Digital Strategy"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Cybersecurity",
+          "decision_makers": [
+            "EVP Cybersecurity",
+            "SVP Security",
+            "Global Head of Threat Intelligence"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Cloud Services",
+          "decision_makers": [
+            "EVP Cloud",
+            "SVP Cloud Infrastructure",
+            "Global Head of Cloud Migration"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "IT Services",
+          "decision_makers": [
+            "EVP IT Services",
+            "SVP Service Delivery",
+            "Global Head of IT Operations"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Technology",
+        "EVP Digital",
+        "SVP Engineering",
+        "SVP Consulting",
+        "Global Head of R&D"
+      ]
+    },
+    "people": [
+      {
+        "name": "Ritesh Kumar Mangal",
+        "title": "SVP and Sector Head | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/ritesh-kumar-mangal-1714844",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Deepak Bharadwaj",
+        "title": "Vice President @ Nomiso Inc",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/deepakbharadwaj72",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sumit Taneja",
+        "title": "Vice President HR at Wipro Limited | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://in.linkedin.com/in/sumit-taneja-8aa240a2",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Denny John",
+        "title": "Vice President & Europe Head",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://in.linkedin.com/in/denny-john-8556ba35",
+        "decision_power": 9,
+        "status": "accepted",
+        "reason": "Decision power: 9/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Anjan Mukherjee",
+        "title": "SVP & Americas Head, Business Process Services ...",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/anjan-mukherjee-8176236",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Shuvankar Roy",
+        "title": "VP",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/sroy71",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "David Kuriakose",
+        "title": "General Manager at Wipro Limited",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/davidkk",
+        "decision_power": 4,
+        "status": "rejected",
+        "reason": "Decision power: 4/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Tony Buffomante",
+        "title": "Wipro Limited",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://www.linkedin.com/in/buffomante",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Subrahmanyam Ponnapalli",
+        "title": "Business management, sales... | LinkedIn",
+        "company": "Wipro Limited",
+        "linkedin_url": "https://in.linkedin.com/in/subrahmanyam-ponnapalli-12729323",
+        "decision_power": 3,
+        "status": "rejected",
+        "reason": "Decision power: 3/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 6 decision-makers at Wipro Limited",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No matching contacts found",
+    "confidence_score": 0.9,
+    "reason": "Company Wipro Limited is a well-established enterprise in the technology and consulting industry with a strong presence. Multiple accepted roles with decision power of 7 or more were found, including SVP and Sector Head, Vice President, and VP. This suggests that the company has the potential to make decisions and engage in B2B activities.",
+    "summary": "Wipro Limited is a verified lead with strong decision-making potential",
+    "recommended_action": "Proceed with outreach and engagement efforts to explore potential B2B opportunities",
+    "created_at": "2026-02-09T18:54:51.348133",
+    "updated_at": "2026-02-09T18:54:51.348133"
   }
 ]

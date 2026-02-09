@@ -85,17 +85,21 @@ Required Output Format:
 Be strict: reject unclear or consumer-focused companies."""
 
 
-def run(company_input: str, use_web_search: bool = True) -> dict:
+def run(company_input: str, use_web_search: bool = True, stop_event=None) -> dict:
     """
     Run company discovery validation with optional web search.
     
     Args:
         company_input: Company name or description
         use_web_search: Whether to search the web for real data
+        stop_event: Optional threading.Event to check for stop signal
         
     Returns:
         Dict with company validation results
     """
+    if stop_event and stop_event.is_set():
+        raise KeyboardInterrupt("Stopped by user")
+
     api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
         return {
@@ -111,7 +115,7 @@ def run(company_input: str, use_web_search: bool = True) -> dict:
     if use_web_search and WEB_SEARCH_ENABLED and web_search_available():
         try:
             # Perform real web search
-            web_search_data = get_company_info(company_input)
+            web_search_data = get_company_info(company_input, stop_event=stop_event)
             search_text = extract_company_data(web_search_data)
             prompt = DISCOVERY_PROMPT
             user_content = f"Analyze this company based on the following REAL search results:\n\n{search_text}"
@@ -124,6 +128,9 @@ def run(company_input: str, use_web_search: bool = True) -> dict:
         prompt = DISCOVERY_PROMPT_NO_SEARCH
         user_content = f"Company: {company_input}"
     
+    if stop_event and stop_event.is_set():
+        raise KeyboardInterrupt("Stopped by user")
+
     try:
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",

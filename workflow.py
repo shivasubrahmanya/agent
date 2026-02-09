@@ -126,6 +126,44 @@ class LongRunningWorkflow:
         if resume_id and self.state and self.state.can_resume(resume_id):
             return self._resume_pipeline(resume_id)
         
+        # Handle "resume" command from input
+        if user_input.strip().lower().startswith("resume"):
+            if not self.state:
+                return {"error": "State management not available", "status": "failed"}
+            
+            resumables = self.state.get_resumable_executions()
+            if not resumables:
+                return {"error": "No resumable sessions found", "status": "failed"}
+            
+            # Sort by updated_at to get the most recent one first
+            resumables.sort(key=lambda x: x.get("updated_at", ""), reverse=True)
+            
+            # Parse arguments: "resume" or "resume 1" or "resume <id>"
+            parts = user_input.strip().split(maxsplit=1)
+            target_execution = resumables[0] # Default to latest
+            
+            if len(parts) > 1:
+                arg = parts[1].strip()
+                
+                # Check if index (1-based)
+                if arg.isdigit():
+                    idx = int(arg) - 1
+                    if 0 <= idx < len(resumables):
+                        target_execution = resumables[idx]
+                    else:
+                        return {"error": f"Invalid index {arg}. Available: 1-{len(resumables)}", "status": "failed"}
+                else:
+                    # Check if ID (partial match)
+                    matches = [e for e in resumables if e["id"].startswith(arg)]
+                    if len(matches) == 1:
+                        target_execution = matches[0]
+                    elif len(matches) > 1:
+                        return {"error": f"Ambiguous ID '{arg}'. Search matches multiple executions.", "status": "failed"}
+                    else:
+                        return {"error": f"No execution found matching '{arg}'", "status": "failed"}
+            
+            return self._resume_pipeline(target_execution["id"])
+        
         company_name, user_roles = parse_input(user_input)
         
         if not company_name:
@@ -222,7 +260,7 @@ class LongRunningWorkflow:
         cached_company = self.memory.recall_company(company_name) if self.memory else None
         
         try:
-            company_result = discovery_agent.run(company_name, use_web_search=True)
+            company_result = discovery_agent.run(company_name, use_web_search=True, stop_event=self.stop_event)
             
             # Enrich with cached data if available
             if cached_company and cached_company.get("outcome") == "success":
@@ -282,7 +320,7 @@ class LongRunningWorkflow:
             self.progress.update("structure", "running")
         
         try:
-            structure_result = structure_agent.run(company_result)
+            structure_result = structure_agent.run(company_result, stop_event=self.stop_event)
             lead_data["structure"] = structure_result
             lead_data["stages"]["structure"] = "completed"
             
@@ -312,7 +350,8 @@ class LongRunningWorkflow:
             roles_result = role_agent.run(
                 company_name=company_result.get("name", company_name),
                 company_size=company_size,
-                structure_data=structure_result
+                structure_data=structure_result,
+                stop_event=self.stop_event
             )
             
             lead_data["people"] = roles_result.get("people", [])
@@ -375,7 +414,8 @@ class LongRunningWorkflow:
             enrichment_result = enrichment_agent.run(
                 company_name=company_result.get("name", company_name),
                 roles=roles_for_enrichment,
-                company_domain=company_domain
+                company_domain=company_domain,
+                stop_event=self.stop_event
             )
             lead_data["contacts"] = enrichment_result.get("contacts", [])
             lead_data["enrichment_note"] = enrichment_result.get("note", "")
@@ -433,7 +473,8 @@ class LongRunningWorkflow:
             verification_result = verification_agent.run(
                 company=company_result,
                 roles=roles_for_verification,
-                contacts=lead_data["contacts"]
+                contacts=lead_data["contacts"],
+                stop_event=self.stop_event
             )
             
             lead_data["status"] = verification_result.get("status", "rejected")
@@ -580,7 +621,7 @@ class LongRunningWorkflow:
                     if self.progress:
                         self.progress.update("discovery", "running", {"company": company_name})
                     
-                    company_result = discovery_agent.run(company_name, use_web_search=True)
+                    company_result = discovery_agent.run(company_name, use_web_search=True, stop_event=self.stop_event)
                     lead_data["company"] = company_result
                     lead_data["stages"]["discovery"] = "completed"
                     self.state.complete_stage("discovery", company_result)
@@ -600,7 +641,7 @@ class LongRunningWorkflow:
                     if self.progress:
                         self.progress.update("structure", "running")
                     
-                    structure_result = structure_agent.run(company_result or lead_data.get("company", {}))
+                    structure_result = structure_agent.run(company_result or lead_data.get("company", {}), stop_event=self.stop_event)
                     lead_data["structure"] = structure_result
                     lead_data["stages"]["structure"] = "completed"
                     self.state.complete_stage("structure", structure_result)
@@ -617,7 +658,8 @@ class LongRunningWorkflow:
                     roles_result = role_agent.run(
                         company_name=company_data.get("name", company_name),
                         company_size=company_data.get("size", "medium"),
-                        structure_data=structure_result or lead_data.get("structure", {})
+                        structure_data=structure_result or lead_data.get("structure", {}),
+                        stop_event=self.stop_event
                     )
                     lead_data["people"] = roles_result.get("people", [])
                     lead_data["people_summary"] = roles_result.get("summary", "")
@@ -654,7 +696,8 @@ class LongRunningWorkflow:
                     enrichment_result = enrichment_agent.run(
                         company_name=company_data.get("name", company_name),
                         roles=roles_for_enrichment,
-                        company_domain=company_domain
+                        company_domain=company_domain,
+                        stop_event=self.stop_event
                     )
                     lead_data["contacts"] = enrichment_result.get("contacts", [])
                     lead_data["enrichment_note"] = enrichment_result.get("note", "")
@@ -682,7 +725,8 @@ class LongRunningWorkflow:
                     verification_result = verification_agent.run(
                         company=company_result or lead_data.get("company", {}),
                         roles=roles_for_verification,
-                        contacts=lead_data.get("contacts", [])
+                        contacts=lead_data.get("contacts", []),
+                        stop_event=self.stop_event
                     )
                     
                     lead_data["status"] = verification_result.get("status", "rejected")

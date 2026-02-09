@@ -138,6 +138,33 @@ async def websocket_endpoint(websocket: WebSocket):
                             "type": "log",
                             "message": "No active analysis to stop."
                         }), websocket)
+                
+                elif command == "get_history":
+                    # Fetch resumable executions
+                    try:
+                        print("DEBUG: Received get_history command")
+                        from memory.state_manager import StateManager
+                        state_manager = StateManager()
+                        resumables = state_manager.get_resumable_executions()
+                        print(f"DEBUG: Found {len(resumables)} resumable executions")
+                        
+                        # Sort by updated_at (newest first)
+                        resumables.sort(key=lambda x: x.get("updated_at", ""), reverse=True)
+                        
+                        # Send back to frontend
+                        await manager.send_personal_message(json.dumps({
+                            "type": "history",
+                            "data": resumables
+                        }), websocket)
+                        print("DEBUG: Sent history to frontend")
+                    except Exception as e:
+                        print(f"DEBUG: Error in get_history: {e}")
+                        import traceback
+                        traceback.print_exc()
+                        await manager.send_personal_message(json.dumps({
+                            "type": "error",
+                            "message": f"Failed to fetch history: {str(e)}"
+                        }), websocket)
                     
             except json.JSONDecodeError:
                 pass

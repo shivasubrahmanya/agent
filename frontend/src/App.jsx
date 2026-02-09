@@ -48,9 +48,35 @@ function App() {
     };
   };
 
+  // History / Resume Logic
+  const [showHistory, setShowHistory] = useState(false);
+  const [historyItems, setHistoryItems] = useState([]);
+
+  const handleGetHistory = () => {
+    if (!connected) {
+      console.log("Cannot get history: Not connected");
+      return;
+    }
+    console.log("Sending get_history command");
+    ws.current.send(JSON.stringify({ command: "get_history" }));
+  };
+
+  const handleResume = (id) => {
+    setInput(`resume ${id}`);
+    setShowHistory(false);
+    // Optional: Auto-submit
+    // setTimeout(() => handleAnalyze({ preventDefault: () => {} }), 100);
+  };
+
+  // Update handleMessage to receive history
   const handleMessage = (msg) => {
+    console.log("Received message:", msg);
     if (msg.type === 'log') {
       addLog("info", msg.message);
+    } else if (msg.type === 'history') {
+      console.log("History items received:", msg.data);
+      setHistoryItems(msg.data);
+      setShowHistory(true);
     } else if (msg.type === 'progress') {
       const { stage, status, data } = msg;
 
@@ -110,7 +136,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-background text-foreground p-4 md:p-8 font-sans selection:bg-primary/20">
+    <div className="min-h-screen bg-background text-foreground p-4 md:p-8 font-sans selection:bg-primary/20 relative">
       <div className="max-w-5xl mx-auto space-y-8">
 
         {/* Header */}
@@ -140,7 +166,16 @@ function App() {
 
             {/* Input Card */}
             <div className="bg-card border border-border rounded-xl p-5 shadow-sm">
-              <label className="text-sm font-medium mb-2 block">Company & Roles</label>
+              <div className="flex justify-between items-center mb-2">
+                <label className="text-sm font-medium block">Company & Roles</label>
+                <button
+                  onClick={handleGetHistory}
+                  className="text-xs text-primary hover:underline flex items-center gap-1"
+                  type="button"
+                >
+                  <Activity size={12} /> History / Resume
+                </button>
+              </div>
               <form onSubmit={handleAnalyze} className="space-y-4">
                 <div className="relative">
                   <input
@@ -215,6 +250,51 @@ function App() {
           </div>
         </div>
       </div>
+
+      {/* History Modal */}
+      {showHistory && (
+        <div className="fixed inset-0 bg-background/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <div className="bg-card border border-border rounded-xl shadow-lg max-w-lg w-full max-h-[80vh] flex flex-col">
+            <div className="p-4 border-b border-border flex justify-between items-center">
+              <h2 className="font-bold text-lg">Resume Session</h2>
+              <button onClick={() => setShowHistory(false)} className="text-muted-foreground hover:text-foreground">
+                ✕
+              </button>
+            </div>
+            <div className="overflow-y-auto p-4 space-y-2 flex-1">
+              {historyItems.length === 0 ? (
+                <p className="text-center text-muted-foreground py-8">No resumable sessions found.</p>
+              ) : (
+                historyItems.map((item) => (
+                  <button
+                    key={item.id}
+                    onClick={() => handleResume(item.id)}
+                    className="w-full text-left p-3 hover:bg-muted/50 rounded-lg border border-border/50 transition-colors group"
+                  >
+                    <div className="flex justify-between items-start">
+                      <span className="font-medium">
+                        {typeof item.input === 'object'
+                          ? (item.input.company || item.input.company_name || "Complex Analysis")
+                          : (item.input || "Unknown Analysis")}
+                      </span>
+                      <span className={`text-xs px-2 py-0.5 rounded-full ${item.status === 'completed' ? 'bg-green-100 text-green-700' :
+                        item.status === 'failed' ? 'bg-red-100 text-red-700' :
+                          'bg-yellow-100 text-yellow-700'
+                        }`}>
+                        {item.status}
+                      </span>
+                    </div>
+                    <div className="text-xs text-muted-foreground mt-1 flex justify-between">
+                      <span>ID: {item.id.substring(0, 8)}...</span>
+                      <span>{new Date(item.updated_at).toLocaleString()}</span>
+                    </div>
+                  </button>
+                ))
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -40,7 +40,7 @@ Required Output Format:
 }"""
 
 
-def run(company: dict, roles: list, contacts: list) -> dict:
+def run(company: dict, roles: list, contacts: list, stop_event=None) -> dict:
     """
     Run final verification.
     
@@ -48,10 +48,14 @@ def run(company: dict, roles: list, contacts: list) -> dict:
         company: Company data from discovery
         roles: Role data from role mapping
         contacts: Contact data from enrichment
+        stop_event: Optional threading.Event to check for stop signal
         
     Returns:
         Dict with final verification result
     """
+    if stop_event and stop_event.is_set():
+        raise KeyboardInterrupt("Stopped by user")
+
     api_key = os.getenv("GROQ_API_KEY")
     
     if not api_key:
@@ -95,6 +99,9 @@ Enriched Contacts ({len(contacts)}):
 {json.dumps(contacts, indent=2)}
 """
         
+        if stop_event and stop_event.is_set():
+            raise KeyboardInterrupt("Stopped by user")
+
         response = client.chat.completions.create(
             model="llama-3.3-70b-versatile",
             max_tokens=512,

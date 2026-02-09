@@ -2599,5 +2599,1198 @@
       "success": true
     },
     "timestamp": "2026-02-06T21:56:41.549752"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "96ffba40",
+      "input": {
+        "company": "Ritz7 Automations",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-09T18:08:28.250988"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "96ffba40",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:08:28.293405"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "96ffba40",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:08:34.192894"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "96ffba40",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-09T18:08:34.233256"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "96ffba40",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:08:35.845592"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "96ffba40",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:08:35.881909"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "96ffba40",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:08:43.066329"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "96ffba40",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-09T18:08:43.115091"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "96ffba40",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:09:09.949996"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "96ffba40",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-09T18:09:10.002351"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "96ffba40",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:09:11.983128"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "96ffba40",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:09:12.062748"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "2cc454e6",
+      "input": {
+        "company": "Bosch CEO",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-09T18:22:10.078558"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "2cc454e6",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:22:10.116373"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "2cc454e6",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:22:19.599895"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "2cc454e6",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-09T18:22:19.651756"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "2cc454e6",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:22:21.285735"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "2cc454e6",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-09T18:22:21.330802"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "e20a7dc1",
+      "input": {
+        "company": "Resume",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-09T18:22:32.717881"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "e20a7dc1",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:22:32.755873"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "e20a7dc1",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:22:36.651162"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "e20a7dc1",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:22:36.747640"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "5a8bed93",
+      "input": {
+        "company": "resume",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-09T18:23:00.841612"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "5a8bed93",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:23:00.882295"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "5a8bed93",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:23:08.381746"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "5a8bed93",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:23:08.487254"
+  },
+  {
+    "type": "execution_resumed",
+    "data": {
+      "execution_id": "2cc454e6",
+      "resume_stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:26:51.068359"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "2cc454e6",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:26:51.110668"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "2cc454e6",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:26:55.797827"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "2cc454e6",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-09T18:26:55.831044"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "2cc454e6",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:27:44.592898"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "2cc454e6",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-09T18:27:44.637658"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "2cc454e6",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:27:46.653082"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "2cc454e6",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:27:46.694575"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "57034045",
+      "input": {
+        "company": "Novigo Solutions",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-09T18:31:06.037700"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "57034045",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:31:06.082121"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "57034045",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:31:09.648091"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "57034045",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-09T18:31:09.693983"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "57034045",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:31:11.092117"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "57034045",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:31:11.129159"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "57034045",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:31:19.825459"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "57034045",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-09T18:31:19.865962"
+  },
+  {
+    "type": "execution_resumed",
+    "data": {
+      "execution_id": "57034045",
+      "resume_stage": "enrichment"
+    },
+    "timestamp": "2026-02-09T18:31:44.567916"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "57034045",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-09T18:31:44.613360"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "57034045",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:31:44.663787"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "57034045",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-09T18:31:44.710019"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "57034045",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:31:44.752457"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "57034045",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:31:44.795142"
+  },
+  {
+    "type": "execution_resumed",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "resume_stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:31:57.460542"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:31:57.516728"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:32:05.471719"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-09T18:32:05.514476"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:32:48.484800"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-09T18:32:48.536494"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:32:50.177239"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "82a8bb4f",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:32:50.228650"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "47e79a47",
+      "input": {
+        "company": "Boat",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-09T18:33:39.932014"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "47e79a47",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:33:39.984855"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "47e79a47",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:33:47.860634"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "47e79a47",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:33:47.969988"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "input": {
+        "company": "Boat Earphones",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-09T18:34:05.848244"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:34:05.896252"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:34:13.670214"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-09T18:34:13.716778"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:34:15.199379"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:34:15.251560"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:34:21.472008"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-09T18:34:21.520440"
+  },
+  {
+    "type": "execution_resumed",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "resume_stage": "enrichment"
+    },
+    "timestamp": "2026-02-09T18:34:30.228408"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-09T18:34:30.343489"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:34:48.147955"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-09T18:34:48.161657"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:34:49.162739"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "4f1c4c73",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:34:49.181812"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "6759af87",
+      "input": {
+        "company": "Niveus Solutions",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-09T18:43:34.376113"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6759af87",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:43:34.430616"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6759af87",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:43:44.197864"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6759af87",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-09T18:43:44.248850"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6759af87",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:43:45.949409"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "6759af87",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-09T18:43:46.219400"
+  },
+  {
+    "type": "execution_resumed",
+    "data": {
+      "execution_id": "6759af87",
+      "resume_stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:43:52.297338"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6759af87",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:43:52.442429"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6759af87",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:44:01.283500"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6759af87",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-09T18:44:01.334836"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6759af87",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:44:11.253666"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6759af87",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-09T18:44:11.314499"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6759af87",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:44:13.017052"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "6759af87",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:44:13.082868"
+  },
+  {
+    "type": "execution_resumed",
+    "data": {
+      "execution_id": "bc619743",
+      "resume_stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:48:24.219258"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "bc619743",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:48:24.247330"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "bc619743",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:48:31.637540"
+  },
+  {
+    "type": "execution_resumed",
+    "data": {
+      "execution_id": "0d1c31af",
+      "resume_stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:49:48.716487"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0d1c31af",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:49:48.744726"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "0d1c31af",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:49:51.945343"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0d1c31af",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-09T18:49:51.969303"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "0d1c31af",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:49:53.141006"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0d1c31af",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:49:53.168109"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "0d1c31af",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:50:00.916391"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0d1c31af",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-09T18:50:00.946937"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "0d1c31af",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:50:17.971074"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0d1c31af",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-09T18:50:18.003108"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "0d1c31af",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:50:19.029689"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "0d1c31af",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:50:19.057262"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "5c615302",
+      "input": {
+        "company": "Niveus Solutions",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-09T18:52:19.478118"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "5c615302",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:52:19.510075"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "5c615302",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:52:27.267939"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "5c615302",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-09T18:52:27.302421"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "5c615302",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:52:28.388885"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "5c615302",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:52:28.421585"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "5c615302",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:52:34.532468"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "5c615302",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-09T18:52:34.564120"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "5c615302",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:52:42.607062"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "5c615302",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-09T18:52:42.636533"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "5c615302",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:52:43.957498"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "5c615302",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:52:44.040031"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "28ed251b",
+      "input": {
+        "company": "Novigo Solutions",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-09T18:53:23.234273"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "28ed251b",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-09T18:53:23.263913"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "28ed251b",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:53:26.995726"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "28ed251b",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-09T18:53:27.033384"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "28ed251b",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:53:28.222690"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "28ed251b",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-09T18:53:28.257015"
+  },
+  {
+    "type": "execution_resumed",
+    "data": {
+      "execution_id": "28ed251b",
+      "resume_stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:53:36.786260"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "28ed251b",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:53:36.826974"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "28ed251b",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:53:44.358987"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "28ed251b",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-09T18:53:44.392670"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "28ed251b",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:53:44.422098"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "28ed251b",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-09T18:53:44.457501"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "28ed251b",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:53:44.497601"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "28ed251b",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:53:44.534446"
+  },
+  {
+    "type": "execution_resumed",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "resume_stage": "structure"
+    },
+    "timestamp": "2026-02-09T18:54:02.896933"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-09T18:54:02.936539"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:54:04.289589"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-09T18:54:04.325841"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:54:14.533780"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-09T18:54:14.574827"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:54:49.940516"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-09T18:54:49.980256"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:54:51.256108"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "fe0ab0fe",
+      "success": true
+    },
+    "timestamp": "2026-02-09T18:54:51.293900"
   }
 ]

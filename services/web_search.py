@@ -94,12 +94,13 @@ def search_company_linkedin(company_name: str) -> Optional[Dict[str, Any]]:
         return {"error": str(e)}
 
 
-def get_company_info(company_name: str) -> Dict[str, Any]:
+def get_company_info(company_name: str, stop_event=None) -> Dict[str, Any]:
     """
     Gather comprehensive company information from web search.
     
     Args:
         company_name: Company to research
+        stop_event: Optional threading.Event to check for stop signal
         
     Returns:
         Dict with company info from various sources
@@ -115,17 +116,29 @@ def get_company_info(company_name: str) -> Dict[str, Any]:
         "sources": []
     }
     
+    # Check stop before starting
+    if stop_event and stop_event.is_set():
+        raise KeyboardInterrupt("Stopped by user")
+    
     # Get general search results
     general_results = search_company(company_name, max_results=3)
     if general_results and not general_results[0].get("error"):
         info["web_results"] = general_results
         info["sources"].append("web_search")
     
+    # Check stop
+    if stop_event and stop_event.is_set():
+        raise KeyboardInterrupt("Stopped by user")
+    
     # Get news
     news_results = search_company_news(company_name, max_results=3)
     if news_results and not news_results[0].get("error"):
         info["news"] = news_results
         info["sources"].append("news")
+    
+    # Check stop
+    if stop_event and stop_event.is_set():
+        raise KeyboardInterrupt("Stopped by user")
     
     # Get LinkedIn
     linkedin = search_company_linkedin(company_name)

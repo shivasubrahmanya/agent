@@ -347,17 +347,16 @@
     "robert bosch gmbh": {
       "data": {
         "name": "Robert Bosch GmbH",
-        "industry": "Engineering and Technology",
+        "industry": "engineering and technology",
         "size": "enterprise",
         "location": "Gerlingen, Baden-Württemberg, Germany",
-        "website": "https://www.bosch.com/",
+        "website": "https://www.bosch.com",
         "growth_signals": [
-          "sales of 90.3 billion euros",
-          "418,000 associates",
-          "operates in four business sectors"
+          "employs roughly 412,000 associates worldwide",
+          "leading global supplier of technology and services"
         ],
         "status": "accepted",
-        "reason": "The company has a strong online presence, with a Wikipedia page and a professional website. The website mentions sales of 90.3 billion euros and 418,000 associates, indicating a large and established company. Recent news articles also show the company's involvement in major marketing campaigns, such as the Super Bowl, further solidifying its status as a major player in the industry.",
+        "reason": "The company has a strong online presence, with a Wikipedia page and a company website (https://www.bosch.com) that provides information on its size, industry, and services. The Wikipedia page and the company website both indicate that Bosch is a large, multinational engineering and technology company with a significant number of employees (412,000 as of December 31, 2025) and a global presence, which suggests that it is a suitable target for B2B sales.",
         "_sources": [
           "web_search",
           "news",
@@ -366,8 +365,8 @@
         "_web_search_used": true
       },
       "outcome": "success",
-      "analyzed_at": "2026-02-06T21:56:41.553708",
-      "times_analyzed": 3
+      "analyzed_at": "2026-02-09T18:32:50.239331",
+      "times_analyzed": 4
     },
     "accenture": {
       "data": {
@@ -442,6 +441,202 @@
       "outcome": "failure",
       "analyzed_at": "2026-02-06T20:38:48.273813",
       "times_analyzed": 1
+    },
+    "ritz7 automations": {
+      "data": {
+        "name": "Ritz7 Automations",
+        "industry": "Enterprise Services, Software Automation",
+        "size": "small",
+        "location": "Not found",
+        "website": "Not found",
+        "growth_signals": [
+          "Founded in 2020"
+        ],
+        "status": "accepted",
+        "reason": "The company is operating in the Enterprise Services industry, offering B2B relevant services such as custom web portals and software automation, and has a recent founding year which may indicate potential for growth.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-09T18:09:12.074096",
+      "times_analyzed": 1
+    },
+    "resume": {
+      "data": {
+        "name": "Not Found",
+        "industry": "Not Found",
+        "size": "Not Found",
+        "location": "Not Found",
+        "website": "Not Found",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The search results do not provide information about a specific company, but rather general news articles about resume building and job searching. There is no evidence of a real, established company.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-09T18:23:08.400769",
+      "times_analyzed": 3
+    },
+    "not found": {
+      "data": {
+        "name": "Not Found",
+        "industry": "Not Found",
+        "size": "Not Found",
+        "location": "Not Found",
+        "website": "Not Found",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The search results do not provide information about a specific company, but rather general news articles about resume building and job searching. There is no evidence of a real, established company.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-09T18:23:08.498469",
+      "times_analyzed": 1
+    },
+    "robert bosch tool corporation": {
+      "data": {
+        "name": "Robert Bosch Tool Corporation",
+        "industry": "Manufacturing",
+        "size": "large",
+        "location": "Mt. Prospect, Illinois",
+        "website": "https://www.boschtools.com/",
+        "growth_signals": [
+          "new CEO appointment"
+        ],
+        "status": "accepted",
+        "reason": "The company is a well-established manufacturer with a recent CEO appointment, indicating a level of organizational activity and potential for growth.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "success",
+      "analyzed_at": "2026-02-09T18:27:46.705149",
+      "times_analyzed": 1
+    },
+    "novigo solutions": {
+      "data": {
+        "name": "Novigo Solutions",
+        "industry": "Technology, Product Engineering, AI",
+        "size": "medium",
+        "location": "EL DORADO HILLS, California, USA and/or Greater Noida, India",
+        "website": "Not found",
+        "growth_signals": [
+          "10th anniversary",
+          "acquisition by R Systems",
+          "expansion of global digital engineering and AI capabilities"
+        ],
+        "status": "accepted",
+        "reason": "The company is mentioned as a real entity in recent news articles, has been acquired by R Systems, and is celebrating its 10th anniversary, indicating establishment and growth.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-09T18:53:44.545380",
+      "times_analyzed": 2
+    },
+    "boat": {
+      "data": {
+        "name": "boAt",
+        "industry": "Consumer Electronics",
+        "size": "medium",
+        "location": "India",
+        "website": "Not found in search results",
+        "growth_signals": [
+          "new product launch",
+          "featured in comparison with established brands"
+        ],
+        "status": "accepted",
+        "reason": "The company is mentioned in recent news articles, indicating it is an active and established brand, and is launching new products, such as the boAt Rockerz 255 Pro+ wireless earphones, which suggests growth and expansion in the consumer electronics industry.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-09T18:34:49.184814",
+      "times_analyzed": 2
+    },
+    "niveus solutions": {
+      "data": {
+        "name": "Niveus Solutions",
+        "industry": "Cloud Engineering Services",
+        "size": "medium",
+        "location": "Karnataka, India",
+        "website": "Not found in search results",
+        "growth_signals": [
+          "fast-growing",
+          "partnership with HashiCorp",
+          "acquisition by NTT DATA",
+          "1000 GCP engineering professionals"
+        ],
+        "status": "accepted",
+        "reason": "Niveus Solutions is a real, established company with a clear industry presence in cloud engineering services, as evidenced by its partnership with HashiCorp and acquisition by NTT DATA, indicating growth and expansion.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "success",
+      "analyzed_at": "2026-02-09T18:52:44.048075",
+      "times_analyzed": 2
+    },
+    "microsoft": {
+      "data": {
+        "name": "Microsoft",
+        "industry": "Technology",
+        "size": "enterprise",
+        "location": "Not specified in search results",
+        "website": "Not specified in search results",
+        "growth_signals": [
+          "pursues AI growth",
+          "promotes sales leaders"
+        ],
+        "status": "accepted",
+        "reason": "The company is a well-established technology company with a strong presence in the market, and recent news indicates efforts to grow its AI business and improve sales.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "success",
+      "analyzed_at": "2026-02-09T18:50:19.063770",
+      "times_analyzed": 1
+    },
+    "wipro limited": {
+      "data": {
+        "name": "Wipro Limited",
+        "industry": "Technology, Consulting",
+        "size": "enterprise",
+        "location": "Bengaluru, India",
+        "website": "https://www.wipro.com/",
+        "growth_signals": [
+          "AI-Powered Model",
+          "expansion of services",
+          "awards for sustainability education"
+        ],
+        "status": "accepted",
+        "reason": "Wipro is a well-established Indian multinational technology company with a strong presence in the IT and consulting industry, as evidenced by its Wikipedia page and official website. The company's size is indicated to be large or enterprise-level, and recent news articles suggest it is still growing and innovating, with a focus on AI-powered technology and sustainability education.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "success",
+      "analyzed_at": "2026-02-09T18:54:51.304444",
+      "times_analyzed": 1
     }
   },
   "patterns": {
@@ -462,8 +657,8 @@
         "industry": "engineering and technology"
       },
       "success_rate": 1.0,
-      "uses": 1,
-      "last_used": "2026-02-06T21:47:49.391076"
+      "uses": 2,
+      "last_used": "2026-02-09T18:32:50.242207"
     },
     "enrichment:1affd035": {
       "type": "enrichment",
@@ -502,6 +697,46 @@
       "success_rate": 1.0,
       "uses": 1,
       "last_used": "2026-02-06T21:56:41.554837"
+    },
+    "discovery:77fddf65": {
+      "type": "discovery",
+      "pattern": {
+        "hint": "Industry 'Manufacturing' often produces quality leads",
+        "industry": "Manufacturing"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-09T18:27:46.709101"
+    },
+    "discovery:3b20c91c": {
+      "type": "discovery",
+      "pattern": {
+        "hint": "Industry 'Technology' often produces quality leads",
+        "industry": "Technology"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-09T18:50:19.065902"
+    },
+    "discovery:c84bb440": {
+      "type": "discovery",
+      "pattern": {
+        "hint": "Industry 'Cloud Engineering Services' often produces quality leads",
+        "industry": "Cloud Engineering Services"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-09T18:52:44.050766"
+    },
+    "discovery:55a5d688": {
+      "type": "discovery",
+      "pattern": {
+        "hint": "Industry 'Technology, Consulting' often produces quality leads",
+        "industry": "Technology, Consulting"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-09T18:54:51.307451"
     }
   },
   "failures": [],
@@ -595,11 +830,51 @@
       "insight": "Lead rejected: The lead has a company that is accepted and B2B relevant, with a role that has decision power of 7. ",
       "category": "verification",
       "timestamp": "2026-02-06T20:40:05.061759"
+    },
+    {
+      "insight": "Lead rejected: Although the company is accepted and operates in a B2B relevant industry, and there are multiple acc",
+      "category": "verification",
+      "timestamp": "2026-02-09T18:09:12.077904"
+    },
+    {
+      "insight": "Lead rejected: The search results do not indicate that 'Resume' is a company, but rather a general term or concept.",
+      "category": "verification",
+      "timestamp": "2026-02-09T18:22:36.760650"
+    },
+    {
+      "insight": "Lead rejected: The search results do not provide information about a specific company, but rather general news arti",
+      "category": "verification",
+      "timestamp": "2026-02-09T18:23:08.502000"
+    },
+    {
+      "insight": "Lead rejected: No decision-making roles identified",
+      "category": "verification",
+      "timestamp": "2026-02-09T18:31:44.817836"
+    },
+    {
+      "insight": "Lead rejected: The search results do not provide evidence of a real, established company, but rather appear to be n",
+      "category": "verification",
+      "timestamp": "2026-02-09T18:33:47.982371"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and has relevant roles with decision_power >= 7, but it lacks enriched conta",
+      "category": "verification",
+      "timestamp": "2026-02-09T18:34:49.185842"
+    },
+    {
+      "insight": "Lead rejected: The lead has a company that is accepted and B2B relevant, and it has an accepted role with decision ",
+      "category": "verification",
+      "timestamp": "2026-02-09T18:44:13.099464"
+    },
+    {
+      "insight": "Lead rejected: No decision-making roles identified",
+      "category": "verification",
+      "timestamp": "2026-02-09T18:53:44.548100"
     }
   ],
   "metadata": {
     "created_at": "2026-02-04T19:43:48.615961",
-    "total_analyses": 36,
-    "successful_leads": 6
+    "total_analyses": 51,
+    "successful_leads": 11
   }
 }
