@@ -93,14 +93,20 @@ def run(user_input: str, stop_event=None) -> dict:
     
     # 1. Heuristic Check: Is this a search query or a direct analysis request?
     # If it's short and looks like a name (e.g. "Microsoft", "OpenAI"), treat as direct.
-    # If it has "find", "list", "who are", "startups in", it's a search.
-    is_likely_search = False
-    triggers = ["find", "search", "list", "who are", "companies", "startups", "firms", "agencies"]
-    if any(t in user_input.lower() for t in triggers) or len(user_input.split()) > 4:
-        is_likely_search = True
+    # If it has search-like keywords or is a longer phrase, it's a search.
+    is_search_heuristic = False
+    triggers = ["find", "search", "list", "who are", "companies", "startups", "firms", "agencies", "in ", "near "]
+    
+    # If phrase is long enough or contains triggers
+    word_count = len(user_input.split())
+    has_trigger = any(t in user_input.lower() for t in triggers)
+    
+    if has_trigger or word_count >= 3:
+        is_search_heuristic = True
         
-    if not is_likely_search:
-        # Return empty companies list, signifying "not a search, treat as direct input"
+    print(f"DEBUG LeadFinder: input='{user_input}', words={word_count}, has_trigger={has_trigger} -> is_search={is_search_heuristic}")
+
+    if not is_search_heuristic:
         return {
             "is_search": False,
             "companies": [],
@@ -110,15 +116,27 @@ def run(user_input: str, stop_event=None) -> dict:
     if stop_event and stop_event.is_set():
         return {"companies": [], "message": "Stopped"}
 
+def clean_json_response(text: str) -> str:
+    """Extract JSON from potential markdown fences."""
+    if "```json" in text:
+        return text.split("```json")[1].split("```")[0].strip()
+    elif "```" in text:
+        return text.split("```")[1].split("```")[0].strip()
+    return text.strip()
+
+def run(user_input: str, stop_event=None) -> dict:
+...
     # 2. Generate Search Queries
     try:
         search_prompt = SEARCH_QUERY_PROMPT.format(user_input=user_input)
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="llama-3.1-8b-instant",
             messages=[{"role": "user", "content": search_prompt}],
-            max_tokens=200
+            max_tokens=150
         )
-        queries = json.loads(response.choices[0].message.content)
+        content = clean_json_response(response.choices[0].message.content)
+        all_queries = json.loads(content)
+        queries = all_queries[:3] # Limit to 3 for stability
     except Exception as e:
         # Fallback
         queries = [user_input]
@@ -126,18 +144,19 @@ def run(user_input: str, stop_event=None) -> dict:
 
     # 3. Execute Searches
     search_context = ""
-    for q in queries: # Execute all generated queries
+    for q in queries: # Execute top 3 queries
         if stop_event and stop_event.is_set(): break
         try:
             results = perform_web_search(q)
             search_context += f"Query: {q}\n{results}\n\n"
-            time.sleep(1) # Polite delay
+            time.sleep(1.5) # More polite delay to avoid rate limits
         except Exception:
             pass
             
-    if not search_context:
+    if not search_context or "Search Error:" in search_context:
         # FALLBACK: Try Apollo Company Search if web search failed
-        print("Web search failed/empty. Trying Apollo fallback...")
+        error_info = search_context if "Search Error:" in search_context else "No results found"
+        print(f"Web search failed ({error_info}). Trying Apollo fallback...")
         try:
             from services import apollo_client
             if apollo_client.is_configured():
@@ -161,10 +180,14 @@ def run(user_input: str, stop_event=None) -> dict:
         except Exception as e:
             print(f"Apollo fallback error: {e}")
 
+        msg = "No search results found to extract companies from."
+        if "rate_limit_exceeded" in search_context.lower():
+            msg = "Rate limit reached for Search. Please try again in 1 minute."
+            
         return {
             "is_search": True,
             "companies": [],
-            "message": "No search results found to extract companies from."
+            "message": msg
         }
 
     # 4. Extract Companies
@@ -174,19 +197,12 @@ def run(user_input: str, stop_event=None) -> dict:
     try:
         extract_prompt = COMPANY_EXTRACTION_PROMPT.format(user_input=user_input, search_results=search_context)
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="llama-3.1-8b-instant",
             messages=[{"role": "user", "content": extract_prompt}],
             max_tokens=4096
         )
-        companies_json = response.choices[0].message.content
-        
-        # Parse JSON (handle markdown fences if present)
-        if "```json" in companies_json:
-            companies_json = companies_json.split("```json")[1].split("```")[0]
-        elif "```" in companies_json:
-            companies_json = companies_json.split("```")[1].split("```")[0]
-            
-        companies = json.loads(companies_json.strip())
+        companies_json = clean_json_response(response.choices[0].message.content)
+        companies = json.loads(companies_json)
         
         return {
             "is_search": True,

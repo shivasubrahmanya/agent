@@ -276,7 +276,7 @@ function App() {
             </button>
           </form>
           <div className="text-[10px] text-center text-muted-foreground mt-2 flex justify-between px-1">
-            <span>DuckDuckGo • Apollo • Snov.io</span>
+            <span>SerpApi • Apollo • Snov.io</span>
             {status === 'analyzing' && (
               <button onClick={handleStop} className="text-destructive hover:underline">Stop Generating</button>
             )}
