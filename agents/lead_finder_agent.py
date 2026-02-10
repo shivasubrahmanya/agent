@@ -127,6 +127,31 @@ def run(user_input: str, stop_event=None) -> dict:
             pass
             
     if not search_context:
+        # FALLBACK: Try Apollo Company Search if web search failed
+        print("Web search failed/empty. Trying Apollo fallback...")
+        try:
+            from services import apollo_client
+            if apollo_client.is_configured():
+                apollo_results = apollo_client.search_companies(user_input, limit=10)
+                
+                if apollo_results and not apollo_results[0].get("error"):
+                    companies = []
+                    for org in apollo_results:
+                        if org.get("name"):
+                            desc = org.get("short_description", "")
+                            loc = f"{org.get('city', '')}, {org.get('country', '')}".strip(", ")
+                            context = f"{desc} | Location: {loc}"
+                            companies.append({"name": org.get("name"), "context": context})
+                    
+                    if companies:
+                        return {
+                            "is_search": True,
+                            "companies": companies,
+                            "message": f"Found {len(companies)} companies via Apollo (Web Search fallback)."
+                        }
+        except Exception as e:
+            print(f"Apollo fallback error: {e}")
+
         return {
             "is_search": True,
             "companies": [],

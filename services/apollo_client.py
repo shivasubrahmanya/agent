@@ -127,3 +127,55 @@ def enrich_person(first_name: str, last_name: str, company_name: str = "", **kwa
         "note": "Person not found - showing top people at company",
         "top_people": people[:5] if people else []
     }
+
+
+def search_companies(query: str, limit: int = 10) -> List[Dict[str, Any]]:
+    """
+    Search for companies using Apollo API.
+    Useful when web search is blocked.
+    """
+    if not is_configured():
+        return [{"error": "Apollo API key not configured"}]
+    
+    endpoint = f"{APOLLO_BASE_URL}/organizations/search"
+    
+    # Apollo Search Payload
+    payload = {
+        "q_organization_name": query,
+        "page": 1,
+        "per_page": limit
+    }
+    
+    headers = {
+        "Content-Type": "application/json",
+        "Cache-Control": "no-cache",
+        "X-Api-Key": APOLLO_API_KEY,
+    }
+    
+    try:
+        response = requests.post(endpoint, json=payload, headers=headers)
+        
+        if response.status_code == 403:
+            return [{"error": "Apollo Rate Limit (403)"}]
+            
+        response.raise_for_status()
+        data = response.json()
+        
+        orgs = data.get("organizations", [])
+        results = []
+        
+        for org in orgs:
+            results.append({
+                "name": org.get("name"),
+                "domain": org.get("domain"),
+                "website_url": org.get("website_url"),
+                "short_description": org.get("short_description") or org.get("seo_description") or "",
+                "city": org.get("city"),
+                "country": org.get("country"),
+                "linkedin_url": org.get("linkedin_url")
+            })
+            
+        return results
+        
+    except Exception as e:
+        return [{"error": str(e)}]
