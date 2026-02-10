@@ -169,9 +169,10 @@ async def websocket_endpoint(websocket: WebSocket):
             except json.JSONDecodeError:
                 pass
     except WebSocketDisconnect:
-        if current_stop_event:
-            current_stop_event.set()
-        manager.disconnect(websocket)
+@app.websocket("/")
+async def websocket_endpoint_root(websocket: WebSocket):
+    """Fallback handler for clients connecting to root"""
+    await websocket_endpoint(websocket)
 
 from agents import lead_finder_agent
 
@@ -303,4 +304,4 @@ if __name__ == "__main__":
     import uvicorn
     # Look for the port in the environment or default to 8000
     port = int(os.environ.get("PORT", 8000))
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    uvicorn.run(app, host="0.0.0.0", port=port, proxy_headers=True, forwarded_allow_ips="*")

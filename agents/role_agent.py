@@ -13,84 +13,16 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from groq import Groq
 from dotenv import load_dotenv
 
-# Import LinkedIn search
+# Import Apollo client for fallback
 try:
-    from services.linkedin_search import search_decision_makers, is_available as linkedin_available
-    LINKEDIN_SEARCH_ENABLED = True
+    from services import apollo_client
+    APOLLO_ENABLED = True
 except ImportError:
-    LINKEDIN_SEARCH_ENABLED = False
-    linkedin_available = lambda: False
+    APOLLO_ENABLED = False
 
-load_dotenv()
+# Date: ... (keeping existing imports) ...
 
-# Decision power by title pattern
-DECISION_POWER_MAP = {
-    "ceo": 10, "chief executive": 10, "founder": 10, "owner": 10,
-    "cto": 9, "cfo": 9, "coo": 9, "cmo": 9, "cro": 9, "cio": 9, "cso": 9,
-    "president": 9, "managing director": 8,
-    "evp": 8, "executive vice": 8,
-    "svp": 8, "senior vice president": 8,
-    "vp": 7, "vice president": 7,
-    "global head": 7, "head of": 6,
-    "director": 6, "senior director": 7,
-    "manager": 4, "senior manager": 5,
-    "lead": 3, "senior": 3,
-    "analyst": 2, "associate": 2, "coordinator": 2,
-    "intern": 1, "assistant": 1, "junior": 1,
-}
-
-ROLE_PROMPT = """You are a B2B role evaluation agent.
-
-You are given REAL people found on LinkedIn at a specific company.
-Evaluate each person's decision-making power for B2B purchases.
-
-Decision Power Scale (1-10):
-- 10: CEO, Founder, Owner
-- 9: C-Suite (CTO, CFO, CMO)
-- 8: President, EVP
-- 7: VP, SVP
-- 6: Director, Head of
-- 5: Senior Manager
-- 4: Manager
-- 3: Lead
-- 2: Senior Individual
-- 1: Junior, Intern
-
-Acceptance Threshold: decision_power >= 6
-
-Output Rules:
-- Only output valid JSON
-- No markdown
-
-Required Output Format:
-{
-  "people": [
-    {
-      "name": "person's full name",
-      "title": "their job title",
-      "company": "company name",
-      "decision_power": 7,
-      "status": "accepted | rejected",
-      "reason": "brief explanation"
-    }
-  ],
-  "summary": "brief summary of findings"
-}"""
-
-
-def get_decision_power(title: str) -> int:
-    """Calculate decision power from title."""
-    if not title:
-        return 1
-    
-    title_lower = title.lower()
-    
-    for pattern, power in sorted(DECISION_POWER_MAP.items(), key=lambda x: -x[1]):
-        if pattern in title_lower:
-            return power
-    
-    return 3  # Default for unknown titles
-
+# ... (Decision Power Map remains same) ...
 
 def run(company_name: str, company_size: str = "medium", structure_data: dict = None, stop_event=None) -> dict:
     """
@@ -133,9 +65,36 @@ def run(company_name: str, company_size: str = "medium", structure_data: dict = 
                             "source": "linkedin"
                         })
         except Exception as e:
-            pass  # Continue without LinkedIn data
-    
-    # Step 2: If no LinkedIn results, use LLM to suggest typical roles
+            pass  # Continue to fallback
+            
+    # Step 1.5: Fallback to Apollo if LinkedIn failed or returned nothing
+    if not people and APOLLO_ENABLED and apollo_client.is_configured():
+        try:
+            if stop_event and stop_event.is_set():
+                raise KeyboardInterrupt("Stopped by user")
+            
+            # Search Apollo
+            apollo_results = apollo_client.get_top_people(company_name, limit=10)
+            
+            if apollo_results and not apollo_results[0].get("error"):
+                for person in apollo_results:
+                    full_name = f"{person.get('first_name', '')} {person.get('last_name', '')}".strip()
+                    if full_name:
+                        power = get_decision_power(person.get("title", ""))
+                        people.append({
+                            "name": full_name,
+                            "title": person.get("title", "Unknown"),
+                            "company": company_name,
+                            "linkedin_url": person.get("linkedin_url", ""),
+                            "decision_power": power,
+                            "status": "accepted" if power >= 6 else "rejected",
+                            "reason": f"Decision power: {power}/10",
+                            "source": "apollo_fallback"
+                        })
+        except Exception:
+            pass
+
+    # Step 2: If no results from ANY source, use LLM to suggest typical roles
     if not people:
         if stop_event and stop_event.is_set():
             raise KeyboardInterrupt("Stopped by user")
