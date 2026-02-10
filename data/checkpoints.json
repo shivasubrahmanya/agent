@@ -32330,5 +32330,637 @@
     "updated_at": "2026-02-10T23:51:17.916470",
     "completed_at": null,
     "error": "User interrupted"
+  },
+  "18f0ad10": {
+    "id": "18f0ad10",
+    "status": "running",
+    "input": {
+      "company": "Bosch",
+      "roles": []
+    },
+    "stages": {
+      "discovery": {
+        "status": "failed",
+        "started_at": "2026-02-11T00:35:52.193222",
+        "completed_at": "2026-02-11T00:35:52.569007",
+        "result": null,
+        "error": "'NoneType' object has no attribute 'get'",
+        "retries": 1
+      },
+      "structure": {
+        "status": "not_started",
+        "started_at": null,
+        "completed_at": null,
+        "result": null,
+        "error": null,
+        "retries": 0
+      },
+      "roles": {
+        "status": "not_started",
+        "started_at": null,
+        "completed_at": null,
+        "result": null,
+        "error": null,
+        "retries": 0
+      },
+      "enrichment": {
+        "status": "not_started",
+        "started_at": null,
+        "completed_at": null,
+        "result": null,
+        "error": null,
+        "retries": 0
+      },
+      "verification": {
+        "status": "not_started",
+        "started_at": null,
+        "completed_at": null,
+        "result": null,
+        "error": null,
+        "retries": 0
+      }
+    },
+    "current_stage": "discovery",
+    "current_stage_index": 0,
+    "created_at": "2026-02-11T00:35:52.131534",
+    "updated_at": "2026-02-11T00:35:52.626547",
+    "completed_at": null,
+    "error": null
+  },
+  "3237c699": {
+    "id": "3237c699",
+    "status": "running",
+    "input": {
+      "company": "Bosch",
+      "roles": []
+    },
+    "stages": {
+      "discovery": {
+        "status": "failed",
+        "started_at": "2026-02-11T00:38:47.823997",
+        "completed_at": "2026-02-11T00:38:48.191516",
+        "result": null,
+        "error": "'NoneType' object has no attribute 'get'",
+        "retries": 1
+      },
+      "structure": {
+        "status": "not_started",
+        "started_at": null,
+        "completed_at": null,
+        "result": null,
+        "error": null,
+        "retries": 0
+      },
+      "roles": {
+        "status": "not_started",
+        "started_at": null,
+        "completed_at": null,
+        "result": null,
+        "error": null,
+        "retries": 0
+      },
+      "enrichment": {
+        "status": "not_started",
+        "started_at": null,
+        "completed_at": null,
+        "result": null,
+        "error": null,
+        "retries": 0
+      },
+      "verification": {
+        "status": "not_started",
+        "started_at": null,
+        "completed_at": null,
+        "result": null,
+        "error": null,
+        "retries": 0
+      }
+    },
+    "current_stage": "discovery",
+    "current_stage_index": 0,
+    "created_at": "2026-02-11T00:38:47.762899",
+    "updated_at": "2026-02-11T00:38:48.259935",
+    "completed_at": null,
+    "error": null
+  },
+  "100e17de": {
+    "id": "100e17de",
+    "status": "running",
+    "input": {
+      "company": "Bosch",
+      "roles": []
+    },
+    "stages": {
+      "discovery": {
+        "status": "failed",
+        "started_at": "2026-02-11T00:42:23.850478",
+        "completed_at": "2026-02-11T00:42:24.248010",
+        "result": null,
+        "error": "'NoneType' object has no attribute 'get'",
+        "retries": 1
+      },
+      "structure": {
+        "status": "not_started",
+        "started_at": null,
+        "completed_at": null,
+        "result": null,
+        "error": null,
+        "retries": 0
+      },
+      "roles": {
+        "status": "not_started",
+        "started_at": null,
+        "completed_at": null,
+        "result": null,
+        "error": null,
+        "retries": 0
+      },
+      "enrichment": {
+        "status": "not_started",
+        "started_at": null,
+        "completed_at": null,
+        "result": null,
+        "error": null,
+        "retries": 0
+      },
+      "verification": {
+        "status": "not_started",
+        "started_at": null,
+        "completed_at": null,
+        "result": null,
+        "error": null,
+        "retries": 0
+      }
+    },
+    "current_stage": "discovery",
+    "current_stage_index": 0,
+    "created_at": "2026-02-11T00:42:23.788826",
+    "updated_at": "2026-02-11T00:42:24.307901",
+    "completed_at": null,
+    "error": null
+  },
+  "57b99a1d": {
+    "id": "57b99a1d",
+    "status": "completed",
+    "input": {
+      "company": "Bosch",
+      "roles": []
+    },
+    "stages": {
+      "discovery": {
+        "status": "completed",
+        "started_at": "2026-02-11T00:46:44.966532",
+        "completed_at": "2026-02-11T00:47:00.783220",
+        "result": {
+          "name": "Bosch",
+          "industry": "engineering, technology, manufacturing, automotive, home appliances, energy, and building technology",
+          "size": "enterprise",
+          "location": "Gerlingen, Baden-Württemberg, Germany (headquarters)",
+          "website": "https://www.bosch.com/",
+          "growth_signals": [
+            "400,000+ associates worldwide (employees)",
+            "expansion of 18V cordless platform",
+            "launch of new tools and services",
+            "shift to software-driven mobility"
+          ],
+          "status": "accepted",
+          "reason": "",
+          "_sources": [
+            "google_web",
+            "google_news",
+            "google_linkedin"
+          ],
+          "_web_search_used": true
+        },
+        "error": null,
+        "retries": 0
+      },
+      "structure": {
+        "status": "completed",
+        "started_at": "2026-02-11T00:47:00.846843",
+        "completed_at": "2026-02-11T00:47:01.842042",
+        "result": {
+          "company_name": "Bosch",
+          "company_size": "enterprise",
+          "departments": [
+            {
+              "name": "Engineering",
+              "decision_makers": [
+                "SVP Engineering",
+                "VP Engineering"
+              ],
+              "hierarchy_level": "SVP / VP / Director"
+            },
+            {
+              "name": "Manufacturing",
+              "decision_makers": [
+                "Global Head of Manufacturing",
+                "VP Manufacturing"
+              ],
+              "hierarchy_level": "Global Head / VP / Director"
+            },
+            {
+              "name": "Research and Development",
+              "decision_makers": [
+                "EVP Research and Development",
+                "SVP Research and Development"
+              ],
+              "hierarchy_level": "EVP / SVP / Director"
+            },
+            {
+              "name": "Automotive Technology",
+              "decision_makers": [
+                "SVP Automotive Technology",
+                "VP Automotive Technology"
+              ],
+              "hierarchy_level": "SVP / VP / Director"
+            },
+            {
+              "name": "Energy and Building Technology",
+              "decision_makers": [
+                "SVP Energy and Building Technology",
+                "VP Energy and Building Technology"
+              ],
+              "hierarchy_level": "SVP / VP / Director"
+            },
+            {
+              "name": "Information Technology",
+              "decision_makers": [
+                "CIO",
+                "VP IT"
+              ],
+              "hierarchy_level": "C-Level / VP / Director"
+            },
+            {
+              "name": "Home Appliances",
+              "decision_makers": [
+                "Global Head of Home Appliances",
+                "VP Home Appliances"
+              ],
+              "hierarchy_level": "Global Head / VP / Director"
+            }
+          ],
+          "recommended_targets": [
+            "SVP Engineering",
+            "EVP Research and Development",
+            "Global Head of Manufacturing",
+            "CIO",
+            "SVP Automotive Technology"
+          ]
+        },
+        "error": null,
+        "retries": 0
+      },
+      "roles": {
+        "status": "completed",
+        "started_at": "2026-02-11T00:47:01.910692",
+        "completed_at": "2026-02-11T00:47:24.155260",
+        "result": {
+          "company": "Bosch",
+          "people_found": 9,
+          "accepted_count": 8,
+          "rejected_count": 1,
+          "people": [
+            {
+              "name": "Sharon Jacob",
+              "title": "Office of the CTO & SVP, Mobility Solutions ...",
+              "company": "Bosch",
+              "linkedin_url": "https://in.linkedin.com/in/sharon-jacob-18a462193",
+              "decision_power": 10,
+              "status": "accepted",
+              "reason": "Decision power: 10/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Philipp Gauss",
+              "title": "Vice President / Head of Sales Connected ...",
+              "company": "Bosch",
+              "linkedin_url": "https://www.linkedin.com/in/philipp-gauss-1232b0b4",
+              "decision_power": 10,
+              "status": "accepted",
+              "reason": "Decision power: 10/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Heiko Weller",
+              "title": "EVP Bosch USA",
+              "company": "Bosch",
+              "linkedin_url": "https://www.linkedin.com/in/heiko-weller-353792106",
+              "decision_power": 8,
+              "status": "accepted",
+              "reason": "Decision power: 8/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Joseph Vanden Bosch",
+              "title": "SVP, Customer Segment ...",
+              "company": "Bosch",
+              "linkedin_url": "https://www.linkedin.com/in/joevandenbosch",
+              "decision_power": 8,
+              "status": "accepted",
+              "reason": "Decision power: 8/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Jacob Peter",
+              "title": "EVP & Executive Board, Bosch Digital | BGSW",
+              "company": "Bosch",
+              "linkedin_url": "https://in.linkedin.com/in/jacob-peter-41456112",
+              "decision_power": 8,
+              "status": "accepted",
+              "reason": "Decision power: 8/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "M Claire",
+              "title": "EVP Bosch Media Theatrical Distribution /TrailerSpots. ...",
+              "company": "Bosch",
+              "linkedin_url": "https://www.linkedin.com/in/m-claire-67982382",
+              "decision_power": 8,
+              "status": "accepted",
+              "reason": "Decision power: 8/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Ricardo Luther",
+              "title": "VP Commercial Responsibilities at Robert ...",
+              "company": "Bosch",
+              "linkedin_url": "https://www.linkedin.com/in/ricardo-luther-4331a62a",
+              "decision_power": 8,
+              "status": "accepted",
+              "reason": "Decision power: 8/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Kindra Bosch MBA",
+              "title": "VP Strategic Growth",
+              "company": "Bosch",
+              "linkedin_url": "https://www.linkedin.com/in/kindraboschmba",
+              "decision_power": 8,
+              "status": "accepted",
+              "reason": "Decision power: 8/10",
+              "source": "linkedin"
+            },
+            {
+              "name": "Devesh Sharma",
+              "title": "Robert Bosch LLC",
+              "company": "Bosch",
+              "linkedin_url": "https://www.linkedin.com/in/devesh-sharma-8550955",
+              "decision_power": 2,
+              "status": "rejected",
+              "reason": "Decision power: 2/10",
+              "source": "linkedin"
+            }
+          ],
+          "linkedin_searched": true,
+          "summary": "Found 8 decision-makers at Bosch"
+        },
+        "error": null,
+        "retries": 0
+      },
+      "enrichment": {
+        "status": "completed",
+        "started_at": "2026-02-11T00:47:24.226078",
+        "completed_at": "2026-02-11T00:47:40.527264",
+        "result": {
+          "contacts": [],
+          "apollo_contacts": [],
+          "snov_contacts": [],
+          "sources_used": [],
+          "total_found": 0,
+          "apollo_error": "404 Client Error: Not Found for url: https://api.apollo.io/v1/mixed_people/organization_top_people",
+          "snov_error": null,
+          "errors": [
+            "⚠️ Apollo Skipped: 404 Client Error: Not Found for url: https://api.apollo.io/v1/mixed_people/organization_top_people"
+          ]
+        },
+        "error": null,
+        "retries": 0
+      },
+      "verification": {
+        "status": "completed",
+        "started_at": "2026-02-11T00:47:40.588925",
+        "completed_at": "2026-02-11T00:47:41.866010",
+        "result": {
+          "status": "verified",
+          "confidence_score": 0.9,
+          "reason": "Calculated based on available data",
+          "summary": "Bosch - 8 decision-makers, 0 contacts",
+          "recommended_action": "Proceed with outreach"
+        },
+        "error": null,
+        "retries": 0
+      }
+    },
+    "current_stage": "verification",
+    "current_stage_index": 4,
+    "created_at": "2026-02-11T00:46:44.900355",
+    "updated_at": "2026-02-11T00:47:41.974953",
+    "completed_at": "2026-02-11T00:47:41.974953",
+    "error": null,
+    "final_result": {
+      "id": "57b99a1d",
+      "input": "Bosch",
+      "status": "verified",
+      "stages": {
+        "discovery": "completed",
+        "structure": "completed",
+        "roles": "completed",
+        "enrichment": "completed",
+        "verification": "completed"
+      },
+      "company": {
+        "name": "Bosch",
+        "industry": "engineering, technology, manufacturing, automotive, home appliances, energy, and building technology",
+        "size": "enterprise",
+        "location": "Gerlingen, Baden-Württemberg, Germany (headquarters)",
+        "website": "https://www.bosch.com/",
+        "growth_signals": [
+          "400,000+ associates worldwide (employees)",
+          "expansion of 18V cordless platform",
+          "launch of new tools and services",
+          "shift to software-driven mobility"
+        ],
+        "status": "accepted",
+        "reason": "",
+        "_sources": [
+          "google_web",
+          "google_news",
+          "google_linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "structure": {
+        "company_name": "Bosch",
+        "company_size": "enterprise",
+        "departments": [
+          {
+            "name": "Engineering",
+            "decision_makers": [
+              "SVP Engineering",
+              "VP Engineering"
+            ],
+            "hierarchy_level": "SVP / VP / Director"
+          },
+          {
+            "name": "Manufacturing",
+            "decision_makers": [
+              "Global Head of Manufacturing",
+              "VP Manufacturing"
+            ],
+            "hierarchy_level": "Global Head / VP / Director"
+          },
+          {
+            "name": "Research and Development",
+            "decision_makers": [
+              "EVP Research and Development",
+              "SVP Research and Development"
+            ],
+            "hierarchy_level": "EVP / SVP / Director"
+          },
+          {
+            "name": "Automotive Technology",
+            "decision_makers": [
+              "SVP Automotive Technology",
+              "VP Automotive Technology"
+            ],
+            "hierarchy_level": "SVP / VP / Director"
+          },
+          {
+            "name": "Energy and Building Technology",
+            "decision_makers": [
+              "SVP Energy and Building Technology",
+              "VP Energy and Building Technology"
+            ],
+            "hierarchy_level": "SVP / VP / Director"
+          },
+          {
+            "name": "Information Technology",
+            "decision_makers": [
+              "CIO",
+              "VP IT"
+            ],
+            "hierarchy_level": "C-Level / VP / Director"
+          },
+          {
+            "name": "Home Appliances",
+            "decision_makers": [
+              "Global Head of Home Appliances",
+              "VP Home Appliances"
+            ],
+            "hierarchy_level": "Global Head / VP / Director"
+          }
+        ],
+        "recommended_targets": [
+          "SVP Engineering",
+          "EVP Research and Development",
+          "Global Head of Manufacturing",
+          "CIO",
+          "SVP Automotive Technology"
+        ]
+      },
+      "people": [
+        {
+          "name": "Sharon Jacob",
+          "title": "Office of the CTO & SVP, Mobility Solutions ...",
+          "company": "Bosch",
+          "linkedin_url": "https://in.linkedin.com/in/sharon-jacob-18a462193",
+          "decision_power": 10,
+          "status": "accepted",
+          "reason": "Decision power: 10/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Philipp Gauss",
+          "title": "Vice President / Head of Sales Connected ...",
+          "company": "Bosch",
+          "linkedin_url": "https://www.linkedin.com/in/philipp-gauss-1232b0b4",
+          "decision_power": 10,
+          "status": "accepted",
+          "reason": "Decision power: 10/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Heiko Weller",
+          "title": "EVP Bosch USA",
+          "company": "Bosch",
+          "linkedin_url": "https://www.linkedin.com/in/heiko-weller-353792106",
+          "decision_power": 8,
+          "status": "accepted",
+          "reason": "Decision power: 8/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Joseph Vanden Bosch",
+          "title": "SVP, Customer Segment ...",
+          "company": "Bosch",
+          "linkedin_url": "https://www.linkedin.com/in/joevandenbosch",
+          "decision_power": 8,
+          "status": "accepted",
+          "reason": "Decision power: 8/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Jacob Peter",
+          "title": "EVP & Executive Board, Bosch Digital | BGSW",
+          "company": "Bosch",
+          "linkedin_url": "https://in.linkedin.com/in/jacob-peter-41456112",
+          "decision_power": 8,
+          "status": "accepted",
+          "reason": "Decision power: 8/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "M Claire",
+          "title": "EVP Bosch Media Theatrical Distribution /TrailerSpots. ...",
+          "company": "Bosch",
+          "linkedin_url": "https://www.linkedin.com/in/m-claire-67982382",
+          "decision_power": 8,
+          "status": "accepted",
+          "reason": "Decision power: 8/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Ricardo Luther",
+          "title": "VP Commercial Responsibilities at Robert ...",
+          "company": "Bosch",
+          "linkedin_url": "https://www.linkedin.com/in/ricardo-luther-4331a62a",
+          "decision_power": 8,
+          "status": "accepted",
+          "reason": "Decision power: 8/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Kindra Bosch MBA",
+          "title": "VP Strategic Growth",
+          "company": "Bosch",
+          "linkedin_url": "https://www.linkedin.com/in/kindraboschmba",
+          "decision_power": 8,
+          "status": "accepted",
+          "reason": "Decision power: 8/10",
+          "source": "linkedin"
+        },
+        {
+          "name": "Devesh Sharma",
+          "title": "Robert Bosch LLC",
+          "company": "Bosch",
+          "linkedin_url": "https://www.linkedin.com/in/devesh-sharma-8550955",
+          "decision_power": 2,
+          "status": "rejected",
+          "reason": "Decision power: 2/10",
+          "source": "linkedin"
+        }
+      ],
+      "people_summary": "Found 8 decision-makers at Bosch",
+      "linkedin_searched": true,
+      "contacts": [],
+      "enrichment_note": "",
+      "confidence_score": 0.9,
+      "reason": "Calculated based on available data",
+      "summary": "Bosch - 8 decision-makers, 0 contacts",
+      "recommended_action": "Proceed with outreach",
+      "created_at": "2026-02-11T00:47:41.948422",
+      "updated_at": "2026-02-11T00:47:41.948422"
+    }
   }
 }

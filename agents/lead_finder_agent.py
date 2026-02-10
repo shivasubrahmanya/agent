@@ -107,19 +107,24 @@ def run(user_input: str, stop_event=None) -> dict:
     # Strict triggers to differentiate search queries from company names
     triggers = ["find ", "search ", "list of", "who are", "companies in", "startups in", "firms in", "list ", "near "]
     
-    word_count = len(user_input.split())
-    has_trigger = any(t in user_input.lower() for t in triggers)
+    # Standardize input for checking
+    clean_input = user_input.strip().lower()
+    word_count = len(clean_input.split())
+    has_trigger = any(t in clean_input for t in triggers)
     
-    if has_trigger or word_count >= 3:
+    # If it's very short (1-2 words) AND has NO triggers, it's definitely a name
+    if word_count <= 2 and not has_trigger:
+        is_search_heuristic = False
+    elif has_trigger or word_count >= 3:
         is_search_heuristic = True
         
-    print(f"DEBUG LeadFinder: input='{user_input}', words={word_count}, is_search={is_search_heuristic}")
+    print(f"DEBUG LeadFinder: raw='{user_input}', clean='{clean_input}', words={word_count}, has_trigger={has_trigger} -> is_search={is_search_heuristic}")
 
     if not is_search_heuristic:
         return {
             "is_search": False,
             "companies": [],
-            "message": "Treating as direct company analysis"
+            "message": f"Treating '{user_input}' as direct company analysis"
         }
 
     # 2. Generate Search Queries

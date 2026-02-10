@@ -15637,5 +15637,209 @@
     "recommended_action": "Try with more senior role titles",
     "created_at": "2026-02-10T23:50:53.233541",
     "updated_at": "2026-02-10T23:50:53.233541"
+  },
+  {
+    "id": "57b99a1d",
+    "input": "Bosch",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Bosch",
+      "industry": "engineering, technology, manufacturing, automotive, home appliances, energy, and building technology",
+      "size": "enterprise",
+      "location": "Gerlingen, Baden-Württemberg, Germany (headquarters)",
+      "website": "https://www.bosch.com/",
+      "growth_signals": [
+        "400,000+ associates worldwide (employees)",
+        "expansion of 18V cordless platform",
+        "launch of new tools and services",
+        "shift to software-driven mobility"
+      ],
+      "status": "accepted",
+      "reason": "",
+      "_sources": [
+        "google_web",
+        "google_news",
+        "google_linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Bosch",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "SVP Engineering",
+            "VP Engineering"
+          ],
+          "hierarchy_level": "SVP / VP / Director"
+        },
+        {
+          "name": "Manufacturing",
+          "decision_makers": [
+            "Global Head of Manufacturing",
+            "VP Manufacturing"
+          ],
+          "hierarchy_level": "Global Head / VP / Director"
+        },
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "EVP Research and Development",
+            "SVP Research and Development"
+          ],
+          "hierarchy_level": "EVP / SVP / Director"
+        },
+        {
+          "name": "Automotive Technology",
+          "decision_makers": [
+            "SVP Automotive Technology",
+            "VP Automotive Technology"
+          ],
+          "hierarchy_level": "SVP / VP / Director"
+        },
+        {
+          "name": "Energy and Building Technology",
+          "decision_makers": [
+            "SVP Energy and Building Technology",
+            "VP Energy and Building Technology"
+          ],
+          "hierarchy_level": "SVP / VP / Director"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "CIO",
+            "VP IT"
+          ],
+          "hierarchy_level": "C-Level / VP / Director"
+        },
+        {
+          "name": "Home Appliances",
+          "decision_makers": [
+            "Global Head of Home Appliances",
+            "VP Home Appliances"
+          ],
+          "hierarchy_level": "Global Head / VP / Director"
+        }
+      ],
+      "recommended_targets": [
+        "SVP Engineering",
+        "EVP Research and Development",
+        "Global Head of Manufacturing",
+        "CIO",
+        "SVP Automotive Technology"
+      ]
+    },
+    "people": [
+      {
+        "name": "Sharon Jacob",
+        "title": "Office of the CTO & SVP, Mobility Solutions ...",
+        "company": "Bosch",
+        "linkedin_url": "https://in.linkedin.com/in/sharon-jacob-18a462193",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Philipp Gauss",
+        "title": "Vice President / Head of Sales Connected ...",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/philipp-gauss-1232b0b4",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Heiko Weller",
+        "title": "EVP Bosch USA",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/heiko-weller-353792106",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Joseph Vanden Bosch",
+        "title": "SVP, Customer Segment ...",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/joevandenbosch",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jacob Peter",
+        "title": "EVP & Executive Board, Bosch Digital | BGSW",
+        "company": "Bosch",
+        "linkedin_url": "https://in.linkedin.com/in/jacob-peter-41456112",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "M Claire",
+        "title": "EVP Bosch Media Theatrical Distribution /TrailerSpots. ...",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/m-claire-67982382",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Ricardo Luther",
+        "title": "VP Commercial Responsibilities at Robert ...",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/ricardo-luther-4331a62a",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Kindra Bosch MBA",
+        "title": "VP Strategic Growth",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/kindraboschmba",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Devesh Sharma",
+        "title": "Robert Bosch LLC",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/devesh-sharma-8550955",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 8 decision-makers at Bosch",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "",
+    "confidence_score": 0.9,
+    "reason": "Calculated based on available data",
+    "summary": "Bosch - 8 decision-makers, 0 contacts",
+    "recommended_action": "Proceed with outreach",
+    "created_at": "2026-02-11T00:47:41.948422",
+    "updated_at": "2026-02-11T00:47:41.948422"
   }
 ]

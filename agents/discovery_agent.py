@@ -85,6 +85,14 @@ Required Output Format:
 Be strict: reject unclear or consumer-focused companies."""
 
 
+def clean_json_response(text: str) -> str:
+    """Extract JSON from potential markdown fences."""
+    if "```json" in text:
+        return text.split("```json")[1].split("```")[0].strip()
+    elif "```" in text:
+        return text.split("```")[1].split("```")[0].strip()
+    return text.strip()
+
 def run(company_input: str, use_web_search: bool = True, stop_event=None) -> dict:
     """
     Run company discovery validation with optional web search.
@@ -109,14 +117,6 @@ def run(company_input: str, use_web_search: bool = True, stop_event=None) -> dic
         }
     
     client = Groq(api_key=api_key)
-    
-def clean_json_response(text: str) -> str:
-    """Extract JSON from potential markdown fences."""
-    if "```json" in text:
-        return text.split("```json")[1].split("```")[0].strip()
-    elif "```" in text:
-        return text.split("```")[1].split("```")[0].strip()
-    return text.strip()
     
     # Determine if we can use web search
     web_search_data = None

@@ -337,23 +337,28 @@
     "bosch": {
       "data": {
         "name": "Bosch",
-        "industry": "Manufacturing",
+        "industry": "engineering, technology, manufacturing, automotive, home appliances, energy, and building technology",
         "size": "enterprise",
-        "location": "Not specified in search results",
-        "website": "Not specified in search results",
+        "location": "Gerlingen, Baden-Württemberg, Germany (headquarters)",
+        "website": "https://www.bosch.com/",
         "growth_signals": [
-          "new Super Bowl ad to grow awareness and sales in the US"
+          "400,000+ associates worldwide (employees)",
+          "expansion of 18V cordless platform",
+          "launch of new tools and services",
+          "shift to software-driven mobility"
         ],
         "status": "accepted",
-        "reason": "Bosch is a well-known established company with a significant marketing presence, including a Super Bowl ad, and has a strategy to grow awareness and sales in the US, indicating B2B relevance in the manufacturing industry.",
+        "reason": "",
         "_sources": [
-          "news"
+          "google_web",
+          "google_news",
+          "google_linkedin"
         ],
         "_web_search_used": true
       },
-      "outcome": "failure",
-      "analyzed_at": "2026-02-10T12:30:29.181899",
-      "times_analyzed": 11
+      "outcome": "success",
+      "analyzed_at": "2026-02-11T00:47:42.040216",
+      "times_analyzed": 12
     },
     "robert bosch gmbh": {
       "data": {
@@ -1900,6 +1905,16 @@
       "success_rate": 1.0,
       "uses": 1,
       "last_used": "2026-02-10T23:45:35.426579"
+    },
+    "discovery:801e0b7f": {
+      "type": "discovery",
+      "pattern": {
+        "hint": "Industry 'engineering, technology, manufacturing, automotive, home appliances, energy, and building technology' often produces quality leads",
+        "industry": "engineering, technology, manufacturing, automotive, home appliances, energy, and building technology"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-11T00:47:42.045951"
     }
   },
   "failures": [
@@ -1938,6 +1953,24 @@
       "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
       "recovery": null,
       "timestamp": "2026-02-10T20:29:42.199003"
+    },
+    {
+      "context": "Pipeline for Bosch",
+      "error": "'NoneType' object has no attribute 'get'",
+      "recovery": null,
+      "timestamp": "2026-02-11T00:35:52.695744"
+    },
+    {
+      "context": "Pipeline for Bosch",
+      "error": "'NoneType' object has no attribute 'get'",
+      "recovery": null,
+      "timestamp": "2026-02-11T00:38:48.322190"
+    },
+    {
+      "context": "Pipeline for Bosch",
+      "error": "'NoneType' object has no attribute 'get'",
+      "recovery": null,
+      "timestamp": "2026-02-11T00:42:24.368623"
     }
   ],
   "insights": [
@@ -2329,7 +2362,7 @@
   ],
   "metadata": {
     "created_at": "2026-02-04T19:43:48.615961",
-    "total_analyses": 127,
-    "successful_leads": 22
+    "total_analyses": 128,
+    "successful_leads": 23
   }
 }

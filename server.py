@@ -124,12 +124,13 @@ def run_workflow_thread(user_input: str, websocket: WebSocket, loop, stop_event=
             
             if not companies_to_analyze:
                  send_ws_message("log", {"message": "No suitable companies found to analyze."})
-                 send_ws_message("result", {"data": {"status": "completed", "note": "No companies found"}})
+                 send_ws_message("result", {"data": {"status": "completed", "note": "No companies found", "input": user_input}})
                  return
                  
             send_ws_message("log", {"message": f"🚀 Starting deep analysis for top {len(companies_to_analyze)} companies..."})
         else:
             # Direct single company analysis
+            send_ws_message("log", {"message": "✅ Treating as direct company analysis."})
             companies_to_analyze = [{"name": user_input, "context": "Direct analysis"}]
 
         # 2. Run Workflow for each company

@@ -89,6 +89,15 @@ Required Output Format:
 }"""
 
 
+def clean_json_response(text: str) -> str:
+    """Extract JSON from potential markdown fences."""
+    if "```json" in text:
+        return text.split("```json")[1].split("```")[0].strip()
+    elif "```" in text:
+        return text.split("```")[1].split("```")[0].strip()
+    return text.strip()
+
+
 def run(company_data: dict, stop_event=None) -> dict:
     """
     Run company structure identification.
@@ -121,14 +130,6 @@ def run(company_data: dict, stop_event=None) -> dict:
         return build_default_structure(company_name, size, decision_makers)
     
     client = Groq(api_key=api_key)
-    
-def clean_json_response(text: str) -> str:
-    """Extract JSON from potential markdown fences."""
-    if "```json" in text:
-        return text.split("```json")[1].split("```")[0].strip()
-    elif "```" in text:
-        return text.split("```")[1].split("```")[0].strip()
-    return text.strip()
     
     try:
         user_input = f"Company: {company_name}, Industry: {industry}, Size: {size}"

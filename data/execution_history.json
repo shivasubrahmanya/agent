@@ -2,214 +2,6 @@
   {
     "type": "stage_completed",
     "data": {
-      "execution_id": "488617eb",
-      "stage": "verification",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:47:07.006796"
-  },
-  {
-    "type": "execution_completed",
-    "data": {
-      "execution_id": "488617eb",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:47:07.072505"
-  },
-  {
-    "type": "execution_started",
-    "data": {
-      "execution_id": "d574b050",
-      "input": {
-        "company": "Turing",
-        "roles": []
-      }
-    },
-    "timestamp": "2026-02-10T13:47:08.128599"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "d574b050",
-      "stage": "discovery"
-    },
-    "timestamp": "2026-02-10T13:47:08.165417"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "d574b050",
-      "stage": "discovery",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:47:17.731458"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "d574b050",
-      "stage": "structure"
-    },
-    "timestamp": "2026-02-10T13:47:17.771688"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "d574b050",
-      "stage": "structure",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:47:19.029862"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "d574b050",
-      "stage": "roles"
-    },
-    "timestamp": "2026-02-10T13:47:19.069890"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "d574b050",
-      "stage": "roles",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:47:32.238669"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "d574b050",
-      "stage": "enrichment"
-    },
-    "timestamp": "2026-02-10T13:47:32.278370"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "d574b050",
-      "stage": "enrichment",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:47:43.379005"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "d574b050",
-      "stage": "verification"
-    },
-    "timestamp": "2026-02-10T13:47:43.418637"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "d574b050",
-      "stage": "verification",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:47:44.745531"
-  },
-  {
-    "type": "execution_completed",
-    "data": {
-      "execution_id": "d574b050",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:47:44.812342"
-  },
-  {
-    "type": "execution_started",
-    "data": {
-      "execution_id": "27ae2db9",
-      "input": {
-        "company": "Reckonsys",
-        "roles": []
-      }
-    },
-    "timestamp": "2026-02-10T13:47:45.872683"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "27ae2db9",
-      "stage": "discovery"
-    },
-    "timestamp": "2026-02-10T13:47:45.911272"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "27ae2db9",
-      "stage": "discovery",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:47:57.978410"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "27ae2db9",
-      "stage": "structure"
-    },
-    "timestamp": "2026-02-10T13:47:58.010112"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "27ae2db9",
-      "stage": "structure",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:47:59.297888"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "27ae2db9",
-      "stage": "roles"
-    },
-    "timestamp": "2026-02-10T13:47:59.339935"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "27ae2db9",
-      "stage": "roles",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:48:09.728540"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "27ae2db9",
-      "stage": "enrichment"
-    },
-    "timestamp": "2026-02-10T13:48:09.771964"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "27ae2db9",
-      "stage": "enrichment",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:48:16.071136"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "27ae2db9",
-      "stage": "verification"
-    },
-    "timestamp": "2026-02-10T13:48:16.097797"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
       "execution_id": "27ae2db9",
       "stage": "verification",
       "success": true
@@ -4362,5 +4154,223 @@
       "reason": "User interrupted"
     },
     "timestamp": "2026-02-10T23:51:17.951137"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "18f0ad10",
+      "input": {
+        "company": "Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-11T00:35:52.185992"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "18f0ad10",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-11T00:35:52.246567"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "18f0ad10",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-11T00:35:52.622600"
+  },
+  {
+    "type": "stage_failed",
+    "data": {
+      "execution_id": "18f0ad10",
+      "stage": "discovery",
+      "error": "'NoneType' object has no attribute 'get'",
+      "retry_count": 1
+    },
+    "timestamp": "2026-02-11T00:35:52.688573"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "3237c699",
+      "input": {
+        "company": "Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-11T00:38:47.816939"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "3237c699",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-11T00:38:47.879399"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "3237c699",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-11T00:38:48.252473"
+  },
+  {
+    "type": "stage_failed",
+    "data": {
+      "execution_id": "3237c699",
+      "stage": "discovery",
+      "error": "'NoneType' object has no attribute 'get'",
+      "retry_count": 1
+    },
+    "timestamp": "2026-02-11T00:38:48.314898"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "100e17de",
+      "input": {
+        "company": "Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-11T00:42:23.843358"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "100e17de",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-11T00:42:23.907519"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "100e17de",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-11T00:42:24.302243"
+  },
+  {
+    "type": "stage_failed",
+    "data": {
+      "execution_id": "100e17de",
+      "stage": "discovery",
+      "error": "'NoneType' object has no attribute 'get'",
+      "retry_count": 1
+    },
+    "timestamp": "2026-02-11T00:42:24.360542"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "57b99a1d",
+      "input": {
+        "company": "Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-11T00:46:44.957927"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "57b99a1d",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-11T00:46:45.016798"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "57b99a1d",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-11T00:47:00.839043"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "57b99a1d",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-11T00:47:00.904193"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "57b99a1d",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-11T00:47:01.902922"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "57b99a1d",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-11T00:47:01.965537"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "57b99a1d",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-11T00:47:24.218465"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "57b99a1d",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-11T00:47:24.280786"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "57b99a1d",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-11T00:47:40.582396"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "57b99a1d",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-11T00:47:40.652678"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "57b99a1d",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-11T00:47:41.929559"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "57b99a1d",
+      "success": true
+    },
+    "timestamp": "2026-02-11T00:47:42.034188"
   }
 ]
