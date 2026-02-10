@@ -112,18 +112,46 @@ def run(company_input: str, use_web_search: bool = True, stop_event=None) -> dic
     
     # Determine if we can use web search
     web_search_data = None
+    apollo_data = None
+    
+    # Try Web Search first
     if use_web_search and WEB_SEARCH_ENABLED and web_search_available():
         try:
-            # Perform real web search
             web_search_data = get_company_info(company_input, stop_event=stop_event)
-            search_text = extract_company_data(web_search_data)
-            prompt = DISCOVERY_PROMPT
-            user_content = f"Analyze this company based on the following REAL search results:\n\n{search_text}"
-        except Exception as e:
-            # Fall back to no search
+            # If web search returned error or empty, consider it failed
+            if web_search_data.get("error"):
+                web_search_data = None
+        except Exception:
             web_search_data = None
-            prompt = DISCOVERY_PROMPT_NO_SEARCH
-            user_content = f"Company: {company_input}"
+            
+    # Fallback to Apollo if Web Search failed/disabled
+    if not web_search_data:
+        try:
+            from services import apollo_client
+            if apollo_client.is_configured():
+                apollo_results = apollo_client.search_companies(company_input, limit=1)
+                if apollo_results and not apollo_results[0].get("error"):
+                    company = apollo_results[0]
+                    apollo_data = {
+                        "name": company.get("name"),
+                        "description": company.get("short_description"),
+                        "location": f"{company.get('city', '')}, {company.get('country', '')}".strip(", "),
+                        "domain": company.get("domain"),
+                        "linkedin": company.get("linkedin_url")
+                    }
+        except Exception:
+            pass
+
+    # Construct Prompt
+    if web_search_data:
+        search_text = extract_company_data(web_search_data)
+        prompt = DISCOVERY_PROMPT
+        user_content = f"Analyze this company based on the following REAL search results:\n\n{search_text}"
+    elif apollo_data:
+        # Use Apollo data as "Real Data"
+        search_text = f"Company: {apollo_data['name']}\nDescription: {apollo_data['description']}\nLocation: {apollo_data['location']}\nWebsite: {apollo_data['domain']}\nLinkedIn: {apollo_data['linkedin']}"
+        prompt = DISCOVERY_PROMPT
+        user_content = f"Analyze this company based on the following REAL database records:\n\n{search_text}"
     else:
         prompt = DISCOVERY_PROMPT_NO_SEARCH
         user_content = f"Company: {company_input}"
