@@ -5,4 +5,5 @@ requests
 ddgs
 fastapi
 pydantic
-uvicorn
+uvicorn[standard]
+websockets
