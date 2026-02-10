@@ -5,7 +5,7 @@ import { ProgressSteps } from './components/ProgressSteps';
 import { LogViewer } from './components/LogViewer';
 import { ResultCard } from './components/ResultCard';
 
-const WS_URL = "ws://localhost:8000/ws";
+const WS_URL = import.meta.env.VITE_WS_URL || "ws://localhost:8000/ws";
 
 function App() {
   /* State */
@@ -201,8 +201,8 @@ function App() {
           {messages.map((m, i) => (
             <div key={i} className={`flex flex-col ${m.role === 'user' ? 'items-end' : 'items-start'}`}>
               <div className={`max-w-[85%] p-3 rounded-lg text-sm ${m.role === 'user' ? 'bg-primary text-primary-foreground rounded-br-none' :
-                  m.role === 'system' ? 'bg-muted text-muted-foreground text-xs' :
-                    'bg-card border border-border rounded-bl-none shadow-sm'
+                m.role === 'system' ? 'bg-muted text-muted-foreground text-xs' :
+                  'bg-card border border-border rounded-bl-none shadow-sm'
                 }`}>
                 {m.content}
               </div>
