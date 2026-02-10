@@ -274,11 +274,26 @@ async def websocket_endpoint_root(websocket: WebSocket):
     await websocket_endpoint(websocket)
 
 # Mount static files (Frontend)
-if os.path.exists("frontend/dist"):
-    app.mount("/", StaticFiles(directory="frontend/dist", html=True), name="static")
+static_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "frontend", "dist")
+
+if os.path.exists(static_dir):
+    app.mount("/assets", StaticFiles(directory=os.path.join(static_dir, "assets")), name="assets")
+    
+    @app.get("/{full_path:path}")
+    async def serve_frontend(full_path: str):
+        if full_path.startswith("api") or full_path == "ws":
+            return {"error": "Not Found"}
+        
+        file_path = os.path.join(static_dir, full_path)
+        if os.path.isfile(file_path):
+             from fastapi.responses import FileResponse
+             return FileResponse(file_path)
+             
+        from fastapi.responses import FileResponse
+        return FileResponse(os.path.join(static_dir, "index.html"))
 
 if __name__ == "__main__":
     import uvicorn
-    # Look for the port in the environment or default to 8000
     port = int(os.environ.get("PORT", 8000))
-    uvicorn.run(app, host="0.0.0.0", port=port, proxy_headers=True, forwarded_allow_ips="*")
+    # Production uvicorn setup
+    uvicorn.run("server:app", host="0.0.0.0", port=port, proxy_headers=True, forwarded_allow_ips="*")

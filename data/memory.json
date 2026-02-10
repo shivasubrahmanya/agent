@@ -358,51 +358,47 @@
     "robert bosch gmbh": {
       "data": {
         "name": "Robert Bosch GmbH",
-        "industry": "Engineering and Technology",
+        "industry": "Technology, Engineering, Automotive, Industrial Technology",
         "size": "enterprise",
-        "location": "Gerlingen, Baden-Württemberg, Germany",
+        "location": "Gerlingen, Germany",
         "website": "https://www.bosch.com/",
         "growth_signals": [
-          "Registers 15.2% Profit before tax in Q2 FY 2025-26",
-          "Establishes new company with synthetic diamond solutions provider Element Six",
-          "Posts higher quarterly profit on tax cut boost in Indian unit"
+          "expansion of 18V cordless platform",
+          "launch of over 30 new tools",
+          "investment in software-driven mobility"
         ],
         "status": "accepted",
-        "reason": "The company has a strong online presence, with multiple websites and profiles across different regions, and is mentioned in various news articles, indicating its establishment and growth. The company's size is indicated by its multinational presence and various brands, and its industry is clearly engineering and technology. The growth signals include recent profits and new company establishments.",
+        "reason": "The company is a well-established, multinational engineering and technology company with a significant presence in various industries, including automotive, industrial technology, and consumer goods. The company has a large number of employees and operates in over 60 countries. Despite facing challenges and undergoing restructuring, including job cuts, the company continues to invest in new technologies and products, such as software-driven mobility and power tools, and has a strong brand presence. Recent news and press releases indicate a focus on innovation and expansion, with the launch of new products and campaigns, and a stable credit rating from Fitch Ratings.",
         "_sources": [
-          "web_search",
-          "news",
-          "linkedin"
+          "google_web",
+          "google_news"
         ],
         "_web_search_used": true
       },
       "outcome": "success",
-      "analyzed_at": "2026-02-10T20:39:50.437005",
-      "times_analyzed": 7
+      "analyzed_at": "2026-02-10T23:45:35.420935",
+      "times_analyzed": 12
     },
     "accenture": {
       "data": {
         "name": "Accenture",
-        "industry": "Tech Consultancy",
+        "industry": "Professional Services, Technology, Consulting",
         "size": "enterprise",
         "location": "Dublin, Ireland",
         "website": "https://www.accenture.com",
         "growth_signals": [
-          "Earnings are growing",
-          "Institutional investors have a large stake in the stock"
+          "recent acquisitions",
+          "expansion into new markets",
+          "increased revenue"
         ],
         "status": "accepted",
-        "reason": "The company has a strong online presence with a Wikipedia page, official website, and LinkedIn page. The recent news articles indicate growth in earnings and a large stake by institutional investors, which suggests a stable and growing company. The company's size is also indicative of an enterprise, with a global presence and a wide range of services offered.",
-        "_sources": [
-          "web_search",
-          "news",
-          "linkedin"
-        ],
+        "reason": "Accenture is a well-established company with a strong presence in the professional services and technology industries, as seen on their website and recent news articles. Their large size, global reach, and evidence of growth through acquisitions and expansion make them a suitable target for B2B sales.",
+        "_sources": [],
         "_web_search_used": true
       },
       "outcome": "success",
-      "analyzed_at": "2026-02-06T21:55:39.059075",
-      "times_analyzed": 2
+      "analyzed_at": "2026-02-10T22:24:01.238732",
+      "times_analyzed": 3
     },
     "mangalore refinery and petrochemicals limited": {
       "data": {
@@ -537,25 +533,19 @@
     "novigo solutions": {
       "data": {
         "name": "Novigo Solutions",
-        "industry": "Technology, Product Engineering, AI",
-        "size": "medium",
-        "location": "EL DORADO HILLS, California, USA and/or Greater Noida, India",
-        "website": "Not found",
-        "growth_signals": [
-          "10th anniversary",
-          "acquisition by R Systems",
-          "expansion of global digital engineering and AI capabilities"
-        ],
-        "status": "accepted",
-        "reason": "The company is mentioned as a real entity in recent news articles, has been acquired by R Systems, and is celebrating its 10th anniversary, indicating establishment and growth.",
-        "_sources": [
-          "news"
-        ],
+        "industry": "Unknown",
+        "size": "Unknown",
+        "location": "Unknown",
+        "website": "Unknown",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "No search results provided to analyze the company",
+        "_sources": [],
         "_web_search_used": true
       },
       "outcome": "failure",
-      "analyzed_at": "2026-02-09T18:53:44.545380",
-      "times_analyzed": 2
+      "analyzed_at": "2026-02-10T22:22:58.128410",
+      "times_analyzed": 4
     },
     "boat": {
       "data": {
@@ -1542,26 +1532,26 @@
         "name": "Primacy Industries Private Limited",
         "industry": "Personal Care Product Manufacturing",
         "size": "medium",
-        "location": "Mangaluru, Karnataka, India",
+        "location": "Mangaluru, India",
         "website": "https://primacyind.com/",
         "growth_signals": [
-          "$208.9 million in revenue",
-          "109 employees",
-          "established in 2004",
-          "featured products include Deodorants, Perfumed Candles"
+          "raised $41.1M in funding",
+          "acquisition to increase hold in private label scented candles business in US",
+          "investment from Piramal-Bain Capital fund IndiaRF",
+          "expansion of product catalogue to over 600 distinct personal care products"
         ],
         "status": "accepted",
-        "reason": "The company has a significant revenue of $208.9 million, a substantial employee count of 109, and has been established since 2004, indicating a stable and growing business. The company's presence on LinkedIn and other directories, such as RocketReach and Tracxn, further verifies its existence and operations.",
+        "reason": "The company has a clear online presence with a website and LinkedIn page, and has raised significant funding. The recent news articles also indicate growth and expansion plans, such as acquisitions and investments. The company size is listed as 501-1,000 employees, indicating a medium-sized company. The industry is B2B relevant as it operates as a contract manufacturer of personal care products.",
         "_sources": [
-          "web_search",
-          "news",
-          "linkedin"
+          "google_web",
+          "google_news",
+          "google_linkedin"
         ],
         "_web_search_used": true
       },
       "outcome": "failure",
-      "analyzed_at": "2026-02-10T15:11:19.015476",
-      "times_analyzed": 1
+      "analyzed_at": "2026-02-10T23:50:53.293485",
+      "times_analyzed": 2
     },
     "fintech payments": {
       "data": {
@@ -1613,6 +1603,134 @@
       "outcome": "failure",
       "analyzed_at": "2026-02-10T15:38:19.456551",
       "times_analyzed": 1
+    },
+    "agrileaf exports pvt ltd": {
+      "data": {
+        "name": "Agrileaf Exports Pvt Ltd",
+        "industry": "Manufacturing, Eco-friendly Products",
+        "size": "medium",
+        "location": "Mangaluru, India",
+        "website": "https://agrileaf.in/",
+        "growth_signals": [
+          "Secured INR 16 crore in growth funding",
+          "Developed AI-driven technology for grading and sorting",
+          "Received Green Sarathi Award for sustainability",
+          "Featured in news outlets such as Economic Times"
+        ],
+        "status": "accepted",
+        "reason": "Agrileaf is a real, established company with a strong online presence, including a website and LinkedIn profile. The company has secured significant funding, developed innovative technology, and received awards for its sustainability efforts, indicating growth and relevance in the B2B space.",
+        "_sources": [
+          "google_web",
+          "google_news",
+          "google_linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T23:47:22.648899",
+      "times_analyzed": 1
+    },
+    "seven technologies": {
+      "data": {
+        "name": "Seven Technologies",
+        "industry": "Cybersecurity, Technology, IT Consulting",
+        "size": "medium",
+        "location": "Belfast, United Kingdom",
+        "website": "https://www.sevtechs.com/",
+        "growth_signals": [
+          "Recent funding rounds",
+          "Expansion of services to include AWS utilization",
+          "Positive employee reviews on Glassdoor",
+          "Acquisition of stake by Paytm Cloud",
+          "Total funding of $15.3M over 4 rounds"
+        ],
+        "status": "accepted",
+        "reason": "Evidence of a real, established company with a clear industry focus, medium size, and growth signals such as funding rounds and expansions of services. The company's presence on LinkedIn and Crunchbase further supports its legitimacy.",
+        "_sources": [
+          "google_web",
+          "google_news",
+          "google_linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T23:48:28.861937",
+      "times_analyzed": 1
+    },
+    "singularity automobiles": {
+      "data": {
+        "name": "Singularity Automobiles",
+        "industry": "Electric Vehicles, Mobility Solutions",
+        "size": "small",
+        "location": "Mangalore, Karnataka, India",
+        "website": "https://singularityautomobiles.com/",
+        "growth_signals": [
+          "founded in 2022",
+          "innovative commercial vehicles",
+          "expansion plans"
+        ],
+        "status": "accepted",
+        "reason": "The company has a strong online presence, a clear mission, and a focus on electric mobility. The recent news articles and LinkedIn page suggest that the company is actively working on innovative commercial vehicles and has a vision for the future of electric mobility. Although the company is small and relatively new, it shows potential for growth and is a relevant target for B2B sales in the electric vehicles and mobility solutions industry.",
+        "_sources": [
+          "google_web",
+          "google_news",
+          "google_linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T23:49:06.844518",
+      "times_analyzed": 1
+    },
+    "adrit apps": {
+      "data": {
+        "name": "Adrit Apps",
+        "industry": "Software Development, Mobile Apps",
+        "size": "small",
+        "location": "Mangalore",
+        "website": "https://adritapps.com/",
+        "growth_signals": [
+          "Developing Quality Apps to Increase Productivity",
+          "securing investment to fuel growth"
+        ],
+        "status": "rejected",
+        "reason": "The search results suggest that Adrit Apps is a small company or possibly a personal project of Adrit Rao, a 16-year-old app developer, rather than a established company. The majority of the search results are about Adrit Rao's personal achievements and projects, rather than the company's growth, revenue, or employee count.",
+        "_sources": [
+          "google_web",
+          "google_news",
+          "google_linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T23:49:25.541693",
+      "times_analyzed": 2
+    },
+    "ordrio technologies private limited": {
+      "data": {
+        "name": "Ordrio Technologies Private Limited",
+        "industry": "Ecommerce, SaaS, Retail",
+        "size": "small",
+        "location": "Udupi, India",
+        "website": "https://ordrio.com/us/",
+        "growth_signals": [
+          "Partnership with Zomato Xtreme to Offer Xpress Delivery",
+          "Integration with Zomato's Xpress delivery",
+          "Recent incorporation (September 2022)",
+          "High employee rating (4.5/5) on Glassdoor"
+        ],
+        "status": "accepted",
+        "reason": "Ordrio appears to be a real and established company in the ecommerce and SaaS industry, with a strong online presence and recent partnerships. Although it is a small company, the recent news and high employee rating suggest growth potential, making it suitable for B2B sales targeting.",
+        "_sources": [
+          "google_web",
+          "google_news",
+          "google_linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T23:50:08.320848",
+      "times_analyzed": 1
     }
   },
   "patterns": {
@@ -1633,8 +1751,8 @@
         "industry": "engineering and technology"
       },
       "success_rate": 1.0,
-      "uses": 2,
-      "last_used": "2026-02-09T18:32:50.242207"
+      "uses": 3,
+      "last_used": "2026-02-10T21:15:34.399613"
     },
     "enrichment:1affd035": {
       "type": "enrichment",
@@ -1661,8 +1779,8 @@
         "hint": "Successfully enriched 1 contacts with emails"
       },
       "success_rate": 1.0,
-      "uses": 1,
-      "last_used": "2026-02-06T21:55:39.062424"
+      "uses": 2,
+      "last_used": "2026-02-10T21:15:34.404090"
     },
     "discovery:7a87ff1e": {
       "type": "discovery",
@@ -1733,6 +1851,55 @@
       "success_rate": 1.0,
       "uses": 1,
       "last_used": "2026-02-10T15:36:34.178089"
+    },
+    "enrichment:468efb0f": {
+      "type": "enrichment",
+      "pattern": {
+        "hint": "Successfully enriched 1 contacts for Bosch"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-10T21:15:33.162736"
+    },
+    "discovery:f5cfb5e7": {
+      "type": "discovery",
+      "pattern": {
+        "hint": "Industry 'Professional Services, Technology, Consulting' often produces quality leads",
+        "industry": "Professional Services, Technology, Consulting"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-10T22:24:01.241432"
+    },
+    "discovery:b42b661a": {
+      "type": "discovery",
+      "pattern": {
+        "hint": "Industry 'Automotive, Industrial Technology, and Consumer Goods' often produces quality leads",
+        "industry": "Automotive, Industrial Technology, and Consumer Goods"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-10T23:29:48.004265"
+    },
+    "discovery:9552d2df": {
+      "type": "discovery",
+      "pattern": {
+        "hint": "Industry 'Technology, Automotive, Industrial Technology' often produces quality leads",
+        "industry": "Technology, Automotive, Industrial Technology"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-10T23:39:36.666465"
+    },
+    "discovery:79405390": {
+      "type": "discovery",
+      "pattern": {
+        "hint": "Industry 'Technology, Engineering, Automotive, Industrial Technology' often produces quality leads",
+        "industry": "Technology, Engineering, Automotive, Industrial Technology"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-10T23:45:35.426579"
     }
   },
   "failures": [
@@ -2123,11 +2290,46 @@
       "insight": "Lead rejected: No decision-making roles identified",
       "category": "verification",
       "timestamp": "2026-02-10T20:35:44.273685"
+    },
+    {
+      "insight": "Lead rejected: No search results provided to analyze the company",
+      "category": "verification",
+      "timestamp": "2026-02-10T22:22:58.133964"
+    },
+    {
+      "insight": "Lead rejected: No decision-making roles identified",
+      "category": "verification",
+      "timestamp": "2026-02-10T23:47:22.653194"
+    },
+    {
+      "insight": "Lead rejected: Although the company is accepted and has relevant B2B industry, the lack of enriched contacts with e",
+      "category": "verification",
+      "timestamp": "2026-02-10T23:48:28.865014"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and has relevant roles with decision power, but lacks enriched contacts with",
+      "category": "verification",
+      "timestamp": "2026-02-10T23:49:06.847140"
+    },
+    {
+      "insight": "Lead rejected: The search results suggest that Adrit Apps is a small company or possibly a personal project of Adri",
+      "category": "verification",
+      "timestamp": "2026-02-10T23:49:25.544514"
+    },
+    {
+      "insight": "Lead rejected: No decision-making roles identified",
+      "category": "verification",
+      "timestamp": "2026-02-10T23:50:08.323944"
+    },
+    {
+      "insight": "Lead rejected: No decision-making roles identified",
+      "category": "verification",
+      "timestamp": "2026-02-10T23:50:53.296457"
     }
   ],
   "metadata": {
     "created_at": "2026-02-04T19:43:48.615961",
-    "total_analyses": 112,
-    "successful_leads": 16
+    "total_analyses": 127,
+    "successful_leads": 22
   }
 }

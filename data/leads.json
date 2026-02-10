@@ -13905,5 +13905,1737 @@
     "recommended_action": "Proceed with outreach and sales efforts targeting the identified decision-makers",
     "created_at": "2026-02-10T20:39:50.352641",
     "updated_at": "2026-02-10T20:39:50.352641"
+  },
+  {
+    "id": "d0cf794a",
+    "input": "Bosch ",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robert Bosch GmbH",
+      "industry": "engineering and technology",
+      "size": "enterprise",
+      "location": "Gerlingen, Baden-Württemberg, Germany",
+      "website": "https://www.bosch.com/",
+      "growth_signals": [
+        "approximately 490 subsidiaries and regional companies",
+        "417,900 associates worldwide",
+        "higher quarterly profit on tax cut boost"
+      ],
+      "status": "accepted",
+      "reason": "The company has a strong online presence with multiple sources confirming its existence and size. The LinkedIn page and news articles indicate a large number of employees and subsidiaries, demonstrating its enterprise size. The company's industry, engineering and technology, is also B2B relevant.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robert Bosch GmbH",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "EVP Engineering",
+            "CTO",
+            "SVP R&D"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "EVP Digitalization",
+            "SVP IT",
+            "Global Head IT Infrastructure"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Manufacturing and Operations",
+          "decision_makers": [
+            "EVP Operations",
+            "SVP Supply Chain",
+            "Global Head Manufacturing"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales",
+            "SVP Marketing",
+            "Global Head Business Development"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Procurement and Supply Chain",
+          "decision_makers": [
+            "EVP Supply Chain",
+            "SVP Procurement",
+            "Global Head Sourcing"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Engineering",
+        "EVP Digitalization",
+        "SVP R&D",
+        "SVP IT",
+        "EVP Operations"
+      ]
+    },
+    "people": [
+      {
+        "name": "Oliver Seitz  Senior Vice President bei Robert Bosch GmbH ... Steffen B.  Senior Vice President Manufacturing bei Robert ... Dr. Michael Fausten  SVP AI and Systems at Robert Bosch GmbH ... Markus Ulm  SVP MEMS Sensors  Robert Bosch GmbH",
+        "title": "President",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/oliver-seitz-611a8b60",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Steffen B.  Senior Vice President Manufacturing bei Robert ... Dr. Michael Fausten  SVP AI and Systems at Robert Bosch GmbH ... Markus Ulm  SVP MEMS Sensors  Robert Bosch GmbH",
+        "title": "President",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/steffen-b-baba06224",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Thomas Winter  Senior Vice President Sales Automotive...",
+        "title": "President",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/thomaswinter76/de",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Dr.-Ing. Lutz Welling  SVP Robert Bosch GmbH Plant Manager ... Oliver Seitz  Senior Vice President bei Robert Bosch GmbH ... Steffen B.  Senior Vice President Manufacturing bei Robert ... Dr. Michael Fausten  SVP AI and Systems at Robert Bosch GmbH ... Markus Ulm  SVP MEMS Sensors  Robert Bosch GmbH",
+        "title": "VP",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/dr-ing-lutz-welling-7b3a4830",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Stefanie Haupt  Assistent to EVP",
+        "title": "VP",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/stefanie-haupt-4b0b262b8",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Stephan Fischer",
+        "title": "VP Manufacturing, Plant Manager Bosch Brake Comp ...",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/stephan-fischer-bb4694a5",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Heiko Weller",
+        "title": "EVP Bosch USA | LinkedIn",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/heiko-weller-353792106",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sören Wildemann",
+        "title": "Head of Strategy & Tech",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/soeren-wildeman",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Decision power: 7/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Tanja Rueckert  Member of the board of management and...",
+        "title": "",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/tanja-rueckert-bosch",
+        "decision_power": 0,
+        "status": "rejected",
+        "reason": "Decision power: 0/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 8 decision-makers at Robert Bosch GmbH",
+    "linkedin_searched": true,
+    "contacts": [
+      {
+        "first_name": "Sören",
+        "last_name": "Wildemann",
+        "email": "soren.wildemann@bosch.com",
+        "phone": "",
+        "linkedin_url": "https://www.linkedin.com/in/soeren-wildeman",
+        "title": "Head of Strategy & Tech",
+        "company": "Robert Bosch GmbH",
+        "source": "snov",
+        "enriched": true
+      }
+    ],
+    "enrichment_note": "",
+    "confidence_score": 0.9,
+    "reason": "The company, Robert Bosch GmbH, has been accepted and is B2B relevant. It has multiple accepted roles with decision_power >= 7, including a President and several Vice Presidents. The company also has enriched contacts with emails, including the Head of Strategy & Tech. The final confidence score is 0.9, which is above the rejection threshold of 0.7.",
+    "summary": "Robert Bosch GmbH is a verified B2B lead with high decision-making power and enriched contacts.",
+    "recommended_action": "Proceed with sales outreach to the verified contacts, including Sören Wildemann, Head of Strategy & Tech.",
+    "created_at": "2026-02-10T21:15:34.312300",
+    "updated_at": "2026-02-10T21:15:34.312300"
+  },
+  {
+    "id": "c3d6c8e7",
+    "input": "Bosch ",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robert Bosch GmbH",
+      "industry": "Multinational Engineering and Technology",
+      "size": "enterprise",
+      "location": "Gerlingen, Germany",
+      "website": "https://www.bosch.com",
+      "growth_signals": [
+        "recent investments in electric vehicle technology",
+        "expansion into new markets",
+        "continuous innovation in IoT and Industry 4.0"
+      ],
+      "status": "accepted",
+      "reason": "Bosch is a well-established company with a strong presence in multiple industries, including automotive, industrial technology, and consumer goods, and has shown signs of growth through investments and expansions",
+      "_sources": [],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robert Bosch GmbH",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "EVP",
+            "SVP",
+            "VP Engineering"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Manufacturing",
+          "decision_makers": [
+            "SVP Operations",
+            "VP Manufacturing"
+          ],
+          "hierarchy_level": "SVP / VP / Director"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales",
+            "SVP Marketing",
+            "VP Global Sales"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "EVP Digitalization",
+            "SVP IT",
+            "VP Information Systems"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Procurement",
+          "decision_makers": [
+            "SVP Procurement",
+            "VP Supply Chain Management"
+          ],
+          "hierarchy_level": "SVP / VP / Director"
+        }
+      ],
+      "recommended_targets": [
+        "EVP",
+        "SVP",
+        "VP Engineering",
+        "SVP Operations",
+        "VP Manufacturing"
+      ]
+    },
+    "people": [
+      {
+        "name": "[Target Role]",
+        "title": "CEO",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "CTO",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "Director Engineering",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "VP Sales",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "Head of Product",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      }
+    ],
+    "people_summary": "Found 5 decision-makers at Robert Bosch GmbH",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "",
+    "confidence_score": 0.8,
+    "reason": "The company Robert Bosch GmbH is accepted and relevant to B2B, with multiple accepted roles having decision_power >= 7. Although no enriched contacts with emails are available, the presence of high decision_power roles and the company's accepted status contribute to a relatively high confidence score.",
+    "summary": "Robert Bosch GmbH is a verified lead with multiple key decision-makers",
+    "recommended_action": "Proceed with outreach to the identified key decision-makers, such as the CEO, CTO, and Director Engineering",
+    "created_at": "2026-02-10T22:22:24.878269",
+    "updated_at": "2026-02-10T22:22:24.878269"
+  },
+  {
+    "id": "63b76d3b",
+    "input": "Novigo SOlutions",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Novigo Solutions",
+      "industry": "Unknown",
+      "size": "Unknown",
+      "location": "Unknown",
+      "website": "Unknown",
+      "growth_signals": [],
+      "status": "rejected",
+      "reason": "No search results provided to analyze the company",
+      "_sources": [],
+      "_web_search_used": true
+    },
+    "reason": "No search results provided to analyze the company",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-10T22:22:58.001850",
+    "updated_at": "2026-02-10T22:22:58.001850"
+  },
+  {
+    "id": "064e0d30",
+    "input": "Accenture",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Accenture",
+      "industry": "Professional Services, Technology, Consulting",
+      "size": "enterprise",
+      "location": "Dublin, Ireland",
+      "website": "https://www.accenture.com",
+      "growth_signals": [
+        "recent acquisitions",
+        "expansion into new markets",
+        "increased revenue"
+      ],
+      "status": "accepted",
+      "reason": "Accenture is a well-established company with a strong presence in the professional services and technology industries, as seen on their website and recent news articles. Their large size, global reach, and evidence of growth through acquisitions and expansion make them a suitable target for B2B sales.",
+      "_sources": [],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Accenture",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Strategy",
+          "decision_makers": [
+            "EVP Strategy",
+            "SVP Consulting"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Consulting",
+          "decision_makers": [
+            "EVP Consulting",
+            "SVP Delivery"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Digital",
+          "decision_makers": [
+            "EVP Digital",
+            "SVP Technology"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Technology",
+          "decision_makers": [
+            "EVP Technology",
+            "SVP Engineering"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "EVP Operations",
+            "SVP Shared Services"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Strategy",
+        "EVP Consulting",
+        "EVP Digital",
+        "EVP Technology",
+        "Global Head of Innovation"
+      ]
+    },
+    "people": [
+      {
+        "name": "[Target Role]",
+        "title": "CEO",
+        "company": "Accenture",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "CTO",
+        "company": "Accenture",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "Director Engineering",
+        "company": "Accenture",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "VP Sales",
+        "company": "Accenture",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "Head of Product",
+        "company": "Accenture",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      }
+    ],
+    "people_summary": "Found 5 decision-makers at Accenture",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "",
+    "confidence_score": 0.9,
+    "reason": "The company is accepted and is a B2B relevant business, with multiple accepted roles that have a decision power of 7 or higher, and a strong industry presence. Although there are no enriched contacts with emails, the presence of multiple decision-makers compensates for this.",
+    "summary": "Accenture is a verified B2B lead with strong decision-making roles",
+    "recommended_action": "Proceed with outreach and sales efforts targeting the identified decision-makers, and consider additional research to enrich contacts with email information.",
+    "created_at": "2026-02-10T22:24:01.188192",
+    "updated_at": "2026-02-10T22:24:01.188192"
+  },
+  {
+    "id": "287ba82e",
+    "input": "Robert Bosch",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robert Bosch GmbH",
+      "industry": "Automotive, Industrial Technology, and Consumer Goods",
+      "size": "enterprise",
+      "location": "Gerlingen, Germany",
+      "website": "https://www.bosch.com",
+      "growth_signals": [
+        "recent investments in electric vehicle technology",
+        "expansion into new markets",
+        "strategic partnerships"
+      ],
+      "status": "accepted",
+      "reason": "Robert Bosch is a well-established company with a strong presence in multiple industries, a large global workforce, and significant investments in research and development, as evident from its website and recent news articles.",
+      "_sources": [],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robert Bosch GmbH",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "EVP",
+            "SVP",
+            "VP of Engineering"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Supply Chain Management",
+          "decision_makers": [
+            "SVP",
+            "VP of Procurement",
+            "Global Head of Logistics"
+          ],
+          "hierarchy_level": "SVP / VP / Global Head"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP",
+            "SVP",
+            "VP of Sales"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Manufacturing and Operations",
+          "decision_makers": [
+            "SVP",
+            "VP of Manufacturing",
+            "Global Head of Operations"
+          ],
+          "hierarchy_level": "SVP / VP / Global Head"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "EVP",
+            "SVP",
+            "VP of IT"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP of Research and Development",
+        "SVP of Supply Chain Management",
+        "VP of Sales",
+        "SVP of Manufacturing",
+        "Global Head of IT"
+      ]
+    },
+    "people": [
+      {
+        "name": "[Target Role]",
+        "title": "CEO",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "CTO",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "Director Engineering",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "VP Sales",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "Head of Product",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      }
+    ],
+    "people_summary": "Found 5 decision-makers at Robert Bosch GmbH",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "",
+    "confidence_score": 0.9,
+    "reason": "The company Robert Bosch GmbH is accepted and has multiple roles with decision_power >= 7, including a CEO, CTO, Director Engineering, VP Sales, and Head of Product, demonstrating a strong presence of decision-makers. However, no enriched contacts with emails were found.",
+    "summary": "Robert Bosch GmbH is a verified lead with multiple decision-makers and significant growth signals",
+    "recommended_action": "Proceed with further research to enrich contacts and establish communication with the company's decision-makers",
+    "created_at": "2026-02-10T23:29:47.947398",
+    "updated_at": "2026-02-10T23:29:47.947398"
+  },
+  {
+    "id": "21ba57c0",
+    "input": "Robert Bosch",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robert Bosch GmbH",
+      "industry": "Technology, Automotive, Industrial Technology",
+      "size": "enterprise",
+      "location": "Gerlingen, Germany",
+      "website": "https://www.bosch.com",
+      "growth_signals": [
+        "recent investments in electric vehicle technology",
+        "expansion into new markets",
+        "continuous innovation in IoT and AI"
+      ],
+      "status": "accepted",
+      "reason": "Robert Bosch is a well-established company with a strong presence in multiple industries, including technology, automotive, and industrial technology. The company has a large global footprint, with over 402,000 employees and a significant revenue. Recent news and press releases indicate continuous innovation and investment in emerging technologies, demonstrating growth and expansion.",
+      "_sources": [],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robert Bosch GmbH",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "EVP Research and Development",
+            "SVP Engineering"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales and Marketing",
+            "SVP Global Sales"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "SVP IT",
+            "VP Digital Transformation"
+          ],
+          "hierarchy_level": "SVP / VP"
+        },
+        {
+          "name": "Operations and Manufacturing",
+          "decision_makers": [
+            "EVP Operations",
+            "SVP Global Manufacturing"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Finance and Accounting",
+          "decision_makers": [
+            "EVP Finance",
+            "SVP Accounting and Controlling"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Research and Development",
+        "SVP Engineering",
+        "EVP Sales and Marketing",
+        "SVP IT",
+        "EVP Operations"
+      ]
+    },
+    "people": [
+      {
+        "name": "[Target Role]",
+        "title": "CEO",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "CTO",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "Director Engineering",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "VP Sales",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      },
+      {
+        "name": "[Target Role]",
+        "title": "Head of Product",
+        "company": "Robert Bosch GmbH",
+        "decision_power": 7,
+        "status": "accepted",
+        "reason": "Suggested role - needs LinkedIn/Apollo enrichment",
+        "source": "suggested"
+      }
+    ],
+    "people_summary": "Found 5 decision-makers at Robert Bosch GmbH",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "",
+    "confidence_score": 0.9,
+    "reason": "The company Robert Bosch GmbH is accepted and has a strong B2B presence. Multiple accepted roles with high decision power (CEO, CTO, Director Engineering, VP Sales, and Head of Product) were found, with at least one role having a decision power of 7 or higher. Although no enriched contacts with emails were found, the presence of multiple decision-makers and the company's acceptance outweigh this factor.",
+    "summary": "Robert Bosch GmbH is a verified B2B lead with high decision power roles and growth potential.",
+    "recommended_action": "Reach out to the decision-makers, particularly the CEO, CTO, and Director Engineering, to discuss potential business opportunities and partnerships.",
+    "created_at": "2026-02-10T23:39:36.571162",
+    "updated_at": "2026-02-10T23:39:36.571162"
+  },
+  {
+    "id": "34e27b0b",
+    "input": "Robert Bosch",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robert Bosch GmbH",
+      "industry": "Technology, Engineering, Automotive, Industrial Technology",
+      "size": "enterprise",
+      "location": "Gerlingen, Germany",
+      "website": "https://www.bosch.com/",
+      "growth_signals": [
+        "expansion of 18V cordless platform",
+        "launch of over 30 new tools",
+        "investment in software-driven mobility"
+      ],
+      "status": "accepted",
+      "reason": "The company is a well-established, multinational engineering and technology company with a significant presence in various industries, including automotive, industrial technology, and consumer goods. The company has a large number of employees and operates in over 60 countries. Despite facing challenges and undergoing restructuring, including job cuts, the company continues to invest in new technologies and products, such as software-driven mobility and power tools, and has a strong brand presence. Recent news and press releases indicate a focus on innovation and expansion, with the launch of new products and campaigns, and a stable credit rating from Fitch Ratings.",
+      "_sources": [
+        "google_web",
+        "google_news"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robert Bosch GmbH",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "EVP",
+            "SVP",
+            "CTO"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP",
+            "SVP",
+            "Global Head of Sales"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Manufacturing and Operations",
+          "decision_makers": [
+            "EVP",
+            "SVP",
+            "Global Head of Operations"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "EVP",
+            "SVP",
+            "CIO"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Finance and Accounting",
+          "decision_makers": [
+            "EVP",
+            "SVP",
+            "CFO"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP of Research and Development",
+        "SVP of Sales and Marketing",
+        "CIO",
+        "CFO",
+        "Global Head of Operations"
+      ]
+    },
+    "people": [
+      {
+        "name": "Simone Tenschert",
+        "title": "Vice President",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/simone-tenschert-18b7b1115",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Philipp Gauss",
+        "title": "Vice President / Head of Sales Connected ...",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/philipp-gauss-1232b0b4",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Heiko Weller",
+        "title": "EVP Bosch USA",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/heiko-weller-353792106",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Stephan Fischer",
+        "title": "VP Manufacturing, Plant Manager Bosch ...",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://www.linkedin.com/in/stephan-fischer-bb4694a5",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Aline Deloire",
+        "title": "Robert Bosch Power Tools GmbH",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/aline-deloire-6458a15",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 4 decision-makers at Robert Bosch GmbH",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "",
+    "confidence_score": 0.9,
+    "reason": "The company is a well-established, multinational engineering and technology company with a significant presence in various industries. The company has multiple accepted roles with decision power greater than or equal to 7, including a Vice President with decision power of 10 and an EVP with decision power of 8. Although there are no enriched contacts with emails, the presence of multiple decision-makers and the company's acceptance and relevance to B2B contribute to the confidence score.",
+    "summary": "Robert Bosch GmbH is a verified lead with multiple decision-makers and a strong industry presence",
+    "recommended_action": "Proceed with outreach and engagement efforts, focusing on the accepted roles and exploring opportunities for email enrichment",
+    "created_at": "2026-02-10T23:45:35.340750",
+    "updated_at": "2026-02-10T23:45:35.340750"
+  },
+  {
+    "id": "4e2072f2",
+    "input": "Agrileaf",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Agrileaf Exports Pvt Ltd",
+      "industry": "Manufacturing, Eco-friendly Products",
+      "size": "medium",
+      "location": "Mangaluru, India",
+      "website": "https://agrileaf.in/",
+      "growth_signals": [
+        "Secured INR 16 crore in growth funding",
+        "Developed AI-driven technology for grading and sorting",
+        "Received Green Sarathi Award for sustainability",
+        "Featured in news outlets such as Economic Times"
+      ],
+      "status": "accepted",
+      "reason": "Agrileaf is a real, established company with a strong online presence, including a website and LinkedIn profile. The company has secured significant funding, developed innovative technology, and received awards for its sustainability efforts, indicating growth and relevance in the B2B space.",
+      "_sources": [
+        "google_web",
+        "google_news",
+        "google_linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Agrileaf Exports Pvt Ltd",
+      "company_size": "medium",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "Head of Engineering",
+            "Director of Operations"
+          ],
+          "hierarchy_level": "Director"
+        },
+        {
+          "name": "Procurement",
+          "decision_makers": [
+            "Head of Procurement",
+            "Director of Supply Chain"
+          ],
+          "hierarchy_level": "Director"
+        },
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "Head of R&D",
+            "VP of Innovation"
+          ],
+          "hierarchy_level": "VP"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "Head of Marketing",
+            "Director of Marketing"
+          ],
+          "hierarchy_level": "Director"
+        },
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "Head of Sales",
+            "Director of Sales"
+          ],
+          "hierarchy_level": "Director"
+        }
+      ],
+      "recommended_targets": [
+        "Head of Engineering",
+        "Head of Procurement",
+        "Head of R&D",
+        "Director of Operations",
+        "VP of Innovation"
+      ]
+    },
+    "people": [
+      {
+        "name": "Jagannatha P",
+        "title": "Agrileaf Exports Pvt Ltd",
+        "company": "Agrileaf Exports Pvt Ltd",
+        "linkedin_url": "https://in.linkedin.com/in/jagannatha-p-66310b166",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Arun Kumar Shetty",
+        "title": "‏Aman Hospital‏",
+        "company": "Agrileaf Exports Pvt Ltd",
+        "linkedin_url": "https://qa.linkedin.com/in/arun-kumar-shetty-b1bb9220",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Athishay Jain",
+        "title": "Agrileaf",
+        "company": "Agrileaf Exports Pvt Ltd",
+        "linkedin_url": "https://in.linkedin.com/in/athishay-jain-389a7b19",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 0 decision-makers at Agrileaf Exports Pvt Ltd",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No accepted roles to enrich",
+    "confidence_score": 0.2,
+    "reason": "No decision-making roles identified",
+    "summary": "Agrileaf Exports Pvt Ltd - No high-value targets",
+    "recommended_action": "Try with more senior role titles",
+    "created_at": "2026-02-10T23:47:22.564360",
+    "updated_at": "2026-02-10T23:47:22.564360"
+  },
+  {
+    "id": "203c3007",
+    "input": "Seven Technologies",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Seven Technologies",
+      "industry": "Cybersecurity, Technology, IT Consulting",
+      "size": "medium",
+      "location": "Belfast, United Kingdom",
+      "website": "https://www.sevtechs.com/",
+      "growth_signals": [
+        "Recent funding rounds",
+        "Expansion of services to include AWS utilization",
+        "Positive employee reviews on Glassdoor",
+        "Acquisition of stake by Paytm Cloud",
+        "Total funding of $15.3M over 4 rounds"
+      ],
+      "status": "accepted",
+      "reason": "Evidence of a real, established company with a clear industry focus, medium size, and growth signals such as funding rounds and expansions of services. The company's presence on LinkedIn and Crunchbase further supports its legitimacy.",
+      "_sources": [
+        "google_web",
+        "google_news",
+        "google_linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Seven Technologies",
+      "company_size": "medium",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "VP Engineering",
+            "Director of Engineering"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "VP Sales",
+            "Director of Sales"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "VP Marketing",
+            "Director of Marketing"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "IT",
+          "decision_makers": [
+            "Head of IT",
+            "IT Director"
+          ],
+          "hierarchy_level": "Director"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "VP Finance",
+            "Financial Controller"
+          ],
+          "hierarchy_level": "VP / Director"
+        }
+      ],
+      "recommended_targets": [
+        "VP Engineering",
+        "VP Sales",
+        "VP Marketing",
+        "Director of Engineering",
+        "Head of IT"
+      ]
+    },
+    "people": [
+      {
+        "name": "Prijith R",
+        "title": "Managing Director/CEO at Pinnacle Seven",
+        "company": "Seven Technologies",
+        "linkedin_url": "https://in.linkedin.com/in/prijith-r-2ba4a387",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Kapil Arora",
+        "title": "CEO TransFunnel | HubSpot Certified Trainer",
+        "company": "Seven Technologies",
+        "linkedin_url": "https://in.linkedin.com/in/kapil-dev-arora",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "James Slusser",
+        "title": "Founder at Kurkuma",
+        "company": "Seven Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/jslusser",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Chris White",
+        "title": "Group Leader Digital Infrastructure",
+        "company": "Seven Technologies",
+        "linkedin_url": "https://uk.linkedin.com/in/chris-white-0b3b1722",
+        "decision_power": 5,
+        "status": "rejected",
+        "reason": "Decision power: 5/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Derek Wright",
+        "title": "Operations and Engineering Leader",
+        "company": "Seven Technologies",
+        "linkedin_url": "https://uk.linkedin.com/in/derek-wright-76a57b4",
+        "decision_power": 5,
+        "status": "rejected",
+        "reason": "Decision power: 5/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Rachel M.",
+        "title": "Data & Analytics Developer & Tech Lead",
+        "company": "Seven Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/rmccuistion",
+        "decision_power": 5,
+        "status": "rejected",
+        "reason": "Decision power: 5/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Vaishakh Pai K",
+        "title": "Cluster Head",
+        "company": "Seven Technologies",
+        "linkedin_url": "https://in.linkedin.com/in/vaishakhpai",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Adrian Timberlake",
+        "title": "Aut inveniam viam aut faciam",
+        "company": "Seven Technologies",
+        "linkedin_url": "https://uk.linkedin.com/in/adrian-timberlake-6535b1ab",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Muhammad Ilyas",
+        "title": "Seven Technology",
+        "company": "Seven Technologies",
+        "linkedin_url": "https://pk.linkedin.com/in/muhammad-ilyas-61223b61",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "vignesh vicky",
+        "title": "Trainee at Seven Technologies",
+        "company": "Seven Technologies",
+        "linkedin_url": "https://in.linkedin.com/in/vignesh-vicky-425944140",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Pamela J.",
+        "title": "Purchasing, Executive Assistant",
+        "company": "Seven Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/pamela-j-8400728",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Gordon Paul Hatcher PE",
+        "title": "PMP",
+        "company": "Seven Technologies",
+        "linkedin_url": "https://www.linkedin.com/in/gordon-paul-hatcher-pe-pmp-15991",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 3 decision-makers at Seven Technologies",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "",
+    "confidence_score": 0.5,
+    "reason": "Although the company is accepted and has relevant B2B industry, the lack of enriched contacts with emails, and no additional scores for multiple decision-makers or having enriched contacts brings the confidence score down. Moreover, no multiple decision-makers within the company itself were found, all the roles accepted are of high decision power but belong to different organizations or titles not directly linked to Seven Technologies. Thus, it does not meet the required condition of having roles with decision_power >= 7 within the company itself or other rejection criteria but fails to reach the minimum confidence threshold for verification due to insufficient information and no enriched contacts.",
+    "summary": "Lead rejected due to insufficient decision-maker and contact information.",
+    "recommended_action": "Gather more information about key decision-makers within Seven Technologies and attempt to enrich contacts with email addresses to improve the lead's confidence score.",
+    "created_at": "2026-02-10T23:48:28.805275",
+    "updated_at": "2026-02-10T23:48:28.805275"
+  },
+  {
+    "id": "d7f5cbea",
+    "input": "Singularity Automobiles",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Singularity Automobiles",
+      "industry": "Electric Vehicles, Mobility Solutions",
+      "size": "small",
+      "location": "Mangalore, Karnataka, India",
+      "website": "https://singularityautomobiles.com/",
+      "growth_signals": [
+        "founded in 2022",
+        "innovative commercial vehicles",
+        "expansion plans"
+      ],
+      "status": "accepted",
+      "reason": "The company has a strong online presence, a clear mission, and a focus on electric mobility. The recent news articles and LinkedIn page suggest that the company is actively working on innovative commercial vehicles and has a vision for the future of electric mobility. Although the company is small and relatively new, it shows potential for growth and is a relevant target for B2B sales in the electric vehicles and mobility solutions industry.",
+      "_sources": [
+        "google_web",
+        "google_news",
+        "google_linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Singularity Automobiles",
+      "company_size": "small",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "Founder",
+            "CTO"
+          ],
+          "hierarchy_level": "C-Suite"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "CEO",
+            "Sales Lead"
+          ],
+          "hierarchy_level": "C-Suite"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "Founder",
+            "Operations Lead"
+          ],
+          "hierarchy_level": "C-Suite"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "CEO",
+            "Founder"
+          ],
+          "hierarchy_level": "C-Suite"
+        }
+      ],
+      "recommended_targets": [
+        "Founder",
+        "CEO",
+        "CTO"
+      ]
+    },
+    "people": [
+      {
+        "name": "Scott Amyx",
+        "title": "Founder & CEO at Uplifty AI, Managing ...",
+        "company": "Singularity Automobiles",
+        "linkedin_url": "https://www.linkedin.com/in/scottamyx",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Mohan Vizhakat",
+        "title": "CIO | CTO | IT Transformation Leader",
+        "company": "Singularity Automobiles",
+        "linkedin_url": "https://in.linkedin.com/in/vizhakat",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Claudio Xavier",
+        "title": "Country Manager | SVP | CIO",
+        "company": "Singularity Automobiles",
+        "linkedin_url": "https://www.linkedin.com/in/claudio-xavier-084279/",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sakthignanavel Palanisamy",
+        "title": "Senior AI/ML Engineer",
+        "company": "Singularity Automobiles",
+        "linkedin_url": "https://www.linkedin.com/in/sakthigeek/",
+        "decision_power": 4,
+        "status": "rejected",
+        "reason": "Decision power: 4/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Ashith Prajwal",
+        "title": "Singularity Automobiles",
+        "company": "Singularity Automobiles",
+        "linkedin_url": "https://in.linkedin.com/in/ashithprajwal",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Agasthya Karkera",
+        "title": "Singularity Automobiles",
+        "company": "Singularity Automobiles",
+        "linkedin_url": "https://in.linkedin.com/in/agasthya-karkera-580308220",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Rob Nail",
+        "title": "Being a better human, building a society based ...",
+        "company": "Singularity Automobiles",
+        "linkedin_url": "https://www.linkedin.com/in/robnail",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Simeon Ivanov",
+        "title": "Trading Singularity",
+        "company": "Singularity Automobiles",
+        "linkedin_url": "https://www.linkedin.com/in/ivanovsimeon",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Jean-Claude Junqua",
+        "title": "AI Expert, Venture Builder, Investor",
+        "company": "Singularity Automobiles",
+        "linkedin_url": "https://www.linkedin.com/in/jeanclaudejunqua",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Bill Genovese CISSP ITIL",
+        "title": "BairesDev",
+        "company": "Singularity Automobiles",
+        "linkedin_url": "https://www.linkedin.com/in/digitalcio",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Virginie Glaenzer",
+        "title": "Exécutif GTM | Stratège en marketing ...",
+        "company": "Singularity Automobiles",
+        "linkedin_url": "https://www.linkedin.com/in/virginieglaenzer/fr",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 3 decision-makers at Singularity Automobiles",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "",
+    "confidence_score": 0.4,
+    "reason": "The company is accepted and has relevant roles with decision power, but lacks enriched contacts with emails and has a low confidence score due to insufficient data.",
+    "summary": "Singularity Automobiles is a small electric vehicles company with a strong online presence, but lacks key contact information.",
+    "recommended_action": "Gather more data on the company's key decision-makers, including email contacts, to improve the confidence score and verify the lead.",
+    "created_at": "2026-02-10T23:49:06.791470",
+    "updated_at": "2026-02-10T23:49:06.791470"
+  },
+  {
+    "id": "d408c7d7",
+    "input": "Adrit Apps",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed"
+    },
+    "company": {
+      "name": "Adrit Apps",
+      "industry": "Software Development, Mobile Apps",
+      "size": "small",
+      "location": "Mangalore",
+      "website": "https://adritapps.com/",
+      "growth_signals": [
+        "Developing Quality Apps to Increase Productivity",
+        "securing investment to fuel growth"
+      ],
+      "status": "rejected",
+      "reason": "The search results suggest that Adrit Apps is a small company or possibly a personal project of Adrit Rao, a 16-year-old app developer, rather than a established company. The majority of the search results are about Adrit Rao's personal achievements and projects, rather than the company's growth, revenue, or employee count.",
+      "_sources": [
+        "google_web",
+        "google_news",
+        "google_linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "reason": "The search results suggest that Adrit Apps is a small company or possibly a personal project of Adrit Rao, a 16-year-old app developer, rather than a established company. The majority of the search results are about Adrit Rao's personal achievements and projects, rather than the company's growth, revenue, or employee count.",
+    "confidence_score": 0.0,
+    "created_at": "2026-02-10T23:49:25.485702",
+    "updated_at": "2026-02-10T23:49:25.485702"
+  },
+  {
+    "id": "197a8728",
+    "input": "Ordrio",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Ordrio Technologies Private Limited",
+      "industry": "Ecommerce, SaaS, Retail",
+      "size": "small",
+      "location": "Udupi, India",
+      "website": "https://ordrio.com/us/",
+      "growth_signals": [
+        "Partnership with Zomato Xtreme to Offer Xpress Delivery",
+        "Integration with Zomato's Xpress delivery",
+        "Recent incorporation (September 2022)",
+        "High employee rating (4.5/5) on Glassdoor"
+      ],
+      "status": "accepted",
+      "reason": "Ordrio appears to be a real and established company in the ecommerce and SaaS industry, with a strong online presence and recent partnerships. Although it is a small company, the recent news and high employee rating suggest growth potential, making it suitable for B2B sales targeting.",
+      "_sources": [
+        "google_web",
+        "google_news",
+        "google_linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Ordrio Technologies Private Limited",
+      "company_size": "small",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "CTO",
+            "Founder"
+          ],
+          "hierarchy_level": "C-Suite"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "CEO",
+            "Marketing Lead"
+          ],
+          "hierarchy_level": "C-Suite"
+        },
+        {
+          "name": "Sales",
+          "decision_makers": [
+            "CEO",
+            "Sales Lead"
+          ],
+          "hierarchy_level": "C-Suite"
+        },
+        {
+          "name": "Operations",
+          "decision_makers": [
+            "COO",
+            "Founder"
+          ],
+          "hierarchy_level": "C-Suite"
+        }
+      ],
+      "recommended_targets": [
+        "Founder",
+        "CEO",
+        "CTO",
+        "Marketing Lead",
+        "Sales Lead"
+      ]
+    },
+    "people": [
+      {
+        "name": "Sumanth S.",
+        "title": "Ordrio Technologies Private Limited",
+        "company": "Ordrio Technologies Private Limited",
+        "linkedin_url": "https://in.linkedin.com/in/sumanthshetty1",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sushanth Acharya",
+        "title": "Software Developer | Skilled in Nextjs ...",
+        "company": "Ordrio Technologies Private Limited",
+        "linkedin_url": "https://in.linkedin.com/in/sushanthach12",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 0 decision-makers at Ordrio Technologies Private Limited",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No accepted roles to enrich",
+    "confidence_score": 0.2,
+    "reason": "No decision-making roles identified",
+    "summary": "Ordrio Technologies Private Limited - No high-value targets",
+    "recommended_action": "Try with more senior role titles",
+    "created_at": "2026-02-10T23:50:08.262035",
+    "updated_at": "2026-02-10T23:50:08.262035"
+  },
+  {
+    "id": "554bdbb1",
+    "input": "Primacy Industries",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Primacy Industries Private Limited",
+      "industry": "Personal Care Product Manufacturing",
+      "size": "medium",
+      "location": "Mangaluru, India",
+      "website": "https://primacyind.com/",
+      "growth_signals": [
+        "raised $41.1M in funding",
+        "acquisition to increase hold in private label scented candles business in US",
+        "investment from Piramal-Bain Capital fund IndiaRF",
+        "expansion of product catalogue to over 600 distinct personal care products"
+      ],
+      "status": "accepted",
+      "reason": "The company has a clear online presence with a website and LinkedIn page, and has raised significant funding. The recent news articles also indicate growth and expansion plans, such as acquisitions and investments. The company size is listed as 501-1,000 employees, indicating a medium-sized company. The industry is B2B relevant as it operates as a contract manufacturer of personal care products.",
+      "_sources": [
+        "google_web",
+        "google_news",
+        "google_linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Primacy Industries Private Limited",
+      "company_size": "medium",
+      "departments": [
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "VP R&D",
+            "Director of Product Development"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Manufacturing",
+          "decision_makers": [
+            "Head of Manufacturing",
+            "Director of Operations"
+          ],
+          "hierarchy_level": "Director / Head"
+        },
+        {
+          "name": "Marketing",
+          "decision_makers": [
+            "VP Marketing",
+            "Director of Brand Management"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Procurement",
+          "decision_makers": [
+            "Head of Procurement",
+            "Director of Supply Chain"
+          ],
+          "hierarchy_level": "Director / Head"
+        },
+        {
+          "name": "Quality Assurance",
+          "decision_makers": [
+            "Head of Quality Assurance",
+            "Director of Regulatory Affairs"
+          ],
+          "hierarchy_level": "Director / Head"
+        }
+      ],
+      "recommended_targets": [
+        "VP R&D",
+        "Head of Manufacturing",
+        "VP Marketing",
+        "Head of Procurement",
+        "Director of Product Development"
+      ]
+    },
+    "people": [
+      {
+        "name": "Mukesh Kumar",
+        "title": "Senior Procurement Officer",
+        "company": "Primacy Industries Private Limited",
+        "linkedin_url": "https://in.linkedin.com/in/mukesh-kumar-6009a8204",
+        "decision_power": 4,
+        "status": "rejected",
+        "reason": "Decision power: 4/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 0 decision-makers at Primacy Industries Private Limited",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No accepted roles to enrich",
+    "confidence_score": 0.2,
+    "reason": "No decision-making roles identified",
+    "summary": "Primacy Industries Private Limited - No high-value targets",
+    "recommended_action": "Try with more senior role titles",
+    "created_at": "2026-02-10T23:50:53.233541",
+    "updated_at": "2026-02-10T23:50:53.233541"
   }
 ]

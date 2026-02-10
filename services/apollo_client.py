@@ -8,7 +8,7 @@ import requests
 from typing import Dict, Any, List
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 APOLLO_API_KEY = os.getenv("APOLLO_API_KEY", "")
 APOLLO_BASE_URL = "https://api.apollo.io/v1"
@@ -32,29 +32,22 @@ def get_top_people(company_name: str, limit: int = 10) -> List[Dict[str, Any]]:
     Returns:
         List of top people at the company
     """
-    if not is_configured():
-        return [{"error": "Apollo API key not configured"}]
+    endpoint = f"{APOLLO_BASE_URL}/mixed_people/organization_top_people"
     
-    endpoint = f"{APOLLO_BASE_URL}/mixed_people/search"
+    # Payload for organization_top_people (User Requested)
+    # If it looks like a domain, use q_organization_domains
+    # If it has spaces or no dot, use q_organization_name
+    is_domain = "." in company_name and " " not in company_name
     
     payload = {
-        "q_organization_domains": company_name if "." in company_name else f"{company_name}.com", # basic heuristic fallback
         "page": 1,
         "per_page": limit,
     }
     
-    # Better logic: if company_name looks like a domain, use it. Else search by name?
-    # mixed_people/search supports 'q_organization_domains' (list) or 'q_organization_name' (string)??
-    # Actually, let's use a safer approach.
-    
-    payload = {
-        "q_organization_domains": [company_name] if "." in company_name else None,
-        "q_organization_name": company_name if "." not in company_name else None,
-        "per_page": limit,
-        "page": 1,
-    }
-    # Remove None keys
-    payload = {k: v for k, v in payload.items() if v}
+    if is_domain:
+         payload["q_organization_domains"] = [company_name]
+    else:
+         payload["q_organization_name"] = company_name
     
     headers = {
         "Content-Type": "application/json",
@@ -67,7 +60,11 @@ def get_top_people(company_name: str, limit: int = 10) -> List[Dict[str, Any]]:
         
         # Handle specific error codes
         if response.status_code == 403:
-            return [{"error": "Apollo API Limit Reached (403)", "code": "rate_limit"}]
+            try:
+                err_msg = response.json().get("error", "Access Denied")
+            except:
+                err_msg = "Access Denied"
+            return [{"error": f"Apollo Plan Limit: {err_msg}", "code": "rate_limit"}]
         if response.status_code == 429:
             return [{"error": "Apollo Rate Limit Exceeded (429)", "code": "rate_limit"}]
             

@@ -2,7 +2,6 @@ groq
 python-dotenv
 rich
 requests
-ddgs
 fastapi
 pydantic
 uvicorn[standard]

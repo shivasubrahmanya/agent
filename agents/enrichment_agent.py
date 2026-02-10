@@ -21,6 +21,7 @@ def extract_domain(company_name: str) -> str:
         " technologies", " technology", " tech",
         " solutions", " services", " systems",
         " international", " intl", " global",
+        " gmbh", " ag", " sas", " srl"
     ]
     
     clean = company_name.lower().strip()
@@ -100,7 +101,7 @@ def run(company_name: str, roles: list, company_domain: str = None, stop_event=N
             
             if results and results[0].get("error"):
                 apollo_error = results[0]["error"]
-                errors.append(f"Apollo error: {apollo_error}")
+                errors.append(f"⚠️ Apollo Skipped: {apollo_error}")
             elif results:
                 for person in results:
                     if person.get("first_name"):
@@ -113,7 +114,8 @@ def run(company_name: str, roles: list, company_domain: str = None, stop_event=N
                             "title": person.get("title", ""),
                             "company": company_name,
                             "source": "apollo",
-                            "enriched": True
+                            "enriched": True,
+                            "name": f"{person.get('first_name', '')} {person.get('last_name', '')}".strip() or "[Unknown]"
                         })
                 sources_used.append("apollo")
         except Exception as e:

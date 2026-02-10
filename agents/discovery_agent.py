@@ -22,7 +22,7 @@ except ImportError:
     WEB_SEARCH_ENABLED = False
     web_search_available = lambda: False
 
-load_dotenv()
+load_dotenv(override=True)
 
 DISCOVERY_PROMPT = """You are a B2B company validation agent.
 

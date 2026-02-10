@@ -13,6 +13,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from groq import Groq
 from dotenv import load_dotenv
 
+load_dotenv(override=True)
+
 # Import LinkedIn Search Service
 try:
     from services.linkedin_search import is_available as linkedin_available

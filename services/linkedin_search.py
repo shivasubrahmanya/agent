@@ -1,23 +1,15 @@
 """
 LinkedIn Search Service
-Searches LinkedIn for people at companies using DuckDuckGo (no API required)
-Only collects: name, job title, company - NO personal info
+Searches LinkedIn for people at companies using Google Custom Search API.
 """
-
-try:
-    from ddgs import DDGS
-    DDGS_AVAILABLE = True
-except ImportError:
-    DDGS_AVAILABLE = False
 
 from typing import List, Dict, Any, Optional
 import re
-
+from services.web_search import google_custom_search, is_available as is_google_available
 
 def is_available() -> bool:
-    """Check if LinkedIn search is available."""
-    return DDGS_AVAILABLE
-
+    """Check if Google Search is available."""
+    return is_google_available()
 
 def search_people_at_company(
     company_name: str,
@@ -25,57 +17,53 @@ def search_people_at_company(
     max_results: int = 10
 ) -> List[Dict[str, Any]]:
     """
-    Search LinkedIn for people at a specific company.
-    
-    Args:
-        company_name: Company name to search
-        role_titles: Optional list of role titles to filter
-        max_results: Maximum results to return
-        
-    Returns:
-        List of people found with name, title, company
+    Search LinkedIn for people at a specific company using Google Search.
     """
-    if not DDGS_AVAILABLE:
-        return [{"error": "Install duckduckgo-search: pip install duckduckgo-search"}]
+    if not is_available():
+        return [{"error": "Google Search not configured. Add GOOGLE_API_KEY and GOOGLE_CX to .env"}]
     
     people = []
     
-    try:
-        with DDGS() as ddgs:
-            # Search for people at the company on LinkedIn
-            if role_titles:
-                for title in role_titles[:3]:  # Limit to top 3 titles
-                    query = f'site:linkedin.com/in "{company_name}" "{title}"'
-                    results = list(ddgs.text(query, max_results=3))
-                    
-                    for r in results:
-                        person = parse_linkedin_result(r, company_name)
-                        if person and person.get("name"):
-                            person["searched_title"] = title
-                            people.append(person)
-            else:
-                # General search for people at company
-                query = f'site:linkedin.com/in "{company_name}"'
-                results = list(ddgs.text(query, max_results=max_results))
-                
-                for r in results:
-                    person = parse_linkedin_result(r, company_name)
-                    if person and person.get("name"):
-                        people.append(person)
+    # Execute Search
+    # We can try to be specific with roles if provided, otherwise general search
+    
+    queries = []
+    if role_titles:
+        for title in role_titles[:3]: # limit to top 3 roles to save API calls
+            queries.append({
+                "q": f'site:linkedin.com/in "{company_name}" "{title}"',
+                "role_context": title
+            })
+    else:
+         queries.append({
+            "q": f'site:linkedin.com/in "{company_name}"',
+            "role_context": None
+         })
+         
+    for query_obj in queries:
+        results = google_custom_search(query_obj["q"], num_results=5) # 5 per query
         
-        # Remove duplicates by name
-        seen = set()
-        unique_people = []
-        for p in people:
-            name = p.get("name", "").lower()
-            if name and name not in seen:
-                seen.add(name)
-                unique_people.append(p)
-        
-        return unique_people
-        
-    except Exception as e:
-        return [{"error": str(e)}]
+        for r in results:
+            if r.get("error"): continue
+            
+            person = parse_linkedin_result(r, company_name)
+            if person and person.get("name"):
+                 if query_obj["role_context"]:
+                     person["searched_title"] = query_obj["role_context"]
+                 person["source"] = "google_search"
+                 people.append(person)
+                 
+    return _deduplicate(people)
+
+def _deduplicate(people):
+    seen = set()
+    unique_people = []
+    for p in people:
+        name = p.get("name", "").lower()
+        if name and name not in seen:
+            seen.add(name)
+            unique_people.append(p)
+    return unique_people
 
 
 def parse_linkedin_result(result: Dict[str, Any], company_name: str) -> Optional[Dict[str, Any]]:

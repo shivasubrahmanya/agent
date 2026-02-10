@@ -13,9 +13,9 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from groq import Groq
 from dotenv import load_dotenv
-from ddgs import DDGS
 
-load_dotenv()
+
+load_dotenv(override=True)
 
 SEARCH_QUERY_PROMPT = """You are a Search Query Generator.
 Your goal is to convert a user's natural language request into effective search queries to find lists of companies.
@@ -50,20 +50,29 @@ Output ONLY a JSON array of objects:
   {{"name": "Company B", "context": "..."}}
 ]"""
 
-def perform_web_search(query: str, max_results=20) -> str:
-    """Perform a DuckDuckGo search and return text summary."""
+from services.web_search import google_custom_search
+
+def perform_web_search(query: str, max_results=10) -> str:
+    """Perform a web search using Google Custom Search and return text summary."""
     try:
-        results = []
-        with DDGS() as ddgs:
-            # Use 'text' for standard search
-            search_gen = ddgs.text(query, max_results=max_results)
-            for r in search_gen:
-                results.append(f"Title: {r['title']}\nSnippet: {r['body']}\nLink: {r['href']}")
+        results = google_custom_search(query, num_results=max_results)
         
-        return "\n\n".join(results)
+        if not results:
+             return "No results found."
+        
+        # Check for errors
+        if results and results[0].get("error"):
+            # If Google API fails (e.g. no key), we might want to return that error clearly
+            return f"Search Error: {results[0]['error']}"
+
+        summary_lines = []
+        for r in results:
+            summary_lines.append(f"Title: {r.get('title')}\nSnippet: {r.get('body')}\nLink: {r.get('href')}")
+        
+        return "\n\n".join(summary_lines)
     except Exception as e:
         print(f"Search error for '{query}': {e}")
-        return ""
+        return f"Error: {str(e)}"
 
 def run(user_input: str, stop_event=None) -> dict:
     """

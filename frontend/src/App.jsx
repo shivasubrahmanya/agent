@@ -7,12 +7,21 @@ import { ResultCard } from './components/ResultCard';
 
 // Construct WebSocket URL
 const getWsUrl = () => {
+  // 1. Manual override from env
   const envUrl = import.meta.env.VITE_WS_URL;
-  if (!envUrl) return "ws://localhost:8000/ws";
+  if (envUrl) {
+    const baseUrl = envUrl.replace(/\/$/, "");
+    return baseUrl.endsWith("/ws") ? baseUrl : `${baseUrl}/ws`;
+  }
 
-  // Clean up URL and ensure it ends with /ws
-  const baseUrl = envUrl.replace(/\/$/, "");
-  return baseUrl.endsWith("/ws") ? baseUrl : `${baseUrl}/ws`;
+  // 2. Auto-detect based on current window location
+  if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    return `${protocol}//${window.location.host}/ws`;
+  }
+
+  // 3. Fallback to localhost for development
+  return "ws://localhost:8000/ws";
 };
 
 const WS_URL = getWsUrl();

@@ -1,0 +1,43 @@
+Testing LinkedIn Search for: Robert Bosch GmbH
+------------------------------
+Testing raw query: site:linkedin.com/in "Robert Bosch GmbH" "CEO"
+Found 4 results
+Title: Uli Jaschek, CFE - Bosch USA
+Link: https://www.linkedin.com/in/uli-jaschek-cfe
+Source: serpapi
+----------
+Title: Misha Chikovani - Robert Bosch GmbH
+Link: https://ge.linkedin.com/in/misha-chikovani-6552a13a
+Source: serpapi
+----------
+Title: Peter Loeffler ? CEO KEENFINITY Group (formerly Bosch ...
+Link: https://de.linkedin.com/in/peter-loeffler
+Source: serpapi
+----------
+Title: Pham Quan - C.E.O. at Robert Bosch GmbH
+Link: https://jp.linkedin.com/in/pham-quan-00baa9b5
+Source: serpapi
+----------
+
+Testing search_decision_makers...
+Found 5 decision makers
+Name: Heiko Weller
+Title: EVP Bosch USA
+LinkedIn: https://www.linkedin.com/in/heiko-weller-353792106
+----------
+Name: Stephan Fischer
+Title: VP Manufacturing, Plant Manager Bosch ...
+LinkedIn: https://www.linkedin.com/in/stephan-fischer-bb4694a5
+----------
+Name: Simone Tenschert
+Title: Vice President
+LinkedIn: https://www.linkedin.com/in/simone-tenschert-18b7b1115
+----------
+Name: Aline Deloire
+Title: Robert Bosch Power Tools GmbH
+LinkedIn: https://de.linkedin.com/in/aline-deloire-6458a15
+----------
+Name: Philipp Gauss
+Title: Vice President / Head of Sales Connected ...
+LinkedIn: https://www.linkedin.com/in/philipp-gauss-1232b0b4
+----------

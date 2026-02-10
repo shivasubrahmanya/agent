@@ -1,114 +1,124 @@
 """
 Web Search Service
-Uses DuckDuckGo for free web search (no API key required)
+Uses Google Custom Search API (Reliable & Cloud-Compatible)
 """
 
-try:
-    from ddgs import DDGS
-    DDGS_AVAILABLE = True
-except ImportError:
-    DDGS_AVAILABLE = False
-
+import os
+import requests
 from typing import List, Dict, Any, Optional
-import json
+from dotenv import load_dotenv
 
+load_dotenv(override=True)
 
 def is_available() -> bool:
-    """Check if DuckDuckGo search is available."""
-    return DDGS_AVAILABLE
+    """Check if Search is configured (prefers SerpApi)."""
+    return bool(os.getenv("SERP_API_KEY") or (os.getenv("GOOGLE_API_KEY") and os.getenv("GOOGLE_CX")))
+
+
+def google_custom_search(query: str, num_results: int = 10, search_type: str = None) -> List[Dict[str, Any]]:
+    """
+    Execute a search using SerpApi (preferred) or Google Custom Search API.
+    """
+    serp_api_key = os.getenv("SERP_API_KEY")
+    
+    if serp_api_key:
+        # Use SerpApi
+        url = "https://serpapi.com/search"
+        params = {
+            "api_key": serp_api_key,
+            "engine": "google",
+            "q": query,
+            "num": min(num_results, 10)
+        }
+        
+        try:
+            response = requests.get(url, params=params)
+            response.raise_for_status()
+            data = response.json()
+            
+            items = data.get("organic_results", [])
+            results = []
+            
+            for item in items:
+                results.append({
+                    "title": item.get("title", ""),
+                    "body": item.get("snippet", ""),
+                    "href": item.get("link", ""),
+                    "source": "serpapi"
+                })
+                
+            return results
+            
+        except Exception as e:
+            print(f"SerpApi Error: {e}")
+            # Fallback to Google if configured, otherwise return error
+            if not (os.getenv("GOOGLE_API_KEY") and os.getenv("GOOGLE_CX")):
+                return [{"error": f"SerpApi Error: {str(e)}"}]
+
+    # Official Google API Fallback
+    api_key = os.getenv("GOOGLE_API_KEY")
+    cx = os.getenv("GOOGLE_CX")
+    
+    if not api_key or not cx:
+        return [{"error": "No search API (SerpApi or Google) configured"}]
+
+    url = "https://www.googleapis.com/customsearch/v1"
+    params = {
+        "key": api_key,
+        "cx": cx,
+        "q": query,
+        "num": min(num_results, 10)
+    }
+    
+    try:
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+        data = response.json()
+        
+        items = data.get("items", [])
+        results = []
+        
+        for item in items:
+            results.append({
+                "title": item.get("title", ""),
+                "body": item.get("snippet", ""),
+                "href": item.get("link", ""),
+                "source": "google"
+            })
+            
+        return results
+        
+    except Exception as e:
+        return [{"error": f"Google API Error: {str(e)}"}]
 
 
 def search_company(company_name: str, max_results: int = 10) -> List[Dict[str, Any]]:
-    """
-    Search for company information on the web.
-    
-    Args:
-        company_name: Company to search for
-        max_results: Maximum results to return
-        
-    Returns:
-        List of search results with title, body, href
-    """
-    if not DDGS_AVAILABLE:
-        return [{"error": "Install ddgs: pip install ddgs"}]
-    
-    try:
-        with DDGS() as ddgs:
-            results = list(ddgs.text(
-                f"{company_name} company",
-                max_results=max_results
-            ))
-        return results
-    except Exception as e:
-        return [{"error": str(e)}]
+    """Search for company information."""
+    return google_custom_search(f"{company_name} company", num_results=max_results)
 
 
 def search_company_news(company_name: str, max_results: int = 10) -> List[Dict[str, Any]]:
-    """
-    Search for recent news about a company.
-    
-    Args:
-        company_name: Company to search for
-        max_results: Maximum results to return
-        
-    Returns:
-        List of news results
-    """
-    if not DDGS_AVAILABLE:
-        return [{"error": "Install ddgs: pip install ddgs"}]
-    
-    try:
-        with DDGS() as ddgs:
-            results = list(ddgs.news(
-                f"{company_name}",
-                max_results=max_results
-            ))
-        return results
-    except Exception as e:
-        return [{"error": str(e)}]
+    """Search for recent news about a company."""
+    # Google Custom Search doesn't have a strict 'news' mode in the basic API 
+    # without advanced context config, but adding 'news' to query works reasonably well.
+    return google_custom_search(f"{company_name} news", num_results=max_results)
 
 
 def search_company_linkedin(company_name: str) -> Optional[Dict[str, Any]]:
-    """
-    Search for company's LinkedIn page.
-    
-    Args:
-        company_name: Company to search for
-        
-    Returns:
-        LinkedIn search result or None
-    """
-    if not DDGS_AVAILABLE:
-        return {"error": "Install ddgs: pip install ddgs"}
-    
-    try:
-        with DDGS() as ddgs:
-            results = list(ddgs.text(
-                f"{company_name} site:linkedin.com/company",
-                max_results=1
-            ))
-        if results:
-            return results[0]
-        return None
-    except Exception as e:
-        return {"error": str(e)}
+    """Search for company's LinkedIn page."""
+    results = google_custom_search(f"{company_name} site:linkedin.com/company", num_results=1)
+    if results and not results[0].get("error"):
+        return results[0]
+    return None
 
 
 def get_company_info(company_name: str, stop_event=None) -> Dict[str, Any]:
-    """
-    Gather comprehensive company information from web search.
+    """Gather comprehensive company information."""
     
-    Args:
-        company_name: Company to research
-        stop_event: Optional threading.Event to check for stop signal
-        
-    Returns:
-        Dict with company info from various sources
-    """
-    if not DDGS_AVAILABLE:
+    if not is_available():
         return {
-            "error": "Web search not available",
-            "install": "pip install ddgs"
+            "error": "Google Search not configured",
+            "install": "Update .env with GOOGLE_API_KEY and GOOGLE_CX"
         }
     
     info = {
@@ -116,36 +126,30 @@ def get_company_info(company_name: str, stop_event=None) -> Dict[str, Any]:
         "sources": []
     }
     
-    # Check stop before starting
     if stop_event and stop_event.is_set():
         raise KeyboardInterrupt("Stopped by user")
     
-    # Get general search results
-    general_results = search_company(company_name, max_results=10)
-    if general_results and not general_results[0].get("error"):
-        info["web_results"] = general_results
-        info["sources"].append("web_search")
-    
-    # Check stop
+    # General
+    general = search_company(company_name)
+    if general and not general[0].get("error"):
+        info["web_results"] = general
+        info["sources"].append("google_web")
+        
     if stop_event and stop_event.is_set():
         raise KeyboardInterrupt("Stopped by user")
-    
-    # Get news
-    news_results = search_company_news(company_name, max_results=5)
-    if news_results and not news_results[0].get("error"):
-        info["news"] = news_results
-        info["sources"].append("news")
-    
-    # Check stop
-    if stop_event and stop_event.is_set():
-        raise KeyboardInterrupt("Stopped by user")
-    
-    # Get LinkedIn
+        
+    # News
+    news = search_company_news(company_name)
+    if news and not news[0].get("error"):
+        info["news"] = news
+        info["sources"].append("google_news")
+        
+    # LinkedIn
     linkedin = search_company_linkedin(company_name)
     if linkedin and not linkedin.get("error"):
         info["linkedin"] = linkedin
-        info["sources"].append("linkedin")
-    
+        info["sources"].append("google_linkedin")
+        
     return info
 
 

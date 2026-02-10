@@ -9,7 +9,7 @@ import requests
 from typing import Dict, Any, List
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 SNOV_CLIENT_ID = os.getenv("SNOV_CLIENT_ID", "")
 SNOV_CLIENT_SECRET = os.getenv("SNOV_CLIENT_SECRET", "")
