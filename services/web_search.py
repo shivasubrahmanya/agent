@@ -4,7 +4,7 @@ Uses DuckDuckGo for free web search (no API key required)
 """
 
 try:
-    from duckduckgo_search import DDGS
+    from ddgs import DDGS
     DDGS_AVAILABLE = True
 except ImportError:
     DDGS_AVAILABLE = False
@@ -18,7 +18,7 @@ def is_available() -> bool:
     return DDGS_AVAILABLE
 
 
-def search_company(company_name: str, max_results: int = 5) -> List[Dict[str, Any]]:
+def search_company(company_name: str, max_results: int = 10) -> List[Dict[str, Any]]:
     """
     Search for company information on the web.
     
@@ -30,7 +30,7 @@ def search_company(company_name: str, max_results: int = 5) -> List[Dict[str, An
         List of search results with title, body, href
     """
     if not DDGS_AVAILABLE:
-        return [{"error": "Install duckduckgo-search: pip install duckduckgo-search"}]
+        return [{"error": "Install ddgs: pip install ddgs"}]
     
     try:
         with DDGS() as ddgs:
@@ -43,7 +43,7 @@ def search_company(company_name: str, max_results: int = 5) -> List[Dict[str, An
         return [{"error": str(e)}]
 
 
-def search_company_news(company_name: str, max_results: int = 5) -> List[Dict[str, Any]]:
+def search_company_news(company_name: str, max_results: int = 10) -> List[Dict[str, Any]]:
     """
     Search for recent news about a company.
     
@@ -55,7 +55,7 @@ def search_company_news(company_name: str, max_results: int = 5) -> List[Dict[st
         List of news results
     """
     if not DDGS_AVAILABLE:
-        return [{"error": "Install duckduckgo-search: pip install duckduckgo-search"}]
+        return [{"error": "Install ddgs: pip install ddgs"}]
     
     try:
         with DDGS() as ddgs:
@@ -79,7 +79,7 @@ def search_company_linkedin(company_name: str) -> Optional[Dict[str, Any]]:
         LinkedIn search result or None
     """
     if not DDGS_AVAILABLE:
-        return {"error": "Install duckduckgo-search: pip install duckduckgo-search"}
+        return {"error": "Install ddgs: pip install ddgs"}
     
     try:
         with DDGS() as ddgs:
@@ -108,7 +108,7 @@ def get_company_info(company_name: str, stop_event=None) -> Dict[str, Any]:
     if not DDGS_AVAILABLE:
         return {
             "error": "Web search not available",
-            "install": "pip install duckduckgo-search"
+            "install": "pip install ddgs"
         }
     
     info = {
@@ -121,7 +121,7 @@ def get_company_info(company_name: str, stop_event=None) -> Dict[str, Any]:
         raise KeyboardInterrupt("Stopped by user")
     
     # Get general search results
-    general_results = search_company(company_name, max_results=3)
+    general_results = search_company(company_name, max_results=10)
     if general_results and not general_results[0].get("error"):
         info["web_results"] = general_results
         info["sources"].append("web_search")
@@ -131,7 +131,7 @@ def get_company_info(company_name: str, stop_event=None) -> Dict[str, Any]:
         raise KeyboardInterrupt("Stopped by user")
     
     # Get news
-    news_results = search_company_news(company_name, max_results=3)
+    news_results = search_company_news(company_name, max_results=5)
     if news_results and not news_results[0].get("error"):
         info["news"] = news_results
         info["sources"].append("news")

@@ -173,49 +173,123 @@ async def websocket_endpoint(websocket: WebSocket):
             current_stop_event.set()
         manager.disconnect(websocket)
 
+from agents import lead_finder_agent
+
 def run_workflow_thread(user_input: str, websocket: WebSocket, loop, stop_event=None):
-    """Execution thread for the agent"""
+    """Execution thread for the agent with Discovery support"""
     
-    def callback(stage: str, status: str, data: dict = None):
-        msg = {
-            "type": "progress",
-            "stage": stage,
-            "status": status,
-            "data": data
-        }
+    # Helper to send WS messages safely
+    def send_ws_message(msg_type: str, content: dict):
+        msg = {"type": msg_type, **content}
         try:
             future = asyncio.run_coroutine_threadsafe(
                 websocket.send_text(json.dumps(msg)), 
                 loop
             )
-            future.result() # Wait for it to be sent
+            future.result()
         except Exception as e:
             print(f"Error sending ws update: {e}")
+
+    # Progress callback
+    def callback(stage: str, status: str, data: dict = None):
+        send_ws_message("progress", {
+            "stage": stage,
+            "status": status,
+            "data": data
+        })
 
     progress = WorkflowProgress(callback)
     
     try:
-        workflow = LongRunningWorkflow(progress=progress, stop_event=stop_event)
-        result = workflow.run_pipeline(user_input)
+        # 1. Run Lead Finder to check if this is a search query
+        send_ws_message("log", {"message": "Analyzing request..."})
         
-        # Send final result
-        final_msg = {
-            "type": "result",
-            "data": result
-        }
-        asyncio.run_coroutine_threadsafe(
-            websocket.send_text(json.dumps(final_msg)),
-            loop
-        )
+        # We pass stop_event to lead_finder
+        search_result = lead_finder_agent.run(user_input, stop_event=stop_event)
+        
+        if stop_event and stop_event.is_set():
+            return
+
+        companies_to_analyze = []
+        
+        if search_result.get("is_search"):
+            # It's a search query!
+            found = search_result.get("companies", [])
+            msg = search_result.get("message", "Search complete.")
+            send_ws_message("log", {"message": f"🔎 {msg}"})
+            
+            # Send the list of found companies to frontend
+            send_ws_message("search_results", {"companies": found})
+            
+            # Process all found companies
+            companies_to_analyze = found
+            
+            if not companies_to_analyze:
+                 send_ws_message("log", {"message": "No suitable companies found to analyze."})
+                 send_ws_message("result", {"data": {"status": "completed", "note": "No companies found"}})
+                 return
+                 
+            send_ws_message("log", {"message": f"🚀 Starting deep analysis for top {len(companies_to_analyze)} companies..."})
+        else:
+            # Direct single company analysis
+            companies_to_analyze = [{"name": user_input, "context": "Direct analysis"}]
+
+        # 2. Run Workflow for each company
+        results = []
+        for i, company_info in enumerate(companies_to_analyze):
+            if stop_event and stop_event.is_set():
+                break
+                
+            company_name = company_info["name"]
+            context = company_info.get("context", "")
+            
+            send_ws_message("log", {"message": f"▶️ Analyzing [{i+1}/{len(companies_to_analyze)}]: {company_name}..."})
+            
+            # Create a prefixed progress callback for clarity in batch mode
+            def batch_progress_callback(stage, status, data=None):
+                 # We can modify 'stage' to include company name or just let existing UI handle it
+                 # For now, let's just pass it through, but observing the log flow
+                 send_ws_message("progress", {
+                    "stage": stage,
+                    "status": status,
+                    "data": data,
+                    "company": company_name # Add company tag
+                 })
+            
+            batch_progress = WorkflowProgress(batch_progress_callback)
+            
+            # Run the workflow
+            workflow = LongRunningWorkflow(progress=batch_progress, stop_event=stop_event)
+            
+            # If we have context, we might want to inject it, but existing workflow takes string input
+            # We construct a simulated input: "Company Name"
+            # If original input had Roles, we might want to preserve them? 
+            # For search queries ("find product managers..."), we should extract roles from original query 
+            # But for now let's just stick to Company Name and let generic role search happen.
+            
+            # TODO: Pass specific extracted roles if possible.
+            
+            lead_result = workflow.run_pipeline(company_name)
+            results.append(lead_result)
+            
+            # Send individual result
+            send_ws_message("result", {"data": lead_result, "is_batch": True})
+            
+            # Small pause between batches
+            if i < len(companies_to_analyze) - 1:
+                import time
+                time.sleep(1)
+
+        # 3. Final Summary
+        send_ws_message("batch_complete", {
+            "total": len(companies_to_analyze),
+            "completed": len(results)
+        })
+
     except Exception as e:
-        error_msg = {
-            "type": "error",
-            "error": str(e)
-        }
-        asyncio.run_coroutine_threadsafe(
-            websocket.send_text(json.dumps(error_msg)),
-            loop
-        )
+        import traceback
+        traceback.print_exc()
+        send_ws_message("error", {"error": str(e)})
 
 # Mount static files (Frontend)
 # We will mount it at the root BUT we need to make sure API routes take precedence

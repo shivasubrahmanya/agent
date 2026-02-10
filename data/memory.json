@@ -337,12 +337,23 @@
     "bosch": {
       "data": {
         "name": "Bosch",
-        "status": "rejected",
-        "reason": "Error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}"
+        "industry": "Manufacturing",
+        "size": "enterprise",
+        "location": "Not specified in search results",
+        "website": "Not specified in search results",
+        "growth_signals": [
+          "new Super Bowl ad to grow awareness and sales in the US"
+        ],
+        "status": "accepted",
+        "reason": "Bosch is a well-known established company with a significant marketing presence, including a Super Bowl ad, and has a strategy to grow awareness and sales in the US, indicating B2B relevance in the manufacturing industry.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
       },
       "outcome": "failure",
-      "analyzed_at": "2026-02-06T20:14:53.047124",
-      "times_analyzed": 10
+      "analyzed_at": "2026-02-10T12:30:29.181899",
+      "times_analyzed": 11
     },
     "robert bosch gmbh": {
       "data": {
@@ -570,48 +581,37 @@
     "niveus solutions": {
       "data": {
         "name": "Niveus Solutions",
-        "industry": "Cloud Engineering Services",
+        "industry": "Cloud Engineering Services, Technology",
         "size": "medium",
-        "location": "Karnataka, India",
-        "website": "Not found in search results",
+        "location": "Udupi, India",
+        "website": "https://niveussolutions.com/",
         "growth_signals": [
-          "fast-growing",
-          "partnership with HashiCorp",
           "acquisition by NTT DATA",
-          "1000 GCP engineering professionals"
+          "expansion of Google Cloud services",
+          "funding"
         ],
         "status": "accepted",
-        "reason": "Niveus Solutions is a real, established company with a clear industry presence in cloud engineering services, as evidenced by its partnership with HashiCorp and acquisition by NTT DATA, indicating growth and expansion.",
+        "reason": "The company is a real, established company in the cloud engineering services industry, with a significant acquisition by NTT DATA and expansion of Google Cloud services. The company has a medium size, with a headquarters location in Udupi, India, and a website. There are also growth signals such as the acquisition and funding, indicating a growing and expanding company.",
         "_sources": [
-          "news"
+          "web_search",
+          "news",
+          "linkedin"
         ],
         "_web_search_used": true
       },
-      "outcome": "success",
-      "analyzed_at": "2026-02-09T18:52:44.048075",
-      "times_analyzed": 2
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T15:09:06.173496",
+      "times_analyzed": 3
     },
     "microsoft": {
       "data": {
         "name": "Microsoft",
-        "industry": "Technology",
-        "size": "enterprise",
-        "location": "Not specified in search results",
-        "website": "Not specified in search results",
-        "growth_signals": [
-          "pursues AI growth",
-          "promotes sales leaders"
-        ],
-        "status": "accepted",
-        "reason": "The company is a well-established technology company with a strong presence in the market, and recent news indicates efforts to grow its AI business and improve sales.",
-        "_sources": [
-          "news"
-        ],
-        "_web_search_used": true
+        "status": "rejected",
+        "reason": "Error: Request timed out."
       },
-      "outcome": "success",
-      "analyzed_at": "2026-02-09T18:50:19.063770",
-      "times_analyzed": 1
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T12:18:08.742408",
+      "times_analyzed": 2
     },
     "wipro limited": {
       "data": {
@@ -636,6 +636,981 @@
       },
       "outcome": "success",
       "analyzed_at": "2026-02-09T18:54:51.304444",
+      "times_analyzed": 1
+    },
+    "swiggy": {
+      "data": {
+        "name": "Swiggy",
+        "industry": "Food Delivery and Quick Commerce",
+        "size": "large",
+        "location": "India",
+        "website": "https://www.swiggy.com",
+        "growth_signals": [
+          "54% revenue growth"
+        ],
+        "status": "rejected",
+        "reason": "Although Swiggy is a real and established company with significant revenue growth, its primary business model focuses on B2C food delivery and quick commerce, making it less relevant for B2B sales targeting.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T12:25:35.365300",
+      "times_analyzed": 2
+    },
+    "byju's": {
+      "data": {
+        "name": "BYJU'S",
+        "industry": "EdTech",
+        "size": "enterprise",
+        "location": "Bengaluru, India",
+        "website": "https://byjus.com/",
+        "growth_signals": [
+          "recent funding rounds",
+          "expansion into new markets",
+          "hiring of top talent"
+        ],
+        "status": "accepted",
+        "reason": "BYJU'S is a well-established EdTech company with a strong online presence, significant funding, and rapid growth indicators such as expansion into new markets and hiring of top talent.",
+        "_sources": [],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T12:26:47.124186",
+      "times_analyzed": 1
+    },
+    "ola": {
+      "data": {
+        "name": "Ola",
+        "industry": "Ride-hailing and transportation",
+        "size": "large",
+        "location": "Bengaluru, India",
+        "website": "https://www.olacabs.com/",
+        "growth_signals": [
+          "accelerates the use of artificial intelligence and automation"
+        ],
+        "status": "accepted",
+        "reason": "Ola is a well-established company in the ride-hailing industry, with recent news indicating its operations and presence in India, and its efforts to accelerate AI automation, however its surrender of office space may indicate restructuring, still it's size and industry make it a potential B2B sales target",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T12:27:38.240954",
+      "times_analyzed": 1
+    },
+    "kutumb": {
+      "data": {
+        "name": "Kutumb",
+        "industry": "Entertainment/Media",
+        "size": "small",
+        "location": "India",
+        "website": "Not Found",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The search results indicate that Kutumb is not a company in the traditional sense, but rather a term associated with entertainment and media, such as a TV show or event. There is no evidence of a company website, employee count, revenue, or other indicators of a established business, making it unsuitable for B2B sales targeting.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T12:31:36.675369",
+      "times_analyzed": 2
+    },
+    "credgenics": {
+      "data": {
+        "name": "Credgenics",
+        "industry": "Fintech, Debt Collections",
+        "size": "medium",
+        "location": "New Delhi, India",
+        "website": "Not found in search results",
+        "growth_signals": [
+          "Raised $3.3 million in funding",
+          "Acquired Arrise to reshape field collections",
+          "Raised $50 million in Series B funding"
+        ],
+        "status": "accepted",
+        "reason": "The company has raised significant funding, made an acquisition, and is operating in a B2B-relevant industry, as evidenced by the recent news articles.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T12:31:58.370201",
+      "times_analyzed": 1
+    },
+    "boutir": {
+      "data": {
+        "name": "Boutir",
+        "industry": "E-commerce, Social Mobile Commerce",
+        "size": "medium",
+        "location": "Hong Kong",
+        "website": "Not found in search results",
+        "growth_signals": [
+          "Launch of livestreaming marketplace with Tap & Go",
+          "Strategic platform partnership with iClick Interactive"
+        ],
+        "status": "accepted",
+        "reason": "Recent news articles indicate partnerships and launches, suggesting a growing and active company in the e-commerce and social mobile commerce space.",
+        "_sources": [
+          "news"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T12:32:27.050299",
+      "times_analyzed": 1
+    },
+    "agricxlab": {
+      "data": {
+        "name": "AgricxLab",
+        "industry": "Agritech",
+        "size": "small",
+        "location": "Thane, India",
+        "website": "Not found in search results",
+        "growth_signals": [
+          "Raised $500K seed funding led by Ankur Capital",
+          "Planning to expand crop range and quality parameters",
+          "Investment from IIM-Ahmedabad's Centre for Innovation Incubation and Entrepreneurship"
+        ],
+        "status": "accepted",
+        "reason": "Evidence of a real company with funding, a clear industry presence in Agritech, and signs of growth through investments and expansion plans.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T12:45:34.857379",
+      "times_analyzed": 1
+    },
+    "teachmint": {
+      "data": {
+        "name": "Teachmint",
+        "industry": "Ed-tech",
+        "size": "medium",
+        "location": "Bangalore, Karnataka, India",
+        "website": "https://www.teachmint.com/",
+        "growth_signals": [
+          "acquisition of Teachmore",
+          "introduction of new product Vision X",
+          "brand campaigns featuring Anil Kapoor",
+          "expansion of services to digitize classrooms"
+        ],
+        "status": "accepted",
+        "reason": "Teachmint is a real, established company with a strong online presence, recent news of acquisitions and product launches, and a clear industry focus on ed-tech, making it suitable for B2B sales targeting.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T12:45:49.675696",
+      "times_analyzed": 1
+    },
+    "rapido": {
+      "data": {
+        "name": "Rapido",
+        "industry": "Transportation/Ride-hailing",
+        "size": "enterprise",
+        "location": "Bengaluru, India",
+        "website": "https://www.rapido.bike/",
+        "growth_signals": [
+          "recent $120M funding",
+          "unicorn status with $1 billion valuation",
+          "expansion into new services such as food delivery and cab services",
+          "presence in close to 100 cities"
+        ],
+        "status": "rejected",
+        "reason": "Rapido is primarily a B2C-focused ride-hailing and logistics company, and while it has a large scale and growth potential, it does not fit the typical profile of a B2B company that would be targeted for sales",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T12:45:57.047666",
+      "times_analyzed": 2
+    },
+    "krutrim": {
+      "data": {
+        "name": "Krutrim",
+        "industry": "Artificial Intelligence, Cloud Computing",
+        "size": "medium",
+        "location": "Bengaluru, India",
+        "website": "https://olakrutrim.com/",
+        "growth_signals": [
+          "Reached unicorn status with $1 billion valuation",
+          "Ramping up hiring for AI labs",
+          "Launched AI language model 'Krutrim'",
+          "Building a sovereign cloud for India",
+          "Commitment of Rs 10K crore investment by Ola's founder"
+        ],
+        "status": "accepted",
+        "reason": "Krutrim is a real, established company with a strong presence in the AI and cloud computing industry, as evident from its website, LinkedIn page, and recent news articles. The company has shown significant growth signals, including reaching unicorn status, ramping up hiring, and launching new products and initiatives. Its focus on building AI computing stack and sovereign cloud for India makes it a relevant target for B2B sales.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:42:07.802613",
+      "times_analyzed": 1
+    },
+    "wipro ltd.": {
+      "data": {
+        "name": "Wipro Ltd.",
+        "industry": "Information Technology, Consulting",
+        "size": "enterprise",
+        "location": "India",
+        "website": "https://www.wipro.com/",
+        "growth_signals": [
+          "Wipro ai 360 launch",
+          "$1 billion investment in AI capabilities over the next three years",
+          "Expansion of AI-powered operating model for enterprise functions",
+          "Launch of Google Gemini Experience Zone to boost AI adoption"
+        ],
+        "status": "accepted",
+        "reason": "Wipro is a well-established company with a strong presence in the IT industry, as evidenced by its website and LinkedIn page. The company's recent news and web search results indicate a strong focus on AI and data analytics, with significant investments and launches in these areas, making it a suitable target for B2B sales.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:43:01.780018",
+      "times_analyzed": 1
+    },
+    "eka care": {
+      "data": {
+        "name": "Eka Care",
+        "industry": "Healthcare Technology",
+        "size": "small",
+        "location": "Bengaluru, India",
+        "website": "https://www.eka.care/",
+        "growth_signals": [
+          "raised $15 million in Series A funding",
+          "hiring",
+          "expanding services to Indian patients",
+          " partnerships with healthcare organizations"
+        ],
+        "status": "accepted",
+        "reason": "Eka Care is a real, established company with a strong online presence, founded in 2020 and operating in the healthcare technology industry. The company has raised $15 million in funding, indicating growth and investment potential. With 11-50 employees, it is considered a small company. The recent news articles and LinkedIn profile confirm the company's focus on digitizing health records and expanding its services, making it a suitable target for B2B sales.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:43:50.521021",
+      "times_analyzed": 1
+    },
+    "sense company": {
+      "data": {
+        "name": "Sense Company",
+        "industry": "Fragrance and Scent",
+        "size": "small",
+        "location": "Not specified",
+        "website": "https://sense-company.com/nl-nl/",
+        "growth_signals": [
+          "FD Gazelle award for the third year in a row",
+          " Presence on multiple social media platforms",
+          "Availability of mobile apps on Google Play and App Store"
+        ],
+        "status": "accepted",
+        "reason": "Evidence from LinkedIn and company website suggests a real, established company with a specific industry focus. The company's presence on social media and app stores indicates some level of growth and activity.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:44:43.392254",
+      "times_analyzed": 1
+    },
+    "hyperverge": {
+      "data": {
+        "name": "HyperVerge",
+        "industry": "AI, Fintech, Identity Verification",
+        "size": "medium",
+        "location": "Bengaluru, Karnataka, India",
+        "website": "https://hyperverge.co/",
+        "growth_signals": [
+          "Raised $1 million seed funding from US-based VC firms",
+          "Ranked 7th in NIST FRVT 1:1 and 1:N categories",
+          "Joined leaders in NIST FRVT Paperless Travel Leaderboard",
+          "Hiring for various positions, including Account Executive",
+          "Verified over 700 million identities"
+        ],
+        "status": "accepted",
+        "reason": "HyperVerge is a real, established company with a strong presence in the AI and fintech industries. The company has raised seed funding, achieved notable rankings in NIST FRVT categories, and is hiring for various positions, indicating growth and expansion. The company's solutions are used by large enterprise clients in financial services, telecom, energy, security, and other industries, making it a suitable target for B2B sales.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:45:19.330257",
+      "times_analyzed": 1
+    },
+    "[24]7.ai": {
+      "data": {
+        "name": "[24]7.ai",
+        "industry": "Customer Service Software and Services",
+        "size": "large",
+        "location": "San Jose, California",
+        "website": "Not officially found, but LinkedIn profile exists: https://www.linkedin.com/company/24-7-ai",
+        "growth_signals": [
+          "Won CCW Excellence Award for BPO of the Year",
+          "Received 2023 Future of Work Agent Experience Award",
+          "Hiring and walk-in interviews for various positions",
+          "Expansion of services with AI-powered customer service solutions"
+        ],
+        "status": "accepted",
+        "reason": "The company has a strong online presence, including a Wikipedia page and a LinkedIn profile. It has received awards and recognition in the industry, and is actively hiring and expanding its services. The company's focus on AI-powered customer service solutions makes it a relevant target for B2B sales.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "success",
+      "analyzed_at": "2026-02-10T13:45:57.115833",
+      "times_analyzed": 1
+    },
+    "sarvam ai": {
+      "data": {
+        "name": "Sarvam AI",
+        "industry": "Artificial Intelligence",
+        "size": "small",
+        "location": "Bengaluru, India",
+        "website": "https://www.sarvam.ai/",
+        "growth_signals": [
+          "outperformed global models like Google Gemini and OpenAI's ChatGPT in select benchmarks",
+          "backed by top investors, including Lightspeed, Peak XV, and Khosla Ventures",
+          "founded in 2023 and already gaining global attention"
+        ],
+        "status": "accepted",
+        "reason": "The company has a strong online presence, with recent news articles and a professional LinkedIn page. The search results show that Sarvam AI is a real, established company in the artificial intelligence industry, with a focus on building large language models for Indian languages and contexts. The company's achievements and funding from top investors indicate growth and potential for B2B sales targeting.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:46:25.623694",
+      "times_analyzed": 1
+    },
+    "ailoitte": {
+      "data": {
+        "name": "Ailoitte",
+        "industry": "Software Development, AI, and IT Services",
+        "size": "medium",
+        "location": "Dehradun, Uttarakhand, India",
+        "website": "https://www.ailoitte.com/",
+        "growth_signals": [
+          "enables global enterprises to hire developers in 48 hours",
+          "accelerates global AI transformation with custom solutions for enterprises",
+          "founded in 2017 and operating in enterprise services",
+          "offers full-stack software development and IT staff augmentation"
+        ],
+        "status": "accepted",
+        "reason": "Ailoitte appears to be a real and established company, with a strong presence in the software development and AI industry. The company has a professional website, and its services and expertise are consistently described across multiple sources. The recent news articles also indicate growth and expansion, with Ailoitte enabling global enterprises to hire developers and accelerating AI transformation. The company's LinkedIn profile further supports its legitimacy.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:47:07.079432",
+      "times_analyzed": 1
+    },
+    "turing": {
+      "data": {
+        "name": "Turing",
+        "industry": "Artificial Intelligence, Technology",
+        "size": "medium",
+        "location": "Palo Alto, California, United States",
+        "website": "https://www.turing.com",
+        "growth_signals": [
+          "$111 Million in Series E funding",
+          "one of the world's fastest-growing AGI infrastructure companies",
+          "trusted partner for global enterprises deploying advanced AI systems"
+        ],
+        "status": "accepted",
+        "reason": "The company has a strong online presence, with a professional website and LinkedIn page. Recent news articles indicate significant funding and growth, with a Series E funding of $111 Million. The company is also mentioned as a leading research accelerator for frontier AI labs and a trusted partner for global enterprises, indicating its relevance and potential for B2B sales.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:47:44.819166",
+      "times_analyzed": 1
+    },
+    "reckonsys": {
+      "data": {
+        "name": "Reckonsys",
+        "industry": "Software Development",
+        "size": "small",
+        "location": "Bengaluru, Karnataka, India",
+        "website": "https://www.reckonsys.com/",
+        "growth_signals": [
+          "Successfully delivered over 70+ projects",
+          "100+ satisfied customers",
+          "Raised $145K in funding"
+        ],
+        "status": "accepted",
+        "reason": "The company has a professional website, a LinkedIn presence with 27,257 followers, and has raised funding. It has also delivered multiple projects and has a significant number of satisfied customers, indicating a established presence in the software development industry.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:48:17.744985",
+      "times_analyzed": 1
+    },
+    "dianapps": {
+      "data": {
+        "name": "DianApps",
+        "industry": "IT, Software Development, Technology",
+        "size": "medium",
+        "location": "Edinburgh, Scotland",
+        "website": "https://dianapps.com/",
+        "growth_signals": [
+          "Launch of Comprehensive Salesforce Consulting Services",
+          "Global operations",
+          "Awards and accreditations",
+          "Clutch Premier Verified Company",
+          "Presence in multiple online directories"
+        ],
+        "status": "accepted",
+        "reason": "DianApps appears to be a real and established company with a strong online presence, operating globally since 2017. The company has a clear focus on AI-powered app development, digital IT solutions, and Salesforce consulting services. The presence of awards, accreditations, and a Clutch Premier Verified Company status suggests a reputable and growing business. The launch of new services and presence in multiple online directories also indicate growth and expansion.",
+        "_sources": [
+          "web_search",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:48:59.947771",
+      "times_analyzed": 1
+    },
+    "tecnotree corporation": {
+      "data": {
+        "name": "Tecnotree Corporation",
+        "industry": "Telecommunications",
+        "size": "medium",
+        "location": "Espoo, Finland",
+        "website": "https://www.tecnotree.com/",
+        "growth_signals": [
+          "Recognized by Gartner as a Representative Vendor",
+          "Q1 2025 performance with improved Free Cash Flow",
+          "Strategic Market Expansion",
+          "Q3 2025 revenue growth of 4.8% in constant currency"
+        ],
+        "status": "accepted",
+        "reason": "The company has a strong online presence, with a clear website and LinkedIn profile. Recent news articles indicate growth and recognition in the industry, including a mention in a Gartner market guide. The company's history, dating back to 1978, and its international operations also suggest a well-established business.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:49:36.032431",
+      "times_analyzed": 1
+    },
+    "thirdeye data": {
+      "data": {
+        "name": "ThirdEye Data",
+        "industry": "Artificial Intelligence, Data Science, and Analytics",
+        "size": "medium",
+        "location": "Silicon Valley, California, USA",
+        "website": "https://thirdeyedata.ai",
+        "growth_signals": [
+          "Recognized as a Reliable Company in 2025",
+          "Ranked Globally as a Top Big Data, BI and B2B Company",
+          "Expansion into Canada",
+          "Featured in Newsweek and Statista’s America’s Most Reliable Companies 2025 list"
+        ],
+        "status": "accepted",
+        "reason": "The company has a strong online presence, with multiple web search results showcasing its recognition and awards in the AI and data science industry. Recent news articles also highlight the company's expertise and thought leadership in the field, with the CEO being featured as a guest author. The company's LinkedIn page and website provide further evidence of its establishment and growth.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:50:10.876998",
+      "times_analyzed": 1
+    },
+    "fugenx technologies": {
+      "data": {
+        "name": "FuGenX Technologies",
+        "industry": "Technology Services, Mobile App Development, Game Development, AI, Machine Learning",
+        "size": "medium",
+        "location": "Bengaluru, India",
+        "website": "https://www.fugenx.com/",
+        "growth_signals": [
+          "global technology awards",
+          "16 year old company with steady growth",
+          "offices in USA, India, and UAE",
+          "revenue of $32.2 million",
+          "197 employees"
+        ],
+        "status": "accepted",
+        "reason": "FuGenX Technologies appears to be a well-established company with a strong presence in the technology services industry, having been founded in 2008 and grown to have offices in multiple countries, with a significant revenue and employee count.",
+        "_sources": [
+          "web_search"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "success",
+      "analyzed_at": "2026-02-10T13:50:39.789477",
+      "times_analyzed": 1
+    },
+    "arya.ai": {
+      "data": {
+        "name": "Arya.ai",
+        "industry": "Artificial Intelligence, Fintech",
+        "size": "medium",
+        "location": "Mumbai, India",
+        "website": "https://arya.ai/",
+        "growth_signals": [
+          "Recent funding",
+          "New U.S. headquarters in Las Vegas",
+          "Launch of new products and services (APEX MCP, Model Context Protocol)",
+          "Acquisition of HippoAI",
+          "Series A funding of $18.2M"
+        ],
+        "status": "accepted",
+        "reason": "Arya.ai is a real, established company with a strong presence in the artificial intelligence and fintech industries. The company has a clear vision, production-ready solutions, and a growing customer base. Recent news articles and LinkedIn updates indicate significant growth and expansion, including new headquarters, product launches, and funding. The company's website and Crunchbase profile provide further evidence of its legitimacy and growth potential.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:51:18.164133",
+      "times_analyzed": 1
+    },
+    "niramai health analytix": {
+      "data": {
+        "name": "Niramai Health Analytix",
+        "industry": "Health Technology",
+        "size": "small / medium",
+        "location": "Bengaluru, India",
+        "website": "https://niramai.com/",
+        "growth_signals": [
+          "US FDA clearance",
+          "CE Mark approval",
+          "Series A funding of $6 million",
+          "expansion to global markets"
+        ],
+        "status": "accepted",
+        "reason": "The company has a strong online presence, with a website and LinkedIn page. Recent news articles indicate growth and expansion, including US FDA clearance, CE Mark approval, and Series A funding. The company is also developing innovative AI-based medical devices for breast cancer screening, making it a relevant target for B2B sales in the health technology industry.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:52:10.459645",
+      "times_analyzed": 1
+    },
+    "yellow.ai": {
+      "data": {
+        "name": "Yellow.ai",
+        "industry": "Conversational AI, Customer Service Automation",
+        "size": "medium",
+        "location": "San Mateo, California",
+        "website": "https://yellow.ai",
+        "growth_signals": [
+          "Raised $102.21 million in funding",
+          "Named a Challenger in the 2025 Gartner Magic Quadrant for Conversational AI Platforms",
+          "Launched a new solution to improve bot interactions with in-depth conversational insights",
+          "Positioned for Completeness of Vision and Ability to Execute"
+        ],
+        "status": "accepted",
+        "reason": "The company has a strong online presence, with a clear website and LinkedIn profile. Recent news articles highlight the company's growth and innovation, including funding and recognition from Gartner. The company's focus on conversational AI and customer service automation makes it a relevant target for B2B sales.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:52:42.696539",
+      "times_analyzed": 1
+    },
+    "maieutic semiconductors": {
+      "data": {
+        "name": "Maieutic Semiconductors",
+        "industry": "Semiconductors, AI, Technology",
+        "size": "small",
+        "location": "Bengaluru, India",
+        "website": "https://www.maieuticsemi.com/",
+        "growth_signals": [
+          "Raised $4.15 million in seed funding",
+          "Founded by industry veterans with 10 decades of experience",
+          "Developing innovative AI-powered analog IC design solutions"
+        ],
+        "status": "accepted",
+        "reason": "The company is a real, established startup with a strong founding team, recently raised seed funding, and is developing innovative solutions in the semiconductor industry, making it a suitable target for B2B sales.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "success",
+      "analyzed_at": "2026-02-10T13:53:14.386938",
+      "times_analyzed": 1
+    },
+    "opteamix": {
+      "data": {
+        "name": "Opteamix",
+        "status": "rejected",
+        "reason": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kgfgvgvae51apjf2qr3twbf2` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99898, Requested 1070. Please try again in 13m56.352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:53:27.445142",
+      "times_analyzed": 2
+    },
+    "7edge": {
+      "data": {
+        "name": "7EDGE",
+        "status": "rejected",
+        "reason": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kgfgvgvae51apjf2qr3twbf2` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99883, Requested 1343. Please try again in 17m39.263999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:53:40.864859",
+      "times_analyzed": 2
+    },
+    "drc systems": {
+      "data": {
+        "name": "DRC Systems",
+        "status": "rejected",
+        "reason": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kgfgvgvae51apjf2qr3twbf2` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99866, Requested 1270. Please try again in 16m21.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:53:55.453029",
+      "times_analyzed": 2
+    },
+    "appinventiv": {
+      "data": {
+        "name": "Appinventiv",
+        "status": "rejected",
+        "reason": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kgfgvgvae51apjf2qr3twbf2` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99852, Requested 1649. Please try again in 21m36.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:54:07.363589",
+      "times_analyzed": 2
+    },
+    "appventurez": {
+      "data": {
+        "name": "AppVenturez",
+        "status": "rejected",
+        "reason": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kgfgvgvae51apjf2qr3twbf2` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99829, Requested 1303. Please try again in 16m18.048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:54:27.714868",
+      "times_analyzed": 2
+    },
+    "ahex technologies": {
+      "data": {
+        "name": "Ahex Technologies",
+        "status": "rejected",
+        "reason": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kgfgvgvae51apjf2qr3twbf2` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99816, Requested 1067. Please try again in 12m42.911999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:54:38.878219",
+      "times_analyzed": 2
+    },
+    "datatobiz": {
+      "data": {
+        "name": "DataToBiz",
+        "status": "rejected",
+        "reason": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kgfgvgvae51apjf2qr3twbf2` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99804, Requested 1311. Please try again in 16m3.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:54:49.020836",
+      "times_analyzed": 2
+    },
+    "simform": {
+      "data": {
+        "name": "Simform",
+        "status": "rejected",
+        "reason": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kgfgvgvae51apjf2qr3twbf2` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99790, Requested 1155. Please try again in 13m36.48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T13:55:01.133650",
+      "times_analyzed": 2
+    },
+    "99games": {
+      "data": {
+        "name": "99Games",
+        "industry": "Gaming",
+        "size": "small",
+        "location": "Udupi, Karnataka, India",
+        "website": "https://99games.in/",
+        "growth_signals": [
+          "Raised funding from Japanese investment firm Dream Incubator",
+          "Launched new game titles, including WordsWorth on Android with multiplayer support",
+          "Won Licensee of the Year award",
+          "Tied up with Yash Raj Films for mobile games on Dhoom film franchise"
+        ],
+        "status": "accepted",
+        "reason": "Evidence from web search results, recent news, and LinkedIn profile suggests that 99Games is a real, established company in the gaming industry with a presence in India and a track record of developing and publishing games. The company has shown growth signals, including raising funding, launching new game titles, and winning awards.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T15:07:50.370869",
+      "times_analyzed": 1
+    },
+    "robosoft technologies": {
+      "data": {
+        "name": "Robosoft Technologies",
+        "industry": "Software Development, Digital Transformation",
+        "size": "medium",
+        "location": "Udupi, India",
+        "website": "https://www.robosoftin.com",
+        "growth_signals": [
+          " Raised Series B funding of $12 million from Ascent Capital and Kalaari Capital",
+          "Acquired by Japan's TechnoPro for $108 million",
+          "Expanded capabilities in embedded engineering after integration of TechnoPro India's operations",
+          "Appointed new CEO, Ravi Teja",
+          "Appointed new vice president, Lakshmipathy Bhat",
+          "Appointed new Head of UK operations, Samip Mutha"
+        ],
+        "status": "accepted",
+        "reason": "The company has a strong online presence, with a professional website and LinkedIn page. Recent news articles indicate significant growth and investment, including a Series B funding round and an acquisition by Japan's TechnoPro. The company has also expanded its capabilities and appointed new leadership, indicating a strong potential for B2B sales targeting.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T15:08:21.520707",
+      "times_analyzed": 1
+    },
+    "flashmates": {
+      "data": {
+        "name": "Flashmates Private Limited",
+        "industry": "Real Estate, Proptech",
+        "size": "small",
+        "location": "Mangalore, India",
+        "website": "https://flashmates.tech",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The company is a small, recently incorporated private limited company with no evident growth signals or significant online presence beyond its website and LinkedIn page. The company's age and lack of publicly available financial data or news coverage suggest that it may not be a suitable target for B2B sales at this time.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T15:08:36.111596",
+      "times_analyzed": 1
+    },
+    "flashmates private limited": {
+      "data": {
+        "name": "Flashmates Private Limited",
+        "industry": "Real Estate, Proptech",
+        "size": "small",
+        "location": "Mangalore, India",
+        "website": "https://flashmates.tech",
+        "growth_signals": [],
+        "status": "rejected",
+        "reason": "The company is a small, recently incorporated private limited company with no evident growth signals or significant online presence beyond its website and LinkedIn page. The company's age and lack of publicly available financial data or news coverage suggest that it may not be a suitable target for B2B sales at this time.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T15:08:36.287427",
+      "times_analyzed": 1
+    },
+    "sonic lamb": {
+      "data": {
+        "name": "Sonic Lamb",
+        "industry": "Audio Devices / Media & Entertainment",
+        "size": "small / medium",
+        "location": "Hubballi, India",
+        "website": "https://soniclamb.com/",
+        "growth_signals": [
+          "Featured on Shark Tank India",
+          "Secured investment from Peyush Bansal",
+          "Chosen for the SoundTech Accelerator Program by Sound Hub Denmark",
+          "Making waves in the audio devices industry",
+          "Revolutionary personal audio experience"
+        ],
+        "status": "accepted",
+        "reason": "The company has a strong online presence, has secured funding, and has been featured on Shark Tank India. The company's innovative audio technology and participation in the SoundTech Accelerator Program also indicate growth potential.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T15:09:52.125975",
+      "times_analyzed": 1
+    },
+    "hydgen": {
+      "data": {
+        "name": "HYDGEN",
+        "industry": "Energy, Clean Technology, Hydrogen",
+        "size": "small",
+        "location": "Singapore",
+        "website": "https://www.hyd-gen.com/",
+        "growth_signals": [
+          "Raised US$5 million in Pre-Series A round",
+          "Scaling on-site green hydrogen for industrial users",
+          "Expanding global presence",
+          "Developing cost-efficient green hydrogen generation technology"
+        ],
+        "status": "accepted",
+        "reason": "HYDGEN is a real company with a strong online presence, including a website and LinkedIn page. The company has raised significant funding and is actively working on scaling its green hydrogen technology, indicating growth potential. The industry is also highly relevant for B2B sales targeting, as it operates in the energy and clean technology space.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T15:10:32.179315",
+      "times_analyzed": 1
+    },
+    "primacy industries private limited": {
+      "data": {
+        "name": "Primacy Industries Private Limited",
+        "industry": "Personal Care Product Manufacturing",
+        "size": "medium",
+        "location": "Mangaluru, Karnataka, India",
+        "website": "https://primacyind.com/",
+        "growth_signals": [
+          "$208.9 million in revenue",
+          "109 employees",
+          "established in 2004",
+          "featured products include Deodorants, Perfumed Candles"
+        ],
+        "status": "accepted",
+        "reason": "The company has a significant revenue of $208.9 million, a substantial employee count of 109, and has been established since 2004, indicating a stable and growing business. The company's presence on LinkedIn and other directories, such as RocketReach and Tracxn, further verifies its existence and operations.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T15:11:19.015476",
+      "times_analyzed": 1
+    },
+    "fintech payments": {
+      "data": {
+        "name": "FinTech Payments",
+        "industry": "Financial Technology (FinTech) and Payments",
+        "size": "medium",
+        "location": "Not specified",
+        "website": "https://fintech.com/",
+        "growth_signals": [
+          "providing scalable business technology to ecommerce, retail and B2B companies",
+          "specialized payments technology company",
+          "part of a rapidly growing and expanding fintech payment companies industry"
+        ],
+        "status": "accepted",
+        "reason": "The company has a professional website, a LinkedIn presence, and is mentioned in the context of the fintech and payments industry, indicating it is a real and established company. The company's focus on B2B invoice automation solutions and scalable business technology also suggests it is B2B relevant.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "success",
+      "analyzed_at": "2026-02-10T15:36:34.162601",
+      "times_analyzed": 1
+    },
+    "myntra": {
+      "data": {
+        "name": "Myntra",
+        "industry": "E-commerce, Fashion, Lifestyle",
+        "size": "large",
+        "location": "Bengaluru, India",
+        "website": "https://www.myntra.com",
+        "growth_signals": [
+          "appointed former Google exec Pramod Adiddam as CTO",
+          "strengthening senior leadership",
+          "expansion of presence in India through partnerships",
+          "continuous innovation and investment in technology"
+        ],
+        "status": "accepted",
+        "reason": "Myntra is a well-established company with a strong presence in the Indian e-commerce market, specializing in fashion and lifestyle products. With a large size and headquartered in Bengaluru, India, it has shown growth signals through recent appointments, partnerships, and investments in technology, making it a suitable target for B2B sales.",
+        "_sources": [
+          "web_search",
+          "news",
+          "linkedin"
+        ],
+        "_web_search_used": true
+      },
+      "outcome": "failure",
+      "analyzed_at": "2026-02-10T15:38:19.456551",
       "times_analyzed": 1
     }
   },
@@ -737,6 +1712,26 @@
       "success_rate": 1.0,
       "uses": 1,
       "last_used": "2026-02-09T18:54:51.307451"
+    },
+    "discovery:d932d122": {
+      "type": "discovery",
+      "pattern": {
+        "hint": "Industry 'Semiconductors, AI, Technology' often produces quality leads",
+        "industry": "Semiconductors, AI, Technology"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-10T13:53:14.390031"
+    },
+    "discovery:95f279c5": {
+      "type": "discovery",
+      "pattern": {
+        "hint": "Industry 'Financial Technology (FinTech) and Payments' often produces quality leads",
+        "industry": "Financial Technology (FinTech) and Payments"
+      },
+      "success_rate": 1.0,
+      "uses": 1,
+      "last_used": "2026-02-10T15:36:34.178089"
     }
   },
   "failures": [],
@@ -870,11 +1865,221 @@
       "insight": "Lead rejected: No decision-making roles identified",
       "category": "verification",
       "timestamp": "2026-02-09T18:53:44.548100"
+    },
+    {
+      "insight": "Lead rejected: Company rejected: Error: Request timed out.",
+      "category": "verification",
+      "timestamp": "2026-02-10T12:18:08.746710"
+    },
+    {
+      "insight": "Lead rejected: Although Swiggy is a real and established company with significant revenue growth, its primary busin",
+      "category": "verification",
+      "timestamp": "2026-02-10T12:25:35.367942"
+    },
+    {
+      "insight": "Lead rejected: Although the company is accepted and has relevant roles with decision power, there are no enriched c",
+      "category": "verification",
+      "timestamp": "2026-02-10T12:26:47.126978"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and has multiple roles with decision power, but lacks enriched contacts with",
+      "category": "verification",
+      "timestamp": "2026-02-10T12:27:38.243371"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and B2B relevant, but there are no enriched contacts with emails, and the fi",
+      "category": "verification",
+      "timestamp": "2026-02-10T12:30:29.183326"
+    },
+    {
+      "insight": "Lead rejected: The search results indicate that Kutumb is not a company in the traditional sense, but rather a term",
+      "category": "verification",
+      "timestamp": "2026-02-10T12:31:36.677053"
+    },
+    {
+      "insight": "Lead rejected: The company has a high growth potential, is B2B relevant, and has accepted roles with decision power",
+      "category": "verification",
+      "timestamp": "2026-02-10T12:31:58.371827"
+    },
+    {
+      "insight": "Lead rejected: The lead has no enriched contacts with emails and only one role with decision_power >= 7 is not enou",
+      "category": "verification",
+      "timestamp": "2026-02-10T12:32:27.052632"
+    },
+    {
+      "insight": "Lead rejected: The company 'AgricxLab' is accepted and has a role with decision_power >= 7, but lacks enriched cont",
+      "category": "verification",
+      "timestamp": "2026-02-10T12:45:34.859891"
+    },
+    {
+      "insight": "Lead rejected: No decision-making roles identified",
+      "category": "verification",
+      "timestamp": "2026-02-10T12:45:49.678199"
+    },
+    {
+      "insight": "Lead rejected: Rapido is primarily a B2C-focused ride-hailing and logistics company, and while it has a large scale",
+      "category": "verification",
+      "timestamp": "2026-02-10T12:45:57.050383"
+    },
+    {
+      "insight": "Lead rejected: The lead has a low confidence score due to the company not having enriched contacts with emails and ",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:42:07.805185"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and B2B relevant, with multiple accepted roles having decision_power >= 7, h",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:43:01.784078"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and B2B relevant, but there are no enriched contacts with emails. Although t",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:43:50.523796"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and has B2B relevant industry, but it lacks enriched contacts with emails an",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:44:43.395037"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and has relevant B2B industry, and there are accepted roles with decision po",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:45:19.332857"
+    },
+    {
+      "insight": "Lead rejected: Although the company is accepted and has a relevant B2B role with high decision power, the lack of e",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:46:25.626494"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and has a relevant industry for B2B, but no enriched contacts with emails we",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:47:07.082257"
+    },
+    {
+      "insight": "Lead rejected: The confidence score of 0.4 is below the threshold of 0.7, mainly due to the absence of enriched con",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:47:44.821523"
+    },
+    {
+      "insight": "Lead rejected: The company lacks enriched contacts with emails and multiple decision-makers with high decision powe",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:48:17.747194"
+    },
+    {
+      "insight": "Lead rejected: The company has been accepted and appears to be a real and established business, but there are no en",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:48:59.949680"
+    },
+    {
+      "insight": "Lead rejected: The lead has a low confidence score due to no enriched contacts with emails and does not meet the mi",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:49:36.036796"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and has multiple roles with decision_power >= 7, but it lacks enriched conta",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:50:10.880171"
+    },
+    {
+      "insight": "Lead rejected: The lead has a base score of 0.5 and the company is accepted and B2B relevant, which adds 0.2 to the",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:51:18.167394"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and relevant for B2B sales, but there are no enriched contacts with emails. ",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:52:10.463080"
+    },
+    {
+      "insight": "Lead rejected: No decision-making roles identified",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:52:42.700042"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatil",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:53:27.448613"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatil",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:53:40.868335"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatil",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:53:55.456375"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatil",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:54:07.366530"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatil",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:54:27.718440"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatil",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:54:38.881769"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatil",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:54:49.024579"
+    },
+    {
+      "insight": "Lead rejected: Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatil",
+      "category": "verification",
+      "timestamp": "2026-02-10T13:55:01.136234"
+    },
+    {
+      "insight": "Lead rejected: The lead has no enriched contacts with emails and no multiple decision-makers with diverse roles wit",
+      "category": "verification",
+      "timestamp": "2026-02-10T15:07:50.378793"
+    },
+    {
+      "insight": "Lead rejected: No decision-making roles identified",
+      "category": "verification",
+      "timestamp": "2026-02-10T15:08:21.531960"
+    },
+    {
+      "insight": "Lead rejected: The company is a small, recently incorporated private limited company with no evident growth signals",
+      "category": "verification",
+      "timestamp": "2026-02-10T15:08:36.296765"
+    },
+    {
+      "insight": "Lead rejected: No decision-making roles identified",
+      "category": "verification",
+      "timestamp": "2026-02-10T15:09:06.180345"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and has relevant B2B roles, but lacks enriched contacts with emails and does",
+      "category": "verification",
+      "timestamp": "2026-02-10T15:09:52.140391"
+    },
+    {
+      "insight": "Lead rejected: Although the company is accepted and has a relevant B2B role with decision power, the lack of enrich",
+      "category": "verification",
+      "timestamp": "2026-02-10T15:10:32.192424"
+    },
+    {
+      "insight": "Lead rejected: The lead does not meet the rejection criteria due to having roles with decision_power >= 7 and an ac",
+      "category": "verification",
+      "timestamp": "2026-02-10T15:11:19.017855"
+    },
+    {
+      "insight": "Lead rejected: The company is accepted and B2B relevant, but there are no enriched contacts with emails. Additional",
+      "category": "verification",
+      "timestamp": "2026-02-10T15:38:19.465496"
     }
   ],
   "metadata": {
     "created_at": "2026-02-04T19:43:48.615961",
-    "total_analyses": 51,
-    "successful_leads": 11
+    "total_analyses": 109,
+    "successful_leads": 15
   }
 }

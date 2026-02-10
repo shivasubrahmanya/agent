@@ -73,6 +73,8 @@ def run(company_name: str, roles: list, company_domain: str = None, stop_event=N
     contacts = []
     sources_used = []
     errors = []
+    apollo_error = None
+    snov_error = None
     
     accepted_roles = [r for r in roles if r.get("status") == "accepted"]
     
@@ -96,7 +98,10 @@ def run(company_name: str, roles: list, company_domain: str = None, stop_event=N
                 limit=10
             )
             
-            if results and not results[0].get("error"):
+            if results and results[0].get("error"):
+                apollo_error = results[0]["error"]
+                errors.append(f"Apollo error: {apollo_error}")
+            elif results:
                 for person in results:
                     if person.get("first_name"):
                         contacts.append({
@@ -112,8 +117,10 @@ def run(company_name: str, roles: list, company_domain: str = None, stop_event=N
                         })
                 sources_used.append("apollo")
         except Exception as e:
+            apollo_error = str(e)
             errors.append(f"Apollo error: {str(e)}")
     else:
+        apollo_error = "Apollo API not configured"
         errors.append("Apollo API not configured")
     
     # === Source 2: Snov.io (Email Finder) ===
@@ -177,7 +184,9 @@ def run(company_name: str, roles: list, company_domain: str = None, stop_event=N
                                     sources_used.append("snov")
                         except Exception as e:
                             errors.append(f"Snov.io error for {name}: {str(e)}")
+                            if not snov_error: snov_error = str(e)
     else:
+        snov_error = "Snov.io API not configured"
         errors.append("Snov.io API not configured")
 
     # === Source 3: Snov.io Domain Search (Broad Search) ===
@@ -202,25 +211,36 @@ def run(company_name: str, roles: list, company_domain: str = None, stop_event=N
                     sources_used.append("snov_domain")
                     
         except Exception as e:
-            errors.append(f"Snov.io domain search error: {str(e)}")
+            msg = str(e)
+            errors.append(f"Snov.io domain search error: {msg}")
+            if not snov_error: snov_error = msg
     
     # Deduplicate contacts from both sources
     contacts = deduplicate_contacts(contacts)
     
     # Build response
-    if not contacts:
-        return {
+    if not contacts and not errors:
+         return {
             "contacts": [],
             "sources_checked": sources_used if sources_used else ["none"],
-            "errors": errors if errors else None,
+            "apollo_error": apollo_error,
+            "snov_error": snov_error,
             "note": "No matching contacts found",
             "suggestion": "Try adding API keys or use more specific role titles"
         }
     
+    # Separate contacts by source for frontend display
+    apollo_contacts = [c for c in contacts if "apollo" in c.get("source", "")]
+    snov_contacts = [c for c in contacts if "snov" in c.get("source", "")]
+    
     return {
         "contacts": contacts,
+        "apollo_contacts": apollo_contacts,
+        "snov_contacts": snov_contacts,
         "sources_used": sources_used,
         "total_found": len(contacts),
+        "apollo_error": apollo_error,
+        "snov_error": snov_error,
         "errors": errors if errors else None
     }
 

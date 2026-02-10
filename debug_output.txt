@@ -1,0 +1,24 @@
+﻿=== DEBUGGING ENRICHMENT AGENT ===
+
+1. Configuration Check:
+Apollo API Key Present: True
+Snov Client ID Present: True
+Snov Client Secret Present: True
+Apollo Client Configured: True
+Snov Client Configured: True
+
+2. Running Enrichment for: Stripe (stripe.com)
+Roles: ['CTO', 'VP of Engineering']
+
+3. Agent Result:
+Total Contacts Found: 0
+Sources Used: []
+ΓÜá∩╕Å  Apollo Error: Apollo API Limit Reached (403)
+Γ£à Snov: No error reported
+Γ¥î No contacts returned.
+
+4. Direct Client Diagnostics:
+   --- Direct Apollo ---
+   Raw Response: [{'error': 'Apollo API Limit Reached (403)', 'code': 'rate_limit'}]
+   --- Direct Snov ---
+   Raw Response: [{'error': 'Snov.io Plan Limit / Payment Required (402)', 'code': 'payment_required'}]

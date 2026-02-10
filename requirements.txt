@@ -2,7 +2,7 @@ groq
 python-dotenv
 rich
 requests
-duckduckgo-search
+ddgs
 fastapi
 pydantic
 uvicorn

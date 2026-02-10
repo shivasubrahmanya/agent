@@ -173,6 +173,8 @@ def domain_search(domain: str, limit: int = 10) -> List[Dict[str, Any]]:
         return results
         
     except requests.exceptions.RequestException as e:
+        if e.response is not None and e.response.status_code == 402:
+            return [{"error": "Snov.io Plan Limit / Payment Required (402)", "code": "payment_required"}]
         return [{"error": str(e)}]
 
 

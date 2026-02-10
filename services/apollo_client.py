@@ -35,13 +35,26 @@ def get_top_people(company_name: str, limit: int = 10) -> List[Dict[str, Any]]:
     if not is_configured():
         return [{"error": "Apollo API key not configured"}]
     
-    endpoint = f"{APOLLO_BASE_URL}/mixed_people/organization_top_people"
+    endpoint = f"{APOLLO_BASE_URL}/mixed_people/search"
     
     payload = {
-        "organization_name": company_name,
+        "q_organization_domains": company_name if "." in company_name else f"{company_name}.com", # basic heuristic fallback
+        "page": 1,
+        "per_page": limit,
+    }
+    
+    # Better logic: if company_name looks like a domain, use it. Else search by name?
+    # mixed_people/search supports 'q_organization_domains' (list) or 'q_organization_name' (string)??
+    # Actually, let's use a safer approach.
+    
+    payload = {
+        "q_organization_domains": [company_name] if "." in company_name else None,
+        "q_organization_name": company_name if "." not in company_name else None,
         "per_page": limit,
         "page": 1,
     }
+    # Remove None keys
+    payload = {k: v for k, v in payload.items() if v}
     
     headers = {
         "Content-Type": "application/json",
@@ -51,6 +64,13 @@ def get_top_people(company_name: str, limit: int = 10) -> List[Dict[str, Any]]:
     
     try:
         response = requests.post(endpoint, json=payload, headers=headers)
+        
+        # Handle specific error codes
+        if response.status_code == 403:
+            return [{"error": "Apollo API Limit Reached (403)", "code": "rate_limit"}]
+        if response.status_code == 429:
+            return [{"error": "Apollo Rate Limit Exceeded (429)", "code": "rate_limit"}]
+            
         response.raise_for_status()
         data = response.json()
         
