@@ -87,6 +87,14 @@ def run(company: dict, roles: list, contacts: list, stop_event=None) -> dict:
     
     client = Groq(api_key=api_key)
     
+def clean_json_response(text: str) -> str:
+    """Extract JSON from potential markdown fences."""
+    if "```json" in text:
+        return text.split("```json")[1].split("```")[0].strip()
+    elif "```" in text:
+        return text.split("```")[1].split("```")[0].strip()
+    return text.strip()
+    
     try:
         # Build context for verification
         context = f"""
@@ -103,8 +111,8 @@ Enriched Contacts ({len(contacts)}):
             raise KeyboardInterrupt("Stopped by user")
 
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
-            max_tokens=512,
+            model="llama-3.1-8b-instant",
+            max_tokens=1024,
             messages=[
                 {"role": "system", "content": VERIFICATION_PROMPT},
                 {"role": "user", "content": context}
@@ -114,7 +122,8 @@ Enriched Contacts ({len(contacts)}):
         result = response.choices[0].message.content
         
         try:
-            return json.loads(result)
+            content = clean_json_response(result)
+            return json.loads(content)
         except json.JSONDecodeError:
             start = result.find("{")
             end = result.rfind("}") + 1

@@ -122,6 +122,14 @@ def run(company_data: dict, stop_event=None) -> dict:
     
     client = Groq(api_key=api_key)
     
+def clean_json_response(text: str) -> str:
+    """Extract JSON from potential markdown fences."""
+    if "```json" in text:
+        return text.split("```json")[1].split("```")[0].strip()
+    elif "```" in text:
+        return text.split("```")[1].split("```")[0].strip()
+    return text.strip()
+    
     try:
         user_input = f"Company: {company_name}, Industry: {industry}, Size: {size}"
         
@@ -129,7 +137,7 @@ def run(company_data: dict, stop_event=None) -> dict:
             raise KeyboardInterrupt("Stopped by user")
             
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="llama-3.1-8b-instant",
             max_tokens=1024,
             messages=[
                 {"role": "system", "content": STRUCTURE_PROMPT},
@@ -140,7 +148,8 @@ def run(company_data: dict, stop_event=None) -> dict:
         result = response.choices[0].message.content
         
         try:
-            parsed = json.loads(result)
+            content = clean_json_response(result)
+            parsed = json.loads(content)
         except json.JSONDecodeError:
             start = result.find("{")
             end = result.rfind("}") + 1

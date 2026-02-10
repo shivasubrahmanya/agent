@@ -110,6 +110,14 @@ def run(company_input: str, use_web_search: bool = True, stop_event=None) -> dic
     
     client = Groq(api_key=api_key)
     
+def clean_json_response(text: str) -> str:
+    """Extract JSON from potential markdown fences."""
+    if "```json" in text:
+        return text.split("```json")[1].split("```")[0].strip()
+    elif "```" in text:
+        return text.split("```")[1].split("```")[0].strip()
+    return text.strip()
+    
     # Determine if we can use web search
     web_search_data = None
     apollo_data = None
@@ -161,8 +169,8 @@ def run(company_input: str, use_web_search: bool = True, stop_event=None) -> dic
 
     try:
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
-            max_tokens=1024,
+            model="llama-3.1-8b-instant",
+            max_tokens=2048,
             messages=[
                 {"role": "system", "content": prompt},
                 {"role": "user", "content": user_content}
@@ -173,9 +181,10 @@ def run(company_input: str, use_web_search: bool = True, stop_event=None) -> dic
         
         # Parse JSON response
         try:
-            parsed = json.loads(result)
+            content = clean_json_response(result)
+            parsed = json.loads(content)
         except json.JSONDecodeError:
-            # Try to extract JSON from response
+            # Fallback to older method
             start = result.find("{")
             end = result.rfind("}") + 1
             if start >= 0 and end > start:
