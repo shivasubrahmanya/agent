@@ -113,19 +113,6 @@ def run(user_input: str, stop_event=None) -> dict:
             "message": "Treating as direct company analysis"
         }
 
-    if stop_event and stop_event.is_set():
-        return {"companies": [], "message": "Stopped"}
-
-def clean_json_response(text: str) -> str:
-    """Extract JSON from potential markdown fences."""
-    if "```json" in text:
-        return text.split("```json")[1].split("```")[0].strip()
-    elif "```" in text:
-        return text.split("```")[1].split("```")[0].strip()
-    return text.strip()
-
-def run(user_input: str, stop_event=None) -> dict:
-
     # 2. Generate Search Queries
     try:
         search_prompt = SEARCH_QUERY_PROMPT.format(user_input=user_input)
