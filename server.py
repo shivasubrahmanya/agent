@@ -169,6 +169,10 @@ async def websocket_endpoint(websocket: WebSocket):
             except json.JSONDecodeError:
                 pass
     except WebSocketDisconnect:
+        if current_stop_event:
+            current_stop_event.set()
+        manager.disconnect(websocket)
+
 @app.websocket("/")
 async def websocket_endpoint_root(websocket: WebSocket):
     """Fallback handler for clients connecting to root"""
