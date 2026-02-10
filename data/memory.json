@@ -358,16 +358,17 @@
     "robert bosch gmbh": {
       "data": {
         "name": "Robert Bosch GmbH",
-        "industry": "engineering and technology",
+        "industry": "Engineering and Technology",
         "size": "enterprise",
         "location": "Gerlingen, Baden-Württemberg, Germany",
-        "website": "https://www.bosch.com",
+        "website": "https://www.bosch.com/",
         "growth_signals": [
-          "employs roughly 412,000 associates worldwide",
-          "leading global supplier of technology and services"
+          "Registers 15.2% Profit before tax in Q2 FY 2025-26",
+          "Establishes new company with synthetic diamond solutions provider Element Six",
+          "Posts higher quarterly profit on tax cut boost in Indian unit"
         ],
         "status": "accepted",
-        "reason": "The company has a strong online presence, with a Wikipedia page and a company website (https://www.bosch.com) that provides information on its size, industry, and services. The Wikipedia page and the company website both indicate that Bosch is a large, multinational engineering and technology company with a significant number of employees (412,000 as of December 31, 2025) and a global presence, which suggests that it is a suitable target for B2B sales.",
+        "reason": "The company has a strong online presence, with multiple websites and profiles across different regions, and is mentioned in various news articles, indicating its establishment and growth. The company's size is indicated by its multinational presence and various brands, and its industry is clearly engineering and technology. The growth signals include recent profits and new company establishments.",
         "_sources": [
           "web_search",
           "news",
@@ -376,8 +377,8 @@
         "_web_search_used": true
       },
       "outcome": "success",
-      "analyzed_at": "2026-02-09T18:32:50.239331",
-      "times_analyzed": 4
+      "analyzed_at": "2026-02-10T20:39:50.437005",
+      "times_analyzed": 7
     },
     "accenture": {
       "data": {
@@ -1734,7 +1735,44 @@
       "last_used": "2026-02-10T15:36:34.178089"
     }
   },
-  "failures": [],
+  "failures": [
+    {
+      "context": "Pipeline for Bosch",
+      "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
+      "recovery": null,
+      "timestamp": "2026-02-10T19:37:41.351161"
+    },
+    {
+      "context": "Pipeline for FinTech Payments",
+      "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
+      "recovery": null,
+      "timestamp": "2026-02-10T19:39:23.332714"
+    },
+    {
+      "context": "Pipeline for Swiggy",
+      "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
+      "recovery": null,
+      "timestamp": "2026-02-10T19:39:34.243934"
+    },
+    {
+      "context": "Pipeline for Bosch",
+      "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
+      "recovery": null,
+      "timestamp": "2026-02-10T19:51:55.109106"
+    },
+    {
+      "context": "Pipeline for Bosch",
+      "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
+      "recovery": null,
+      "timestamp": "2026-02-10T19:57:51.546596"
+    },
+    {
+      "context": "Pipeline for bosch",
+      "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
+      "recovery": null,
+      "timestamp": "2026-02-10T20:29:42.199003"
+    }
+  ],
   "insights": [
     {
       "insight": "Lead rejected: The lead does not meet the minimum confidence score due to the lack of enriched contacts with emails",
@@ -2075,11 +2113,21 @@
       "insight": "Lead rejected: The company is accepted and B2B relevant, but there are no enriched contacts with emails. Additional",
       "category": "verification",
       "timestamp": "2026-02-10T15:38:19.465496"
+    },
+    {
+      "insight": "Lead rejected: No decision-making roles identified",
+      "category": "verification",
+      "timestamp": "2026-02-10T20:30:54.923625"
+    },
+    {
+      "insight": "Lead rejected: No decision-making roles identified",
+      "category": "verification",
+      "timestamp": "2026-02-10T20:35:44.273685"
     }
   ],
   "metadata": {
     "created_at": "2026-02-04T19:43:48.615961",
-    "total_analyses": 109,
-    "successful_leads": 15
+    "total_analyses": 112,
+    "successful_leads": 16
   }
 }

@@ -1,701 +1,5 @@
 [
   {
-    "type": "execution_started",
-    "data": {
-      "execution_id": "28ed251b",
-      "input": {
-        "company": "Novigo Solutions",
-        "roles": []
-      }
-    },
-    "timestamp": "2026-02-09T18:53:23.234273"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "28ed251b",
-      "stage": "discovery"
-    },
-    "timestamp": "2026-02-09T18:53:23.263913"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "28ed251b",
-      "stage": "discovery",
-      "success": true
-    },
-    "timestamp": "2026-02-09T18:53:26.995726"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "28ed251b",
-      "stage": "structure"
-    },
-    "timestamp": "2026-02-09T18:53:27.033384"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "28ed251b",
-      "stage": "structure",
-      "success": true
-    },
-    "timestamp": "2026-02-09T18:53:28.222690"
-  },
-  {
-    "type": "execution_paused",
-    "data": {
-      "execution_id": "28ed251b",
-      "reason": "User interrupted"
-    },
-    "timestamp": "2026-02-09T18:53:28.257015"
-  },
-  {
-    "type": "execution_resumed",
-    "data": {
-      "execution_id": "28ed251b",
-      "resume_stage": "roles"
-    },
-    "timestamp": "2026-02-09T18:53:36.786260"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "28ed251b",
-      "stage": "roles"
-    },
-    "timestamp": "2026-02-09T18:53:36.826974"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "28ed251b",
-      "stage": "roles",
-      "success": true
-    },
-    "timestamp": "2026-02-09T18:53:44.358987"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "28ed251b",
-      "stage": "enrichment"
-    },
-    "timestamp": "2026-02-09T18:53:44.392670"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "28ed251b",
-      "stage": "enrichment",
-      "success": true
-    },
-    "timestamp": "2026-02-09T18:53:44.422098"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "28ed251b",
-      "stage": "verification"
-    },
-    "timestamp": "2026-02-09T18:53:44.457501"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "28ed251b",
-      "stage": "verification",
-      "success": true
-    },
-    "timestamp": "2026-02-09T18:53:44.497601"
-  },
-  {
-    "type": "execution_completed",
-    "data": {
-      "execution_id": "28ed251b",
-      "success": true
-    },
-    "timestamp": "2026-02-09T18:53:44.534446"
-  },
-  {
-    "type": "execution_resumed",
-    "data": {
-      "execution_id": "fe0ab0fe",
-      "resume_stage": "structure"
-    },
-    "timestamp": "2026-02-09T18:54:02.896933"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "fe0ab0fe",
-      "stage": "structure"
-    },
-    "timestamp": "2026-02-09T18:54:02.936539"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "fe0ab0fe",
-      "stage": "structure",
-      "success": true
-    },
-    "timestamp": "2026-02-09T18:54:04.289589"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "fe0ab0fe",
-      "stage": "roles"
-    },
-    "timestamp": "2026-02-09T18:54:04.325841"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "fe0ab0fe",
-      "stage": "roles",
-      "success": true
-    },
-    "timestamp": "2026-02-09T18:54:14.533780"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "fe0ab0fe",
-      "stage": "enrichment"
-    },
-    "timestamp": "2026-02-09T18:54:14.574827"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "fe0ab0fe",
-      "stage": "enrichment",
-      "success": true
-    },
-    "timestamp": "2026-02-09T18:54:49.940516"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "fe0ab0fe",
-      "stage": "verification"
-    },
-    "timestamp": "2026-02-09T18:54:49.980256"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "fe0ab0fe",
-      "stage": "verification",
-      "success": true
-    },
-    "timestamp": "2026-02-09T18:54:51.256108"
-  },
-  {
-    "type": "execution_completed",
-    "data": {
-      "execution_id": "fe0ab0fe",
-      "success": true
-    },
-    "timestamp": "2026-02-09T18:54:51.293900"
-  },
-  {
-    "type": "execution_resumed",
-    "data": {
-      "execution_id": "bc619743",
-      "resume_stage": "structure"
-    },
-    "timestamp": "2026-02-10T12:14:45.644239"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "bc619743",
-      "stage": "structure"
-    },
-    "timestamp": "2026-02-10T12:14:45.696784"
-  },
-  {
-    "type": "execution_resumed",
-    "data": {
-      "execution_id": "814b7e44",
-      "resume_stage": "discovery"
-    },
-    "timestamp": "2026-02-10T12:14:53.022486"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "814b7e44",
-      "stage": "discovery"
-    },
-    "timestamp": "2026-02-10T12:14:53.080845"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "814b7e44",
-      "stage": "discovery",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:15:40.439353"
-  },
-  {
-    "type": "execution_resumed",
-    "data": {
-      "execution_id": "814b7e44",
-      "resume_stage": "structure"
-    },
-    "timestamp": "2026-02-10T12:16:40.872522"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "814b7e44",
-      "stage": "structure"
-    },
-    "timestamp": "2026-02-10T12:16:40.931891"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "814b7e44",
-      "stage": "structure",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:17:09.750485"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "814b7e44",
-      "stage": "roles"
-    },
-    "timestamp": "2026-02-10T12:17:09.771026"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "814b7e44",
-      "stage": "roles",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:18:08.439007"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "814b7e44",
-      "stage": "enrichment"
-    },
-    "timestamp": "2026-02-10T12:18:08.497500"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "814b7e44",
-      "stage": "enrichment",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:18:08.556992"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "814b7e44",
-      "stage": "verification"
-    },
-    "timestamp": "2026-02-10T12:18:08.614987"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "814b7e44",
-      "stage": "verification",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:18:08.670617"
-  },
-  {
-    "type": "execution_completed",
-    "data": {
-      "execution_id": "814b7e44",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:18:08.728070"
-  },
-  {
-    "type": "execution_started",
-    "data": {
-      "execution_id": "38728a2b",
-      "input": {
-        "company": "Swiggy",
-        "roles": []
-      }
-    },
-    "timestamp": "2026-02-10T12:25:27.203893"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "38728a2b",
-      "stage": "discovery"
-    },
-    "timestamp": "2026-02-10T12:25:27.221275"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "38728a2b",
-      "stage": "discovery",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:25:35.306574"
-  },
-  {
-    "type": "execution_completed",
-    "data": {
-      "execution_id": "38728a2b",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:25:35.358136"
-  },
-  {
-    "type": "execution_started",
-    "data": {
-      "execution_id": "87c30186",
-      "input": {
-        "company": "Byju's",
-        "roles": []
-      }
-    },
-    "timestamp": "2026-02-10T12:25:36.430985"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "87c30186",
-      "stage": "discovery"
-    },
-    "timestamp": "2026-02-10T12:25:36.459200"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "87c30186",
-      "stage": "discovery",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:25:42.387079"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "87c30186",
-      "stage": "structure"
-    },
-    "timestamp": "2026-02-10T12:25:42.405734"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "87c30186",
-      "stage": "structure",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:25:43.410897"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "87c30186",
-      "stage": "roles"
-    },
-    "timestamp": "2026-02-10T12:25:43.428448"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "87c30186",
-      "stage": "roles",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:25:53.245073"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "87c30186",
-      "stage": "enrichment"
-    },
-    "timestamp": "2026-02-10T12:25:53.275812"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "87c30186",
-      "stage": "enrichment",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:26:45.528293"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "87c30186",
-      "stage": "verification"
-    },
-    "timestamp": "2026-02-10T12:26:45.561700"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "87c30186",
-      "stage": "verification",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:26:47.045462"
-  },
-  {
-    "type": "execution_completed",
-    "data": {
-      "execution_id": "87c30186",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:26:47.115672"
-  },
-  {
-    "type": "execution_started",
-    "data": {
-      "execution_id": "dfc1e0c6",
-      "input": {
-        "company": "Ola",
-        "roles": []
-      }
-    },
-    "timestamp": "2026-02-10T12:26:48.162377"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "dfc1e0c6",
-      "stage": "discovery"
-    },
-    "timestamp": "2026-02-10T12:26:48.189489"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "dfc1e0c6",
-      "stage": "discovery",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:26:55.647140"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "dfc1e0c6",
-      "stage": "structure"
-    },
-    "timestamp": "2026-02-10T12:26:55.676635"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "dfc1e0c6",
-      "stage": "structure",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:26:56.786474"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "dfc1e0c6",
-      "stage": "roles"
-    },
-    "timestamp": "2026-02-10T12:26:56.820727"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "dfc1e0c6",
-      "stage": "roles",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:27:02.319833"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "dfc1e0c6",
-      "stage": "enrichment"
-    },
-    "timestamp": "2026-02-10T12:27:02.355135"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "dfc1e0c6",
-      "stage": "enrichment",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:27:37.186500"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "dfc1e0c6",
-      "stage": "verification"
-    },
-    "timestamp": "2026-02-10T12:27:37.215892"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "dfc1e0c6",
-      "stage": "verification",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:27:38.179096"
-  },
-  {
-    "type": "execution_completed",
-    "data": {
-      "execution_id": "dfc1e0c6",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:27:38.233348"
-  },
-  {
-    "type": "execution_started",
-    "data": {
-      "execution_id": "21d500cb",
-      "input": {
-        "company": "Bosch",
-        "roles": []
-      }
-    },
-    "timestamp": "2026-02-10T12:30:01.811247"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "21d500cb",
-      "stage": "discovery"
-    },
-    "timestamp": "2026-02-10T12:30:01.842619"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "21d500cb",
-      "stage": "discovery",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:30:05.681258"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "21d500cb",
-      "stage": "structure"
-    },
-    "timestamp": "2026-02-10T12:30:05.700676"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "21d500cb",
-      "stage": "structure",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:30:06.686740"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "21d500cb",
-      "stage": "roles"
-    },
-    "timestamp": "2026-02-10T12:30:06.715995"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "21d500cb",
-      "stage": "roles",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:30:13.629465"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "21d500cb",
-      "stage": "enrichment"
-    },
-    "timestamp": "2026-02-10T12:30:13.683703"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "21d500cb",
-      "stage": "enrichment",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:30:28.149898"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "21d500cb",
-      "stage": "verification"
-    },
-    "timestamp": "2026-02-10T12:30:28.169620"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "21d500cb",
-      "stage": "verification",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:30:29.141032"
-  },
-  {
-    "type": "execution_completed",
-    "data": {
-      "execution_id": "21d500cb",
-      "success": true
-    },
-    "timestamp": "2026-02-10T12:30:29.177573"
-  },
-  {
-    "type": "execution_started",
-    "data": {
-      "execution_id": "ac99992e",
-      "input": {
-        "company": "Kutumb",
-        "roles": []
-      }
-    },
-    "timestamp": "2026-02-10T12:31:29.665975"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "ac99992e",
-      "stage": "discovery"
-    },
-    "timestamp": "2026-02-10T12:31:29.688196"
-  },
-  {
     "type": "stage_completed",
     "data": {
       "execution_id": "ac99992e",
@@ -4339,5 +3643,722 @@
       "reason": "User interrupted"
     },
     "timestamp": "2026-02-10T15:38:43.180470"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "8cc95171",
+      "input": {
+        "company": "Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-10T19:37:32.796106"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "8cc95171",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-10T19:37:32.848481"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "8cc95171",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-10T19:37:39.809849"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "8cc95171",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-10T19:37:39.866030"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "8cc95171",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-10T19:37:41.216640"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "8cc95171",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-10T19:37:41.287699"
+  },
+  {
+    "type": "stage_failed",
+    "data": {
+      "execution_id": "8cc95171",
+      "stage": "roles",
+      "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
+      "retry_count": 1
+    },
+    "timestamp": "2026-02-10T19:37:41.343561"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "47af9b9e",
+      "input": {
+        "company": "FinTech Payments",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-10T19:39:16.758324"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "47af9b9e",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-10T19:39:16.789181"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "47af9b9e",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-10T19:39:22.094418"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "47af9b9e",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-10T19:39:22.149031"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "47af9b9e",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-10T19:39:23.218194"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "47af9b9e",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-10T19:39:23.270698"
+  },
+  {
+    "type": "stage_failed",
+    "data": {
+      "execution_id": "47af9b9e",
+      "stage": "roles",
+      "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
+      "retry_count": 1
+    },
+    "timestamp": "2026-02-10T19:39:23.324568"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "ad87e81b",
+      "input": {
+        "company": "Swiggy",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-10T19:39:24.464917"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "ad87e81b",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-10T19:39:24.514727"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "ad87e81b",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-10T19:39:32.935109"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "ad87e81b",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-10T19:39:32.988843"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "ad87e81b",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-10T19:39:34.129583"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "ad87e81b",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-10T19:39:34.181833"
+  },
+  {
+    "type": "stage_failed",
+    "data": {
+      "execution_id": "ad87e81b",
+      "stage": "roles",
+      "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
+      "retry_count": 1
+    },
+    "timestamp": "2026-02-10T19:39:34.236097"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "ae84216b",
+      "input": {
+        "company": "GoDigit",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-10T19:39:35.318746"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "ae84216b",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-10T19:39:35.367536"
+  },
+  {
+    "type": "execution_paused",
+    "data": {
+      "execution_id": "ae84216b",
+      "reason": "User interrupted"
+    },
+    "timestamp": "2026-02-10T19:39:38.938687"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "1abe74f8",
+      "input": {
+        "company": "Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-10T19:51:47.063312"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "1abe74f8",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-10T19:51:47.117312"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "1abe74f8",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-10T19:51:53.671499"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "1abe74f8",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-10T19:51:53.728975"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "1abe74f8",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-10T19:51:54.992072"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "1abe74f8",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-10T19:51:55.040867"
+  },
+  {
+    "type": "stage_failed",
+    "data": {
+      "execution_id": "1abe74f8",
+      "stage": "roles",
+      "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
+      "retry_count": 1
+    },
+    "timestamp": "2026-02-10T19:51:55.101385"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "a073b590",
+      "input": {
+        "company": "Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-10T19:57:40.189176"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "a073b590",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-10T19:57:40.240981"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "a073b590",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-10T19:57:50.185073"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "a073b590",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-10T19:57:50.237718"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "a073b590",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-10T19:57:51.435088"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "a073b590",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-10T19:57:51.483277"
+  },
+  {
+    "type": "stage_failed",
+    "data": {
+      "execution_id": "a073b590",
+      "stage": "roles",
+      "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
+      "retry_count": 1
+    },
+    "timestamp": "2026-02-10T19:57:51.539391"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "160f8281",
+      "input": {
+        "company": "bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-10T20:29:34.187724"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "160f8281",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-10T20:29:34.240358"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "160f8281",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:29:40.943421"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "160f8281",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-10T20:29:40.996144"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "160f8281",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:29:42.089739"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "160f8281",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-10T20:29:42.138657"
+  },
+  {
+    "type": "stage_failed",
+    "data": {
+      "execution_id": "160f8281",
+      "stage": "roles",
+      "error": "name 'LINKEDIN_SEARCH_ENABLED' is not defined",
+      "retry_count": 1
+    },
+    "timestamp": "2026-02-10T20:29:42.191504"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "b529bd56",
+      "input": {
+        "company": "Robert Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-10T20:30:13.616885"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "b529bd56",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-10T20:30:13.669776"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "b529bd56",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:30:22.087822"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "b529bd56",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-10T20:30:22.143951"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "b529bd56",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:30:23.388710"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "b529bd56",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-10T20:30:23.441067"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "b529bd56",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:30:54.566014"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "b529bd56",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-10T20:30:54.629399"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "b529bd56",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:30:54.684259"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "b529bd56",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-10T20:30:54.742997"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "b529bd56",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:30:54.805758"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "b529bd56",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:30:54.911560"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "0d0d3b22",
+      "input": {
+        "company": "Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-10T20:35:04.625680"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0d0d3b22",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-10T20:35:04.686768"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "0d0d3b22",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:35:12.910163"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0d0d3b22",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-10T20:35:12.964107"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "0d0d3b22",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:35:14.223987"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0d0d3b22",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-10T20:35:14.276140"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "0d0d3b22",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:35:43.956656"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0d0d3b22",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-10T20:35:44.019374"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "0d0d3b22",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:35:44.069970"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "0d0d3b22",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-10T20:35:44.130214"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "0d0d3b22",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:35:44.185178"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "0d0d3b22",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:35:44.267145"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "c82ae02d",
+      "input": {
+        "company": "Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-10T20:39:04.265885"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "c82ae02d",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-10T20:39:04.321040"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "c82ae02d",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:39:11.880380"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "c82ae02d",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-10T20:39:11.935000"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "c82ae02d",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:39:13.092439"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "c82ae02d",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-10T20:39:13.145720"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "c82ae02d",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:39:17.246593"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "c82ae02d",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-10T20:39:17.298880"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "c82ae02d",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:39:49.222201"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "c82ae02d",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-10T20:39:49.283162"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "c82ae02d",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:39:50.337829"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "c82ae02d",
+      "success": true
+    },
+    "timestamp": "2026-02-10T20:39:50.430015"
   }
 ]

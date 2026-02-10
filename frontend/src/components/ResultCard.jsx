@@ -157,7 +157,16 @@ export function ResultCard({ data }) {
                         {people.slice(0, 8).map((p, i) => (
                             <div key={i} className="p-3 bg-muted/20 rounded-lg flex justify-between items-start">
                                 <div>
-                                    <div className="font-medium text-sm">{p.name}</div>
+                                    <div className="font-medium text-sm flex items-center gap-1.5">
+                                        {p.linkedin_url ? (
+                                            <a href={p.linkedin_url} target="_blank" rel="noreferrer" className="hover:text-primary hover:underline flex items-center gap-1 group">
+                                                {p.name}
+                                                <Linkedin size={10} className="text-muted-foreground group-hover:text-primary" />
+                                            </a>
+                                        ) : (
+                                            p.name
+                                        )}
+                                    </div>
                                     <div className="text-xs text-muted-foreground">{p.title}</div>
                                 </div>
                                 <div className="text-[10px] px-1.5 py-0.5 rounded bg-background border border-border">

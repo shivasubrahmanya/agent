@@ -13539,5 +13539,371 @@
     "recommended_action": "Further research is needed to enrich contacts with email information to improve the confidence score.",
     "created_at": "2026-02-10T15:38:19.298950",
     "updated_at": "2026-02-10T15:38:19.298950"
+  },
+  {
+    "id": "b529bd56",
+    "input": "Robert Bosch",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robert Bosch GmbH",
+      "industry": "Automotive, Engineering, Electronics",
+      "size": "enterprise",
+      "location": "Gerlingen, near Stuttgart, Germany",
+      "website": "https://www.bosch.com",
+      "growth_signals": [
+        "expanding software revenue stream",
+        "considering acquisition of Whirlpool",
+        "appointing new president & CEO for North America",
+        "aiming to improve performance despite tough conditions"
+      ],
+      "status": "accepted",
+      "reason": "The company has a long history, dating back to 1886, and has evolved into a globally operating enterprise with over 417,900 associates worldwide. Recent news indicates a focus on growth and expansion, including a push into software revenue and potential acquisitions, making it a suitable target for B2B sales.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robert Bosch GmbH",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "EVP Engineering",
+            "SVP Product Development",
+            "Global Head of R&D"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Procurement",
+          "decision_makers": [
+            "EVP Supply Chain",
+            "SVP Procurement",
+            "VP Global Sourcing"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "EVP R&D",
+            "SVP Innovation",
+            "VP Technology"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales",
+            "SVP Marketing",
+            "VP Business Development"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "IT and Digitalization",
+          "decision_makers": [
+            "EVP Digital Transformation",
+            "SVP IT",
+            "VP Cybersecurity"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Engineering",
+        "SVP Product Development",
+        "EVP Supply Chain",
+        "EVP R&D",
+        "EVP Digital Transformation"
+      ]
+    },
+    "people": [],
+    "people_summary": "Found 0 decision-makers at Robert Bosch GmbH",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No accepted roles to enrich",
+    "confidence_score": 0.2,
+    "reason": "No decision-making roles identified",
+    "summary": "Robert Bosch GmbH - No high-value targets",
+    "recommended_action": "Try with more senior role titles",
+    "created_at": "2026-02-10T20:30:54.836933",
+    "updated_at": "2026-02-10T20:30:54.836933"
+  },
+  {
+    "id": "0d0d3b22",
+    "input": "Bosch ",
+    "status": "rejected",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robert Bosch GmbH",
+      "industry": "Engineering and Technology",
+      "size": "enterprise",
+      "location": "Gerlingen, Baden-Württemberg, Germany",
+      "website": "https://www.bosch.com/",
+      "growth_signals": [
+        "15.2% Profit before tax in Q2 FY 2025-26",
+        "Establishing a new company with synthetic diamond solutions provider Element Six",
+        "Expansion into new markets and products, such as the Unlimited 10 vacuum"
+      ],
+      "status": "accepted",
+      "reason": "The company has a strong online presence, with multiple websites and a LinkedIn page, and recent news articles indicate growth and expansion into new markets and products. The company's financial performance, with a 15.2% profit before tax, also suggests a stable and growing business.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robert Bosch GmbH",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "EVP",
+            "SVP",
+            "VP Engineering"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Manufacturing",
+          "decision_makers": [
+            "SVP Operations",
+            "VP Manufacturing"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales",
+            "SVP Marketing"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "EVP IT",
+            "SVP Digital Transformation"
+          ],
+          "hierarchy_level": "EVP / SVP / VP"
+        },
+        {
+          "name": "Supply Chain Management",
+          "decision_makers": [
+            "SVP Supply Chain",
+            "VP Procurement"
+          ],
+          "hierarchy_level": "SVP / VP / Senior Director"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Engineering",
+        "SVP Operations",
+        "EVP IT",
+        "SVP Sales",
+        "SVP Supply Chain"
+      ]
+    },
+    "people": [],
+    "people_summary": "Found 0 decision-makers at Robert Bosch GmbH",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "No accepted roles to enrich",
+    "confidence_score": 0.2,
+    "reason": "No decision-making roles identified",
+    "summary": "Robert Bosch GmbH - No high-value targets",
+    "recommended_action": "Try with more senior role titles",
+    "created_at": "2026-02-10T20:35:44.198625",
+    "updated_at": "2026-02-10T20:35:44.198625"
+  },
+  {
+    "id": "c82ae02d",
+    "input": "Bosch ",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Robert Bosch GmbH",
+      "industry": "Engineering and Technology",
+      "size": "enterprise",
+      "location": "Gerlingen, Baden-Württemberg, Germany",
+      "website": "https://www.bosch.com/",
+      "growth_signals": [
+        "Registers 15.2% Profit before tax in Q2 FY 2025-26",
+        "Establishes new company with synthetic diamond solutions provider Element Six",
+        "Posts higher quarterly profit on tax cut boost in Indian unit"
+      ],
+      "status": "accepted",
+      "reason": "The company has a strong online presence, with multiple websites and profiles across different regions, and is mentioned in various news articles, indicating its establishment and growth. The company's size is indicated by its multinational presence and various brands, and its industry is clearly engineering and technology. The growth signals include recent profits and new company establishments.",
+      "_sources": [
+        "web_search",
+        "news",
+        "linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Robert Bosch GmbH",
+      "company_size": "enterprise",
+      "departments": [
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "EVP Engineering",
+            "SVP Research and Development"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Manufacturing and Operations",
+          "decision_makers": [
+            "SVP Operations",
+            "VP Global Production"
+          ],
+          "hierarchy_level": "SVP / VP"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "EVP Sales and Marketing",
+            "SVP Global Sales"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "EVP Digital Transformation",
+            "SVP IT"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        },
+        {
+          "name": "Finance and Accounting",
+          "decision_makers": [
+            "EVP Finance",
+            "SVP Financial Planning"
+          ],
+          "hierarchy_level": "EVP / SVP"
+        }
+      ],
+      "recommended_targets": [
+        "EVP Engineering",
+        "SVP Research and Development",
+        "SVP Operations",
+        "EVP Sales and Marketing",
+        "EVP Digital Transformation"
+      ]
+    },
+    "people": [
+      {
+        "name": "Oliver Seitz  Senior Vice President bei Robert Bosch GmbH ... Steffen B.  Senior Vice President Manufacturing bei Robert ... Dr. Michael Fausten  SVP AI and Systems at Robert Bosch GmbH ... Markus Ulm  SVP MEMS Sensors  Robert Bosch GmbH",
+        "title": "President",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/oliver-seitz-611a8b60",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Steffen B.  Senior Vice President Manufacturing bei Robert ... Dr. Michael Fausten  SVP AI and Systems at Robert Bosch GmbH ... Markus Ulm  SVP MEMS Sensors  Robert Bosch GmbH",
+        "title": "President",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/steffen-b-baba06224",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Dr. Luis Arevalo  VP bei Robert Bosch GmbH",
+        "title": "President",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/dr-luis-arevalo-53299912",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Dr.-Ing. Lutz Welling  SVP Robert Bosch GmbH Plant Manager ... Oliver Seitz  Senior Vice President bei Robert Bosch GmbH ... Steffen B.  Senior Vice President Manufacturing bei Robert ... Dr. Michael Fausten  SVP AI and Systems at Robert Bosch GmbH ... Markus Ulm  SVP MEMS Sensors  Robert Bosch GmbH",
+        "title": "VP",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/dr-ing-lutz-welling-7b3a4830",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Stefanie Haupt  Assistent to EVP",
+        "title": "VP",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/stefanie-haupt-4b0b262b8",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Tanja Rueckert  Member of the board of management and...",
+        "title": "",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/tanja-rueckert-bosch",
+        "decision_power": 0,
+        "status": "rejected",
+        "reason": "Decision power: 0/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Thomas Winter  Senior Vice President Sales Automotive...",
+        "title": "",
+        "company": "Robert Bosch GmbH",
+        "linkedin_url": "https://de.linkedin.com/in/thomaswinter76/de",
+        "decision_power": 0,
+        "status": "rejected",
+        "reason": "Decision power: 0/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 5 decision-makers at Robert Bosch GmbH",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "",
+    "confidence_score": 0.8,
+    "reason": "The company is accepted and has a strong B2B relevance with multiple accepted roles having decision power of 7 or more. Although there are no enriched contacts with emails, the presence of multiple decision-makers with high decision power compensates for this lack.",
+    "summary": "Robert Bosch GmbH is a verified lead with high decision power roles",
+    "recommended_action": "Proceed with outreach and sales efforts targeting the identified decision-makers",
+    "created_at": "2026-02-10T20:39:50.352641",
+    "updated_at": "2026-02-10T20:39:50.352641"
   }
 ]

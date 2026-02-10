@@ -346,11 +346,17 @@ class LongRunningWorkflow:
         if self.progress:
             self.progress.update("roles", "running", {"searching": "LinkedIn"})
         
+        # Extract domain for Snov fallback (Stage 3)
+        company_domain_for_search = None
+        if company_result.get("website"):
+             company_domain_for_search = company_result.get("website").replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0]
+
         try:
             roles_result = role_agent.run(
                 company_name=company_result.get("name", company_name),
                 company_size=company_size,
                 structure_data=structure_result,
+                company_domain=company_domain_for_search,
                 stop_event=self.stop_event
             )
             
@@ -655,10 +661,18 @@ class LongRunningWorkflow:
                         self.progress.update("roles", "running")
                     
                     company_data = company_result or lead_data.get("company", {})
+                    
+                    # Extract domain for Snov fallback
+                    company_domain_for_search = None
+                    website = company_data.get("website", "")
+                    if website:
+                         company_domain_for_search = website.replace("https://", "").replace("http://", "").replace("www.", "").split("/")[0]
+                    
                     roles_result = role_agent.run(
                         company_name=company_data.get("name", company_name),
                         company_size=company_data.get("size", "medium"),
                         structure_data=structure_result or lead_data.get("structure", {}),
+                        company_domain=company_domain_for_search,
                         stop_event=self.stop_event
                     )
                     lead_data["people"] = roles_result.get("people", [])

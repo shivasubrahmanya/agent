@@ -13,6 +13,15 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from groq import Groq
 from dotenv import load_dotenv
 
+# Import LinkedIn Search Service
+try:
+    from services.linkedin_search import is_available as linkedin_available
+    from services.linkedin_search import search_decision_makers
+    LINKEDIN_SEARCH_ENABLED = True
+except ImportError:
+    LINKEDIN_SEARCH_ENABLED = False
+    def linkedin_available(): return False
+
 # Import Apollo client for fallback
 try:
     from services import apollo_client
@@ -20,11 +29,31 @@ try:
 except ImportError:
     APOLLO_ENABLED = False
 
-# Date: ... (keeping existing imports) ...
+# Import Snov client for fallback
+try:
+    from services import snov_client
+    SNOV_ENABLED = True
+except ImportError:
+    SNOV_ENABLED = False
 
-# ... (Decision Power Map remains same) ...
+def get_decision_power(title: str) -> int:
+    """Estimates decision power (0-10) based on job title."""
+    if not title:
+        return 0
+    t = title.lower()
+    if any(x in t for x in ['founder', 'owner', 'ceo', 'cto', 'cfo', 'coo', 'president', 'partner', 'chairman']):
+        return 10
+    if any(x in t for x in ['vp', 'vice president']):
+        return 8
+    if any(x in t for x in ['director', 'head of', 'chief']):
+        return 7
+    if any(x in t for x in ['manager', 'lead']):
+        return 5
+    if any(x in t for x in ['senior']):
+        return 4
+    return 2
 
-def run(company_name: str, company_size: str = "medium", structure_data: dict = None, stop_event=None) -> dict:
+def run(company_name: str, company_size: str = "medium", structure_data: dict = None, company_domain: str = None, stop_event=None) -> dict:
     """
     Run role discovery - finds ACTUAL people at the company.
     
@@ -94,6 +123,37 @@ def run(company_name: str, company_size: str = "medium", structure_data: dict = 
         except Exception:
             pass
 
+        except Exception:
+            pass
+
+    # Step 1.8: Fallback to Snov if Apollo/LinkedIn failed
+    if not people and SNOV_ENABLED and snov_client.is_configured() and company_domain:
+        try:
+            if stop_event and stop_event.is_set():
+                raise KeyboardInterrupt("Stopped by user")
+            
+            # Search Snov
+            snov_results = snov_client.domain_search(company_domain, limit=10)
+            
+            if snov_results and not snov_results[0].get("error"):
+                for person in snov_results:
+                    full_name = f"{person.get('first_name', '')} {person.get('last_name', '')}".strip()
+                    if full_name:
+                        title = person.get("title") or "Employee"
+                        power = get_decision_power(title)
+                        people.append({
+                            "name": full_name,
+                            "title": title,
+                            "company": company_name,
+                            "linkedin_url": person.get("linkedin_url", ""),
+                            "decision_power": power,
+                            "status": "accepted" if power >= 6 else "rejected",
+                            "reason": f"Decision power: {power}/10",
+                            "source": "snov_fallback"
+                        })
+        except Exception:
+            pass
+
     # Step 2: If no results from ANY source, use LLM to suggest typical roles
     if not people:
         if stop_event and stop_event.is_set():
@@ -157,10 +217,25 @@ Output valid JSON only:
                 }
                 for role in roles
             ]
-    except:
+    except Exception as e:
+        print(f"Role suggestion LLM failed: {e}")
         pass
     
-    return []
+    # HARD FALLBACK: If LLM failed, return generic roles
+    print("Using hardcoded fallback roles.")
+    fallback_roles = ["CEO", "Founder", "Owner", "Managing Director"]
+    return [
+        {
+            "name": f"[Target Role]",
+            "title": role,
+            "company": company_name,
+            "decision_power": get_decision_power(role),
+            "status": "accepted",
+            "reason": "Fallback role suggestion",
+            "source": "fallback_generic"
+        }
+        for role in fallback_roles
+    ]
 
 
 # Backward compatibility for old workflow
