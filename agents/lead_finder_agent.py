@@ -125,7 +125,7 @@ def clean_json_response(text: str) -> str:
     return text.strip()
 
 def run(user_input: str, stop_event=None) -> dict:
-...
+
     # 2. Generate Search Queries
     try:
         search_prompt = SEARCH_QUERY_PROMPT.format(user_input=user_input)
