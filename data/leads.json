@@ -15841,5 +15841,237 @@
     "recommended_action": "Proceed with outreach",
     "created_at": "2026-02-11T00:47:41.948422",
     "updated_at": "2026-02-11T00:47:41.948422"
+  },
+  {
+    "id": "6b0a46f2",
+    "input": "Bosch",
+    "status": "verified",
+    "stages": {
+      "discovery": "completed",
+      "structure": "completed",
+      "roles": "completed",
+      "enrichment": "completed",
+      "verification": "completed"
+    },
+    "company": {
+      "name": "Bosch",
+      "industry": "Engineering, Technology",
+      "size": "large",
+      "location": "Gerlingen, Baden-Württemberg, Germany",
+      "website": "https://www.bosch.com/",
+      "growth_signals": [
+        "delayed profit margin target after poor 2025",
+        "extensive job cuts",
+        "growth in software-driven mobility",
+        "launch of new tools and categories"
+      ],
+      "status": "accepted",
+      "reason": "Bosch is a multinational engineering and technology company with a global presence, employing roughly 417,900 associates worldwide. It operates across four business sectors and has a strong online presence.",
+      "_sources": [
+        "google_web",
+        "google_news",
+        "google_linkedin"
+      ],
+      "_web_search_used": true
+    },
+    "structure": {
+      "company_name": "Bosch",
+      "company_size": "large",
+      "departments": [
+        {
+          "name": "Research and Development",
+          "decision_makers": [
+            "VP Research and Development",
+            "CTO"
+          ],
+          "hierarchy_level": "C-Suite / VP"
+        },
+        {
+          "name": "Engineering",
+          "decision_makers": [
+            "VP Engineering",
+            "Senior Director of Engineering"
+          ],
+          "hierarchy_level": "VP / Senior Director"
+        },
+        {
+          "name": "Information Technology",
+          "decision_makers": [
+            "VP IT",
+            "Director of IT"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Product Development",
+          "decision_makers": [
+            "VP Product Development",
+            "Senior Director of Product Development"
+          ],
+          "hierarchy_level": "VP / Senior Director"
+        },
+        {
+          "name": "Manufacturing",
+          "decision_makers": [
+            "VP Manufacturing",
+            "Director of Manufacturing"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Sales and Marketing",
+          "decision_makers": [
+            "VP Sales and Marketing",
+            "Head of Sales and Marketing"
+          ],
+          "hierarchy_level": "VP / Director"
+        },
+        {
+          "name": "Finance",
+          "decision_makers": [
+            "VP Finance",
+            "Senior Director of Finance"
+          ],
+          "hierarchy_level": "VP / Senior Director"
+        }
+      ],
+      "recommended_targets": [
+        "VP of Engineering or Director of Engineering",
+        "CTO or Senior Director of Engineering",
+        "Head of IT or VP of IT"
+      ]
+    },
+    "people": [
+      {
+        "name": "Philipp Gauss",
+        "title": "Vice President / Head of Sales Connected ...",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/philipp-gauss-1232b0b4",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Sharon Jacob",
+        "title": "Office of the CTO & SVP, Mobility Solutions ...",
+        "company": "Bosch",
+        "linkedin_url": "https://in.linkedin.com/in/sharon-jacob-18a462193",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Philip Ventimiglia",
+        "title": "Director Of Engineering at Bosch USA",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/philip-ventimiglia-b4b50749",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Chad Tippey P.E.",
+        "title": "Director of Manufacturing, Operations ...",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/chad-tippey-p-e-15558b47",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Caroline Bird",
+        "title": "Director at Bosch",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/carolinebird",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Christian Schrimpf",
+        "title": "Director Manufacturing Operations and ...",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/christian-schrimpf-717615b7",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Dr. Christian Peters",
+        "title": "Director, Co-owner AI Methods at ...",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/dr-peters",
+        "decision_power": 10,
+        "status": "accepted",
+        "reason": "Decision power: 10/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Ricardo Luther",
+        "title": "VP Commercial Responsibilities at Robert ...",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/ricardo-luther-4331a62a",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Kindra Bosch MBA",
+        "title": "VP Strategic Growth",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/kindraboschmba",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Heiko Weller",
+        "title": "EVP Bosch USA",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/heiko-weller-353792106",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Joseph Vanden Bosch",
+        "title": "SVP, Customer Segment ...",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/joevandenbosch",
+        "decision_power": 8,
+        "status": "accepted",
+        "reason": "Decision power: 8/10",
+        "source": "linkedin"
+      },
+      {
+        "name": "Devesh Sharma",
+        "title": "Robert Bosch LLC",
+        "company": "Bosch",
+        "linkedin_url": "https://www.linkedin.com/in/devesh-sharma-8550955",
+        "decision_power": 2,
+        "status": "rejected",
+        "reason": "Decision power: 2/10",
+        "source": "linkedin"
+      }
+    ],
+    "people_summary": "Found 11 decision-makers at Bosch",
+    "linkedin_searched": true,
+    "contacts": [],
+    "enrichment_note": "",
+    "confidence_score": 0.85,
+    "reason": "Bosch is a multinational engineering and technology company with a global presence, employing roughly 417,900 associates worldwide. Multiple high-powered roles are present, including two VP titles with decision power of 10. We were not able to find the company's enriched contacts.",
+    "summary": "Large engineering company in Germany with multiple high-powered roles.",
+    "recommended_action": "Contact Philipp Gauss or Sharon Jacob for a sales conversation or further discussion.",
+    "created_at": "2026-02-11T01:07:38.110221",
+    "updated_at": "2026-02-11T01:07:38.110221"
   }
 ]

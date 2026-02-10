@@ -2,110 +2,6 @@
   {
     "type": "stage_completed",
     "data": {
-      "execution_id": "27ae2db9",
-      "stage": "verification",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:48:17.683523"
-  },
-  {
-    "type": "execution_completed",
-    "data": {
-      "execution_id": "27ae2db9",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:48:17.738290"
-  },
-  {
-    "type": "execution_started",
-    "data": {
-      "execution_id": "6c43a3a8",
-      "input": {
-        "company": "DianApps",
-        "roles": []
-      }
-    },
-    "timestamp": "2026-02-10T13:48:18.783359"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "6c43a3a8",
-      "stage": "discovery"
-    },
-    "timestamp": "2026-02-10T13:48:18.820835"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "6c43a3a8",
-      "stage": "discovery",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:48:31.443805"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "6c43a3a8",
-      "stage": "structure"
-    },
-    "timestamp": "2026-02-10T13:48:31.477741"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "6c43a3a8",
-      "stage": "structure",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:48:33.104373"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "6c43a3a8",
-      "stage": "roles"
-    },
-    "timestamp": "2026-02-10T13:48:33.144123"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "6c43a3a8",
-      "stage": "roles",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:48:47.581958"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "6c43a3a8",
-      "stage": "enrichment"
-    },
-    "timestamp": "2026-02-10T13:48:47.629280"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
-      "execution_id": "6c43a3a8",
-      "stage": "enrichment",
-      "success": true
-    },
-    "timestamp": "2026-02-10T13:48:58.638258"
-  },
-  {
-    "type": "stage_started",
-    "data": {
-      "execution_id": "6c43a3a8",
-      "stage": "verification"
-    },
-    "timestamp": "2026-02-10T13:48:58.680867"
-  },
-  {
-    "type": "stage_completed",
-    "data": {
       "execution_id": "6c43a3a8",
       "stage": "verification",
       "success": true
@@ -4372,5 +4268,109 @@
       "success": true
     },
     "timestamp": "2026-02-11T00:47:42.034188"
+  },
+  {
+    "type": "execution_started",
+    "data": {
+      "execution_id": "6b0a46f2",
+      "input": {
+        "company": "Bosch",
+        "roles": []
+      }
+    },
+    "timestamp": "2026-02-11T01:07:04.333237"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6b0a46f2",
+      "stage": "discovery"
+    },
+    "timestamp": "2026-02-11T01:07:04.398999"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6b0a46f2",
+      "stage": "discovery",
+      "success": true
+    },
+    "timestamp": "2026-02-11T01:07:06.657293"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6b0a46f2",
+      "stage": "structure"
+    },
+    "timestamp": "2026-02-11T01:07:06.722540"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6b0a46f2",
+      "stage": "structure",
+      "success": true
+    },
+    "timestamp": "2026-02-11T01:07:07.673065"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6b0a46f2",
+      "stage": "roles"
+    },
+    "timestamp": "2026-02-11T01:07:07.737206"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6b0a46f2",
+      "stage": "roles",
+      "success": true
+    },
+    "timestamp": "2026-02-11T01:07:15.364369"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6b0a46f2",
+      "stage": "enrichment"
+    },
+    "timestamp": "2026-02-11T01:07:15.428474"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6b0a46f2",
+      "stage": "enrichment",
+      "success": true
+    },
+    "timestamp": "2026-02-11T01:07:37.178713"
+  },
+  {
+    "type": "stage_started",
+    "data": {
+      "execution_id": "6b0a46f2",
+      "stage": "verification"
+    },
+    "timestamp": "2026-02-11T01:07:37.242686"
+  },
+  {
+    "type": "stage_completed",
+    "data": {
+      "execution_id": "6b0a46f2",
+      "stage": "verification",
+      "success": true
+    },
+    "timestamp": "2026-02-11T01:07:38.093738"
+  },
+  {
+    "type": "execution_completed",
+    "data": {
+      "execution_id": "6b0a46f2",
+      "success": true
+    },
+    "timestamp": "2026-02-11T01:07:38.192619"
   }
 ]
