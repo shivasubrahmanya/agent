@@ -5,7 +5,17 @@ import { ProgressSteps } from './components/ProgressSteps';
 import { LogViewer } from './components/LogViewer';
 import { ResultCard } from './components/ResultCard';
 
-const WS_URL = import.meta.env.VITE_WS_URL || "ws://localhost:8000/ws";
+// Construct WebSocket URL
+const getWsUrl = () => {
+  const envUrl = import.meta.env.VITE_WS_URL;
+  if (!envUrl) return "ws://localhost:8000/ws";
+
+  // Clean up URL and ensure it ends with /ws
+  const baseUrl = envUrl.replace(/\/$/, "");
+  return baseUrl.endsWith("/ws") ? baseUrl : `${baseUrl}/ws`;
+};
+
+const WS_URL = getWsUrl();
 
 function App() {
   /* State */
