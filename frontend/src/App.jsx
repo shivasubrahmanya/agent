@@ -8,13 +8,16 @@ import { ResultCard } from './components/ResultCard';
 // Construct WebSocket URL
 const getWsUrl = () => {
   // 1. Manual override from env
-  const envUrl = import.meta.env.VITE_WS_URL;
+  let envUrl = import.meta.env.VITE_WS_URL;
   if (envUrl) {
+    // Convert http/https to ws/wss
+    envUrl = envUrl.replace(/^http/, "ws");
     const baseUrl = envUrl.replace(/\/$/, "");
     return baseUrl.endsWith("/ws") ? baseUrl : `${baseUrl}/ws`;
   }
 
   // 2. Auto-detect based on current window location
+  // This works if frontend and backend are on the same host (e.g. Render only)
   if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
     const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
     return `${protocol}//${window.location.host}/ws`;
@@ -265,7 +268,7 @@ function App() {
               onChange={(e) => setInput(e.target.value)}
               placeholder="Find startups in Boston..."
               className="w-full bg-muted/50 border border-input rounded-xl px-4 py-3 pr-10 focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all"
-              disabled={status === 'analyzing1' /* Allow queuing? No, nice to disable for now */}
+              disabled={status === 'analyzing' /* Allow queuing? No, nice to disable for now */}
             />
             <button
               type="submit"
