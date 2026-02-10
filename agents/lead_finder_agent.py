@@ -71,8 +71,15 @@ def perform_web_search(query: str, max_results=10) -> str:
         
         return "\n\n".join(summary_lines)
     except Exception as e:
-        print(f"Search error for '{query}': {e}")
         return f"Error: {str(e)}"
+
+def clean_json_response(text: str) -> str:
+    """Extract JSON from potential markdown fences."""
+    if "```json" in text:
+        return text.split("```json")[1].split("```")[0].strip()
+    elif "```" in text:
+        return text.split("```")[1].split("```")[0].strip()
+    return text.strip()
 
 def run(user_input: str, stop_event=None) -> dict:
     """
@@ -91,20 +98,22 @@ def run(user_input: str, stop_event=None) -> dict:
     
     client = Groq(api_key=api_key)
     
+    if stop_event and stop_event.is_set():
+        return {"companies": [], "message": "Stopped"}
+
     # 1. Heuristic Check: Is this a search query or a direct analysis request?
-    # If it's short and looks like a name (e.g. "Microsoft", "OpenAI"), treat as direct.
-    # If it has search-like keywords or is a longer phrase, it's a search.
     is_search_heuristic = False
-    triggers = ["find", "search", "list", "who are", "companies", "startups", "firms", "agencies", "in ", "near "]
     
-    # If phrase is long enough or contains triggers
+    # Strict triggers to differentiate search queries from company names
+    triggers = ["find ", "search ", "list of", "who are", "companies in", "startups in", "firms in", "list ", "near "]
+    
     word_count = len(user_input.split())
     has_trigger = any(t in user_input.lower() for t in triggers)
     
     if has_trigger or word_count >= 3:
         is_search_heuristic = True
         
-    print(f"DEBUG LeadFinder: input='{user_input}', words={word_count}, has_trigger={has_trigger} -> is_search={is_search_heuristic}")
+    print(f"DEBUG LeadFinder: input='{user_input}', words={word_count}, is_search={is_search_heuristic}")
 
     if not is_search_heuristic:
         return {
